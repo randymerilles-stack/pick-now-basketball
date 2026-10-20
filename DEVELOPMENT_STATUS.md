@@ -68,3 +68,12 @@ Execution access recovered. Bounded result requests for all five pending fixture
 The refreshed audit `dataset_readiness_audit_2026-10-21T0635.json` now counts 14 observation rows, seven unique fixture IDs and seven provider-labelled independent fixtures, with zero unlabelled fixtures, identity conflicts or outcome conflicts. The leakage-controlled chronological diagnostic yields two training fixtures and three test fixtures; two earlier candidate training outcomes were purged because their results were not available before the first test decision. This is still far below a defensible score/time timing-window evaluation and is not a model accuracy or win-rate claim.
 
 All 36 relevant unit tests passed after the new labels and audit. No app/model/pick gate changed and no Render deployment is required for this research-only checkpoint. Priority Pick remains unavailable. Next: independently verify clock direction and league regulation/period semantics, obtain more independent synchronized games across timing windows, resolve cross-ID aliases, and predefine a fixture-grouped chronological evaluation before fitting any score/time model.
+
+
+## Additional bounded live capture — 21 October 2026, 07:42 Perth
+
+Saved `research_observations/2026-10-21T0742-clock.json` from two actual reads received at 2026-10-20T23:42:51.577799Z and 23:42:54.913831Z. Seven real-basketball fixtures had exact ID/team/league matches, explicit periods and contemporaneous Full Game Handicap pairs in both reads; all seven fixture IDs are new relative to the prior seven-game dataset. The covered leagues are Uruguay Liga, Brazil NBB, Chile LNB, NBA, NCAAB Pre Season and Colombia Liga.
+
+All seven clocks and scores were unchanged during the approximately 3.3-second comparison, so this capture adds independent outcome candidates but does not establish clock direction, clock reference semantics or remaining regulation time. Fourteen market observation rows represent seven independent games, not 14 games. All capture and approved-pick flags remain false. The same 36 tests passed after capture; no model/UI/backend gate changed and no deployment was needed.
+
+Next: fetch final outcomes after these games finish, rerun the fixture-level audit across all 14 unique IDs, and add observations separated enough to capture active clock movement without turning collection into unbounded polling. Priority Pick remains unavailable until clock/rule semantics and a sufficiently powered out-of-sample timing model are validated.
