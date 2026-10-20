@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "input_capture": "2026-10-20T1340-clock.json",
+  "results": {
+    "202504371": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202504371",
+      "received_at": "2026-10-20T14:40:01.201313+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "202504371",
+            "sport": "basketball",
+            "home": "Xinjiang Flying Tigers",
+            "away": "Tianjin Pioneers",
+            "league": "China CBA",
+            "final_score": "107-92",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "26-29"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "28-25"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "19-16"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "34-22"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-20T13:54:13.449651Z",
+            "updated_at": "2026-10-20T13:56:13.208995Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    },
+    "203074407": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=203074407",
+      "received_at": "2026-10-20T14:40:06.716342+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "203074407",
+            "sport": "basketball",
+            "home": "Rustavi 2 U22",
+            "away": "CIU Kavkasia U22",
+            "league": "Georgia League U22",
+            "final_score": "65-77",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "19-15"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "16-13"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "11-27"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "19-22"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-20T14:26:13.276521Z",
+            "updated_at": "2026-10-20T14:28:12.792421Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    }
+  },
+  "joined": [
+    {
+      "fixture_id": "202504371",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Xinjiang Flying Tigers",
+          "line": -13.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Tianjin Pioneers",
+          "line": 13.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "107-92",
+      "decision_at": "2026-10-20T13:40:16.194349+00:00",
+      "finished_at": "2026-10-20T13:54:13.449651+00:00",
+      "outcome_available_at": "2026-10-20T14:40:01.201313+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203074407",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Rustavi 2 U22",
+          "line": 4.5,
+          "cover_result": "loss",
+          "covered": 0
+        },
+        {
+          "team": "CIU Kavkasia U22",
+          "line": -4.5,
+          "cover_result": "win",
+          "covered": 1
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "65-77",
+      "decision_at": "2026-10-20T13:40:16.194349+00:00",
+      "finished_at": "2026-10-20T14:26:13.276521+00:00",
+      "outcome_available_at": "2026-10-20T14:40:06.716342+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202504371",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Xinjiang Flying Tigers",
+          "line": -12.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Tianjin Pioneers",
+          "line": 12.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "107-92",
+      "decision_at": "2026-10-20T13:40:19.417076+00:00",
+      "finished_at": "2026-10-20T13:54:13.449651+00:00",
+      "outcome_available_at": "2026-10-20T14:40:01.201313+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203074407",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Rustavi 2 U22",
+          "line": 4.5,
+          "cover_result": "loss",
+          "covered": 0
+        },
+        {
+          "team": "CIU Kavkasia U22",
+          "line": -4.5,
+          "cover_result": "win",
+          "covered": 1
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "65-77",
+      "decision_at": "2026-10-20T13:40:19.417076+00:00",
+      "finished_at": "2026-10-20T14:26:13.276521+00:00",
+      "outcome_available_at": "2026-10-20T14:40:06.716342+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    }
+  ],
+  "unique_fixtures": 2,
+  "observation_rows": 4,
+  "labelled_rows": 4,
+  "approved_for_picks": false,
+  "training_eligible": false,
+  "limitations": [
+    "Repeated observations and opposing sides are not independent games.",
+    "No model forecasts were evaluated; these outcomes are not a win-rate claim.",
+    "Provider settlement and score/time feature semantics remain independently unverified."
+  ]
+}
