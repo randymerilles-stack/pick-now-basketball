@@ -1,0 +1,1031 @@
+{
+  "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+  "received_before": "2026-10-20T15:42:54.446447+00:00",
+  "received_after": "2026-10-20T15:42:57.731477+00:00",
+  "server_time_before": "2026-10-20T15:42:54.291539835Z",
+  "server_time_after": "2026-10-20T15:42:57.573133754Z",
+  "transitions": [
+    {
+      "fixture_id": "202503180",
+      "league": "Greece Elite League",
+      "period_before": 4,
+      "period_after": 4,
+      "clock_before_seconds": 392,
+      "clock_after_seconds": 392,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T15:42:35Z",
+      "clock_ref_after": "2026-10-20T15:42:35Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "202503183",
+      "league": "Greece Elite League",
+      "period_before": 4,
+      "period_after": 4,
+      "clock_before_seconds": 386,
+      "clock_after_seconds": 386,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T15:42:26Z",
+      "clock_ref_after": "2026-10-20T15:42:26Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "203074410",
+      "league": "Georgia League U22",
+      "period_before": 4,
+      "period_after": 4,
+      "clock_before_seconds": 96,
+      "clock_after_seconds": 96,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T15:42:27Z",
+      "clock_ref_after": "2026-10-20T15:42:27Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "203224748",
+      "league": "Shabab Al Ahli Dubai IBT",
+      "period_before": 3,
+      "period_after": 3,
+      "clock_before_seconds": 513,
+      "clock_after_seconds": 513,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T15:42:36Z",
+      "clock_ref_after": "2026-10-20T15:42:36Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "202561162",
+      "league": "Slovenia SKL",
+      "period_before": 2,
+      "period_after": 2,
+      "clock_before_seconds": 0,
+      "clock_after_seconds": 0,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T15:42:33Z",
+      "clock_ref_after": "2026-10-20T15:42:33Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "203094590",
+      "league": "Bahrain Premier League",
+      "period_before": 2,
+      "period_after": 2,
+      "clock_before_seconds": 135,
+      "clock_after_seconds": 135,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T15:42:37Z",
+      "clock_ref_after": "2026-10-20T15:42:37Z",
+      "score_changed": false,
+      "semantics_verified": false
+    }
+  ],
+  "captures": [
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-20T15:42:54.446447+00:00",
+      "server_time": "2026-10-20T15:42:54.291539835Z",
+      "source_sha256": "e58158b4b6c7e17630aeef46a2d44a01c561c94c07cb7169f4b0fc779aacaee6",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 599,
+        "suspended_or_invalid_flag": 2,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "202503180",
+          "market_id": "1446",
+          "league": "Greece Elite League",
+          "home": "AEPS Machites Peiramatiko",
+          "away": "Kronos Ag.Dimitriou",
+          "score_observed": "67-57",
+          "clock_observed": {
+            "min": 6,
+            "sec": 32,
+            "ticking": true,
+            "ref": "2026-10-20T15:42:35Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:31.989790123Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 67,
+              "three_pointers": 3,
+              "two_pointers": 21,
+              "free_throws": 16,
+              "free_throw_pct": 64,
+              "timeouts_remaining": 3,
+              "fouls": 22,
+              "periods": [
+                14,
+                19,
+                28,
+                6
+              ]
+            },
+            "away": {
+              "points": 57,
+              "three_pointers": 4,
+              "two_pointers": 14,
+              "free_throws": 17,
+              "free_throw_pct": 77.3,
+              "timeouts_remaining": 3,
+              "fouls": 22,
+              "periods": [
+                19,
+                16,
+                11,
+                11
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 14-19",
+              "Score After 2nd Quarter - 33-35",
+              "Score After 3rd Quarter - 61-46"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 22.301749,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:50.596146615Z",
+          "quotes": [
+            {
+              "team": "AEPS Machites Peiramatiko",
+              "line": -7.5,
+              "odds": 1.7407407407407407,
+              "selection_id": "254289679"
+            },
+            {
+              "team": "Kronos Ag.Dimitriou",
+              "line": 7.5,
+              "odds": 1.9523809523809523,
+              "selection_id": "254289680"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202503183",
+          "market_id": "1446",
+          "league": "Greece Elite League",
+          "home": "AE Psychikou",
+          "away": "NE Megaridos",
+          "score_observed": "55-56",
+          "clock_observed": {
+            "min": 6,
+            "sec": 26,
+            "ticking": false,
+            "ref": "2026-10-20T15:42:26Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:08.764778699Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 55,
+              "three_pointers": 9,
+              "two_pointers": 8,
+              "free_throws": 12,
+              "free_throw_pct": 85.7,
+              "timeouts_remaining": 1,
+              "fouls": 18,
+              "periods": [
+                27,
+                14,
+                12,
+                2
+              ]
+            },
+            "away": {
+              "points": 56,
+              "three_pointers": 5,
+              "two_pointers": 19,
+              "free_throws": 3,
+              "free_throw_pct": 21.4,
+              "timeouts_remaining": 3,
+              "fouls": 13,
+              "periods": [
+                24,
+                10,
+                18,
+                4
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 27-24",
+              "Score After 2nd Quarter - 41-34",
+              "Score After 3rd Quarter - 53-52"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 45.526761,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:46.991630538Z",
+          "quotes": [
+            {
+              "team": "AE Psychikou",
+              "line": 3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254290685"
+            },
+            {
+              "team": "NE Megaridos",
+              "line": -3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254290688"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203224748",
+          "market_id": "1446",
+          "league": "Shabab Al Ahli Dubai IBT",
+          "home": "Antonine",
+          "away": "Al Ahly (Egypt)",
+          "score_observed": "37-45",
+          "clock_observed": {
+            "min": 8,
+            "sec": 33,
+            "ticking": false,
+            "ref": "2026-10-20T15:42:36Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:24:36.36056678Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 37,
+              "three_pointers": 3,
+              "two_pointers": 11,
+              "free_throws": 6,
+              "free_throw_pct": 75,
+              "timeouts_remaining": 5,
+              "fouls": 7,
+              "periods": [
+                19,
+                18,
+                0
+              ]
+            },
+            "away": {
+              "points": 45,
+              "three_pointers": 8,
+              "two_pointers": 7,
+              "free_throws": 7,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 6,
+              "periods": [
+                21,
+                24,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 19-21",
+              "Score After 2nd Quarter - 37-45"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 1097.930973,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:42.923499213Z",
+          "quotes": [
+            {
+              "team": "Antonine",
+              "line": 9.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "263847695"
+            },
+            {
+              "team": "Al Ahly (Egypt)",
+              "line": -9.5,
+              "odds": 1.8,
+              "selection_id": "263847697"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202561162",
+          "market_id": "1446",
+          "league": "Slovenia SKL",
+          "home": "Rogaska",
+          "away": "Krka",
+          "score_observed": "38-43",
+          "clock_observed": {
+            "min": 0,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-20T15:42:33Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:04.70839942Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 38,
+              "three_pointers": 4,
+              "two_pointers": 9,
+              "free_throws": 8,
+              "free_throw_pct": 80,
+              "timeouts_remaining": 3,
+              "fouls": 10,
+              "periods": [
+                14,
+                24
+              ]
+            },
+            "away": {
+              "points": 43,
+              "three_pointers": 2,
+              "two_pointers": 17,
+              "free_throws": 3,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 4,
+              "fouls": 11,
+              "periods": [
+                27,
+                16
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 14-27"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 49.58314,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:33.91219645Z",
+          "quotes": [
+            {
+              "team": "Rogaska",
+              "line": 12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258000154"
+            },
+            {
+              "team": "Krka",
+              "line": -12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258000160"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203094590",
+          "market_id": "1446",
+          "league": "Bahrain Premier League",
+          "home": "Al Hala",
+          "away": "Sitra",
+          "score_observed": "38-45",
+          "clock_observed": {
+            "min": 2,
+            "sec": 15,
+            "ticking": true,
+            "ref": "2026-10-20T15:42:37Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:35.59657566Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 38,
+              "three_pointers": 5,
+              "two_pointers": 8,
+              "free_throws": 7,
+              "free_throw_pct": 77.8,
+              "timeouts_remaining": 3,
+              "fouls": 5,
+              "periods": [
+                26,
+                12
+              ]
+            },
+            "away": {
+              "points": 45,
+              "three_pointers": 5,
+              "two_pointers": 12,
+              "free_throws": 6,
+              "free_throw_pct": 66.7,
+              "timeouts_remaining": 5,
+              "fouls": 2,
+              "periods": [
+                27,
+                18
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 26-27"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 18.694964,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:54.196964528Z",
+          "quotes": [
+            {
+              "team": "Al Hala",
+              "line": -3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254483539"
+            },
+            {
+              "team": "Sitra",
+              "line": 3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254483540"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    },
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-20T15:42:57.731477+00:00",
+      "server_time": "2026-10-20T15:42:57.573133754Z",
+      "source_sha256": "52e2b9f77e94532dd5e37c84fbc3a827114648b5eff762dea4eb9cde8f9f56b0",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 599,
+        "suspended_or_invalid_flag": 2,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "202503180",
+          "market_id": "1446",
+          "league": "Greece Elite League",
+          "home": "AEPS Machites Peiramatiko",
+          "away": "Kronos Ag.Dimitriou",
+          "score_observed": "67-57",
+          "clock_observed": {
+            "min": 6,
+            "sec": 32,
+            "ticking": true,
+            "ref": "2026-10-20T15:42:35Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:31.989790123Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 67,
+              "three_pointers": 3,
+              "two_pointers": 21,
+              "free_throws": 16,
+              "free_throw_pct": 64,
+              "timeouts_remaining": 3,
+              "fouls": 22,
+              "periods": [
+                14,
+                19,
+                28,
+                6
+              ]
+            },
+            "away": {
+              "points": 57,
+              "three_pointers": 4,
+              "two_pointers": 14,
+              "free_throws": 17,
+              "free_throw_pct": 77.3,
+              "timeouts_remaining": 3,
+              "fouls": 22,
+              "periods": [
+                19,
+                16,
+                11,
+                11
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 14-19",
+              "Score After 2nd Quarter - 33-35",
+              "Score After 3rd Quarter - 61-46"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 25.583343,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:56.528147059Z",
+          "quotes": [
+            {
+              "team": "AEPS Machites Peiramatiko",
+              "line": -8.5,
+              "odds": 1.8,
+              "selection_id": "254289679"
+            },
+            {
+              "team": "Kronos Ag.Dimitriou",
+              "line": 8.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "254289680"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202503183",
+          "market_id": "1446",
+          "league": "Greece Elite League",
+          "home": "AE Psychikou",
+          "away": "NE Megaridos",
+          "score_observed": "55-56",
+          "clock_observed": {
+            "min": 6,
+            "sec": 26,
+            "ticking": false,
+            "ref": "2026-10-20T15:42:26Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:08.764778699Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 55,
+              "three_pointers": 9,
+              "two_pointers": 8,
+              "free_throws": 12,
+              "free_throw_pct": 85.7,
+              "timeouts_remaining": 1,
+              "fouls": 18,
+              "periods": [
+                27,
+                14,
+                12,
+                2
+              ]
+            },
+            "away": {
+              "points": 56,
+              "three_pointers": 5,
+              "two_pointers": 19,
+              "free_throws": 3,
+              "free_throw_pct": 21.4,
+              "timeouts_remaining": 3,
+              "fouls": 13,
+              "periods": [
+                24,
+                10,
+                18,
+                4
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 27-24",
+              "Score After 2nd Quarter - 41-34",
+              "Score After 3rd Quarter - 53-52"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 48.808355,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:46.991630538Z",
+          "quotes": [
+            {
+              "team": "AE Psychikou",
+              "line": 3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254290685"
+            },
+            {
+              "team": "NE Megaridos",
+              "line": -3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254290688"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203224748",
+          "market_id": "1446",
+          "league": "Shabab Al Ahli Dubai IBT",
+          "home": "Antonine",
+          "away": "Al Ahly (Egypt)",
+          "score_observed": "37-45",
+          "clock_observed": {
+            "min": 8,
+            "sec": 33,
+            "ticking": false,
+            "ref": "2026-10-20T15:42:36Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:24:36.36056678Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 37,
+              "three_pointers": 3,
+              "two_pointers": 11,
+              "free_throws": 6,
+              "free_throw_pct": 75,
+              "timeouts_remaining": 5,
+              "fouls": 7,
+              "periods": [
+                19,
+                18,
+                0
+              ]
+            },
+            "away": {
+              "points": 45,
+              "three_pointers": 8,
+              "two_pointers": 7,
+              "free_throws": 7,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 6,
+              "periods": [
+                21,
+                24,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 19-21",
+              "Score After 2nd Quarter - 37-45"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 1101.212567,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:42.923499213Z",
+          "quotes": [
+            {
+              "team": "Antonine",
+              "line": 9.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "263847695"
+            },
+            {
+              "team": "Al Ahly (Egypt)",
+              "line": -9.5,
+              "odds": 1.8,
+              "selection_id": "263847697"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202561162",
+          "market_id": "1446",
+          "league": "Slovenia SKL",
+          "home": "Rogaska",
+          "away": "Krka",
+          "score_observed": "38-43",
+          "clock_observed": {
+            "min": 0,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-20T15:42:33Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:04.70839942Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 38,
+              "three_pointers": 4,
+              "two_pointers": 9,
+              "free_throws": 8,
+              "free_throw_pct": 80,
+              "timeouts_remaining": 3,
+              "fouls": 10,
+              "periods": [
+                14,
+                24
+              ]
+            },
+            "away": {
+              "points": 43,
+              "three_pointers": 2,
+              "two_pointers": 17,
+              "free_throws": 3,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 4,
+              "fouls": 11,
+              "periods": [
+                27,
+                16
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 14-27"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 52.864734,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:56.624424448Z",
+          "quotes": [
+            {
+              "team": "Rogaska",
+              "line": 12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258000154"
+            },
+            {
+              "team": "Krka",
+              "line": -12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258000160"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203094590",
+          "market_id": "1446",
+          "league": "Bahrain Premier League",
+          "home": "Al Hala",
+          "away": "Sitra",
+          "score_observed": "38-45",
+          "clock_observed": {
+            "min": 2,
+            "sec": 15,
+            "ticking": true,
+            "ref": "2026-10-20T15:42:37Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-20T15:42:35.59657566Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 38,
+              "three_pointers": 5,
+              "two_pointers": 8,
+              "free_throws": 7,
+              "free_throw_pct": 77.8,
+              "timeouts_remaining": 3,
+              "fouls": 5,
+              "periods": [
+                26,
+                12
+              ]
+            },
+            "away": {
+              "points": 45,
+              "three_pointers": 5,
+              "two_pointers": 12,
+              "free_throws": 6,
+              "free_throw_pct": 66.7,
+              "timeouts_remaining": 5,
+              "fouls": 2,
+              "periods": [
+                27,
+                18
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 26-27"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 21.976558,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T15:42:54.196964528Z",
+          "quotes": [
+            {
+              "team": "Al Hala",
+              "line": -3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254483539"
+            },
+            {
+              "team": "Sitra",
+              "line": 3.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "254483540"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    }
+  ],
+  "limitations": [
+    "Two observations cannot prove clock direction or freshness semantics.",
+    "A stopped or unchanged clock does not establish a break or remaining game time.",
+    "Records are research only, not independent games or validated training samples."
+  ],
+  "approved_for_picks": false
+}
