@@ -1,0 +1,1368 @@
+{
+  "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+  "received_before": "2026-10-20T23:42:51.577799+00:00",
+  "received_after": "2026-10-20T23:42:54.913831+00:00",
+  "server_time_before": "2026-10-20T23:42:51.390563739Z",
+  "server_time_after": "2026-10-20T23:42:54.737028208Z",
+  "transitions": [
+    {
+      "fixture_id": "202925875",
+      "league": "Uruguay Liga",
+      "period_before": 4,
+      "period_after": 4,
+      "clock_before_seconds": 474,
+      "clock_after_seconds": 474,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T23:42:34Z",
+      "clock_ref_after": "2026-10-20T23:42:34Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "202615968",
+      "league": "Brazil NBB",
+      "period_before": 3,
+      "period_after": 3,
+      "clock_before_seconds": 363,
+      "clock_after_seconds": 363,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T23:42:10Z",
+      "clock_ref_after": "2026-10-20T23:42:10Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "202615974",
+      "league": "Brazil NBB",
+      "period_before": 3,
+      "period_after": 3,
+      "clock_before_seconds": 587,
+      "clock_after_seconds": 587,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T23:42:35Z",
+      "clock_ref_after": "2026-10-20T23:42:35Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "202630028",
+      "league": "Chile LNB",
+      "period_before": 2,
+      "period_after": 2,
+      "clock_before_seconds": 101,
+      "clock_after_seconds": 101,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T23:41:34Z",
+      "clock_ref_after": "2026-10-20T23:41:34Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "199419308",
+      "league": "NBA",
+      "period_before": 1,
+      "period_after": 1,
+      "clock_before_seconds": 134,
+      "clock_after_seconds": 134,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T23:42:35Z",
+      "clock_ref_after": "2026-10-20T23:42:35Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "203188062",
+      "league": "NCAAB Pre Season",
+      "period_before": 1,
+      "period_after": 1,
+      "clock_before_seconds": 347,
+      "clock_after_seconds": 347,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T23:42:16Z",
+      "clock_ref_after": "2026-10-20T23:42:16Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "203095482",
+      "league": "Colombia Liga",
+      "period_before": 1,
+      "period_after": 1,
+      "clock_before_seconds": 217,
+      "clock_after_seconds": 217,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T23:42:36Z",
+      "clock_ref_after": "2026-10-20T23:42:36Z",
+      "score_changed": false,
+      "semantics_verified": false
+    }
+  ],
+  "captures": [
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-20T23:42:51.577799+00:00",
+      "server_time": "2026-10-20T23:42:51.390563739Z",
+      "source_sha256": "39872e9aabc05a1e5c8c29ca200ed7f2ac29c0a0ed690219e6a14eb2f115553f",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 2591,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "202925875",
+          "market_id": "1446",
+          "league": "Uruguay Liga",
+          "home": "Malvin",
+          "away": "CA Atenas Montevideo",
+          "score_observed": "68-46",
+          "clock_observed": {
+            "min": 7,
+            "sec": 54,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:34Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:41:45.40479297Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 68,
+              "three_pointers": 7,
+              "two_pointers": 19,
+              "free_throws": 9,
+              "free_throw_pct": 64.3,
+              "timeouts_remaining": 4,
+              "fouls": 14,
+              "periods": [
+                20,
+                24,
+                15,
+                9
+              ]
+            },
+            "away": {
+              "points": 46,
+              "three_pointers": 3,
+              "two_pointers": 14,
+              "free_throws": 9,
+              "free_throw_pct": 81.8,
+              "timeouts_remaining": 3,
+              "fouls": 17,
+              "periods": [
+                8,
+                19,
+                19,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 20-8",
+              "Score After 2nd Quarter - 44-27",
+              "Score After 3rd Quarter - 59-46"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 65.985771,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:41.642755221Z",
+          "quotes": [
+            {
+              "team": "Malvin",
+              "line": -23.5,
+              "odds": 1.9523809523809523,
+              "selection_id": "258095294"
+            },
+            {
+              "team": "CA Atenas Montevideo",
+              "line": 23.5,
+              "odds": 1.7407407407407407,
+              "selection_id": "258095301"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202615968",
+          "market_id": "1446",
+          "league": "Brazil NBB",
+          "home": "Caxias Do Sul",
+          "away": "Minas",
+          "score_observed": "38-49",
+          "clock_observed": {
+            "min": 6,
+            "sec": 3,
+            "ticking": false,
+            "ref": "2026-10-20T23:42:10Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:40:55.565226488Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 38,
+              "three_pointers": 6,
+              "two_pointers": 9,
+              "free_throws": 2,
+              "free_throw_pct": 33.3,
+              "timeouts_remaining": 3,
+              "fouls": 11,
+              "periods": [
+                20,
+                13,
+                5
+              ]
+            },
+            "away": {
+              "points": 49,
+              "three_pointers": 3,
+              "two_pointers": 16,
+              "free_throws": 8,
+              "free_throw_pct": 72.7,
+              "timeouts_remaining": 3,
+              "fouls": 8,
+              "periods": [
+                25,
+                18,
+                6
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 20-25",
+              "Score After 2nd Quarter - 33-43"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 115.825337,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:49.764966079Z",
+          "quotes": [
+            {
+              "team": "Caxias Do Sul",
+              "line": 12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258098141"
+            },
+            {
+              "team": "Minas",
+              "line": -12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258098143"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202615974",
+          "market_id": "1446",
+          "league": "Brazil NBB",
+          "home": "Fortaleza BC",
+          "away": "Osasco",
+          "score_observed": "40-54",
+          "clock_observed": {
+            "min": 9,
+            "sec": 47,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:35Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:25:17.861542361Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 40,
+              "three_pointers": 3,
+              "two_pointers": 8,
+              "free_throws": 15,
+              "free_throw_pct": 78.9,
+              "timeouts_remaining": 4,
+              "fouls": 8,
+              "periods": [
+                17,
+                23,
+                0
+              ]
+            },
+            "away": {
+              "points": 54,
+              "three_pointers": 6,
+              "two_pointers": 15,
+              "free_throws": 6,
+              "free_throw_pct": 75,
+              "timeouts_remaining": 3,
+              "fouls": 13,
+              "periods": [
+                32,
+                22,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 17-32",
+              "Score After 2nd Quarter - 40-54"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 1053.529021,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:39.862313863Z",
+          "quotes": [
+            {
+              "team": "Fortaleza BC",
+              "line": 8.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258101849"
+            },
+            {
+              "team": "Osasco",
+              "line": -8.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258101851"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202630028",
+          "market_id": "1446",
+          "league": "Chile LNB",
+          "home": "Puerto Montt",
+          "away": "Valdivia",
+          "score_observed": "36-38",
+          "clock_observed": {
+            "min": 1,
+            "sec": 41,
+            "ticking": false,
+            "ref": "2026-10-20T23:41:34Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:41:39.992703197Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 36,
+              "three_pointers": 2,
+              "two_pointers": 12,
+              "free_throws": 4,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 3,
+              "fouls": 7,
+              "periods": [
+                26,
+                10
+              ]
+            },
+            "away": {
+              "points": 38,
+              "three_pointers": 2,
+              "two_pointers": 12,
+              "free_throws": 8,
+              "free_throw_pct": 57.1,
+              "timeouts_remaining": 4,
+              "fouls": 4,
+              "periods": [
+                24,
+                14
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 26-24"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 71.39786,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:42.550162526Z",
+          "quotes": [
+            {
+              "team": "Puerto Montt",
+              "line": 6.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "256688829"
+            },
+            {
+              "team": "Valdivia",
+              "line": -6.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "256688844"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "199419308",
+          "market_id": "1446",
+          "league": "NBA",
+          "home": "NY Knicks",
+          "away": "PHI 76ers",
+          "score_observed": "19-20",
+          "clock_observed": {
+            "min": 2,
+            "sec": 14,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:35Z"
+          },
+          "period_observed": 1,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:42:40.66271468Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 19,
+              "three_pointers": 2,
+              "two_pointers": 6,
+              "free_throws": 1,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                19
+              ]
+            },
+            "away": {
+              "points": 22,
+              "three_pointers": 2,
+              "two_pointers": 7,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                22
+              ]
+            }
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 1,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": false,
+              "stats_age_seconds": 10.727849,
+              "blockers": [
+                "stats_score_mismatch_or_missing"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_score_mismatch_or_missing",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:46.691150988Z",
+          "quotes": [
+            {
+              "team": "NY Knicks",
+              "line": -2.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "260763125"
+            },
+            {
+              "team": "PHI 76ers",
+              "line": 2.5,
+              "odds": 1.9090909090909092,
+              "selection_id": "260763123"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203188062",
+          "market_id": "1446",
+          "league": "NCAAB Pre Season",
+          "home": "Duke",
+          "away": "Tennessee",
+          "score_observed": "42-14",
+          "clock_observed": {
+            "min": 5,
+            "sec": 47,
+            "ticking": false,
+            "ref": "2026-10-20T23:42:16Z"
+          },
+          "period_observed": 1,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:42:24.426727129Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 42,
+              "three_pointers": 5,
+              "two_pointers": 8,
+              "free_throws": 11,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 7,
+              "periods": [
+                42
+              ]
+            },
+            "away": {
+              "points": 14,
+              "three_pointers": 2,
+              "two_pointers": 3,
+              "free_throws": 3,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 3,
+              "fouls": 8,
+              "periods": [
+                14
+              ]
+            }
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 1,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 26.963836,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:47.567186743Z",
+          "quotes": [
+            {
+              "team": "Duke",
+              "line": -36.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "260772449"
+            },
+            {
+              "team": "Tennessee",
+              "line": 36.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "260772447"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203095482",
+          "market_id": "1446",
+          "league": "Colombia Liga",
+          "home": "Paisas",
+          "away": "Sabios de Manizales",
+          "score_observed": "7-2",
+          "clock_observed": {
+            "min": 3,
+            "sec": 37,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:36Z"
+          },
+          "period_observed": 1,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:40:26.32868563Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 7,
+              "three_pointers": 1,
+              "two_pointers": 2,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 4,
+              "fouls": 0,
+              "periods": [
+                7
+              ]
+            },
+            "away": {
+              "points": 2,
+              "three_pointers": 0,
+              "two_pointers": 1,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                2
+              ]
+            }
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 1,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 145.061878,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:50.659911411Z",
+          "quotes": [
+            {
+              "team": "Paisas",
+              "line": -26.5,
+              "odds": 1.8,
+              "selection_id": "256858521"
+            },
+            {
+              "team": "Sabios de Manizales",
+              "line": 26.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "256858523"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    },
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-20T23:42:54.913831+00:00",
+      "server_time": "2026-10-20T23:42:54.737028208Z",
+      "source_sha256": "d3d20bdd539515380a4906d8d8109266f34f4fc9a8cc192219b8417103eace08",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 2644,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "202925875",
+          "market_id": "1446",
+          "league": "Uruguay Liga",
+          "home": "Malvin",
+          "away": "CA Atenas Montevideo",
+          "score_observed": "68-46",
+          "clock_observed": {
+            "min": 7,
+            "sec": 54,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:34Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:41:45.40479297Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 68,
+              "three_pointers": 7,
+              "two_pointers": 19,
+              "free_throws": 9,
+              "free_throw_pct": 64.3,
+              "timeouts_remaining": 4,
+              "fouls": 14,
+              "periods": [
+                20,
+                24,
+                15,
+                9
+              ]
+            },
+            "away": {
+              "points": 46,
+              "three_pointers": 3,
+              "two_pointers": 14,
+              "free_throws": 9,
+              "free_throw_pct": 81.8,
+              "timeouts_remaining": 3,
+              "fouls": 17,
+              "periods": [
+                8,
+                19,
+                19,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 20-8",
+              "Score After 2nd Quarter - 44-27",
+              "Score After 3rd Quarter - 59-46"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 69.332236,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:41.642755221Z",
+          "quotes": [
+            {
+              "team": "Malvin",
+              "line": -23.5,
+              "odds": 1.9523809523809523,
+              "selection_id": "258095294"
+            },
+            {
+              "team": "CA Atenas Montevideo",
+              "line": 23.5,
+              "odds": 1.7407407407407407,
+              "selection_id": "258095301"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202615968",
+          "market_id": "1446",
+          "league": "Brazil NBB",
+          "home": "Caxias Do Sul",
+          "away": "Minas",
+          "score_observed": "38-49",
+          "clock_observed": {
+            "min": 6,
+            "sec": 3,
+            "ticking": false,
+            "ref": "2026-10-20T23:42:10Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:40:55.565226488Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 38,
+              "three_pointers": 6,
+              "two_pointers": 9,
+              "free_throws": 2,
+              "free_throw_pct": 33.3,
+              "timeouts_remaining": 3,
+              "fouls": 11,
+              "periods": [
+                20,
+                13,
+                5
+              ]
+            },
+            "away": {
+              "points": 49,
+              "three_pointers": 3,
+              "two_pointers": 16,
+              "free_throws": 8,
+              "free_throw_pct": 72.7,
+              "timeouts_remaining": 3,
+              "fouls": 8,
+              "periods": [
+                25,
+                18,
+                6
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 20-25",
+              "Score After 2nd Quarter - 33-43"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 119.171802,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:49.764966079Z",
+          "quotes": [
+            {
+              "team": "Caxias Do Sul",
+              "line": 12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258098141"
+            },
+            {
+              "team": "Minas",
+              "line": -12.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258098143"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202615974",
+          "market_id": "1446",
+          "league": "Brazil NBB",
+          "home": "Fortaleza BC",
+          "away": "Osasco",
+          "score_observed": "40-54",
+          "clock_observed": {
+            "min": 9,
+            "sec": 47,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:35Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:25:17.861542361Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 40,
+              "three_pointers": 3,
+              "two_pointers": 8,
+              "free_throws": 15,
+              "free_throw_pct": 78.9,
+              "timeouts_remaining": 4,
+              "fouls": 8,
+              "periods": [
+                17,
+                23,
+                0
+              ]
+            },
+            "away": {
+              "points": 54,
+              "three_pointers": 6,
+              "two_pointers": 15,
+              "free_throws": 6,
+              "free_throw_pct": 75,
+              "timeouts_remaining": 3,
+              "fouls": 13,
+              "periods": [
+                32,
+                22,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 17-32",
+              "Score After 2nd Quarter - 40-54"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 1056.875486,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:39.862313863Z",
+          "quotes": [
+            {
+              "team": "Fortaleza BC",
+              "line": 8.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258101849"
+            },
+            {
+              "team": "Osasco",
+              "line": -8.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "258101851"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202630028",
+          "market_id": "1446",
+          "league": "Chile LNB",
+          "home": "Puerto Montt",
+          "away": "Valdivia",
+          "score_observed": "36-38",
+          "clock_observed": {
+            "min": 1,
+            "sec": 41,
+            "ticking": false,
+            "ref": "2026-10-20T23:41:34Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:41:39.992703197Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 36,
+              "three_pointers": 2,
+              "two_pointers": 12,
+              "free_throws": 4,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 3,
+              "fouls": 7,
+              "periods": [
+                26,
+                10
+              ]
+            },
+            "away": {
+              "points": 38,
+              "three_pointers": 2,
+              "two_pointers": 12,
+              "free_throws": 8,
+              "free_throw_pct": 57.1,
+              "timeouts_remaining": 4,
+              "fouls": 4,
+              "periods": [
+                24,
+                14
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 26-24"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 74.744325,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:42.550162526Z",
+          "quotes": [
+            {
+              "team": "Puerto Montt",
+              "line": 6.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "256688829"
+            },
+            {
+              "team": "Valdivia",
+              "line": -6.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "256688844"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "199419308",
+          "market_id": "1446",
+          "league": "NBA",
+          "home": "NY Knicks",
+          "away": "PHI 76ers",
+          "score_observed": "19-20",
+          "clock_observed": {
+            "min": 2,
+            "sec": 14,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:35Z"
+          },
+          "period_observed": 1,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:42:40.66271468Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 19,
+              "three_pointers": 2,
+              "two_pointers": 6,
+              "free_throws": 1,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                19
+              ]
+            },
+            "away": {
+              "points": 22,
+              "three_pointers": 2,
+              "two_pointers": 7,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                22
+              ]
+            }
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 1,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": false,
+              "stats_age_seconds": 14.074314,
+              "blockers": [
+                "stats_score_mismatch_or_missing"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_score_mismatch_or_missing",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:53.389425604Z",
+          "quotes": [
+            {
+              "team": "NY Knicks",
+              "line": -2.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "260763125"
+            },
+            {
+              "team": "PHI 76ers",
+              "line": 2.5,
+              "odds": 1.9090909090909092,
+              "selection_id": "260763123"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203188062",
+          "market_id": "1446",
+          "league": "NCAAB Pre Season",
+          "home": "Duke",
+          "away": "Tennessee",
+          "score_observed": "42-14",
+          "clock_observed": {
+            "min": 5,
+            "sec": 47,
+            "ticking": false,
+            "ref": "2026-10-20T23:42:16Z"
+          },
+          "period_observed": 1,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:42:24.426727129Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 42,
+              "three_pointers": 5,
+              "two_pointers": 8,
+              "free_throws": 11,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 7,
+              "periods": [
+                42
+              ]
+            },
+            "away": {
+              "points": 14,
+              "three_pointers": 2,
+              "two_pointers": 3,
+              "free_throws": 3,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 3,
+              "fouls": 8,
+              "periods": [
+                14
+              ]
+            }
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 1,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 30.310301,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:47.567186743Z",
+          "quotes": [
+            {
+              "team": "Duke",
+              "line": -36.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "260772449"
+            },
+            {
+              "team": "Tennessee",
+              "line": 36.5,
+              "odds": 1.8333333333333335,
+              "selection_id": "260772447"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203095482",
+          "market_id": "1446",
+          "league": "Colombia Liga",
+          "home": "Paisas",
+          "away": "Sabios de Manizales",
+          "score_observed": "7-2",
+          "clock_observed": {
+            "min": 3,
+            "sec": 37,
+            "ticking": true,
+            "ref": "2026-10-20T23:42:36Z"
+          },
+          "period_observed": 1,
+          "stats_observed": {
+            "updated_at": "2026-10-20T23:40:26.32868563Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 7,
+              "three_pointers": 1,
+              "two_pointers": 2,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 4,
+              "fouls": 0,
+              "periods": [
+                7
+              ]
+            },
+            "away": {
+              "points": 2,
+              "three_pointers": 0,
+              "two_pointers": 1,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                2
+              ]
+            }
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 1,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 148.408343,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T23:42:50.659911411Z",
+          "quotes": [
+            {
+              "team": "Paisas",
+              "line": -26.5,
+              "odds": 1.8,
+              "selection_id": "256858521"
+            },
+            {
+              "team": "Sabios de Manizales",
+              "line": 26.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "256858523"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    }
+  ],
+  "limitations": [
+    "Two observations cannot prove clock direction or freshness semantics.",
+    "A stopped or unchanged clock does not establish a break or remaining game time.",
+    "Records are research only, not independent games or validated training samples."
+  ],
+  "approved_for_picks": false
+}
