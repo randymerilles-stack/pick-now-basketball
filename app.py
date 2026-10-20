@@ -8,6 +8,7 @@ from urllib.request import Request, urlopen
 from validation import inspect_feed
 from urllib.parse import parse_qs
 import access
+from paper_model import paper_forecasts
 
 SOURCE = 'https://moviodds.com/odds?sport=basketball&in_play=1'
 ROOT = Path(__file__).resolve().parent
@@ -50,6 +51,8 @@ def check(fetch=None):
     experiment = result['model_report'].get('calibration_experiment')
     if isinstance(experiment, dict) and experiment.get('trained') is True:
         result['model_status'] = 'tested_not_approved'
+    result['paper_picks'] = paper_forecasts(result.get('data_checked_markets', []), result['model_report'])
+    result['paper_mode'] = 'simulation_only'
     return result
 
 class Handler(BaseHTTPRequestHandler):
