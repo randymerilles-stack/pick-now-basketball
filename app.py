@@ -53,7 +53,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Cache-Control', 'no-store')
         self.send_header('X-Content-Type-Options', 'nosniff')
         self.send_header('X-Frame-Options', 'DENY')
-        self.send_header('Referrer-Policy', 'no-referrer')
+        self.send_header('Referrer-Policy', 'same-origin')
         self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'")
         for key,value in (extra or {}).items():self.send_header(key,value)
         self.end_headers()
