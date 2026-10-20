@@ -11,9 +11,9 @@ import json
 from pathlib import Path
 from urllib.request import Request, urlopen
 from validation import inspect_feed
-from live_state import assess_live_state
+from live_state import assess_live_state, observed_period
 
-SOURCE='https://moviodds.com/odds?sport=basketball&in_play=1'
+SOURCE='https://moviodds.com/odds?sport=basketball&in_play=1&stats=1'
 ROOT=Path(__file__).resolve().parent
 
 
@@ -29,13 +29,14 @@ def capture(data, received_at=None):
             'league':market['league'],'home':market['home'],'away':market['away'],
             'score_observed':fixture.get('score'),'clock_observed':fixture.get('clock'),
             # Never infer a quarter from a clock or final-score magnitude.
-            'period_observed':fixture.get('period'),
-            'live_state_readiness':assess_live_state(fixture),
+            'period_observed':observed_period(fixture),
+            'stats_observed':fixture.get('stats'),
+            'live_state_readiness':assess_live_state(fixture,data.get('server_time')),
             'polled_at':fixture.get('polled_at'),'quotes':market['quotes'],
             'independently_verified':False,'outcome':None,
         })
     raw=json.dumps(data,sort_keys=True,separators=(',',':'),allow_nan=False).encode()
-    return {'schema_version':1,'source':SOURCE,
+    return {'schema_version':2,'source':SOURCE,
             'received_at':received_at.isoformat(),'server_time':data.get('server_time'),
             'source_sha256':hashlib.sha256(raw).hexdigest(),
             'validation_status':checked.get('validation_status'),
