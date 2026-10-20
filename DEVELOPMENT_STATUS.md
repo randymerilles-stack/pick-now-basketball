@@ -37,3 +37,11 @@ Next: repeat bounded transition capture across active clock movement, audit stat
 ## Language default update — 20 October 2026, 22:30 Perth
 
 Owner requested English every login. Dashboard now initializes English on every page load and ignores previously saved localStorage language; manual Filipino/English switching still works until the page is reloaded. This supersedes the persisted-Filipino-default behavior above. Node behavior checks passed for English initialization with old saved Filipino, manual switch, and reset on new load. Preserve this default in later UI changes.
+
+## Provider outcome joining — 20 October 2026, 22:40 Perth
+
+Added outcome_join.py and bounded label_capture.py. Match exact fixture ID, home, away and league; require real basketball, unique finished result, valid non-tied final score, decision before finished_at, finished_at/updated_at no later than result receipt, timezone-aware timestamps, finite opposite handicap lines and valid prices. Preserve outcome_available_at at actual result receipt (or later known timestamp); never backdate knowledge to finished_at. Pushes remain null binary labels. Outputs always research-only, independently_verified=false, training_eligible=false and approved_for_picks=false.
+
+Actual result requests received 2026-10-20T14:40:01.201313Z and 14:40:06.716342Z: both captured fixture identities matched finished provider records (202504371 final 107-92; 203074407 final 65-77). Four observation rows labelled across TWO independent fixtures; not four independent games and not evaluated forecasts. Full evidence: research_observations/2026-10-20T1440-outcomes.json. Seven new outcome tests plus previous checks: 32 tests passed. These labels cannot establish prediction accuracy or timing advantage. No model/UI/backend gate changes and no deployment required for offline research code.
+
+Next: validate league-specific clock semantics and feature alignment, build one row per fixture for chronological model testing and report sample sufficiency. Need a durable bounded collection strategy for many independent finished games with contemporaneous score/time/odds, rather than counting ticks, sides or repeated snapshots as more games. Existing two games are insufficient. Continue research without enabling Priority Pick; preserve English on every login as requested.
