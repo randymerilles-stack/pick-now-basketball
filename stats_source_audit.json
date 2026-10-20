@@ -1,0 +1,25 @@
+{
+  "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+  "documentation": "https://moviodds.com/doc",
+  "received_at": "2026-10-20T12:37:00.349916+00:00",
+  "server_time": "2026-10-20T12:37:00.104511838Z",
+  "fixtures_seen": 14,
+  "real_basketball_stats_fixtures": 10,
+  "explicit_period_fixtures": 10,
+  "stats_score_matches": 6,
+  "stats_within_30s": 5,
+  "captured_market_pairs": 9,
+  "priority_ready": false,
+  "approved_for_picks": false,
+  "tests_passed": 20,
+  "limitations": [
+    "Counts describe one response, not lasting coverage or source accuracy.",
+    "Stats updated_at may mean last change, not last observation; strict age gate is conservative.",
+    "Clock direction, league duration, overtime and joint observation semantics require validation.",
+    "No validated score/time or timing-window probability model."
+  ],
+  "alternative_sources_reviewed": [
+    {"url":"https://www.live-basketball-api.com/docs","finding":"Documents period and clock, but needs an API key and credits. Example clock second=365 leaves normalization semantics unresolved. No account created or paid access used."},
+    {"url":"https://highlightly.net/basketball-api/documentation/matches/","finding":"Documents named quarter and current-period minute; requires RapidAPI key. Coverage and second-level remaining time not verified. No subscription created."}
+  ]
+}
