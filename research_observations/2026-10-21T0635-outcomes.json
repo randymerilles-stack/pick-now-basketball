@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "input_capture": "2026-10-20T1543-clock.json",
+  "results": {
+    "202503180": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202503180",
+      "received_at": "2026-10-20T22:36:54.592580+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "202503180",
+            "sport": "basketball",
+            "home": "AEPS Machites Peiramatiko",
+            "away": "Kronos Ag.Dimitriou",
+            "league": "Greece Elite League",
+            "final_score": "78-61",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "14-16"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "19-18"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "28-12"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "17-15"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-20T15:56:12.681516Z",
+            "updated_at": "2026-10-20T15:58:13.449231Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    },
+    "202503183": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202503183",
+      "received_at": "2026-10-20T22:36:57.508117+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "202503183",
+            "sport": "basketball",
+            "home": "AE Psychikou",
+            "away": "NE Megaridos",
+            "league": "Greece Elite League",
+            "final_score": "64-61",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "27-24"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "14-10"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "12-18"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "11-9"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-20T16:04:12.616628Z",
+            "updated_at": "2026-10-20T16:06:13.381015Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    },
+    "202561162": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202561162",
+      "received_at": "2026-10-20T22:37:00.425143+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "202561162",
+            "sport": "basketball",
+            "home": "Rogaska",
+            "away": "Krka",
+            "league": "Slovenia SKL",
+            "final_score": "62-97",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "14-25"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "24-18"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "16-26"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "8-28"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-20T16:44:12.660172Z",
+            "updated_at": "2026-10-20T16:46:13.527466Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    },
+    "203094590": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=203094590",
+      "received_at": "2026-10-20T22:37:03.357855+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "203094590",
+            "sport": "basketball",
+            "home": "Al Hala",
+            "away": "Sitra",
+            "league": "Bahrain Premier League",
+            "final_score": "95-81",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "26-27"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "19-21"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "25-18"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "25-15"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-20T17:01:12.643632Z",
+            "updated_at": "2026-10-20T17:03:12.759969Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    },
+    "203224748": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=203224748",
+      "received_at": "2026-10-20T22:37:06.132510+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "203224748",
+            "sport": "basketball",
+            "home": "Antonine",
+            "away": "Al Ahly (Egypt)",
+            "league": "Shabab Al Ahli Dubai IBT",
+            "final_score": "85-74",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "19-19"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "18-26"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "23-9"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "25-20"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-20T16:29:12.645937Z",
+            "updated_at": "2026-10-20T16:31:12.741103Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    }
+  },
+  "joined": [
+    {
+      "fixture_id": "202503180",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "AEPS Machites Peiramatiko",
+          "line": -7.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Kronos Ag.Dimitriou",
+          "line": 7.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "78-61",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T15:56:12.681516+00:00",
+      "outcome_available_at": "2026-10-20T22:36:54.592580+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202503183",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "AE Psychikou",
+          "line": 3.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "NE Megaridos",
+          "line": -3.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "64-61",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T16:04:12.616628+00:00",
+      "outcome_available_at": "2026-10-20T22:36:57.508117+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203224748",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Antonine",
+          "line": 9.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Al Ahly (Egypt)",
+          "line": -9.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "85-74",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T16:29:12.645937+00:00",
+      "outcome_available_at": "2026-10-20T22:37:06.132510+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202561162",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Rogaska",
+          "line": 12.5,
+          "cover_result": "loss",
+          "covered": 0
+        },
+        {
+          "team": "Krka",
+          "line": -12.5,
+          "cover_result": "win",
+          "covered": 1
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "62-97",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T16:44:12.660172+00:00",
+      "outcome_available_at": "2026-10-20T22:37:00.425143+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203094590",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Al Hala",
+          "line": -3.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Sitra",
+          "line": 3.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "95-81",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T17:01:12.643632+00:00",
+      "outcome_available_at": "2026-10-20T22:37:03.357855+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202503180",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "AEPS Machites Peiramatiko",
+          "line": -8.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Kronos Ag.Dimitriou",
+          "line": 8.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "78-61",
+      "decision_at": "2026-10-20T15:42:57.731477+00:00",
+      "finished_at": "2026-10-20T15:56:12.681516+00:00",
+      "outcome_available_at": "2026-10-20T22:36:54.592580+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202503183",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "AE Psychikou",
+          "line": 3.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "NE Megaridos",
+          "line": -3.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "64-61",
+      "decision_at": "2026-10-20T15:42:57.731477+00:00",
+      "finished_at": "2026-10-20T16:04:12.616628+00:00",
+      "outcome_available_at": "2026-10-20T22:36:57.508117+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203224748",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Antonine",
+          "line": 9.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Al Ahly (Egypt)",
+          "line": -9.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "85-74",
+      "decision_at": "2026-10-20T15:42:57.731477+00:00",
+      "finished_at": "2026-10-20T16:29:12.645937+00:00",
+      "outcome_available_at": "2026-10-20T22:37:06.132510+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202561162",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Rogaska",
+          "line": 12.5,
+          "cover_result": "loss",
+          "covered": 0
+        },
+        {
+          "team": "Krka",
+          "line": -12.5,
+          "cover_result": "win",
+          "covered": 1
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "62-97",
+      "decision_at": "2026-10-20T15:42:57.731477+00:00",
+      "finished_at": "2026-10-20T16:44:12.660172+00:00",
+      "outcome_available_at": "2026-10-20T22:37:00.425143+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203094590",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Al Hala",
+          "line": -3.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Sitra",
+          "line": 3.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "95-81",
+      "decision_at": "2026-10-20T15:42:57.731477+00:00",
+      "finished_at": "2026-10-20T17:01:12.643632+00:00",
+      "outcome_available_at": "2026-10-20T22:37:03.357855+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    }
+  ],
+  "unique_fixtures": 5,
+  "observation_rows": 10,
+  "labelled_rows": 10,
+  "approved_for_picks": false,
+  "training_eligible": false,
+  "limitations": [
+    "Repeated observations and opposing sides are not independent games.",
+    "No model forecasts were evaluated; these outcomes are not a win-rate claim.",
+    "Provider settlement and score/time feature semantics remain independently unverified."
+  ]
+}
