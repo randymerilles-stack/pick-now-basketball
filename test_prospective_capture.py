@@ -4,6 +4,20 @@ from prospective_capture import capture
 from test_validation import sample
 
 class CaptureTests(unittest.TestCase):
+    def test_opt_in_stats_period_is_preserved_without_approval(self):
+        data=sample();fixture=data['matches'][0]
+        fixture['score']='55-51';fixture['clock']={'min':4,'sec':12}
+        fixture['stats']={'sport':'basketball','period':3,'home':{'points':55},
+                          'away':{'points':51},'updated_at':'2026-10-20T03:00:00Z'}
+        record=capture(data,datetime(2026,10,20,3,0,tzinfo=timezone.utc))
+        o=record['observations'][0]
+        self.assertEqual(record['schema_version'],2)
+        self.assertIn('stats=1',record['source'])
+        self.assertEqual(o['period_observed'],3)
+        self.assertEqual(o['stats_observed'],fixture['stats'])
+        self.assertTrue(o['live_state_readiness']['explicit_period_present'])
+        self.assertFalse(o['live_state_readiness']['priority_ready'])
+
     def test_capture_preserves_observed_state_without_fabricating_period_or_outcome(self):
         data=sample();fixture=data['matches'][0]
         fixture['score']='55-51';fixture['clock']={'min':4,'sec':12}
