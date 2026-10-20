@@ -38,7 +38,7 @@ All pages and data APIs require an owner session. Set PICKNOW_PASSWORD_HASH to a
 
 1. Open the HTTPS app in a fresh private browser window. Dashboard redirects to /login; /api/pick-now returns 401.
 2. Sign in with the owner password. Incorrect passwords must not open the dashboard. The browser login uses same-origin referrer policy; foreign, null and missing request origins are rejected.
-3. Tap CHECK LIVE DATA. Inspect the checked time, fixture list, reference line pairs, validation rejections and model report. Zero approved picks is expected.
+3. Open the dashboard for an automatic check, or tap REFRESH PICKS. Inspect the checked time, fixture list, reference line pairs, validation rejections and model report. Zero approved picks is expected.
 4. Leave an odds snapshot for 30 seconds or switch tabs and return later. Expired prices must disappear and the app must ask for a fresh check.
 5. Disconnect the network and check again. Current prices clear and the app explains the failure. Reconnect and retry manually.
 6. Test on a phone: readable tables, usable CHECK LIVE DATA and SIGN OUT buttons, no horizontal page overflow.
@@ -57,3 +57,7 @@ The owner requested paper selections using the existing research model. `paper_m
 Only current data-checked half-point Full Game Line pairs qualify, because the research target did not model pushes. One side with the highest estimated EV per fixture is selected for simulation (up to three fixtures), even if that EV is negative; negative EV is explicitly shown. EV is computed as model probability times reference decimal odds minus one, and depends on an unvalidated estimate. No staking or wager placement is supported. Reference odds and settlement are still not independently bookmaker-verified.
 
 API `paper_picks` is separate from `picks`, which remains empty. Each paper selection is labelled not approved for betting and not independently verified. Stale/failed checks clear selections. No continuous learning, automatic result settlement or durable performance journal is enabled by this release. Paper results require a separate future evaluation; displaying selections does not establish an edge.
+
+## Suggestion-first flow (v0.6)
+
+Opening/reloading the authenticated dashboard automatically fetches one current snapshot. Returning to the tab or reconnecting also refreshes; concurrent requests are suppressed. Paper selections appear before collapsed reference data/model diagnostics. REFRESH PICKS manually requests another snapshot. No continuous timer polling is enabled. Missing/stale data still produces no suggestion, and approved betting picks remain disabled.
