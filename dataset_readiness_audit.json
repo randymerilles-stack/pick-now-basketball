@@ -1,0 +1,44 @@
+{
+  "observation_rows": 14,
+  "unique_fixture_ids": 7,
+  "invalid_observations": 0,
+  "identity_conflicts": 0,
+  "outcome_conflicts": 0,
+  "unlabelled_fixtures": 5,
+  "provider_labelled_independent_fixtures": 2,
+  "league_counts": {
+    "China CBA": 1,
+    "Georgia League U22": 1
+  },
+  "chronological_diagnostic_train": 0,
+  "chronological_diagnostic_test": 1,
+  "purged_unavailable_training_outcomes": 1,
+  "fixtures": [
+    {
+      "fixture_id": "202504371",
+      "league": "China CBA",
+      "decision_at": "2026-10-20T13:40:16.194349+00:00",
+      "finished_at": "2026-10-20T13:54:13.449651+00:00",
+      "outcome_available_at": "2026-10-20T14:40:01.201313+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "203074407",
+      "league": "Georgia League U22",
+      "decision_at": "2026-10-20T13:40:16.194349+00:00",
+      "finished_at": "2026-10-20T14:26:13.276521+00:00",
+      "outcome_available_at": "2026-10-20T14:40:06.716342+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    }
+  ],
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "blockers": [
+    "Score/time features and source semantics are not validated.",
+    "Cross-ID event aliases are not yet independently resolved.",
+    "Counts and a split diagnostic do not establish adequate statistical power.",
+    "No model was trained or accuracy measured."
+  ]
+}
