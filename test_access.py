@@ -35,6 +35,24 @@ class AccessTests(unittest.TestCase):
         self.assertEqual(self.request('/api/pick-now')[0],401)
         self.assertEqual(self.request('/api/pick-now','HEAD')[0],401)
         self.assertEqual(self.request('/health')[2],b'{"status":"ok"}')
+    def test_browser_login_policy_preserves_origin_and_rejects_missing_origin(self):
+        code,heads,body=self.request('/login')
+        self.assertEqual(code,200)
+        self.assertEqual(heads['Referrer-Policy'],'same-origin')
+        self.assertEqual(heads['Cache-Control'],'no-store')
+        self.assertIn(b'action="/login"',body)
+        for origin in ('null',''):
+            self.assertEqual(self.login(origin=origin)[0],403)
+        self.assertEqual(self.request('/login','POST','password=test',
+            {'Content-Type':'application/x-www-form-urlencoded'})[0],403)
+    def test_login_throttle_and_retry_after(self):
+        with patch('access.time.time',return_value=100):
+            with access.LOCK:access.ATTEMPTS.extend([100]*20)
+            code,heads,_=self.login()
+            self.assertEqual(code,429)
+            self.assertEqual(heads['Retry-After'],'60')
+        with patch('access.time.time',return_value=161):
+            self.assertEqual(self.login()[0],303)
     def test_owner_session_secure_cookie_and_logout(self):
         code,heads,_=self.login();self.assertEqual(code,303)
         cookie=heads['Set-Cookie']

@@ -1,7 +1,21 @@
 import unittest
+from unittest.mock import patch
 from app import check
 
 class FailClosedTests(unittest.TestCase):
+    def test_missing_corrupt_or_non_object_model_report_does_not_crash(self):
+        for content in ('{broken', '[]', 'null'):
+            with patch('app.Path.read_text',return_value=content):
+                result=check(lambda:None)
+            self.assertEqual(result['model_report']['status'],'unavailable')
+            self.assertEqual(result['recommendation'],'NO BET')
+            self.assertEqual(result['picks'],[])
+            self.assertEqual(result['model_status'],'not_validated')
+        with patch('app.Path.read_text',side_effect=FileNotFoundError):
+            self.assertEqual(check(lambda:None)['picks'],[])
+        for experiment in ('null','[]','"invalid"'):
+            with patch('app.Path.read_text',return_value='{"calibration_experiment":'+experiment+'}'):
+                self.assertEqual(check(lambda:None)['model_status'],'not_validated')
     def test_unknown_period_and_forged_model_never_unlock(self):
         data = {'model_status': 'validated', 'matches': [{'in_play': True, 'quotes': [
             {'market_name': label, 'handicap': -4.5, 'odds_dec': 1.9}

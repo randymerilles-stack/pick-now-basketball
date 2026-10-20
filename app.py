@@ -40,8 +40,15 @@ def check(fetch=None):
         result['error_type'] = type(exc).__name__
         result['http_status'] = getattr(exc, 'code', None)
     report_path = ROOT / 'model_report.json'
-    result['model_report'] = json.loads(report_path.read_text()) if report_path.exists() else {'status': 'audit_in_progress'}
-    if result['model_report'].get('calibration_experiment', {}).get('trained'):
+    try:
+        report = json.loads(report_path.read_text())
+        if not isinstance(report, dict):
+            raise ValueError('Invalid model report')
+        result['model_report'] = report
+    except (OSError, ValueError):
+        result['model_report'] = {'status': 'unavailable', 'reason': 'Model audit report unavailable; picks remain disabled.'}
+    experiment = result['model_report'].get('calibration_experiment')
+    if isinstance(experiment, dict) and experiment.get('trained') is True:
         result['model_status'] = 'tested_not_approved'
     return result
 
@@ -105,7 +112,9 @@ class Handler(BaseHTTPRequestHandler):
         if not 0<size<=2048:self.reply(400,b'Invalid request');return
         if self.headers.get('Content-Type','').split(';')[0]!='application/x-www-form-urlencoded':
             self.reply(415,b'Unsupported form type');return
-        if not access.allow_attempt():self.reply(429,b'Too many attempts. Try again in one minute.');return
+        if not access.allow_attempt():
+            self.reply(429,b'Too many attempts. Try again in one minute.',extra={'Retry-After':'60'})
+            return
         try:
             fields=parse_qs(self.rfile.read(size).decode('utf-8'),max_num_fields=4)
             password=fields.get('password',[''])[0]

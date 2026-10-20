@@ -33,3 +33,19 @@ Audit period: 13–19 Oct 2026 UTC. 357 matched fixtures; 221 training, 108 held
 ## Owner access
 
 All pages and data APIs require an owner session. Set PICKNOW_PASSWORD_HASH to a 16-byte-or-longer hexadecimal salt, a dollar separator and the hexadecimal PBKDF2-HMAC-SHA256 digest (200,000 iterations). Set PICKNOW_ORIGIN to the exact HTTPS origin. Missing configuration fails closed. Only /health is public and returns minimal availability. Sessions expire after eight hours or restart; SIGN OUT revokes the session. Keep the password and its salted hash out of git.
+
+## Web acceptance test
+
+1. Open the HTTPS app in a fresh private browser window. Dashboard redirects to /login; /api/pick-now returns 401.
+2. Sign in with the owner password. Incorrect passwords must not open the dashboard. The browser login uses same-origin referrer policy; foreign, null and missing request origins are rejected.
+3. Tap CHECK LIVE DATA. Inspect the checked time, fixture list, reference line pairs, validation rejections and model report. Zero approved picks is expected.
+4. Leave an odds snapshot for 30 seconds or switch tabs and return later. Expired prices must disappear and the app must ask for a fresh check.
+5. Disconnect the network and check again. Current prices clear and the app explains the failure. Reconnect and retry manually.
+6. Test on a phone: readable tables, usable CHECK LIVE DATA and SIGN OUT buttons, no horizontal page overflow.
+7. SIGN OUT. Revisiting the API with the revoked session must return 401.
+
+Run all server checks with `python -m unittest -v`. No external feed is needed for these regression tests. Live feed access is checked separately and can vary between snapshots.
+
+## Limits of this web release
+
+This is a private web dashboard for validation and research, not an Android APK and not an approved pick engine. The source repo is currently public; deployment uses its public Git URL and requires manual deploys. Do not commit credentials. Only a salted password hash is kept in the service environment. Sessions reset during deployments and restarts. Live data is a manually requested third-party snapshot, not a continuous direct bookmaker connection. A passing software test does not validate the model's predictive performance.

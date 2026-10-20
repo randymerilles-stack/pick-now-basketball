@@ -22,6 +22,14 @@ def number(value):
         raise ValueError('Non-finite number')
     return value
 
+def identity(value):
+    """Reject missing, boolean, structured and blank provider identifiers."""
+    if isinstance(value, bool) or not isinstance(value, (str, int)):
+        return None
+    value = str(value).strip()
+    return value or None
+
+
 def inspect_feed(data, checked_at=None):
     if not isinstance(data, dict) or not isinstance(data.get('matches'), list):
         raise ValueError('Unsupported feed schema')
@@ -42,25 +50,30 @@ def inspect_feed(data, checked_at=None):
                     fixtures=[], markets=[], verified_market_count=0,
                     validation_status='invalid_feed_timestamp',
                     rejected={'invalid_feed_timestamp': len(matches)})
-    ids = Counter(str(m.get('id')) for m in matches if isinstance(m, dict))
+    ids = Counter(identity(m.get('id')) for m in matches if isinstance(m, dict))
     for m in matches:
         if not isinstance(m, dict):
             rejected['invalid_fixture'] += 1
             continue
-        fid = str(m.get('id', ''))
+        fid = identity(m.get('id'))
         home, away = m.get('home'), m.get('away')
         if (not fid or ids[fid] != 1 or m.get('sport') != 'basketball'
                 or m.get('in_play') is not True or not isinstance(home, str)
-                or not isinstance(away, str) or not home or not away or home == away):
+                or not isinstance(away, str) or not home.strip() or not away.strip()
+                or home.strip() == away.strip()):
             rejected['invalid_fixture_identity'] += 1
             continue
-        if any(x in str(m.get('league', '')).lower() for x in
-               ('ebasket', 'esport', 'cyber', 'simulated', 'virtual')):
+        if any(x in ' '.join((str(m.get('league', '')), home, away)).lower() for x in
+               ('ebasket', 'e-basket', 'esport', 'cyber', 'simulated', 'virtual', 'nba 2k', 'nba2k')):
             rejected['virtual_basketball_excluded'] += 1
             continue
         try:
-            age = (max(server, checked_at) - timestamp(m.get('polled_at'))).total_seconds()
-            fresh = -5 <= age <= MAX_POLL_AGE
+            poll = timestamp(m.get('polled_at'))
+            age = (max(server, checked_at) - poll).total_seconds()
+            # Both clocks must agree: a provider clock ahead of our clock must
+            # not make a future poll look current.
+            future_seconds = (poll - min(server, checked_at)).total_seconds()
+            fresh = -5 <= age <= MAX_POLL_AGE and future_seconds <= 5
         except (TypeError, ValueError):
             age, fresh = None, False
         fixtures.append(dict(id=fid, home=home, away=away,
@@ -84,7 +97,8 @@ def inspect_feed(data, checked_at=None):
                     or q.get('phase') != 'inplay'):
                 rejected['not_live_full_game_line'] += 1
                 continue
-            if str(q.get('fixture_id')) != fid or not q.get('market_id') or not q.get('sel_id'):
+            if (identity(q.get('fixture_id')) != fid or identity(q.get('market_id')) is None
+                    or identity(q.get('sel_id')) is None):
                 rejected['invalid_quote_identity'] += 1
                 continue
             if q.get('suspended', False) is not False:
@@ -94,13 +108,14 @@ def inspect_feed(data, checked_at=None):
                 price = number(q.get('odds_dec'))
                 line = number(q.get('handicap', q.get('label')))
                 qt = timestamp(q.get('ts'))
-                if price <= 1 or qt > server or q.get('side') not in (home, away):
+                if (price <= 1 or qt > server or (qt - checked_at).total_seconds() > 5
+                        or q.get('side') not in (home, away)):
                     raise ValueError('Invalid quote')
             except (TypeError, ValueError, OverflowError):
                 rejected['invalid_price_line_team_or_time'] += 1
                 continue
-            groups[(str(q['market_id']), abs(line))].append(
-                dict(team=q['side'], line=line, odds=price, selection_id=str(q['sel_id'])))
+            groups[(identity(q['market_id']), abs(line))].append(
+                dict(team=q['side'], line=line, odds=price, selection_id=identity(q['sel_id'])))
         for (mid, _), pair in groups.items():
             if (len(pair) != 2 or {q['team'] for q in pair} != {home, away}
                     or len({q['selection_id'] for q in pair}) != 2

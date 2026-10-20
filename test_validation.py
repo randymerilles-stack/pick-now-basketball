@@ -50,6 +50,27 @@ class ValidationTests(unittest.TestCase):
         self.assertEqual(self.validate(d)['data_checked_market_count'],0)
         d=sample();d['matches'][0]['league']='Ebasketball H2H'
         self.assertEqual(self.validate(d)['data_checked_market_count'],0)
+    def test_missing_or_structured_identifiers_rejected(self):
+        for value in [None, True, {}, [], '', '   ']:
+            with self.subTest(value=value):
+                d=sample();d['matches'][0]['id']=value
+                for q in d['matches'][0]['quotes']:q['fixture_id']=value
+                self.assertEqual(self.validate(d)['data_checked_market_count'],0)
+                for field in ['market_id','sel_id']:
+                    d=sample();d['matches'][0]['quotes'][0][field]=value
+                    self.assertEqual(self.validate(d)['data_checked_market_count'],0)
+    def test_future_provider_clock_does_not_hide_future_poll(self):
+        d=sample();d['server_time']='2026-10-20T03:00:45Z'
+        d['matches'][0]['polled_at']='2026-10-20T03:00:40Z'
+        self.assertEqual(self.validate(d)['data_checked_market_count'],0)
+        d=sample();d['server_time']='2026-10-20T03:00:45Z'
+        d['matches'][0]['quotes'][0]['ts']='2026-10-20T03:00:40Z'
+        self.assertEqual(self.validate(d)['data_checked_market_count'],0)
+    def test_virtual_marker_in_team_name_is_excluded(self):
+        d=sample();d['matches'][0]['home']='Home NBA 2K'
+        d['matches'][0]['quotes'][0]['side']='Home NBA 2K'
+        self.assertEqual(self.validate(d)['data_checked_market_count'],0)
+
     def test_missing_future_and_old_feed_timestamps_rejected(self):
         for stamp in [None,'2026-10-19T03:00:00Z','2026-10-20T04:00:00Z']:
             d=sample();d['server_time']=stamp
