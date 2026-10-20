@@ -1,0 +1,12 @@
+{
+  "snapshot_server_time": "2026-10-20T11:35:37.300158126Z",
+  "source": "https://moviodds.com/odds?sport=basketball&in_play=1",
+  "fixtures_seen": 11,
+  "score_present": 11,
+  "clock_present": 11,
+  "explicit_period_present": 0,
+  "priority_ready": 0,
+  "scope": "Structural field audit only; not independent source verification or freshness certification.",
+  "next_step": "Audit documented alternative explicit-period sources and exact fixture alignment; no quarter inference.",
+  "approved_for_picks": false
+}
