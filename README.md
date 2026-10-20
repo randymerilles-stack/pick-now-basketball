@@ -29,3 +29,7 @@ No bookmaker credentials, wagering, slip automation or fabricated probabilities.
 ## Current research result
 
 Audit period: 13–19 Oct 2026 UTC. 357 matched fixtures; 221 training, 108 held-out, 28 overlapping outcomes purged. Market Brier: 0.249937; research model: 0.249047. The exploratory improvement interval includes zero. No reliable edge or per-league approval was established. `model_report.json` and `audit_coverage.json` retain the audit summary. Research-only; no picks enabled.
+
+## Owner access
+
+All pages and data APIs require an owner session. Set PICKNOW_PASSWORD_HASH to a 16-byte-or-longer hexadecimal salt, a dollar separator and the hexadecimal PBKDF2-HMAC-SHA256 digest (200,000 iterations). Set PICKNOW_ORIGIN to the exact HTTPS origin. Missing configuration fails closed. Only /health is public and returns minimal availability. Sessions expire after eight hours or restart; SIGN OUT revokes the session. Keep the password and its salted hash out of git.
