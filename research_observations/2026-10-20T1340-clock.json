@@ -1,0 +1,449 @@
+{
+  "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+  "received_before": "2026-10-20T13:40:16.194349+00:00",
+  "received_after": "2026-10-20T13:40:19.417076+00:00",
+  "server_time_before": "2026-10-20T13:40:15.986378295Z",
+  "server_time_after": "2026-10-20T13:40:19.228692344Z",
+  "transitions": [
+    {
+      "fixture_id": "202504389",
+      "league": "China CBA",
+      "period_before": 4,
+      "period_after": 4,
+      "clock_before_seconds": 0,
+      "clock_after_seconds": 0,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T13:39:26Z",
+      "clock_ref_after": "2026-10-20T13:39:26Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "202504371",
+      "league": "China CBA",
+      "period_before": 4,
+      "period_after": 4,
+      "clock_before_seconds": 378,
+      "clock_after_seconds": 378,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T13:40:05Z",
+      "clock_ref_after": "2026-10-20T13:40:05Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "203074407",
+      "league": "Georgia League U22",
+      "period_before": 3,
+      "period_after": 3,
+      "clock_before_seconds": 0,
+      "clock_after_seconds": 0,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-20T13:40:08Z",
+      "clock_ref_after": "2026-10-20T13:40:08Z",
+      "score_changed": false,
+      "semantics_verified": false
+    }
+  ],
+  "captures": [
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-20T13:40:16.194349+00:00",
+      "server_time": "2026-10-20T13:40:15.986378295Z",
+      "source_sha256": "8c805bb36ad7a498cdc49b0cf1d34c52c91cdf96758533de40f0515c932d6d55",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "suspended_or_invalid_flag": 2,
+        "not_live_full_game_line": 107,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "202504371",
+          "market_id": "1446",
+          "league": "China CBA",
+          "home": "Xinjiang Flying Tigers",
+          "away": "Tianjin Pioneers",
+          "score_observed": "89-76",
+          "clock_observed": {
+            "min": 6,
+            "sec": 18,
+            "ticking": false,
+            "ref": "2026-10-20T13:40:05Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T13:39:54.182539612Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 89,
+              "three_pointers": 10,
+              "two_pointers": 22,
+              "free_throws": 15,
+              "free_throw_pct": 71.4,
+              "timeouts_remaining": 5,
+              "fouls": 9,
+              "periods": [
+                26,
+                28,
+                19,
+                16
+              ]
+            },
+            "away": {
+              "points": 76,
+              "three_pointers": 11,
+              "two_pointers": 14,
+              "free_throws": 15,
+              "free_throw_pct": 83.3,
+              "timeouts_remaining": 5,
+              "fouls": 13,
+              "periods": [
+                29,
+                25,
+                16,
+                6
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 26-29",
+              "Score After 2nd Quarter - 54-54",
+              "Score After 3rd Quarter - 73-70"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 21.803839,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T13:40:05.066368197Z",
+          "quotes": [
+            {
+              "team": "Xinjiang Flying Tigers",
+              "line": -13.5,
+              "odds": 1.9523809523809523,
+              "selection_id": "253860733"
+            },
+            {
+              "team": "Tianjin Pioneers",
+              "line": 13.5,
+              "odds": 1.7407407407407407,
+              "selection_id": "253860736"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203074407",
+          "market_id": "1446",
+          "league": "Georgia League U22",
+          "home": "Rustavi 2 U22",
+          "away": "CIU Kavkasia U22",
+          "score_observed": "35-28",
+          "clock_observed": {
+            "min": 0,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-20T13:40:08Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T13:40:12.017140375Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 35,
+              "three_pointers": 5,
+              "two_pointers": 9,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 4,
+              "fouls": 12,
+              "periods": [
+                19,
+                16,
+                0
+              ]
+            },
+            "away": {
+              "points": 28,
+              "three_pointers": 4,
+              "two_pointers": 3,
+              "free_throws": 6,
+              "free_throw_pct": 42.9,
+              "timeouts_remaining": 4,
+              "fouls": 5,
+              "periods": [
+                15,
+                13,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 19-15",
+              "Score After 2nd Quarter - 35-28"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 3.969238,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T13:40:13.184917097Z",
+          "quotes": [
+            {
+              "team": "Rustavi 2 U22",
+              "line": 4.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "254078094"
+            },
+            {
+              "team": "CIU Kavkasia U22",
+              "line": -4.5,
+              "odds": 1.8,
+              "selection_id": "254078095"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    },
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-20T13:40:19.417076+00:00",
+      "server_time": "2026-10-20T13:40:19.228692344Z",
+      "source_sha256": "59643db11003ade6fdf99e56298b3dd5f94632a07eebad61200e57597533374f",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "suspended_or_invalid_flag": 2,
+        "not_live_full_game_line": 107,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "202504371",
+          "market_id": "1446",
+          "league": "China CBA",
+          "home": "Xinjiang Flying Tigers",
+          "away": "Tianjin Pioneers",
+          "score_observed": "89-76",
+          "clock_observed": {
+            "min": 6,
+            "sec": 18,
+            "ticking": false,
+            "ref": "2026-10-20T13:40:05Z"
+          },
+          "period_observed": 4,
+          "stats_observed": {
+            "updated_at": "2026-10-20T13:39:54.182539612Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 89,
+              "three_pointers": 10,
+              "two_pointers": 22,
+              "free_throws": 15,
+              "free_throw_pct": 71.4,
+              "timeouts_remaining": 5,
+              "fouls": 9,
+              "periods": [
+                26,
+                28,
+                19,
+                16
+              ]
+            },
+            "away": {
+              "points": 76,
+              "three_pointers": 11,
+              "two_pointers": 14,
+              "free_throws": 15,
+              "free_throw_pct": 83.3,
+              "timeouts_remaining": 5,
+              "fouls": 13,
+              "periods": [
+                29,
+                25,
+                16,
+                6
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 26-29",
+              "Score After 2nd Quarter - 54-54",
+              "Score After 3rd Quarter - 73-70"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 4,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 25.046153,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T13:40:16.343791113Z",
+          "quotes": [
+            {
+              "team": "Xinjiang Flying Tigers",
+              "line": -12.5,
+              "odds": 1.7407407407407407,
+              "selection_id": "253860733"
+            },
+            {
+              "team": "Tianjin Pioneers",
+              "line": 12.5,
+              "odds": 1.9523809523809523,
+              "selection_id": "253860736"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203074407",
+          "market_id": "1446",
+          "league": "Georgia League U22",
+          "home": "Rustavi 2 U22",
+          "away": "CIU Kavkasia U22",
+          "score_observed": "35-28",
+          "clock_observed": {
+            "min": 0,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-20T13:40:08Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-20T13:40:12.017140375Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 35,
+              "three_pointers": 5,
+              "two_pointers": 9,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 4,
+              "fouls": 12,
+              "periods": [
+                19,
+                16,
+                0
+              ]
+            },
+            "away": {
+              "points": 28,
+              "three_pointers": 4,
+              "two_pointers": 3,
+              "free_throws": 6,
+              "free_throw_pct": 42.9,
+              "timeouts_remaining": 4,
+              "fouls": 5,
+              "periods": [
+                15,
+                13,
+                0
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 19-15",
+              "Score After 2nd Quarter - 35-28"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 7.211552,
+              "blockers": []
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-20T13:40:13.184917097Z",
+          "quotes": [
+            {
+              "team": "Rustavi 2 U22",
+              "line": 4.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "254078094"
+            },
+            {
+              "team": "CIU Kavkasia U22",
+              "line": -4.5,
+              "odds": 1.8,
+              "selection_id": "254078095"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    }
+  ],
+  "limitations": [
+    "Two observations cannot prove clock direction or freshness semantics.",
+    "A stopped or unchanged clock does not establish a break or remaining game time.",
+    "Records are research only, not independent games or validated training samples."
+  ],
+  "approved_for_picks": false
+}
