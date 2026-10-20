@@ -61,3 +61,7 @@ API `paper_picks` is separate from `picks`, which remains empty. Each paper sele
 ## Suggestion-first flow (v0.6)
 
 Opening/reloading the authenticated dashboard automatically fetches one current snapshot. Returning to the tab or reconnecting also refreshes; concurrent requests are suppressed. Paper selections appear before collapsed reference data/model diagnostics. REFRESH PICKS manually requests another snapshot. No continuous timer polling is enabled. Missing/stale data still produces no suggestion, and approved betting picks remain disabled.
+
+## Direct pick display (v0.7)
+
+Team and signed handicap line are the first result, followed by matchup, odds and a short EV label. Reference/source panels and model diagnostics are not displayed on the main screen. PAPER ONLY and negative-EV labels remain visible. Validation and authentication gates are unchanged.
