@@ -1,0 +1,46 @@
+name: Build Pick Now Android
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [android-source.zip, .github/workflows/android.yml]
+permissions:
+  contents: read
+concurrency:
+  group: pick-now-android-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Select JDK 17 and unpack source
+        run: |
+          echo "JAVA_HOME=$JAVA_HOME_17_X64" >> "$GITHUB_ENV"
+          echo "$JAVA_HOME_17_X64/bin" >> "$GITHUB_PATH"
+          unzip -q android-source.zip -d android-project
+      - uses: gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1
+        with:
+          gradle-version: '8.13'
+          cache-disabled: true
+      - name: Ensure Android SDK
+        run: sdkmanager "platforms;android-36" "build-tools;35.0.0"
+      - name: Build APK and lint
+        working-directory: android-project
+        run: gradle --no-daemon --console=plain assembleDebug lintDebug
+      - name: APK checksum
+        run: sha256sum android-project/app/build/outputs/apk/debug/app-debug.apk
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: pick-now-android-test
+          path: |
+            android-project/app/build/outputs/apk/debug/app-debug.apk
+            android-project/app/build/reports/lint-results-debug.html
+          if-no-files-found: error
+          retention-days: 7
