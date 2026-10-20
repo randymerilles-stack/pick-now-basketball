@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-20T02:54:41.723514+00:00",
+  "from_date": "2026-10-13",
+  "to_date": "2026-10-19",
+  "days": 7,
+  "result_rows": 2642,
+  "non_virtual_candidates": 998,
+  "eligible_real_fixtures": 995,
+  "histories_audited": 360,
+  "matched_independent_fixtures": 357,
+  "unmatched": 3,
+  "training_fixtures": 221,
+  "heldout_fixtures": 108,
+  "purged_overlapping_outcomes": 28,
+  "result_archive_sources": [
+    "postgres",
+    "postgres",
+    "postgres",
+    "postgres",
+    "postgres",
+    "postgres",
+    "postgres"
+  ]
+}

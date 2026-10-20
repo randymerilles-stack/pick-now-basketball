@@ -1,11 +1,11 @@
 """Standalone Pick Now: fail-closed live-feed inspection; picks remain locked."""
 import json
-import math
 import os
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.request import Request, urlopen
+from validation import inspect_feed
 
 SOURCE = 'https://moviodds.com/odds?sport=basketball&in_play=1'
 ROOT = Path(__file__).resolve().parent
@@ -13,20 +13,9 @@ ROOT = Path(__file__).resolve().parent
 def now():
     return datetime.now(timezone.utc)
 
-def inspect_feed(data):
-    if not isinstance(data, dict) or not isinstance(data.get('matches'), list):
-        raise ValueError('Unsupported feed schema')
-    matches = data['matches']
-    candidates = sum(len(m.get('quotes', [])) for m in matches
-                     if isinstance(m, dict) and isinstance(m.get('quotes'), list))
-    # No provider contract or captured live payload has been independently
-    # verified. Labels alone cannot prove period, settlement or freshness.
-    return {'games_seen': len(matches), 'quotes_seen': candidates,
-            'verified_market_count': 0, 'markets': [],
-            'validation_status': 'provider_contract_unverified'}
 
 def check(fetch=None):
-    result = {'checked_at': now().isoformat(), 'source': 'MoviOdds (provider unverified)',
+    result = {'checked_at': now().isoformat(), 'source': 'MoviOdds / bet365 reference feed',
               'source_url': SOURCE, 'status': 'no_bet', 'recommendation': 'NO BET',
               'model_status': 'not_validated', 'picks': [], 'markets': [],
               'verified_market_count': 0, 'feed_status': 'unavailable',
@@ -47,9 +36,22 @@ def check(fetch=None):
     except Exception as exc:
         result['validation_status'] = 'failed'
         result['error_type'] = type(exc).__name__
+        result['http_status'] = getattr(exc, 'code', None)
+    report_path = ROOT / 'model_report.json'
+    result['model_report'] = json.loads(report_path.read_text()) if report_path.exists() else {'status': 'audit_in_progress'}
+    if result['model_report'].get('calibration_experiment', {}).get('trained'):
+        result['model_status'] = 'tested_not_approved'
     return result
 
 class Handler(BaseHTTPRequestHandler):
+    def do_HEAD(self):
+        if self.path.split('?', 1)[0] not in ('/', '/health'):
+            self.send_error(404)
+            return
+        self.send_response(200)
+        self.send_header('Cache-Control', 'no-store')
+        self.end_headers()
+
     def do_GET(self):
         path = self.path.split('?', 1)[0]
         if path == '/':

@@ -1,0 +1,5716 @@
+[
+  {
+    "fixture_id": "202773344",
+    "fixture_family": [
+      "202773344"
+    ],
+    "league": "WNCAAB Pre Season",
+    "decision_at": "2026-10-12T22:34:38.157321Z",
+    "finished_at": "2026-10-13T00:30:29.099976Z",
+    "outcome_available_at": "2026-10-13T00:32:30.426204Z",
+    "home_line": -24.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "88-57"
+  },
+  {
+    "fixture_id": "202748609",
+    "fixture_family": [
+      "202748609"
+    ],
+    "league": "Chile Liga Desarrollo U21",
+    "decision_at": "2026-10-12T23:06:30.72622Z",
+    "finished_at": "2026-10-13T00:59:29.103194Z",
+    "outcome_available_at": "2026-10-13T01:01:29.273852Z",
+    "home_line": -18.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "79-59"
+  },
+  {
+    "fixture_id": "202761898",
+    "fixture_family": [
+      "202761898"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-12T23:11:39.344319Z",
+    "finished_at": "2026-10-13T01:32:30.448425Z",
+    "outcome_available_at": "2026-10-13T01:34:29.276597Z",
+    "home_line": -1.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "122-131"
+  },
+  {
+    "fixture_id": "202761901",
+    "fixture_family": [
+      "202761901"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-12T23:42:39.024545Z",
+    "finished_at": "2026-10-13T02:05:29.060686Z",
+    "outcome_available_at": "2026-10-13T02:07:29.053411Z",
+    "home_line": 1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.9090909090909092,
+    "market_home_probability": 0.5101214574898786,
+    "home_covered": 0,
+    "final_score": "104-122"
+  },
+  {
+    "fixture_id": "202761907",
+    "fixture_family": [
+      "202761907"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-13T01:13:38.125114Z",
+    "finished_at": "2026-10-13T03:26:29.018365Z",
+    "outcome_available_at": "2026-10-13T03:28:30.646624Z",
+    "home_line": -6.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "119-109"
+  },
+  {
+    "fixture_id": "202616047",
+    "fixture_family": [
+      "202616047"
+    ],
+    "league": "Mexico LNBP",
+    "decision_at": "2026-10-13T02:02:06.893951Z",
+    "finished_at": "2026-10-13T04:08:30.499581Z",
+    "outcome_available_at": "2026-10-13T04:10:29.107854Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "84-74"
+  },
+  {
+    "fixture_id": "202723413",
+    "fixture_family": [
+      "202723413"
+    ],
+    "league": "Malaysia Agong Cup",
+    "decision_at": "2026-10-13T06:00:38.414094Z",
+    "finished_at": "2026-10-13T07:22:29.09535Z",
+    "outcome_available_at": "2026-10-13T07:25:29.069624Z",
+    "home_line": -30.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "95-62"
+  },
+  {
+    "fixture_id": "202779997",
+    "fixture_family": [
+      "202779997"
+    ],
+    "league": "Kazakhstan Cup",
+    "decision_at": "2026-10-13T07:59:08.130604Z",
+    "finished_at": "2026-10-13T09:25:29.098784Z",
+    "outcome_available_at": "2026-10-13T09:27:29.166202Z",
+    "home_line": 10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "61-71"
+  },
+  {
+    "fixture_id": "202791542",
+    "fixture_family": [
+      "202791542"
+    ],
+    "league": "Philippines NCAA",
+    "decision_at": "2026-10-13T09:40:36.967264Z",
+    "finished_at": "2026-10-13T11:43:29.448986Z",
+    "outcome_available_at": "2026-10-13T11:45:29.317721Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "56-55"
+  },
+  {
+    "fixture_id": "202780000",
+    "fixture_family": [
+      "202780000"
+    ],
+    "league": "Kazakhstan Higher League",
+    "decision_at": "2026-10-13T10:00:06.827952Z",
+    "finished_at": "2026-10-13T11:27:29.460778Z",
+    "outcome_available_at": "2026-10-13T11:29:30.248143Z",
+    "home_line": 25.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "67-82"
+  },
+  {
+    "fixture_id": "202841878",
+    "fixture_family": [
+      "202841878"
+    ],
+    "league": "Kazakhstan Cup",
+    "decision_at": "2026-10-13T10:30:36.79307Z",
+    "finished_at": "2026-10-13T12:00:30.874739Z",
+    "outcome_available_at": "2026-10-13T12:02:29.244574Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "67-60"
+  },
+  {
+    "fixture_id": "202781163",
+    "fixture_family": [
+      "202781163"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-13T11:02:41.972767Z",
+    "finished_at": "2026-10-13T12:46:29.213032Z",
+    "outcome_available_at": "2026-10-13T12:48:30.835256Z",
+    "home_line": -8.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "98-73"
+  },
+  {
+    "fixture_id": "202692710",
+    "fixture_family": [
+      "202692710"
+    ],
+    "league": "Georgia League U22",
+    "decision_at": "2026-10-13T12:01:09.708595Z",
+    "finished_at": "2026-10-13T13:42:29.128422Z",
+    "outcome_available_at": "2026-10-13T13:44:30.737927Z",
+    "home_line": -17.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "99-53"
+  },
+  {
+    "fixture_id": "202841881",
+    "fixture_family": [
+      "202841881"
+    ],
+    "league": "Kazakhstan Cup",
+    "decision_at": "2026-10-13T13:00:36.877672Z",
+    "finished_at": "2026-10-13T14:50:29.472725Z",
+    "outcome_available_at": "2026-10-13T14:52:30.68338Z",
+    "home_line": 1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "81-67"
+  },
+  {
+    "fixture_id": "202799841",
+    "fixture_family": [
+      "202799841"
+    ],
+    "league": "Georgia League U22",
+    "decision_at": "2026-10-13T14:03:34.701446Z",
+    "finished_at": "2026-10-13T15:21:29.498206Z",
+    "outcome_available_at": "2026-10-13T15:23:29.361453Z",
+    "home_line": 14.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "43-120"
+  },
+  {
+    "fixture_id": "202779422",
+    "fixture_family": [
+      "202779422"
+    ],
+    "league": "Qatar QBL",
+    "decision_at": "2026-10-13T15:03:46.7946Z",
+    "finished_at": "2026-10-13T16:46:44.851736Z",
+    "outcome_available_at": "2026-10-13T16:48:44.493765Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "68-76"
+  },
+  {
+    "fixture_id": "202118935",
+    "fixture_family": [
+      "202118935"
+    ],
+    "league": "Euro Cup",
+    "decision_at": "2026-10-13T16:00:39.373252Z",
+    "finished_at": "2026-10-13T17:54:18.524602Z",
+    "outcome_available_at": "2026-10-13T17:56:20.203819Z",
+    "home_line": 10.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "95-86"
+  },
+  {
+    "fixture_id": "202790753",
+    "fixture_family": [
+      "202790753"
+    ],
+    "league": "Latvia NBL",
+    "decision_at": "2026-10-13T16:00:39.373331Z",
+    "finished_at": "2026-10-13T17:49:18.563622Z",
+    "outcome_available_at": "2026-10-13T17:51:18.706121Z",
+    "home_line": -13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "91-63"
+  },
+  {
+    "fixture_id": "202792149",
+    "fixture_family": [
+      "202792149"
+    ],
+    "league": "Adriatic League Div 2",
+    "decision_at": "2026-10-13T16:01:06.918244Z",
+    "finished_at": "2026-10-13T17:56:20.189986Z",
+    "outcome_available_at": "2026-10-13T17:58:19.06502Z",
+    "home_line": -16.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "99-80"
+  },
+  {
+    "fixture_id": "202119207",
+    "fixture_family": [
+      "202119207"
+    ],
+    "league": "Euro Cup",
+    "decision_at": "2026-10-13T16:01:41.179051Z",
+    "finished_at": "2026-10-13T18:19:18.641683Z",
+    "outcome_available_at": "2026-10-13T18:21:18.695843Z",
+    "home_line": -13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "100-88"
+  },
+  {
+    "fixture_id": "202481290",
+    "fixture_family": [
+      "202481290"
+    ],
+    "league": "FIBA Europe Cup",
+    "decision_at": "2026-10-13T17:00:46.980357Z",
+    "finished_at": "2026-10-13T19:02:19.08262Z",
+    "outcome_available_at": "2026-10-13T19:04:20.995286Z",
+    "home_line": -4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "96-93"
+  },
+  {
+    "fixture_id": "202815736",
+    "fixture_family": [
+      "202815736"
+    ],
+    "league": "Latvia NBL",
+    "decision_at": "2026-10-13T17:01:15.560958Z",
+    "finished_at": "2026-10-13T19:10:18.964048Z",
+    "outcome_available_at": "2026-10-13T19:12:20.791118Z",
+    "home_line": 16.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "102-98"
+  },
+  {
+    "fixture_id": "202799578",
+    "fixture_family": [
+      "202799578"
+    ],
+    "league": "Tunisia League",
+    "decision_at": "2026-10-13T17:03:15.559107Z",
+    "finished_at": "2026-10-13T18:51:18.846436Z",
+    "outcome_available_at": "2026-10-13T18:53:19.246542Z",
+    "home_line": 21.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "49-83"
+  },
+  {
+    "fixture_id": "202115642",
+    "fixture_family": [
+      "202115642"
+    ],
+    "league": "Sweden Basketligan",
+    "decision_at": "2026-10-13T17:05:07.688497Z",
+    "finished_at": "2026-10-13T18:53:19.227431Z",
+    "outcome_available_at": "2026-10-13T18:55:19.421594Z",
+    "home_line": 14.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "90-97"
+  },
+  {
+    "fixture_id": "202799417",
+    "fixture_family": [
+      "202799417"
+    ],
+    "league": "Adriatic WABA Women",
+    "decision_at": "2026-10-13T17:31:20.697852Z",
+    "finished_at": "2026-10-13T19:06:19.200597Z",
+    "outcome_available_at": "2026-10-13T19:08:23.777029Z",
+    "home_line": -9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "85-63"
+  },
+  {
+    "fixture_id": "202229418",
+    "fixture_family": [
+      "202229418"
+    ],
+    "league": "Basketball Champions League",
+    "decision_at": "2026-10-13T18:01:24.782327Z",
+    "finished_at": "2026-10-13T19:49:18.999324Z",
+    "outcome_available_at": "2026-10-13T19:51:18.963754Z",
+    "home_line": -4.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "93-65"
+  },
+  {
+    "fixture_id": "202119213",
+    "fixture_family": [
+      "202119213"
+    ],
+    "league": "Euro Cup",
+    "decision_at": "2026-10-13T18:01:50.531651Z",
+    "finished_at": "2026-10-13T19:54:18.994255Z",
+    "outcome_available_at": "2026-10-13T19:56:23.644142Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "80-88"
+  },
+  {
+    "fixture_id": "202118902",
+    "fixture_family": [
+      "202118902"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-13T18:01:50.531657Z",
+    "finished_at": "2026-10-13T20:02:18.930633Z",
+    "outcome_available_at": "2026-10-13T20:04:20.507874Z",
+    "home_line": 2.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "82-84"
+  },
+  {
+    "fixture_id": "202118450",
+    "fixture_family": [
+      "202118450"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-13T18:32:50.530999Z",
+    "finished_at": "2026-10-13T20:33:19.003616Z",
+    "outcome_available_at": "2026-10-13T20:35:18.689638Z",
+    "home_line": 2.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "79-93"
+  },
+  {
+    "fixture_id": "202118190",
+    "fixture_family": [
+      "202118190"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-13T18:32:50.531064Z",
+    "finished_at": "2026-10-13T20:23:18.967602Z",
+    "outcome_available_at": "2026-10-13T20:25:18.509098Z",
+    "home_line": 5.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "55-72"
+  },
+  {
+    "fixture_id": "202117800",
+    "fixture_family": [
+      "202117800"
+    ],
+    "league": "Iceland Premier League Women",
+    "decision_at": "2026-10-13T19:16:20.722372Z",
+    "finished_at": "2026-10-13T20:57:05.568119Z",
+    "outcome_available_at": "2026-10-13T20:59:03.935052Z",
+    "home_line": 12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-89"
+  },
+  {
+    "fixture_id": "202797173",
+    "fixture_family": [
+      "202797173"
+    ],
+    "league": "Brazil Paulista FPB U20",
+    "decision_at": "2026-10-13T20:01:50.552649Z",
+    "finished_at": "2026-10-13T21:47:03.987834Z",
+    "outcome_available_at": "2026-10-13T21:49:05.745414Z",
+    "home_line": -23.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-42"
+  },
+  {
+    "fixture_id": "202842192",
+    "fixture_family": [
+      "202842192"
+    ],
+    "league": "Ghana ABL",
+    "decision_at": "2026-10-13T20:11:09.467692Z",
+    "finished_at": "2026-10-13T21:54:04.16612Z",
+    "outcome_available_at": "2026-10-13T21:56:03.954827Z",
+    "home_line": -24.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "82-57"
+  },
+  {
+    "fixture_id": "202338921",
+    "fixture_family": [
+      "202338921"
+    ],
+    "league": "Chile LNB",
+    "decision_at": "2026-10-13T23:01:35.120897Z",
+    "finished_at": "2026-10-14T00:50:04.019883Z",
+    "outcome_available_at": "2026-10-14T00:52:04.077149Z",
+    "home_line": 12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "96-91"
+  },
+  {
+    "fixture_id": "202803846",
+    "fixture_family": [
+      "202803846"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-13T23:11:36.588355Z",
+    "finished_at": "2026-10-14T01:27:03.940218Z",
+    "outcome_available_at": "2026-10-14T01:29:05.541036Z",
+    "home_line": 1.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "132-116"
+  },
+  {
+    "fixture_id": "202117565",
+    "fixture_family": [
+      "202117565"
+    ],
+    "league": "Argentina Liga Nacional",
+    "decision_at": "2026-10-14T00:02:36.757033Z",
+    "finished_at": "2026-10-14T01:57:05.331628Z",
+    "outcome_available_at": "2026-10-14T01:59:04.360982Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "78-84"
+  },
+  {
+    "fixture_id": "202799414",
+    "fixture_family": [
+      "202799414"
+    ],
+    "league": "El Salvador Liga Mayor",
+    "decision_at": "2026-10-14T01:15:35.260017Z",
+    "finished_at": "2026-10-14T02:53:05.290191Z",
+    "outcome_available_at": "2026-10-14T02:55:03.93949Z",
+    "home_line": -13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "59-72"
+  },
+  {
+    "fixture_id": "202799709",
+    "fixture_family": [
+      "202799709"
+    ],
+    "league": "Philippines UAAP Women",
+    "decision_at": "2026-10-14T02:00:37.925155Z",
+    "finished_at": "2026-10-14T03:49:05.572578Z",
+    "outcome_available_at": "2026-10-14T03:51:04.009853Z",
+    "home_line": -25.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "88-42"
+  },
+  {
+    "fixture_id": "202799809",
+    "fixture_family": [
+      "202799809"
+    ],
+    "league": "Philippines UAAP Women",
+    "decision_at": "2026-10-14T04:07:36.918081Z",
+    "finished_at": "2026-10-14T05:28:04.098206Z",
+    "outcome_available_at": "2026-10-14T05:30:04.00306Z",
+    "home_line": -36.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "59-47"
+  },
+  {
+    "fixture_id": "202896175",
+    "fixture_family": [
+      "202888752",
+      "202896175"
+    ],
+    "league": "Korea College",
+    "decision_at": "2026-10-14T07:16:36.595273Z",
+    "finished_at": "2026-10-14T08:42:04.18091Z",
+    "outcome_available_at": "2026-10-14T08:44:03.983099Z",
+    "home_line": 20.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "54-67"
+  },
+  {
+    "fixture_id": "202843771",
+    "fixture_family": [
+      "202843771"
+    ],
+    "league": "Japan W League United Cup Women",
+    "decision_at": "2026-10-14T08:00:36.800844Z",
+    "finished_at": "2026-10-14T09:40:04.31028Z",
+    "outcome_available_at": "2026-10-14T09:42:04.144608Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-76"
+  },
+  {
+    "fixture_id": "202781200",
+    "fixture_family": [
+      "202781200"
+    ],
+    "league": "Kazakhstan Higher League",
+    "decision_at": "2026-10-14T09:00:06.583995Z",
+    "finished_at": "2026-10-14T10:24:04.095072Z",
+    "outcome_available_at": "2026-10-14T10:26:04.123201Z",
+    "home_line": -27.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "77-54"
+  },
+  {
+    "fixture_id": "202173132",
+    "fixture_family": [
+      "202173132"
+    ],
+    "league": "Philippines PBA Governors' Cup",
+    "decision_at": "2026-10-14T09:15:05.289457Z",
+    "finished_at": "2026-10-14T11:17:05.613911Z",
+    "outcome_available_at": "2026-10-14T11:19:04.039834Z",
+    "home_line": 13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "105-135"
+  },
+  {
+    "fixture_id": "202825610",
+    "fixture_family": [
+      "202825610"
+    ],
+    "league": "Philippines UAAP",
+    "decision_at": "2026-10-14T09:42:08.286637Z",
+    "finished_at": "2026-10-14T11:52:04.37625Z",
+    "outcome_available_at": "2026-10-14T11:54:04.215438Z",
+    "home_line": 7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "67-69"
+  },
+  {
+    "fixture_id": "202173313",
+    "fixture_family": [
+      "202173313"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-14T10:09:07.989658Z",
+    "finished_at": "2026-10-14T12:04:04.201833Z",
+    "outcome_available_at": "2026-10-14T12:06:04.05816Z",
+    "home_line": -9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "87-82"
+  },
+  {
+    "fixture_id": "202173253",
+    "fixture_family": [
+      "202173253"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-14T10:10:35.176718Z",
+    "finished_at": "2026-10-14T12:15:04.361507Z",
+    "outcome_available_at": "2026-10-14T12:17:05.754305Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "75-70"
+  },
+  {
+    "fixture_id": "202173262",
+    "fixture_family": [
+      "202173262"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-14T10:10:36.533724Z",
+    "finished_at": "2026-10-14T12:07:04.080249Z",
+    "outcome_available_at": "2026-10-14T12:09:05.549439Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "84-64"
+  },
+  {
+    "fixture_id": "202173287",
+    "fixture_family": [
+      "202173287"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-14T10:11:13.870346Z",
+    "finished_at": "2026-10-14T12:00:04.143737Z",
+    "outcome_available_at": "2026-10-14T12:02:04.09996Z",
+    "home_line": 8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "74-101"
+  },
+  {
+    "fixture_id": "202863876",
+    "fixture_family": [
+      "202863876"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-14T11:01:05.614943Z",
+    "finished_at": "2026-10-14T12:35:04.089232Z",
+    "outcome_available_at": "2026-10-14T12:37:05.630983Z",
+    "home_line": -23.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "107-87"
+  },
+  {
+    "fixture_id": "202845508",
+    "fixture_family": [
+      "202845508"
+    ],
+    "league": "Georgia League U22",
+    "decision_at": "2026-10-14T12:01:35.976908Z",
+    "finished_at": "2026-10-14T13:44:04.127141Z",
+    "outcome_available_at": "2026-10-14T13:46:04.109469Z",
+    "home_line": -1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "83-76"
+  },
+  {
+    "fixture_id": "202851038",
+    "fixture_family": [
+      "202851038"
+    ],
+    "league": "Poland 2 Liga",
+    "decision_at": "2026-10-14T14:00:35.328013Z",
+    "finished_at": "2026-10-14T15:40:04.314319Z",
+    "outcome_available_at": "2026-10-14T15:42:04.210297Z",
+    "home_line": -4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "84-76"
+  },
+  {
+    "fixture_id": "202895410",
+    "fixture_family": [
+      "202895410"
+    ],
+    "league": "Baltic WBBL Women",
+    "decision_at": "2026-10-14T15:01:38.229667Z",
+    "finished_at": "2026-10-14T16:44:04.368662Z",
+    "outcome_available_at": "2026-10-14T16:46:04.166362Z",
+    "home_line": -1.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "74-62"
+  },
+  {
+    "fixture_id": "202851027",
+    "fixture_family": [
+      "202851027"
+    ],
+    "league": "Poland 2 Liga",
+    "decision_at": "2026-10-14T15:31:09.788683Z",
+    "finished_at": "2026-10-14T17:15:04.17003Z",
+    "outcome_available_at": "2026-10-14T17:17:05.876672Z",
+    "home_line": -14.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-73"
+  },
+  {
+    "fixture_id": "202173250",
+    "fixture_family": [
+      "202173250"
+    ],
+    "league": "Slovenia SKL",
+    "decision_at": "2026-10-14T15:59:36.746493Z",
+    "finished_at": "2026-10-14T17:34:04.126628Z",
+    "outcome_available_at": "2026-10-14T17:36:04.242667Z",
+    "home_line": -25.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "92-68"
+  },
+  {
+    "fixture_id": "202481309",
+    "fixture_family": [
+      "202481309"
+    ],
+    "league": "FIBA Europe Cup",
+    "decision_at": "2026-10-14T16:00:06.989549Z",
+    "finished_at": "2026-10-14T17:44:04.163093Z",
+    "outcome_available_at": "2026-10-14T17:46:04.293595Z",
+    "home_line": 12.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "62-94"
+  },
+  {
+    "fixture_id": "202481326",
+    "fixture_family": [
+      "202481326"
+    ],
+    "league": "FIBA Europe Cup",
+    "decision_at": "2026-10-14T16:00:35.324824Z",
+    "finished_at": "2026-10-14T18:04:04.436352Z",
+    "outcome_available_at": "2026-10-14T18:06:04.24287Z",
+    "home_line": 5.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "83-87"
+  },
+  {
+    "fixture_id": "202856316",
+    "fixture_family": [
+      "202856316"
+    ],
+    "league": "Euro Cup Women",
+    "decision_at": "2026-10-14T16:01:05.499227Z",
+    "finished_at": "2026-10-14T17:40:04.193719Z",
+    "outcome_available_at": "2026-10-14T17:42:04.49512Z",
+    "home_line": -27.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "89-71"
+  },
+  {
+    "fixture_id": "202481340",
+    "fixture_family": [
+      "202481340"
+    ],
+    "league": "FIBA Europe Cup",
+    "decision_at": "2026-10-14T16:01:05.499303Z",
+    "finished_at": "2026-10-14T17:56:04.62085Z",
+    "outcome_available_at": "2026-10-14T17:58:04.466861Z",
+    "home_line": 10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "79-69"
+  },
+  {
+    "fixture_id": "202175051",
+    "fixture_family": [
+      "202175051"
+    ],
+    "league": "Euroleague Women",
+    "decision_at": "2026-10-14T16:01:51.842918Z",
+    "finished_at": "2026-10-14T17:46:04.262475Z",
+    "outcome_available_at": "2026-10-14T17:48:04.273932Z",
+    "home_line": -12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-56"
+  },
+  {
+    "fixture_id": "202481320",
+    "fixture_family": [
+      "202481320"
+    ],
+    "league": "FIBA Europe Cup",
+    "decision_at": "2026-10-14T16:02:26.462757Z",
+    "finished_at": "2026-10-14T17:38:04.16333Z",
+    "outcome_available_at": "2026-10-14T17:40:04.217032Z",
+    "home_line": 4.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "62-102"
+  },
+  {
+    "fixture_id": "202173234",
+    "fixture_family": [
+      "202173234"
+    ],
+    "league": "Basketball Champions League",
+    "decision_at": "2026-10-14T16:02:26.462841Z",
+    "finished_at": "2026-10-14T17:51:04.478039Z",
+    "outcome_available_at": "2026-10-14T17:53:05.887307Z",
+    "home_line": -16.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "100-83"
+  },
+  {
+    "fixture_id": "202173433",
+    "fixture_family": [
+      "202173433"
+    ],
+    "league": "Latvia-Estonia BL",
+    "decision_at": "2026-10-14T16:02:29.702674Z",
+    "finished_at": "2026-10-14T17:54:04.211311Z",
+    "outcome_available_at": "2026-10-14T17:56:04.646621Z",
+    "home_line": 3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "71-78"
+  },
+  {
+    "fixture_id": "202173151",
+    "fixture_family": [
+      "202173151"
+    ],
+    "league": "Euro Cup",
+    "decision_at": "2026-10-14T16:02:35.537948Z",
+    "finished_at": "2026-10-14T18:14:04.301594Z",
+    "outcome_available_at": "2026-10-14T18:16:04.437416Z",
+    "home_line": 3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-79"
+  },
+  {
+    "fixture_id": "202848009",
+    "fixture_family": [
+      "202848009"
+    ],
+    "league": "ENBL",
+    "decision_at": "2026-10-14T16:02:45.255474Z",
+    "finished_at": "2026-10-14T17:59:04.440268Z",
+    "outcome_available_at": "2026-10-14T18:01:08.890365Z",
+    "home_line": -4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "93-82"
+  },
+  {
+    "fixture_id": "202481347",
+    "fixture_family": [
+      "202481347"
+    ],
+    "league": "FIBA Europe Cup",
+    "decision_at": "2026-10-14T16:31:35.310791Z",
+    "finished_at": "2026-10-14T18:38:04.589076Z",
+    "outcome_available_at": "2026-10-14T18:40:04.496429Z",
+    "home_line": -4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "74-65"
+  },
+  {
+    "fixture_id": "202481350",
+    "fixture_family": [
+      "202481350"
+    ],
+    "league": "FIBA Europe Cup",
+    "decision_at": "2026-10-14T16:31:35.310791Z",
+    "finished_at": "2026-10-14T18:21:05.656611Z",
+    "outcome_available_at": "2026-10-14T18:23:04.244346Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "71-74"
+  },
+  {
+    "fixture_id": "202840634",
+    "fixture_family": [
+      "202840634"
+    ],
+    "league": "Latvia NBL",
+    "decision_at": "2026-10-14T16:59:35.368823Z",
+    "finished_at": "2026-10-14T18:42:04.391764Z",
+    "outcome_available_at": "2026-10-14T18:44:04.5074Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "100-78"
+  },
+  {
+    "fixture_id": "202860317",
+    "fixture_family": [
+      "202860317"
+    ],
+    "league": "Euroleague Women",
+    "decision_at": "2026-10-14T17:01:05.496726Z",
+    "finished_at": "2026-10-14T19:04:04.379072Z",
+    "outcome_available_at": "2026-10-14T19:06:04.290184Z",
+    "home_line": -7.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "76-75"
+  },
+  {
+    "fixture_id": "202173166",
+    "fixture_family": [
+      "202173166"
+    ],
+    "league": "Germany Pro A",
+    "decision_at": "2026-10-14T17:01:05.496888Z",
+    "finished_at": "2026-10-14T18:58:04.343008Z",
+    "outcome_available_at": "2026-10-14T19:00:04.32396Z",
+    "home_line": 1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "89-100"
+  },
+  {
+    "fixture_id": "202175054",
+    "fixture_family": [
+      "202175054"
+    ],
+    "league": "Euroleague Women",
+    "decision_at": "2026-10-14T17:01:09.503578Z",
+    "finished_at": "2026-10-14T18:50:04.424967Z",
+    "outcome_available_at": "2026-10-14T18:52:04.444236Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "76-55"
+  },
+  {
+    "fixture_id": "202339141",
+    "fixture_family": [
+      "202339141"
+    ],
+    "league": "Czechia ZBL Women",
+    "decision_at": "2026-10-14T17:01:35.370133Z",
+    "finished_at": "2026-10-14T18:43:04.229956Z",
+    "outcome_available_at": "2026-10-14T18:45:05.965099Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "86-72"
+  },
+  {
+    "fixture_id": "202173280",
+    "fixture_family": [
+      "202173280"
+    ],
+    "league": "Euro Cup",
+    "decision_at": "2026-10-14T17:02:07.093724Z",
+    "finished_at": "2026-10-14T19:08:04.275056Z",
+    "outcome_available_at": "2026-10-14T19:10:04.426705Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "90-85"
+  },
+  {
+    "fixture_id": "202797535",
+    "fixture_family": [
+      "202797535"
+    ],
+    "league": "Tunisia League",
+    "decision_at": "2026-10-14T17:02:35.413858Z",
+    "finished_at": "2026-10-14T18:59:04.323268Z",
+    "outcome_available_at": "2026-10-14T19:01:05.90963Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "58-66"
+  },
+  {
+    "fixture_id": "202173323",
+    "fixture_family": [
+      "202173323"
+    ],
+    "league": "BNXT League",
+    "decision_at": "2026-10-14T17:31:05.40724Z",
+    "finished_at": "2026-10-14T19:10:04.405181Z",
+    "outcome_available_at": "2026-10-14T19:12:04.640613Z",
+    "home_line": -1.5,
+    "home_price": 1.9523809523809523,
+    "away_price": 1.7407407407407407,
+    "market_home_probability": 0.4713467048710602,
+    "home_covered": 0,
+    "final_score": "63-90"
+  },
+  {
+    "fixture_id": "202173274",
+    "fixture_family": [
+      "202173274"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-14T17:32:07.20026Z",
+    "finished_at": "2026-10-14T19:41:05.814992Z",
+    "outcome_available_at": "2026-10-14T19:43:04.135703Z",
+    "home_line": -5.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "93-101"
+  },
+  {
+    "fixture_id": "202286441",
+    "fixture_family": [
+      "202286441"
+    ],
+    "league": "Croatia A1 Liga",
+    "decision_at": "2026-10-14T17:39:43.51755Z",
+    "finished_at": "2026-10-14T19:20:04.231285Z",
+    "outcome_available_at": "2026-10-14T19:22:04.890044Z",
+    "home_line": 4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "89-96"
+  },
+  {
+    "fixture_id": "202850372",
+    "fixture_family": [
+      "202850372"
+    ],
+    "league": "Adriatic League Div 2",
+    "decision_at": "2026-10-14T18:01:06.828998Z",
+    "finished_at": "2026-10-14T19:59:04.46735Z",
+    "outcome_available_at": "2026-10-14T20:10:51.142722Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "79-76"
+  },
+  {
+    "fixture_id": "202856325",
+    "fixture_family": [
+      "202856325"
+    ],
+    "league": "Euro Cup Women",
+    "decision_at": "2026-10-14T18:01:35.695529Z",
+    "finished_at": "2026-10-14T19:51:04.134772Z",
+    "outcome_available_at": "2026-10-14T19:53:05.566707Z",
+    "home_line": -41.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "89-54"
+  },
+  {
+    "fixture_id": "202856328",
+    "fixture_family": [
+      "202856328"
+    ],
+    "league": "Euro Cup Women",
+    "decision_at": "2026-10-14T18:01:37.455504Z",
+    "finished_at": "2026-10-14T19:50:04.07664Z",
+    "outcome_available_at": "2026-10-14T19:52:04.106605Z",
+    "home_line": -34.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "92-51"
+  },
+  {
+    "fixture_id": "202339427",
+    "fixture_family": [
+      "202339427"
+    ],
+    "league": "Spain Liga ACB",
+    "decision_at": "2026-10-14T18:03:35.45951Z",
+    "finished_at": "2026-10-14T19:55:04.070699Z",
+    "outcome_available_at": "2026-10-14T19:57:08.812855Z",
+    "home_line": -7.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "96-75"
+  },
+  {
+    "fixture_id": "202173265",
+    "fixture_family": [
+      "202173265"
+    ],
+    "league": "Slovenia SKL",
+    "decision_at": "2026-10-14T18:30:05.644744Z",
+    "finished_at": "2026-10-14T19:58:03.988822Z",
+    "outcome_available_at": "2026-10-14T20:10:51.114533Z",
+    "home_line": 15.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "65-88"
+  },
+  {
+    "fixture_id": "202863883",
+    "fixture_family": [
+      "202863883"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-14T18:32:07.175106Z",
+    "finished_at": "2026-10-14T20:17:12.229344Z",
+    "outcome_available_at": "2026-10-14T20:19:12.846512Z",
+    "home_line": 16.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "87-94"
+  },
+  {
+    "fixture_id": "202856498",
+    "fixture_family": [
+      "202856498"
+    ],
+    "league": "Euro Cup Women",
+    "decision_at": "2026-10-14T18:39:21.817369Z",
+    "finished_at": "2026-10-14T20:32:12.302496Z",
+    "outcome_available_at": "2026-10-14T20:34:12.203087Z",
+    "home_line": -18.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "75-64"
+  },
+  {
+    "fixture_id": "202727504",
+    "fixture_family": [
+      "202727504"
+    ],
+    "league": "Switzerland NLB",
+    "decision_at": "2026-10-14T18:48:36.734757Z",
+    "finished_at": "2026-10-14T20:25:12.189077Z",
+    "outcome_available_at": "2026-10-14T20:27:20.079105Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "60-57"
+  },
+  {
+    "fixture_id": "202769546",
+    "fixture_family": [
+      "202769546"
+    ],
+    "league": "Euro Cup",
+    "decision_at": "2026-10-14T19:16:36.878916Z",
+    "finished_at": "2026-10-14T21:04:48.60178Z",
+    "outcome_available_at": "2026-10-14T21:06:56.452282Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "96-71"
+  },
+  {
+    "fixture_id": "202814377",
+    "fixture_family": [
+      "202814377"
+    ],
+    "league": "Iceland Division 1",
+    "decision_at": "2026-10-14T19:19:20.629653Z",
+    "finished_at": "2026-10-14T20:52:48.620763Z",
+    "outcome_available_at": "2026-10-14T20:54:49.308941Z",
+    "home_line": -6.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "99-89"
+  },
+  {
+    "fixture_id": "202897174",
+    "fixture_family": [
+      "202897174"
+    ],
+    "league": "Ghana ABL",
+    "decision_at": "2026-10-14T20:09:56.758974Z",
+    "finished_at": "2026-10-14T21:34:49.252508Z",
+    "outcome_available_at": "2026-10-14T21:36:48.645428Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "56-71"
+  },
+  {
+    "fixture_id": "202854934",
+    "fixture_family": [
+      "202854934"
+    ],
+    "league": "Uruguay Tercera de Ascenso",
+    "decision_at": "2026-10-14T23:47:51.430569Z",
+    "finished_at": "2026-10-15T01:29:12.566177Z",
+    "outcome_available_at": "2026-10-15T01:31:12.581589Z",
+    "home_line": -9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "59-64"
+  },
+  {
+    "fixture_id": "202865541",
+    "fixture_family": [
+      "202865541"
+    ],
+    "league": "Puerto Rico Superior Nacional Women",
+    "decision_at": "2026-10-15T00:00:51.426176Z",
+    "finished_at": "2026-10-15T01:41:12.576134Z",
+    "outcome_available_at": "2026-10-15T01:43:12.56703Z",
+    "home_line": 1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "64-78"
+  },
+  {
+    "fixture_id": "202865574",
+    "fixture_family": [
+      "202865574"
+    ],
+    "league": "Puerto Rico Superior Nacional Women",
+    "decision_at": "2026-10-15T00:02:42.080762Z",
+    "finished_at": "2026-10-15T01:50:12.564667Z",
+    "outcome_available_at": "2026-10-15T01:52:13.238941Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "76-63"
+  },
+  {
+    "fixture_id": "202803882",
+    "fixture_family": [
+      "202803882"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-15T00:10:51.430225Z",
+    "finished_at": "2026-10-15T02:41:12.542291Z",
+    "outcome_available_at": "2026-10-15T02:43:12.554627Z",
+    "home_line": 4.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "104-125"
+  },
+  {
+    "fixture_id": "202901584",
+    "fixture_family": [
+      "202901584"
+    ],
+    "league": "Chile LNB",
+    "decision_at": "2026-10-15T00:31:21.444455Z",
+    "finished_at": "2026-10-15T02:22:12.547263Z",
+    "outcome_available_at": "2026-10-15T02:24:13.177654Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-75"
+  },
+  {
+    "fixture_id": "202905856",
+    "fixture_family": [
+      "202905856"
+    ],
+    "league": "Ecuador NL",
+    "decision_at": "2026-10-15T01:00:55.173293Z",
+    "finished_at": "2026-10-15T02:55:12.560119Z",
+    "outcome_available_at": "2026-10-15T02:57:12.549805Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "84-73"
+  },
+  {
+    "fixture_id": "202814478",
+    "fixture_family": [
+      "202814478"
+    ],
+    "league": "Colombia Liga",
+    "decision_at": "2026-10-15T01:34:51.441032Z",
+    "finished_at": "2026-10-15T03:30:12.552349Z",
+    "outcome_available_at": "2026-10-15T03:32:13.285243Z",
+    "home_line": -4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "66-69"
+  },
+  {
+    "fixture_id": "202867431",
+    "fixture_family": [
+      "202867431"
+    ],
+    "league": "Malaysia Agong Cup",
+    "decision_at": "2026-10-15T04:00:29.540041Z",
+    "finished_at": "2026-10-15T05:44:13.174738Z",
+    "outcome_available_at": "2026-10-15T05:46:12.576975Z",
+    "home_line": 23.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "66-78"
+  },
+  {
+    "fixture_id": "202901066",
+    "fixture_family": [
+      "202901066"
+    ],
+    "league": "Japan W League United Cup Women",
+    "decision_at": "2026-10-15T08:00:21.500604Z",
+    "finished_at": "2026-10-15T10:01:12.611165Z",
+    "outcome_available_at": "2026-10-15T10:03:12.648551Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "82-83"
+  },
+  {
+    "fixture_id": "202898861",
+    "fixture_family": [
+      "202898861"
+    ],
+    "league": "Malaysia Agong Cup",
+    "decision_at": "2026-10-15T08:00:21.500605Z",
+    "finished_at": "2026-10-15T09:41:12.590665Z",
+    "outcome_available_at": "2026-10-15T09:43:12.602547Z",
+    "home_line": -11.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "92-84"
+  },
+  {
+    "fixture_id": "202899317",
+    "fixture_family": [
+      "202899317"
+    ],
+    "league": "Malaysia Agong Cup Women",
+    "decision_at": "2026-10-15T09:59:51.490647Z",
+    "finished_at": "2026-10-15T11:34:12.592659Z",
+    "outcome_available_at": "2026-10-15T11:36:13.23486Z",
+    "home_line": -37.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "88-55"
+  },
+  {
+    "fixture_id": "202915506",
+    "fixture_family": [
+      "202915506"
+    ],
+    "league": "Japan W League United Cup Women",
+    "decision_at": "2026-10-15T10:39:04.19748Z",
+    "finished_at": "2026-10-15T12:09:12.590398Z",
+    "outcome_available_at": "2026-10-15T12:11:12.630605Z",
+    "home_line": -10.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "78-49"
+  },
+  {
+    "fixture_id": "202955233",
+    "fixture_family": [
+      "202955233"
+    ],
+    "league": "Club Friendlies",
+    "decision_at": "2026-10-15T12:03:52.127521Z",
+    "finished_at": "2026-10-15T13:39:12.559074Z",
+    "outcome_available_at": "2026-10-15T13:41:12.582101Z",
+    "home_line": -12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "88-76"
+  },
+  {
+    "fixture_id": "202814237",
+    "fixture_family": [
+      "202814237"
+    ],
+    "league": "Hong Kong BL",
+    "decision_at": "2026-10-15T12:55:21.45184Z",
+    "finished_at": "2026-10-15T14:55:12.568033Z",
+    "outcome_available_at": "2026-10-15T14:57:12.588013Z",
+    "home_line": -7.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "86-82"
+  },
+  {
+    "fixture_id": "202943504",
+    "fixture_family": [
+      "202943504"
+    ],
+    "league": "Club Friendlies",
+    "decision_at": "2026-10-15T14:35:55.244414Z",
+    "finished_at": "2026-10-15T16:23:12.585852Z",
+    "outcome_available_at": "2026-10-15T16:25:12.604044Z",
+    "home_line": 9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "69-90"
+  },
+  {
+    "fixture_id": "202230598",
+    "fixture_family": [
+      "202230598"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-15T15:00:52.069118Z",
+    "finished_at": "2026-10-15T16:47:12.627954Z",
+    "outcome_available_at": "2026-10-15T16:49:12.59511Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "72-85"
+  },
+  {
+    "fixture_id": "202230561",
+    "fixture_family": [
+      "202230561"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-15T15:01:21.505027Z",
+    "finished_at": "2026-10-15T17:15:12.613247Z",
+    "outcome_available_at": "2026-10-15T17:17:13.435341Z",
+    "home_line": 1.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "110-105"
+  },
+  {
+    "fixture_id": "202230424",
+    "fixture_family": [
+      "202230424"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-15T16:01:52.243147Z",
+    "finished_at": "2026-10-15T17:57:12.61407Z",
+    "outcome_available_at": "2026-10-15T17:59:12.642577Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "92-85"
+  },
+  {
+    "fixture_id": "202230567",
+    "fixture_family": [
+      "202230567"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-15T16:04:21.47018Z",
+    "finished_at": "2026-10-15T17:36:13.212029Z",
+    "outcome_available_at": "2026-10-15T17:38:12.580564Z",
+    "home_line": -4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "102-76"
+  },
+  {
+    "fixture_id": "202814625",
+    "fixture_family": [
+      "202814625"
+    ],
+    "league": "Estonia 1 Liiga",
+    "decision_at": "2026-10-15T16:46:21.487621Z",
+    "finished_at": "2026-10-15T18:33:12.646592Z",
+    "outcome_available_at": "2026-10-15T18:35:12.624851Z",
+    "home_line": 2.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "78-84"
+  },
+  {
+    "fixture_id": "202868880",
+    "fixture_family": [
+      "202868880"
+    ],
+    "league": "Euro Cup Women",
+    "decision_at": "2026-10-15T17:01:21.510738Z",
+    "finished_at": "2026-10-15T18:39:12.607769Z",
+    "outcome_available_at": "2026-10-15T18:41:12.619583Z",
+    "home_line": -17.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "72-59"
+  },
+  {
+    "fixture_id": "202868889",
+    "fixture_family": [
+      "202868889"
+    ],
+    "league": "Euro Cup Women",
+    "decision_at": "2026-10-15T17:31:22.14512Z",
+    "finished_at": "2026-10-15T19:12:13.373214Z",
+    "outcome_available_at": "2026-10-15T19:14:12.650576Z",
+    "home_line": -49.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "111-47"
+  },
+  {
+    "fixture_id": "202230585",
+    "fixture_family": [
+      "202230585"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-15T17:45:51.487571Z",
+    "finished_at": "2026-10-15T19:39:13.507355Z",
+    "outcome_available_at": "2026-10-15T19:41:12.620154Z",
+    "home_line": -10.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "74-65"
+  },
+  {
+    "fixture_id": "202868895",
+    "fixture_family": [
+      "202868895"
+    ],
+    "league": "Euro Cup Women",
+    "decision_at": "2026-10-15T18:30:55.261841Z",
+    "finished_at": "2026-10-15T20:18:12.591706Z",
+    "outcome_available_at": "2026-10-15T20:20:13.326345Z",
+    "home_line": 6.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "60-70"
+  },
+  {
+    "fixture_id": "202230204",
+    "fixture_family": [
+      "202230204"
+    ],
+    "league": "Euro Cup",
+    "decision_at": "2026-10-15T18:32:22.164764Z",
+    "finished_at": "2026-10-15T20:36:16.258003Z",
+    "outcome_available_at": "2026-10-15T20:38:12.579998Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "76-81"
+  },
+  {
+    "fixture_id": "202230268",
+    "fixture_family": [
+      "202230268"
+    ],
+    "league": "Iceland Premier League",
+    "decision_at": "2026-10-15T19:15:51.501226Z",
+    "finished_at": "2026-10-15T20:54:12.523991Z",
+    "outcome_available_at": "2026-10-15T20:56:13.155516Z",
+    "home_line": -24.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "109-85"
+  },
+  {
+    "fixture_id": "202229431",
+    "fixture_family": [
+      "202229431"
+    ],
+    "league": "Iceland Division 1",
+    "decision_at": "2026-10-15T19:16:51.512253Z",
+    "finished_at": "2026-10-15T21:19:12.500217Z",
+    "outcome_available_at": "2026-10-15T21:21:12.510378Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "86-69"
+  },
+  {
+    "fixture_id": "202230218",
+    "fixture_family": [
+      "202230218"
+    ],
+    "league": "Iceland Premier League",
+    "decision_at": "2026-10-15T19:16:51.512316Z",
+    "finished_at": "2026-10-15T21:00:16.224572Z",
+    "outcome_available_at": "2026-10-15T21:02:12.517194Z",
+    "home_line": -13.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "84-73"
+  },
+  {
+    "fixture_id": "202906712",
+    "fixture_family": [
+      "202906712"
+    ],
+    "league": "Brazil Camp.Carioca",
+    "decision_at": "2026-10-15T22:03:22.640637Z",
+    "finished_at": "2026-10-15T23:53:12.526482Z",
+    "outcome_available_at": "2026-10-15T23:55:12.54154Z",
+    "home_line": -15.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "84-77"
+  },
+  {
+    "fixture_id": "202913921",
+    "fixture_family": [
+      "202913921"
+    ],
+    "league": "Chile Liga Desarrollo U21",
+    "decision_at": "2026-10-15T23:00:21.396711Z",
+    "finished_at": "2026-10-16T00:36:13.133418Z",
+    "outcome_available_at": "2026-10-16T00:38:12.554869Z",
+    "home_line": -12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "59-69"
+  },
+  {
+    "fixture_id": "202914946",
+    "fixture_family": [
+      "202914946"
+    ],
+    "league": "Chile LNB",
+    "decision_at": "2026-10-15T23:31:21.417817Z",
+    "finished_at": "2026-10-16T01:10:12.572095Z",
+    "outcome_available_at": "2026-10-16T01:12:13.172274Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "91-73"
+  },
+  {
+    "fixture_id": "202898360",
+    "fixture_family": [
+      "202898360"
+    ],
+    "league": "Uruguay Tercera de Ascenso",
+    "decision_at": "2026-10-15T23:45:51.45148Z",
+    "finished_at": "2026-10-16T01:33:12.559166Z",
+    "outcome_available_at": "2026-10-16T01:35:12.585475Z",
+    "home_line": 1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "68-71"
+  },
+  {
+    "fixture_id": "202967423",
+    "fixture_family": [
+      "202967423"
+    ],
+    "league": "Nicaragua LSB",
+    "decision_at": "2026-10-16T00:30:52.028981Z",
+    "finished_at": "2026-10-16T02:40:34.188862Z",
+    "outcome_available_at": "2026-10-16T02:42:49.865972Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-73"
+  },
+  {
+    "fixture_id": "202914579",
+    "fixture_family": [
+      "202914579"
+    ],
+    "league": "Argentina La Liga Proximo",
+    "decision_at": "2026-10-16T01:01:21.43994Z",
+    "finished_at": "2026-10-16T02:41:48.506748Z",
+    "outcome_available_at": "2026-10-16T02:43:49.227776Z",
+    "home_line": 1.5,
+    "home_price": 1.7407407407407407,
+    "away_price": 1.9523809523809523,
+    "market_home_probability": 0.5286532951289399,
+    "home_covered": 0,
+    "final_score": "50-65"
+  },
+  {
+    "fixture_id": "202841059",
+    "fixture_family": [
+      "202841059"
+    ],
+    "league": "Mexico LNBP",
+    "decision_at": "2026-10-16T02:02:21.440361Z",
+    "finished_at": "2026-10-16T04:20:21.56483Z",
+    "outcome_available_at": "2026-10-16T04:22:21.57111Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "84-95"
+  },
+  {
+    "fixture_id": "202968609",
+    "fixture_family": [
+      "202968609"
+    ],
+    "league": "Costa Rica LSB Women",
+    "decision_at": "2026-10-16T02:40:15.342512Z",
+    "finished_at": "2026-10-16T04:06:21.548034Z",
+    "outcome_available_at": "2026-10-16T04:08:21.581602Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "55-63"
+  },
+  {
+    "fixture_id": "202898872",
+    "fixture_family": [
+      "202898872"
+    ],
+    "league": "Malaysia Agong Cup",
+    "decision_at": "2026-10-16T06:01:31.72381Z",
+    "finished_at": "2026-10-16T07:39:50.085654Z",
+    "outcome_available_at": "2026-10-16T07:41:50.699926Z",
+    "home_line": 30.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "74-73"
+  },
+  {
+    "fixture_id": "202916227",
+    "fixture_family": [
+      "202916227"
+    ],
+    "league": "Philippines NCAA",
+    "decision_at": "2026-10-16T07:10:20.340796Z",
+    "finished_at": "2026-10-16T09:21:52.811359Z",
+    "outcome_available_at": "2026-10-16T09:23:52.856658Z",
+    "home_line": -8.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "65-60"
+  },
+  {
+    "fixture_id": "202969357",
+    "fixture_family": [
+      "202969357"
+    ],
+    "league": "Japan W League United Cup Women",
+    "decision_at": "2026-10-16T08:00:53.343099Z",
+    "finished_at": "2026-10-16T09:55:52.817219Z",
+    "outcome_available_at": "2026-10-16T09:57:52.830973Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "69-53"
+  },
+  {
+    "fixture_id": "202915869",
+    "fixture_family": [
+      "202915869"
+    ],
+    "league": "Malaysia Agong Cup",
+    "decision_at": "2026-10-16T09:59:51.490935Z",
+    "finished_at": "2026-10-16T12:01:52.885446Z",
+    "outcome_available_at": "2026-10-16T12:03:52.886743Z",
+    "home_line": -5.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "89-85"
+  },
+  {
+    "fixture_id": "202916296",
+    "fixture_family": [
+      "202916296"
+    ],
+    "league": "Israel National League",
+    "decision_at": "2026-10-16T10:03:44.194483Z",
+    "finished_at": "2026-10-16T11:29:52.79994Z",
+    "outcome_available_at": "2026-10-16T11:31:52.810538Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "63-94"
+  },
+  {
+    "fixture_id": "202286368",
+    "fixture_family": [
+      "202286368"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-16T10:10:21.48281Z",
+    "finished_at": "2026-10-16T12:21:52.847743Z",
+    "outcome_available_at": "2026-10-16T12:23:52.822044Z",
+    "home_line": -3.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "72-81"
+  },
+  {
+    "fixture_id": "202916293",
+    "fixture_family": [
+      "202916293"
+    ],
+    "league": "Israel National League",
+    "decision_at": "2026-10-16T10:33:21.495712Z",
+    "finished_at": "2026-10-16T12:24:52.813096Z",
+    "outcome_available_at": "2026-10-16T12:26:53.49256Z",
+    "home_line": 3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "86-78"
+  },
+  {
+    "fixture_id": "202896517",
+    "fixture_family": [
+      "202896517"
+    ],
+    "league": "Georgia League U22",
+    "decision_at": "2026-10-16T11:12:24.991599Z",
+    "finished_at": "2026-10-16T12:43:52.797255Z",
+    "outcome_available_at": "2026-10-16T12:45:52.83813Z",
+    "home_line": -9.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "94-82"
+  },
+  {
+    "fixture_id": "202898875",
+    "fixture_family": [
+      "202898875"
+    ],
+    "league": "Malaysia Agong Cup",
+    "decision_at": "2026-10-16T12:23:21.481653Z",
+    "finished_at": "2026-10-16T13:42:53.507666Z",
+    "outcome_available_at": "2026-10-16T13:44:52.82643Z",
+    "home_line": -24.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "100-68"
+  },
+  {
+    "fixture_id": "202912165",
+    "fixture_family": [
+      "202912165"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-16T13:30:21.500682Z",
+    "finished_at": "2026-10-16T15:08:52.800896Z",
+    "outcome_available_at": "2026-10-16T15:10:53.466258Z",
+    "home_line": -17.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "114-71"
+  },
+  {
+    "fixture_id": "202904374",
+    "fixture_family": [
+      "202904374"
+    ],
+    "league": "Algeria National A Women",
+    "decision_at": "2026-10-16T14:00:52.203521Z",
+    "finished_at": "2026-10-16T15:35:52.805924Z",
+    "outcome_available_at": "2026-10-16T15:37:52.825998Z",
+    "home_line": -28.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "62-29"
+  },
+  {
+    "fixture_id": "202904377",
+    "fixture_family": [
+      "202904377"
+    ],
+    "league": "Algeria National A Women",
+    "decision_at": "2026-10-16T14:02:21.529444Z",
+    "finished_at": "2026-10-16T15:43:52.814473Z",
+    "outcome_available_at": "2026-10-16T15:45:52.834251Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "51-70"
+  },
+  {
+    "fixture_id": "203011508",
+    "fixture_family": [
+      "203011508"
+    ],
+    "league": "Club Friendlies",
+    "decision_at": "2026-10-16T14:42:21.508283Z",
+    "finished_at": "2026-10-16T16:18:53.453389Z",
+    "outcome_available_at": "2026-10-16T16:20:52.849035Z",
+    "home_line": -16.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "119-62"
+  },
+  {
+    "fixture_id": "202340322",
+    "fixture_family": [
+      "202340322"
+    ],
+    "league": "T\u00fcrkiye TB2L",
+    "decision_at": "2026-10-16T15:00:51.453203Z",
+    "finished_at": "2026-10-16T16:54:53.463709Z",
+    "outcome_available_at": "2026-10-16T16:56:52.882733Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "68-74"
+  },
+  {
+    "fixture_id": "202966291",
+    "fixture_family": [
+      "202966291"
+    ],
+    "league": "T\u00fcrkiye TB2L",
+    "decision_at": "2026-10-16T15:04:21.790166Z",
+    "finished_at": "2026-10-16T17:14:53.46449Z",
+    "outcome_available_at": "2026-10-16T17:16:52.885826Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "75-63"
+  },
+  {
+    "fixture_id": "202964710",
+    "fixture_family": [
+      "202964710"
+    ],
+    "league": "Uganda Div 1 Women",
+    "decision_at": "2026-10-16T15:27:21.465404Z",
+    "finished_at": "2026-10-16T17:01:52.843875Z",
+    "outcome_available_at": "2026-10-16T17:03:52.94191Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "47-53"
+  },
+  {
+    "fixture_id": "202286134",
+    "fixture_family": [
+      "202286134"
+    ],
+    "league": "Bulgaria NBL",
+    "decision_at": "2026-10-16T15:31:51.47687Z",
+    "finished_at": "2026-10-16T17:26:53.490818Z",
+    "outcome_available_at": "2026-10-16T17:28:52.892175Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "87-84"
+  },
+  {
+    "fixture_id": "202964330",
+    "fixture_family": [
+      "202964330"
+    ],
+    "league": "Ukraine FBU Superleague",
+    "decision_at": "2026-10-16T15:35:21.478212Z",
+    "finished_at": "2026-10-16T17:40:52.884931Z",
+    "outcome_available_at": "2026-10-16T17:42:53.550308Z",
+    "home_line": 1.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "79-81"
+  },
+  {
+    "fixture_id": "202912171",
+    "fixture_family": [
+      "202912171"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-16T16:00:51.505697Z",
+    "finished_at": "2026-10-16T17:44:52.837898Z",
+    "outcome_available_at": "2026-10-16T17:46:53.565083Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "88-78"
+  },
+  {
+    "fixture_id": "202963320",
+    "fixture_family": [
+      "202963320"
+    ],
+    "league": "North Macedonia Prva League",
+    "decision_at": "2026-10-16T16:01:21.513858Z",
+    "finished_at": "2026-10-16T17:59:52.846187Z",
+    "outcome_available_at": "2026-10-16T18:01:52.905893Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "70-66"
+  },
+  {
+    "fixture_id": "202758046",
+    "fixture_family": [
+      "202758046"
+    ],
+    "league": "T\u00fcrkiye BSL",
+    "decision_at": "2026-10-16T16:01:21.514911Z",
+    "finished_at": "2026-10-16T17:54:53.497805Z",
+    "outcome_available_at": "2026-10-16T17:56:52.884303Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "95-79"
+  },
+  {
+    "fixture_id": "202962032",
+    "fixture_family": [
+      "202962032"
+    ],
+    "league": "Ghana ABL Women",
+    "decision_at": "2026-10-16T16:03:51.503342Z",
+    "finished_at": "2026-10-16T17:31:52.887001Z",
+    "outcome_available_at": "2026-10-16T17:33:52.904231Z",
+    "home_line": -13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "39-45"
+  },
+  {
+    "fixture_id": "202286561",
+    "fixture_family": [
+      "202286561"
+    ],
+    "league": "Cyprus Division A",
+    "decision_at": "2026-10-16T16:06:01.805459Z",
+    "finished_at": "2026-10-16T18:14:53.521625Z",
+    "outcome_available_at": "2026-10-16T18:16:52.918206Z",
+    "home_line": 5.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "87-90"
+  },
+  {
+    "fixture_id": "202965048",
+    "fixture_family": [
+      "202965048"
+    ],
+    "league": "Adriatic League 2 Women",
+    "decision_at": "2026-10-16T16:59:51.508691Z",
+    "finished_at": "2026-10-16T18:45:52.872709Z",
+    "outcome_available_at": "2026-10-16T18:47:52.903497Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "46-60"
+  },
+  {
+    "fixture_id": "202286498",
+    "fixture_family": [
+      "202286498"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-16T17:01:53.496046Z",
+    "finished_at": "2026-10-16T19:05:52.887596Z",
+    "outcome_available_at": "2026-10-16T19:07:52.92897Z",
+    "home_line": -2.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "95-87"
+  },
+  {
+    "fixture_id": "202966650",
+    "fixture_family": [
+      "202966650"
+    ],
+    "league": "Rwanda Cup",
+    "decision_at": "2026-10-16T17:02:53.403407Z",
+    "finished_at": "2026-10-16T18:56:52.856038Z",
+    "outcome_available_at": "2026-10-16T18:58:53.525504Z",
+    "home_line": 2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "85-81"
+  },
+  {
+    "fixture_id": "202285955",
+    "fixture_family": [
+      "202285955"
+    ],
+    "league": "Belgium Div 1 Women",
+    "decision_at": "2026-10-16T17:02:53.404418Z",
+    "finished_at": "2026-10-16T18:41:52.878188Z",
+    "outcome_available_at": "2026-10-16T18:43:52.909551Z",
+    "home_line": -33.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-54"
+  },
+  {
+    "fixture_id": "202480216",
+    "fixture_family": [
+      "202480216"
+    ],
+    "league": "Denmark Basketligaen",
+    "decision_at": "2026-10-16T17:02:53.409347Z",
+    "finished_at": "2026-10-16T18:54:53.473621Z",
+    "outcome_available_at": "2026-10-16T18:56:52.878497Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "72-89"
+  },
+  {
+    "fixture_id": "202286444",
+    "fixture_family": [
+      "202286444"
+    ],
+    "league": "Sweden Basketligan",
+    "decision_at": "2026-10-16T17:05:22.220767Z",
+    "finished_at": "2026-10-16T19:03:52.888685Z",
+    "outcome_available_at": "2026-10-16T19:05:52.911863Z",
+    "home_line": -13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "103-80"
+  },
+  {
+    "fixture_id": "202286658",
+    "fixture_family": [
+      "202286658"
+    ],
+    "league": "Germany Pro A",
+    "decision_at": "2026-10-16T17:31:21.538476Z",
+    "finished_at": "2026-10-16T19:20:52.851577Z",
+    "outcome_available_at": "2026-10-16T19:22:53.508286Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "69-66"
+  },
+  {
+    "fixture_id": "202286624",
+    "fixture_family": [
+      "202286624"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-16T18:00:53.407627Z",
+    "finished_at": "2026-10-16T20:04:53.033659Z",
+    "outcome_available_at": "2026-10-16T20:06:54.924324Z",
+    "home_line": -7.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "90-81"
+  },
+  {
+    "fixture_id": "202286870",
+    "fixture_family": [
+      "202286870"
+    ],
+    "league": "France Ligue B",
+    "decision_at": "2026-10-16T18:00:54.019968Z",
+    "finished_at": "2026-10-16T19:47:52.871159Z",
+    "outcome_available_at": "2026-10-16T19:49:52.877873Z",
+    "home_line": -6.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "81-78"
+  },
+  {
+    "fixture_id": "202285653",
+    "fixture_family": [
+      "202285653"
+    ],
+    "league": "France Ligue A",
+    "decision_at": "2026-10-16T18:01:21.550981Z",
+    "finished_at": "2026-10-16T19:55:52.842564Z",
+    "outcome_available_at": "2026-10-16T19:57:58.346497Z",
+    "home_line": -5.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "72-70"
+  },
+  {
+    "fixture_id": "202285766",
+    "fixture_family": [
+      "202285766"
+    ],
+    "league": "Germany Cup",
+    "decision_at": "2026-10-16T18:01:53.10061Z",
+    "finished_at": "2026-10-16T20:10:53.516974Z",
+    "outcome_available_at": "2026-10-16T20:12:52.869834Z",
+    "home_line": 4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "61-75"
+  },
+  {
+    "fixture_id": "202969072",
+    "fixture_family": [
+      "202969072"
+    ],
+    "league": "Germany Pro B",
+    "decision_at": "2026-10-16T18:01:55.907127Z",
+    "finished_at": "2026-10-16T19:49:52.861708Z",
+    "outcome_available_at": "2026-10-16T19:51:52.921874Z",
+    "home_line": 3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "78-105"
+  },
+  {
+    "fixture_id": "202968915",
+    "fixture_family": [
+      "202968915"
+    ],
+    "league": "Germany Pro B",
+    "decision_at": "2026-10-16T18:02:51.560237Z",
+    "finished_at": "2026-10-16T19:52:52.90838Z",
+    "outcome_available_at": "2026-10-16T19:54:53.665064Z",
+    "home_line": 1.5,
+    "home_price": 1.7407407407407407,
+    "away_price": 1.9523809523809523,
+    "market_home_probability": 0.5286532951289399,
+    "home_covered": 0,
+    "final_score": "69-82"
+  },
+  {
+    "fixture_id": "202286374",
+    "fixture_family": [
+      "202286374"
+    ],
+    "league": "France Nationale 1",
+    "decision_at": "2026-10-16T18:12:15.135634Z",
+    "finished_at": "2026-10-16T20:19:52.895629Z",
+    "outcome_available_at": "2026-10-16T20:21:52.883788Z",
+    "home_line": -9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "77-79"
+  },
+  {
+    "fixture_id": "202393040",
+    "fixture_family": [
+      "202393040"
+    ],
+    "league": "Poland PLK",
+    "decision_at": "2026-10-16T18:22:21.539376Z",
+    "finished_at": "2026-10-16T20:20:52.833735Z",
+    "outcome_available_at": "2026-10-16T20:25:34.788711Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "73-72"
+  },
+  {
+    "fixture_id": "202286885",
+    "fixture_family": [
+      "202286885"
+    ],
+    "league": "France Ligue B",
+    "decision_at": "2026-10-16T18:30:53.413619Z",
+    "finished_at": "2026-10-16T20:31:35.376219Z",
+    "outcome_available_at": "2026-10-16T20:33:34.745563Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-79"
+  },
+  {
+    "fixture_id": "202286432",
+    "fixture_family": [
+      "202286432"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-16T18:30:53.418512Z",
+    "finished_at": "2026-10-16T20:36:34.784342Z",
+    "outcome_available_at": "2026-10-16T20:38:34.711106Z",
+    "home_line": -4.5,
+    "home_price": 1.9090909090909092,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.48987854251012153,
+    "home_covered": 1,
+    "final_score": "86-78"
+  },
+  {
+    "fixture_id": "202286402",
+    "fixture_family": [
+      "202286402"
+    ],
+    "league": "Euroleague",
+    "decision_at": "2026-10-16T18:30:53.426166Z",
+    "finished_at": "2026-10-16T20:41:34.71963Z",
+    "outcome_available_at": "2026-10-16T20:43:35.338031Z",
+    "home_line": 4.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "100-105"
+  },
+  {
+    "fixture_id": "202286864",
+    "fixture_family": [
+      "202286864"
+    ],
+    "league": "France Ligue B",
+    "decision_at": "2026-10-16T18:31:21.559479Z",
+    "finished_at": "2026-10-16T21:00:34.689767Z",
+    "outcome_available_at": "2026-10-16T21:02:34.698485Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "89-86"
+  },
+  {
+    "fixture_id": "202286882",
+    "fixture_family": [
+      "202286882"
+    ],
+    "league": "France Ligue B",
+    "decision_at": "2026-10-16T18:31:21.559662Z",
+    "finished_at": "2026-10-16T20:44:34.704287Z",
+    "outcome_available_at": "2026-10-16T20:46:34.733944Z",
+    "home_line": 8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-76"
+  },
+  {
+    "fixture_id": "202286429",
+    "fixture_family": [
+      "202286429"
+    ],
+    "league": "Adriatic League",
+    "decision_at": "2026-10-16T18:31:53.482492Z",
+    "finished_at": "2026-10-16T20:27:35.332969Z",
+    "outcome_available_at": "2026-10-16T20:29:34.737862Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-63"
+  },
+  {
+    "fixture_id": "202286646",
+    "fixture_family": [
+      "202286646"
+    ],
+    "league": "Iceland Premier League",
+    "decision_at": "2026-10-16T19:01:23.413556Z",
+    "finished_at": "2026-10-16T20:58:34.709373Z",
+    "outcome_available_at": "2026-10-16T21:00:34.704069Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "98-103"
+  },
+  {
+    "fixture_id": "202286655",
+    "fixture_family": [
+      "202286655"
+    ],
+    "league": "Iceland Premier League",
+    "decision_at": "2026-10-16T19:31:53.489884Z",
+    "finished_at": "2026-10-16T21:18:34.667528Z",
+    "outcome_available_at": "2026-10-16T21:20:34.673462Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "81-74"
+  },
+  {
+    "fixture_id": "202672597",
+    "fixture_family": [
+      "202672597"
+    ],
+    "league": "South American Club League",
+    "decision_at": "2026-10-16T20:11:22.536203Z",
+    "finished_at": "2026-10-16T21:46:34.379013Z",
+    "outcome_available_at": "2026-10-16T21:48:34.662354Z",
+    "home_line": -15.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "101-84"
+  },
+  {
+    "fixture_id": "202966611",
+    "fixture_family": [
+      "202966611"
+    ],
+    "league": "Portugal Div 2 Women",
+    "decision_at": "2026-10-16T20:38:33.267237Z",
+    "finished_at": "2026-10-16T22:20:32.481059Z",
+    "outcome_available_at": "2026-10-16T22:22:33.132963Z",
+    "home_line": -24.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "72-46"
+  },
+  {
+    "fixture_id": "202285958",
+    "fixture_family": [
+      "202285958"
+    ],
+    "league": "Mexico Liga ABE",
+    "decision_at": "2026-10-16T21:04:03.19916Z",
+    "finished_at": "2026-10-16T22:36:32.414338Z",
+    "outcome_available_at": "2026-10-16T22:38:33.027376Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "82-69"
+  },
+  {
+    "fixture_id": "202916799",
+    "fixture_family": [
+      "202916799"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-16T23:11:07.785284Z",
+    "finished_at": "2026-10-17T01:41:32.457308Z",
+    "outcome_available_at": "2026-10-17T01:43:32.461724Z",
+    "home_line": -10.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "120-125"
+  },
+  {
+    "fixture_id": "202571077",
+    "fixture_family": [
+      "202571077"
+    ],
+    "league": "South American Club League",
+    "decision_at": "2026-10-16T23:11:34.084399Z",
+    "finished_at": "2026-10-17T01:02:33.069568Z",
+    "outcome_available_at": "2026-10-17T01:04:32.465423Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "101-80"
+  },
+  {
+    "fixture_id": "202960644",
+    "fixture_family": [
+      "202960644"
+    ],
+    "league": "Paraguay LNCF Women",
+    "decision_at": "2026-10-16T23:31:17.033715Z",
+    "finished_at": "2026-10-17T01:09:32.456381Z",
+    "outcome_available_at": "2026-10-17T01:11:32.478492Z",
+    "home_line": 17.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "55-52"
+  },
+  {
+    "fixture_id": "202907519",
+    "fixture_family": [
+      "202907519"
+    ],
+    "league": "Chile Liga Desarrollo U21",
+    "decision_at": "2026-10-16T23:31:17.03372Z",
+    "finished_at": "2026-10-17T00:57:32.478498Z",
+    "outcome_available_at": "2026-10-17T00:59:32.495226Z",
+    "home_line": 23.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "44-92"
+  },
+  {
+    "fixture_id": "202961467",
+    "fixture_family": [
+      "202961467"
+    ],
+    "league": "Colombia Liga",
+    "decision_at": "2026-10-16T23:49:00.35292Z",
+    "finished_at": "2026-10-17T01:17:32.458665Z",
+    "outcome_available_at": "2026-10-17T01:19:32.470057Z",
+    "home_line": 9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "62-83"
+  },
+  {
+    "fixture_id": "202960647",
+    "fixture_family": [
+      "202960647"
+    ],
+    "league": "Paraguay LNCF Women",
+    "decision_at": "2026-10-17T00:01:34.105587Z",
+    "finished_at": "2026-10-17T01:49:32.446709Z",
+    "outcome_available_at": "2026-10-17T01:51:32.46769Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "65-61"
+  },
+  {
+    "fixture_id": "202916839",
+    "fixture_family": [
+      "202916839"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-17T00:11:08.052533Z",
+    "finished_at": "2026-10-17T02:28:32.44221Z",
+    "outcome_available_at": "2026-10-17T02:30:33.115664Z",
+    "home_line": -13.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "126-97"
+  },
+  {
+    "fixture_id": "202916836",
+    "fixture_family": [
+      "202916836"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-17T00:11:08.056786Z",
+    "finished_at": "2026-10-17T02:35:17.311729Z",
+    "outcome_available_at": "2026-10-17T02:37:17.961937Z",
+    "home_line": 1.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "111-135"
+  },
+  {
+    "fixture_id": "202286423",
+    "fixture_family": [
+      "202286423"
+    ],
+    "league": "Argentina Liga Nacional",
+    "decision_at": "2026-10-17T00:11:08.126902Z",
+    "finished_at": "2026-10-17T02:02:33.064068Z",
+    "outcome_available_at": "2026-10-17T02:04:32.490611Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "85-92"
+  },
+  {
+    "fixture_id": "202960641",
+    "fixture_family": [
+      "202960641"
+    ],
+    "league": "Paraguay LNCF Women",
+    "decision_at": "2026-10-17T00:17:38.052911Z",
+    "finished_at": "2026-10-17T01:43:32.442575Z",
+    "outcome_available_at": "2026-10-17T01:45:32.52392Z",
+    "home_line": 11.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "27-60"
+  },
+  {
+    "fixture_id": "202340732",
+    "fixture_family": [
+      "202340732"
+    ],
+    "league": "Mexico Liga ABE",
+    "decision_at": "2026-10-17T01:06:20.886995Z",
+    "finished_at": "2026-10-17T02:51:54.998721Z",
+    "outcome_available_at": "2026-10-17T02:53:55.002296Z",
+    "home_line": -9.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "67-52"
+  },
+  {
+    "fixture_id": "202907043",
+    "fixture_family": [
+      "202907043"
+    ],
+    "league": "El Salvador Liga Mayor",
+    "decision_at": "2026-10-17T01:15:34.762809Z",
+    "finished_at": "2026-10-17T03:04:55.606519Z",
+    "outcome_available_at": "2026-10-17T03:06:55.005913Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "99-95"
+  },
+  {
+    "fixture_id": "202286014",
+    "fixture_family": [
+      "202286014"
+    ],
+    "league": "Mexico Liga ABE",
+    "decision_at": "2026-10-17T01:58:34.114912Z",
+    "finished_at": "2026-10-17T03:56:46.193547Z",
+    "outcome_available_at": "2026-10-17T03:58:46.195732Z",
+    "home_line": 4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "68-85"
+  },
+  {
+    "fixture_id": "202916856",
+    "fixture_family": [
+      "202916856"
+    ],
+    "league": "NBA Pre-Season",
+    "decision_at": "2026-10-17T02:11:04.123954Z",
+    "finished_at": "2026-10-17T04:26:47.926852Z",
+    "outcome_available_at": "2026-10-17T04:28:47.326319Z",
+    "home_line": -4.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "116-119"
+  },
+  {
+    "fixture_id": "202285666",
+    "fixture_family": [
+      "202285666"
+    ],
+    "league": "Australia WNBL",
+    "decision_at": "2026-10-17T04:09:20.338841Z",
+    "finished_at": "2026-10-17T05:54:57.694325Z",
+    "outcome_available_at": "2026-10-17T05:57:05.55068Z",
+    "home_line": 7.5,
+    "home_price": 1.8,
+    "away_price": 1.9523809523809523,
+    "market_home_probability": 0.5203045685279188,
+    "home_covered": 1,
+    "final_score": "94-92"
+  },
+  {
+    "fixture_id": "202286411",
+    "fixture_family": [
+      "202286411"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-17T04:10:51.571209Z",
+    "finished_at": "2026-10-17T06:03:57.724734Z",
+    "outcome_available_at": "2026-10-17T06:05:57.728889Z",
+    "home_line": -4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "97-78"
+  },
+  {
+    "fixture_id": "202340659",
+    "fixture_family": [
+      "202340659"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-17T05:10:49.437586Z",
+    "finished_at": "2026-10-17T07:03:57.758764Z",
+    "outcome_available_at": "2026-10-17T07:05:57.759434Z",
+    "home_line": 2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-60"
+  },
+  {
+    "fixture_id": "202339881",
+    "fixture_family": [
+      "202339881"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-17T05:10:49.437852Z",
+    "finished_at": "2026-10-17T07:16:58.322084Z",
+    "outcome_available_at": "2026-10-17T07:18:57.737891Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "71-89"
+  },
+  {
+    "fixture_id": "202339367",
+    "fixture_family": [
+      "202339367"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-17T06:10:59.233861Z",
+    "finished_at": "2026-10-17T08:16:41.300167Z",
+    "outcome_available_at": "2026-10-17T08:18:49.136377Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "84-97"
+  },
+  {
+    "fixture_id": "202339098",
+    "fixture_family": [
+      "202339098"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-17T06:11:29.273125Z",
+    "finished_at": "2026-10-17T08:06:45.05468Z",
+    "outcome_available_at": "2026-10-17T08:08:41.304509Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "84-82"
+  },
+  {
+    "fixture_id": "202339397",
+    "fixture_family": [
+      "202339397"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-17T06:11:46.41262Z",
+    "finished_at": "2026-10-17T07:57:57.734647Z",
+    "outcome_available_at": "2026-10-17T07:59:57.751124Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "90-69"
+  },
+  {
+    "fixture_id": "202339751",
+    "fixture_family": [
+      "202339751"
+    ],
+    "league": "New Zealand Championship Women",
+    "decision_at": "2026-10-17T06:41:29.841004Z",
+    "finished_at": "2026-10-17T08:27:41.297817Z",
+    "outcome_available_at": "2026-10-17T08:29:41.3255Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "75-82"
+  },
+  {
+    "fixture_id": "202340326",
+    "fixture_family": [
+      "202340326"
+    ],
+    "league": "Korea KBL",
+    "decision_at": "2026-10-17T07:31:29.240424Z",
+    "finished_at": "2026-10-17T09:31:02.795458Z",
+    "outcome_available_at": "2026-10-17T09:32:59.059648Z",
+    "home_line": -6.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "85-75"
+  },
+  {
+    "fixture_id": "202339430",
+    "fixture_family": [
+      "202339430"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-17T08:11:12.898005Z",
+    "finished_at": "2026-10-17T09:57:35.687316Z",
+    "outcome_available_at": "2026-10-17T09:59:39.418674Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "95-63"
+  },
+  {
+    "fixture_id": "202341729",
+    "fixture_family": [
+      "202341729"
+    ],
+    "league": "Australia NBL",
+    "decision_at": "2026-10-17T08:37:12.890611Z",
+    "finished_at": "2026-10-17T10:15:43.470097Z",
+    "outcome_available_at": "2026-10-17T10:17:35.677813Z",
+    "home_line": -8.5,
+    "home_price": 1.8900000000000001,
+    "away_price": 1.8900000000000001,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "102-81"
+  },
+  {
+    "fixture_id": "202340526",
+    "fixture_family": [
+      "202340526"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-17T09:11:16.903817Z",
+    "finished_at": "2026-10-17T11:07:36.332443Z",
+    "outcome_available_at": "2026-10-17T11:09:35.737031Z",
+    "home_line": 14.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "67-77"
+  },
+  {
+    "fixture_id": "203015630",
+    "fixture_family": [
+      "203015630"
+    ],
+    "league": "Taiwan TPBL",
+    "decision_at": "2026-10-17T09:11:30.219661Z",
+    "finished_at": "2026-10-17T11:53:35.715915Z",
+    "outcome_available_at": "2026-10-17T11:55:36.369715Z",
+    "home_line": -10.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "106-113"
+  },
+  {
+    "fixture_id": "202339678",
+    "fixture_family": [
+      "202339678"
+    ],
+    "league": "Portugal Nacional Liga Women",
+    "decision_at": "2026-10-17T10:01:10.424366Z",
+    "finished_at": "2026-10-17T12:04:35.746179Z",
+    "outcome_available_at": "2026-10-17T12:06:35.772236Z",
+    "home_line": 12.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "83-73"
+  },
+  {
+    "fixture_id": "202339172",
+    "fixture_family": [
+      "202339172"
+    ],
+    "league": "Finland Korisliiga Women",
+    "decision_at": "2026-10-17T11:01:10.460705Z",
+    "finished_at": "2026-10-17T12:48:35.729711Z",
+    "outcome_available_at": "2026-10-17T12:50:35.750168Z",
+    "home_line": 10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "75-83"
+  },
+  {
+    "fixture_id": "202339681",
+    "fixture_family": [
+      "202339681"
+    ],
+    "league": "Denmark Basketligaen Women",
+    "decision_at": "2026-10-17T11:31:10.459285Z",
+    "finished_at": "2026-10-17T13:21:35.752411Z",
+    "outcome_available_at": "2026-10-17T13:23:36.409183Z",
+    "home_line": 5.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "85-63"
+  },
+  {
+    "fixture_id": "203018116",
+    "fixture_family": [
+      "203018116"
+    ],
+    "league": "Malaysia Agong Cup",
+    "decision_at": "2026-10-17T12:00:40.530385Z",
+    "finished_at": "2026-10-17T13:47:36.390535Z",
+    "outcome_available_at": "2026-10-17T13:49:35.763067Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "94-83"
+  },
+  {
+    "fixture_id": "202339559",
+    "fixture_family": [
+      "202339559"
+    ],
+    "league": "Latvia-Estonia BL",
+    "decision_at": "2026-10-17T12:02:40.467301Z",
+    "finished_at": "2026-10-17T13:50:35.754566Z",
+    "outcome_available_at": "2026-10-19T02:20:18.030711Z",
+    "home_line": -17.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "89-72"
+  },
+  {
+    "fixture_id": "202339064",
+    "fixture_family": [
+      "202339064"
+    ],
+    "league": "Greece Basket League",
+    "decision_at": "2026-10-17T12:02:40.468929Z",
+    "finished_at": "2026-10-17T14:05:35.796413Z",
+    "outcome_available_at": "2026-10-17T14:07:36.48584Z",
+    "home_line": -10.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "84-79"
+  },
+  {
+    "fixture_id": "203016075",
+    "fixture_family": [
+      "203016075"
+    ],
+    "league": "Ukraine FBU Superleague",
+    "decision_at": "2026-10-17T12:08:40.469806Z",
+    "finished_at": "2026-10-17T13:45:35.754128Z",
+    "outcome_available_at": "2026-10-17T13:47:36.432242Z",
+    "home_line": -13.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "93-61"
+  },
+  {
+    "fixture_id": "202340723",
+    "fixture_family": [
+      "202340723"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-17T12:12:10.503333Z",
+    "finished_at": "2026-10-17T13:39:36.391411Z",
+    "outcome_available_at": "2026-10-17T13:41:35.974201Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "82-85"
+  },
+  {
+    "fixture_id": "202758053",
+    "fixture_family": [
+      "202758053"
+    ],
+    "league": "T\u00fcrkiye BSL",
+    "decision_at": "2026-10-17T12:31:45.087013Z",
+    "finished_at": "2026-10-17T14:20:35.783991Z",
+    "outcome_available_at": "2026-10-17T14:22:35.814447Z",
+    "home_line": 7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "80-90"
+  },
+  {
+    "fixture_id": "203016435",
+    "fixture_family": [
+      "203016435"
+    ],
+    "league": "Switzerland NLB",
+    "decision_at": "2026-10-17T12:37:13.530967Z",
+    "finished_at": "2026-10-17T14:29:35.812328Z",
+    "outcome_available_at": "2026-10-17T14:31:36.44661Z",
+    "home_line": 24.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "63-89"
+  },
+  {
+    "fixture_id": "202339376",
+    "fixture_family": [
+      "202339376"
+    ],
+    "league": "Poland 1st Division",
+    "decision_at": "2026-10-17T13:00:44.163866Z",
+    "finished_at": "2026-10-17T14:58:35.801857Z",
+    "outcome_available_at": "2026-10-17T15:00:35.798231Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "96-77"
+  },
+  {
+    "fixture_id": "203041686",
+    "fixture_family": [
+      "203041686"
+    ],
+    "league": "France LNB Espoirs U21",
+    "decision_at": "2026-10-17T13:00:44.165011Z",
+    "finished_at": "2026-10-17T15:00:35.775114Z",
+    "outcome_available_at": "2026-10-17T15:02:35.811214Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "56-70"
+  },
+  {
+    "fixture_id": "202339092",
+    "fixture_family": [
+      "202339092"
+    ],
+    "league": "Finland Korisliigan",
+    "decision_at": "2026-10-17T13:02:10.482256Z",
+    "finished_at": "2026-10-17T14:50:35.810898Z",
+    "outcome_available_at": "2026-10-17T14:52:35.790927Z",
+    "home_line": 10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "70-81"
+  },
+  {
+    "fixture_id": "202339250",
+    "fixture_family": [
+      "202339250"
+    ],
+    "league": "Poland PLK",
+    "decision_at": "2026-10-17T13:02:44.161212Z",
+    "finished_at": "2026-10-17T14:42:35.756481Z",
+    "outcome_available_at": "2026-10-19T02:20:18.030711Z",
+    "home_line": 7.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "76-84"
+  },
+  {
+    "fixture_id": "202339113",
+    "fixture_family": [
+      "202339113"
+    ],
+    "league": "Greece Basket League",
+    "decision_at": "2026-10-17T13:02:44.166401Z",
+    "finished_at": "2026-10-17T15:21:35.786948Z",
+    "outcome_available_at": "2026-10-17T15:23:36.468651Z",
+    "home_line": 7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "84-88"
+  },
+  {
+    "fixture_id": "202340198",
+    "fixture_family": [
+      "202340198"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-17T13:06:41.152177Z",
+    "finished_at": "2026-10-17T14:45:35.776708Z",
+    "outcome_available_at": "2026-10-17T14:47:36.449779Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "76-107"
+  },
+  {
+    "fixture_id": "202340683",
+    "fixture_family": [
+      "202340683"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-17T13:07:10.498949Z",
+    "finished_at": "2026-10-17T14:52:35.754652Z",
+    "outcome_available_at": "2026-10-17T14:54:35.785485Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "94-70"
+  },
+  {
+    "fixture_id": "202339781",
+    "fixture_family": [
+      "202339781"
+    ],
+    "league": "Lithuania LKL",
+    "decision_at": "2026-10-17T13:51:14.165727Z",
+    "finished_at": "2026-10-17T15:44:35.760633Z",
+    "outcome_available_at": "2026-10-17T15:46:35.82006Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "88-95"
+  },
+  {
+    "fixture_id": "203014933",
+    "fixture_family": [
+      "203014933"
+    ],
+    "league": "Lithuania LMKL Women",
+    "decision_at": "2026-10-17T14:00:44.167827Z",
+    "finished_at": "2026-10-17T15:50:35.751864Z",
+    "outcome_available_at": "2026-10-17T15:52:35.80791Z",
+    "home_line": 40.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "65-89"
+  },
+  {
+    "fixture_id": "202642606",
+    "fixture_family": [
+      "202642606"
+    ],
+    "league": "T\u00fcrkiye TB2L",
+    "decision_at": "2026-10-17T14:01:13.175155Z",
+    "finished_at": "2026-10-17T15:44:35.760633Z",
+    "outcome_available_at": "2026-10-17T15:46:35.821387Z",
+    "home_line": 1.5,
+    "home_price": 1.7407407407407407,
+    "away_price": 1.9523809523809523,
+    "market_home_probability": 0.5286532951289399,
+    "home_covered": 1,
+    "final_score": "81-71"
+  },
+  {
+    "fixture_id": "202339104",
+    "fixture_family": [
+      "202339104"
+    ],
+    "league": "Sweden Superettan",
+    "decision_at": "2026-10-17T14:01:48.173917Z",
+    "finished_at": "2026-10-17T15:40:35.827094Z",
+    "outcome_available_at": "2026-10-17T15:42:35.783807Z",
+    "home_line": 2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "84-97"
+  },
+  {
+    "fixture_id": "202339394",
+    "fixture_family": [
+      "202339394"
+    ],
+    "league": "Finland Korisliiga Women",
+    "decision_at": "2026-10-17T14:02:16.597178Z",
+    "finished_at": "2026-10-17T16:00:35.746563Z",
+    "outcome_available_at": "2026-10-17T16:02:35.783008Z",
+    "home_line": -11.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "67-68"
+  },
+  {
+    "fixture_id": "202340349",
+    "fixture_family": [
+      "202340349"
+    ],
+    "league": "Lithuania NKL",
+    "decision_at": "2026-10-17T14:02:49.261316Z",
+    "finished_at": "2026-10-17T15:49:35.775789Z",
+    "outcome_available_at": "2026-10-17T15:51:39.49682Z",
+    "home_line": -12.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "81-72"
+  },
+  {
+    "fixture_id": "202339253",
+    "fixture_family": [
+      "202339253"
+    ],
+    "league": "Greece Basket League",
+    "decision_at": "2026-10-17T14:03:45.317547Z",
+    "finished_at": "2026-10-17T16:03:36.401832Z",
+    "outcome_available_at": "2026-10-17T16:05:35.806075Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "71-53"
+  },
+  {
+    "fixture_id": "203016061",
+    "fixture_family": [
+      "203016061"
+    ],
+    "league": "Ukraine FBU Superleague",
+    "decision_at": "2026-10-17T14:12:44.209791Z",
+    "finished_at": "2026-10-17T16:23:36.41884Z",
+    "outcome_available_at": "2026-10-17T16:25:35.784216Z",
+    "home_line": 10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "81-86"
+  },
+  {
+    "fixture_id": "203009355",
+    "fixture_family": [
+      "203009355"
+    ],
+    "league": "T\u00fcrkiye TB2L",
+    "decision_at": "2026-10-17T14:13:30.911177Z",
+    "finished_at": "2026-10-17T16:07:36.402388Z",
+    "outcome_available_at": "2026-10-17T16:09:35.782737Z",
+    "home_line": -3.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "69-70"
+  },
+  {
+    "fixture_id": "203013610",
+    "fixture_family": [
+      "203013610"
+    ],
+    "league": "T\u00fcrkiye TB2L",
+    "decision_at": "2026-10-17T14:16:00.650491Z",
+    "finished_at": "2026-10-17T15:53:35.749325Z",
+    "outcome_available_at": "2026-10-17T15:55:36.452532Z",
+    "home_line": -11.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "96-72"
+  },
+  {
+    "fixture_id": "202340797",
+    "fixture_family": [
+      "202340797"
+    ],
+    "league": "Czechia Liga 1 Women",
+    "decision_at": "2026-10-17T14:16:44.166898Z",
+    "finished_at": "2026-10-17T15:58:35.736908Z",
+    "outcome_available_at": "2026-10-17T16:00:35.831025Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "70-61"
+  },
+  {
+    "fixture_id": "202480219",
+    "fixture_family": [
+      "202480219"
+    ],
+    "league": "Denmark Basketligaen",
+    "decision_at": "2026-10-17T14:32:43.358705Z",
+    "finished_at": "2026-10-17T16:31:36.407284Z",
+    "outcome_available_at": "2026-10-17T16:33:35.783369Z",
+    "home_line": 11.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "66-78"
+  },
+  {
+    "fixture_id": "203077101",
+    "fixture_family": [
+      "203077101"
+    ],
+    "league": "Basketball Matches",
+    "decision_at": "2026-10-17T14:37:44.183143Z",
+    "finished_at": "2026-10-17T16:16:35.772659Z",
+    "outcome_available_at": "2026-10-17T16:18:35.778391Z",
+    "home_line": 35.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "90-110"
+  },
+  {
+    "fixture_id": "202338930",
+    "fixture_family": [
+      "202338930"
+    ],
+    "league": "Portugal LBP",
+    "decision_at": "2026-10-17T14:59:50.654322Z",
+    "finished_at": "2026-10-17T17:26:35.760393Z",
+    "outcome_available_at": "2026-10-17T17:28:35.787672Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "94-84"
+  },
+  {
+    "fixture_id": "203026318",
+    "fixture_family": [
+      "203026318"
+    ],
+    "league": "Romania Divizia A Women",
+    "decision_at": "2026-10-17T15:00:47.277049Z",
+    "finished_at": "2026-10-17T16:45:35.755537Z",
+    "outcome_available_at": "2026-10-17T16:47:36.409531Z",
+    "home_line": 23.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "55-79"
+  },
+  {
+    "fixture_id": "203066726",
+    "fixture_family": [
+      "203066726"
+    ],
+    "league": "T\u00fcrkiye TBL",
+    "decision_at": "2026-10-17T15:01:19.239827Z",
+    "finished_at": "2026-10-17T16:50:35.751037Z",
+    "outcome_available_at": "2026-10-17T16:52:36.073651Z",
+    "home_line": -9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "85-87"
+  },
+  {
+    "fixture_id": "202339123",
+    "fixture_family": [
+      "202339123"
+    ],
+    "league": "Spain Liga Women",
+    "decision_at": "2026-10-17T15:01:48.177345Z",
+    "finished_at": "2026-10-17T16:38:35.744863Z",
+    "outcome_available_at": "2026-10-17T16:40:35.826294Z",
+    "home_line": -20.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "95-64"
+  },
+  {
+    "fixture_id": "203017081",
+    "fixture_family": [
+      "203017081"
+    ],
+    "league": "Latvia-Estonia BL",
+    "decision_at": "2026-10-17T15:02:24.224406Z",
+    "finished_at": "2026-10-17T17:03:36.421324Z",
+    "outcome_available_at": "2026-10-17T17:05:35.768364Z",
+    "home_line": -19.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "100-79"
+  },
+  {
+    "fixture_id": "202339273",
+    "fixture_family": [
+      "202339273"
+    ],
+    "league": "Latvia-Estonia BL",
+    "decision_at": "2026-10-17T15:02:28.235724Z",
+    "finished_at": "2026-10-17T16:47:36.364908Z",
+    "outcome_available_at": "2026-10-17T16:49:35.772283Z",
+    "home_line": 17.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "71-89"
+  },
+  {
+    "fixture_id": "202338984",
+    "fixture_family": [
+      "202338984"
+    ],
+    "league": "Austria 2 Liga",
+    "decision_at": "2026-10-17T15:02:55.405863Z",
+    "finished_at": "2026-10-17T17:03:36.421324Z",
+    "outcome_available_at": "2026-10-17T17:05:35.772594Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "81-80"
+  },
+  {
+    "fixture_id": "202339597",
+    "fixture_family": [
+      "202339597",
+      "202917412"
+    ],
+    "league": "Hungary A Div. Women",
+    "decision_at": "2026-10-17T15:04:03.275537Z",
+    "finished_at": "2026-10-17T16:53:35.743204Z",
+    "outcome_available_at": "2026-10-17T16:55:36.475996Z",
+    "home_line": 1.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "59-67"
+  },
+  {
+    "fixture_id": "202471274",
+    "fixture_family": [
+      "202471274"
+    ],
+    "league": "Sweden Superettan",
+    "decision_at": "2026-10-17T15:04:13.646432Z",
+    "finished_at": "2026-10-17T16:41:35.745444Z",
+    "outcome_available_at": "2026-10-17T16:43:36.419808Z",
+    "home_line": -21.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-54"
+  },
+  {
+    "fixture_id": "202448904",
+    "fixture_family": [
+      "202448904"
+    ],
+    "league": "Bulgaria NBL",
+    "decision_at": "2026-10-17T15:04:17.682048Z",
+    "finished_at": "2026-10-17T16:58:35.758424Z",
+    "outcome_available_at": "2026-10-17T17:00:35.776543Z",
+    "home_line": 9.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "71-102"
+  },
+  {
+    "fixture_id": "203015975",
+    "fixture_family": [
+      "203015975"
+    ],
+    "league": "Qatar QBL",
+    "decision_at": "2026-10-17T15:12:37.316803Z",
+    "finished_at": "2026-10-17T16:49:35.747965Z",
+    "outcome_available_at": "2026-10-17T16:51:36.386004Z",
+    "home_line": 25.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "79-102"
+  },
+  {
+    "fixture_id": "202893961",
+    "fixture_family": [
+      "202893961"
+    ],
+    "league": "Switzerland NLB",
+    "decision_at": "2026-10-17T15:31:56.112474Z",
+    "finished_at": "2026-10-17T17:51:36.636149Z",
+    "outcome_available_at": "2026-10-17T17:53:35.775372Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "75-82"
+  },
+  {
+    "fixture_id": "202339636",
+    "fixture_family": [
+      "202339636"
+    ],
+    "league": "Czechia NBL",
+    "decision_at": "2026-10-17T15:31:56.666727Z",
+    "finished_at": "2026-10-17T17:43:36.412444Z",
+    "outcome_available_at": "2026-10-17T17:45:35.788253Z",
+    "home_line": -11.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "79-82"
+  },
+  {
+    "fixture_id": "202893970",
+    "fixture_family": [
+      "202893970"
+    ],
+    "league": "Switzerland NLB",
+    "decision_at": "2026-10-17T15:31:58.419748Z",
+    "finished_at": "2026-10-17T17:24:35.770098Z",
+    "outcome_available_at": "2026-10-17T17:26:35.798916Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "68-46"
+  },
+  {
+    "fixture_id": "202893964",
+    "fixture_family": [
+      "202893964"
+    ],
+    "league": "Switzerland NLB",
+    "decision_at": "2026-10-17T15:32:44.758431Z",
+    "finished_at": "2026-10-17T17:15:36.433584Z",
+    "outcome_available_at": "2026-10-17T17:17:35.759624Z",
+    "home_line": 1.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "62-81"
+  },
+  {
+    "fixture_id": "202340753",
+    "fixture_family": [
+      "202340753"
+    ],
+    "league": "Czechia Liga 1 Women",
+    "decision_at": "2026-10-17T16:01:00.864713Z",
+    "finished_at": "2026-10-17T17:37:35.73361Z",
+    "outcome_available_at": "2026-10-17T17:39:36.417758Z",
+    "home_line": -21.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "82-46"
+  },
+  {
+    "fixture_id": "203015927",
+    "fixture_family": [
+      "203015927"
+    ],
+    "league": "Switzerland SB League Women",
+    "decision_at": "2026-10-17T16:02:07.586412Z",
+    "finished_at": "2026-10-17T17:52:35.737777Z",
+    "outcome_available_at": "2026-10-17T17:54:35.768099Z",
+    "home_line": -48.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "107-50"
+  },
+  {
+    "fixture_id": "202340454",
+    "fixture_family": [
+      "202340454"
+    ],
+    "league": "Italy A2 Women",
+    "decision_at": "2026-10-17T16:02:09.22824Z",
+    "finished_at": "2026-10-17T17:40:35.752113Z",
+    "outcome_available_at": "2026-10-17T17:42:35.759832Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "69-58"
+  },
+  {
+    "fixture_id": "203016492",
+    "fixture_family": [
+      "203016492"
+    ],
+    "league": "Germany DBBL Women",
+    "decision_at": "2026-10-17T16:02:13.233965Z",
+    "finished_at": "2026-10-17T17:58:35.746518Z",
+    "outcome_available_at": "2026-10-17T18:00:35.778576Z",
+    "home_line": 4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "71-60"
+  },
+  {
+    "fixture_id": "202957923",
+    "fixture_family": [
+      "202957923"
+    ],
+    "league": "Algeria Super Division",
+    "decision_at": "2026-10-17T16:02:15.972412Z",
+    "finished_at": "2026-10-17T17:46:35.734999Z",
+    "outcome_available_at": "2026-10-17T17:48:35.78007Z",
+    "home_line": -14.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "83-64"
+  },
+  {
+    "fixture_id": "202339048",
+    "fixture_family": [
+      "202339048"
+    ],
+    "league": "Austria 2 Liga",
+    "decision_at": "2026-10-17T16:02:19.605409Z",
+    "finished_at": "2026-10-17T18:07:36.339827Z",
+    "outcome_available_at": "2026-10-17T18:09:35.81713Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "113-110"
+  },
+  {
+    "fixture_id": "202340519",
+    "fixture_family": [
+      "202340519"
+    ],
+    "league": "Spain LF Challenge Women",
+    "decision_at": "2026-10-17T16:02:23.608005Z",
+    "finished_at": "2026-10-17T17:48:35.742746Z",
+    "outcome_available_at": "2026-10-17T17:50:35.767714Z",
+    "home_line": -1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "69-76"
+  },
+  {
+    "fixture_id": "202340833",
+    "fixture_family": [
+      "202340833"
+    ],
+    "league": "Serbia KLS",
+    "decision_at": "2026-10-17T16:02:23.981525Z",
+    "finished_at": "2026-10-17T18:08:35.75686Z",
+    "outcome_available_at": "2026-10-17T18:10:35.788602Z",
+    "home_line": 1.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "93-91"
+  },
+  {
+    "fixture_id": "202338911",
+    "fixture_family": [
+      "202338911"
+    ],
+    "league": "Austria 2 Liga",
+    "decision_at": "2026-10-17T16:02:49.041597Z",
+    "finished_at": "2026-10-17T18:01:35.76623Z",
+    "outcome_available_at": "2026-10-17T18:03:43.6126Z",
+    "home_line": -1.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "70-73"
+  },
+  {
+    "fixture_id": "202339905",
+    "fixture_family": [
+      "202339905"
+    ],
+    "league": "Hungary NB 1.A",
+    "decision_at": "2026-10-17T16:04:24.338804Z",
+    "finished_at": "2026-10-17T17:56:35.742733Z",
+    "outcome_available_at": "2026-10-17T17:58:35.776057Z",
+    "home_line": 18.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "81-72"
+  },
+  {
+    "fixture_id": "202340208",
+    "fixture_family": [
+      "202340208"
+    ],
+    "league": "Romania LNB",
+    "decision_at": "2026-10-17T16:04:33.359594Z",
+    "finished_at": "2026-10-17T17:50:35.728905Z",
+    "outcome_available_at": "2026-10-17T17:52:35.791903Z",
+    "home_line": -13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "83-78"
+  },
+  {
+    "fixture_id": "202340343",
+    "fixture_family": [
+      "202340343"
+    ],
+    "league": "Romania LNB",
+    "decision_at": "2026-10-17T16:07:08.775418Z",
+    "finished_at": "2026-10-17T18:15:39.452658Z",
+    "outcome_available_at": "2026-10-17T18:17:36.009773Z",
+    "home_line": 12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "102-105"
+  },
+  {
+    "fixture_id": "202339424",
+    "fixture_family": [
+      "202339424"
+    ],
+    "league": "Spain Segunda FEB",
+    "decision_at": "2026-10-17T16:13:28.357175Z",
+    "finished_at": "2026-10-17T17:53:35.739241Z",
+    "outcome_available_at": "2026-10-17T17:55:36.439353Z",
+    "home_line": 3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "55-68"
+  },
+  {
+    "fixture_id": "203021598",
+    "fixture_family": [
+      "203021598"
+    ],
+    "league": "Adriatic League 2 Women",
+    "decision_at": "2026-10-17T16:30:25.608783Z",
+    "finished_at": "2026-10-17T18:20:35.754809Z",
+    "outcome_available_at": "2026-10-17T18:22:35.773065Z",
+    "home_line": 8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "63-86"
+  },
+  {
+    "fixture_id": "202338893",
+    "fixture_family": [
+      "202338893"
+    ],
+    "league": "Austria 2 Liga",
+    "decision_at": "2026-10-17T16:32:34.536584Z",
+    "finished_at": "2026-10-17T18:44:35.719578Z",
+    "outcome_available_at": "2026-10-17T18:46:35.780001Z",
+    "home_line": -1.5,
+    "home_price": 1.9523809523809523,
+    "away_price": 1.7407407407407407,
+    "market_home_probability": 0.4713467048710602,
+    "home_covered": 1,
+    "final_score": "87-84"
+  },
+  {
+    "fixture_id": "202338933",
+    "fixture_family": [
+      "202338933"
+    ],
+    "league": "Germany Pro A",
+    "decision_at": "2026-10-17T16:32:36.513788Z",
+    "finished_at": "2026-10-17T18:28:35.764368Z",
+    "outcome_available_at": "2026-10-17T18:30:35.784008Z",
+    "home_line": -6.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "95-74"
+  },
+  {
+    "fixture_id": "202339999",
+    "fixture_family": [
+      "202339999"
+    ],
+    "league": "Hungary NB 1.A",
+    "decision_at": "2026-10-17T16:34:18.444786Z",
+    "finished_at": "2026-10-17T18:31:36.330737Z",
+    "outcome_available_at": "2026-10-17T18:33:35.750977Z",
+    "home_line": -1.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "94-85"
+  },
+  {
+    "fixture_id": "202339409",
+    "fixture_family": [
+      "202339409"
+    ],
+    "league": "Switzerland LNA",
+    "decision_at": "2026-10-17T16:41:59.908185Z",
+    "finished_at": "2026-10-17T18:05:35.768559Z",
+    "outcome_available_at": "2026-10-17T18:07:36.377196Z",
+    "home_line": 16.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "41-91"
+  },
+  {
+    "fixture_id": "202339556",
+    "fixture_family": [
+      "202339556"
+    ],
+    "league": "Adriatic League",
+    "decision_at": "2026-10-17T17:00:59.575935Z",
+    "finished_at": "2026-10-17T19:28:15.050733Z",
+    "outcome_available_at": "2026-10-17T19:30:18.802365Z",
+    "home_line": -1.5,
+    "home_price": 1.9523809523809523,
+    "away_price": 1.7407407407407407,
+    "market_home_probability": 0.4713467048710602,
+    "home_covered": 0,
+    "final_score": "81-93"
+  },
+  {
+    "fixture_id": "202339544",
+    "fixture_family": [
+      "202339544"
+    ],
+    "league": "Great Britain SLB",
+    "decision_at": "2026-10-17T17:01:41.146817Z",
+    "finished_at": "2026-10-17T19:12:15.099482Z",
+    "outcome_available_at": "2026-10-17T19:14:15.7341Z",
+    "home_line": 1.5,
+    "home_price": 1.7407407407407407,
+    "away_price": 1.9523809523809523,
+    "market_home_probability": 0.5286532951289399,
+    "home_covered": 1,
+    "final_score": "107-102"
+  },
+  {
+    "fixture_id": "202478741",
+    "fixture_family": [
+      "202478741"
+    ],
+    "league": "Austria Bundesliga",
+    "decision_at": "2026-10-17T17:01:41.404414Z",
+    "finished_at": "2026-10-17T18:56:35.766438Z",
+    "outcome_available_at": "2026-10-17T18:58:35.774507Z",
+    "home_line": -13.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "96-75"
+  },
+  {
+    "fixture_id": "202339929",
+    "fixture_family": [
+      "202339929"
+    ],
+    "league": "Slovenia SKL",
+    "decision_at": "2026-10-17T17:01:44.216487Z",
+    "finished_at": "2026-10-17T19:02:56.822921Z",
+    "outcome_available_at": "2026-10-17T19:04:57.478806Z",
+    "home_line": 7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "70-76"
+  },
+  {
+    "fixture_id": "202339850",
+    "fixture_family": [
+      "202339850"
+    ],
+    "league": "Slovenia SKL",
+    "decision_at": "2026-10-17T17:01:45.152681Z",
+    "finished_at": "2026-10-17T19:22:15.737189Z",
+    "outcome_available_at": "2026-10-17T19:24:15.112678Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "67-84"
+  },
+  {
+    "fixture_id": "202339853",
+    "fixture_family": [
+      "202339853"
+    ],
+    "league": "Czechia NBL",
+    "decision_at": "2026-10-17T17:02:12.258398Z",
+    "finished_at": "2026-10-17T18:52:35.731412Z",
+    "outcome_available_at": "2026-10-17T18:54:35.736632Z",
+    "home_line": 5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "95-111"
+  },
+  {
+    "fixture_id": "202339060",
+    "fixture_family": [
+      "202339060"
+    ],
+    "league": "Portugal LBP",
+    "decision_at": "2026-10-17T17:02:14.071443Z",
+    "finished_at": "2026-10-17T18:55:36.379949Z",
+    "outcome_available_at": "2026-10-17T18:57:35.757633Z",
+    "home_line": -5.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "78-69"
+  },
+  {
+    "fixture_id": "202338981",
+    "fixture_family": [
+      "202338981"
+    ],
+    "league": "Spain Liga Women",
+    "decision_at": "2026-10-17T17:02:14.144783Z",
+    "finished_at": "2026-10-17T18:38:35.721388Z",
+    "outcome_available_at": "2026-10-17T18:40:35.790672Z",
+    "home_line": 4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "57-67"
+  },
+  {
+    "fixture_id": "202339385",
+    "fixture_family": [
+      "202339385"
+    ],
+    "league": "Poland PLK",
+    "decision_at": "2026-10-17T17:02:18.078043Z",
+    "finished_at": "2026-10-17T19:00:35.824552Z",
+    "outcome_available_at": "2026-10-17T19:02:56.850602Z",
+    "home_line": 5.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "81-90"
+  },
+  {
+    "fixture_id": "202286414",
+    "fixture_family": [
+      "202286414"
+    ],
+    "league": "Croatia A1 Liga",
+    "decision_at": "2026-10-17T17:02:22.08476Z",
+    "finished_at": "2026-10-17T18:58:35.738894Z",
+    "outcome_available_at": "2026-10-17T19:00:35.911548Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "79-72"
+  },
+  {
+    "fixture_id": "202339651",
+    "fixture_family": [
+      "202339651"
+    ],
+    "league": "Spain Liga Women",
+    "decision_at": "2026-10-17T17:02:22.158768Z",
+    "finished_at": "2026-10-17T18:53:35.73449Z",
+    "outcome_available_at": "2026-10-17T18:55:36.416412Z",
+    "home_line": 2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "81-67"
+  },
+  {
+    "fixture_id": "202340436",
+    "fixture_family": [
+      "202340436"
+    ],
+    "league": "Spain Segunda FEB",
+    "decision_at": "2026-10-17T17:02:48.317839Z",
+    "finished_at": "2026-10-17T18:48:35.710313Z",
+    "outcome_available_at": "2026-10-17T18:50:35.749351Z",
+    "home_line": -1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "75-79"
+  },
+  {
+    "fixture_id": "202340803",
+    "fixture_family": [
+      "202340803"
+    ],
+    "league": "Spain Segunda FEB",
+    "decision_at": "2026-10-17T17:03:25.293262Z",
+    "finished_at": "2026-10-17T19:03:56.880178Z",
+    "outcome_available_at": "2026-10-17T19:05:56.855798Z",
+    "home_line": -4.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "85-82"
+  },
+  {
+    "fixture_id": "203075830",
+    "fixture_family": [
+      "203075830"
+    ],
+    "league": "Israel Super League",
+    "decision_at": "2026-10-17T17:25:51.204079Z",
+    "finished_at": "2026-10-17T19:03:56.880178Z",
+    "outcome_available_at": "2026-10-17T19:05:56.856997Z",
+    "home_line": -18.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "88-74"
+  },
+  {
+    "fixture_id": "202340812",
+    "fixture_family": [
+      "202340812"
+    ],
+    "league": "Portugal Proliga",
+    "decision_at": "2026-10-17T17:31:03.807859Z",
+    "finished_at": "2026-10-17T19:39:15.066989Z",
+    "outcome_available_at": "2026-10-17T19:41:15.097755Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "77-75"
+  },
+  {
+    "fixture_id": "202982350",
+    "fixture_family": [
+      "202982350"
+    ],
+    "league": "Germany Pro B",
+    "decision_at": "2026-10-17T17:32:08.541191Z",
+    "finished_at": "2026-10-17T19:20:15.106699Z",
+    "outcome_available_at": "2026-10-17T19:22:15.765935Z",
+    "home_line": -1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "75-78"
+  },
+  {
+    "fixture_id": "202340077",
+    "fixture_family": [
+      "202340077"
+    ],
+    "league": "Spain Segunda FEB",
+    "decision_at": "2026-10-17T17:34:15.064382Z",
+    "finished_at": "2026-10-17T19:26:15.710128Z",
+    "outcome_available_at": "2026-10-17T19:28:15.071927Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "83-60"
+  },
+  {
+    "fixture_id": "202340815",
+    "fixture_family": [
+      "202340815"
+    ],
+    "league": "Spain Segunda FEB",
+    "decision_at": "2026-10-17T17:34:16.728292Z",
+    "finished_at": "2026-10-17T19:18:15.68698Z",
+    "outcome_available_at": "2026-10-17T19:20:15.130716Z",
+    "home_line": 4.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "68-67"
+  },
+  {
+    "fixture_id": "202340744",
+    "fixture_family": [
+      "202340744"
+    ],
+    "league": "Spain Primera FEB",
+    "decision_at": "2026-10-17T17:35:13.816338Z",
+    "finished_at": "2026-10-17T19:30:18.781123Z",
+    "outcome_available_at": "2026-10-17T19:32:15.103754Z",
+    "home_line": -11.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "67-72"
+  },
+  {
+    "fixture_id": "202982353",
+    "fixture_family": [
+      "202982353"
+    ],
+    "league": "Germany Pro B",
+    "decision_at": "2026-10-17T17:46:16.702446Z",
+    "finished_at": "2026-10-17T19:33:15.107421Z",
+    "outcome_available_at": "2026-10-17T19:35:15.087724Z",
+    "home_line": -2.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "70-76"
+  },
+  {
+    "fixture_id": "203026530",
+    "fixture_family": [
+      "203026530"
+    ],
+    "league": "Spain Tercera FEB",
+    "decision_at": "2026-10-17T17:51:58.493813Z",
+    "finished_at": "2026-10-17T20:17:15.031302Z",
+    "outcome_available_at": "2026-10-17T20:19:15.089483Z",
+    "home_line": 9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "89-95"
+  },
+  {
+    "fixture_id": "202339603",
+    "fixture_family": [
+      "202339603"
+    ],
+    "league": "Great Britain SLB Women",
+    "decision_at": "2026-10-17T18:01:48.024671Z",
+    "finished_at": "2026-10-17T19:45:15.094669Z",
+    "outcome_available_at": "2026-10-17T19:47:15.072904Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "66-75"
+  },
+  {
+    "fixture_id": "202869738",
+    "fixture_family": [
+      "202869738"
+    ],
+    "league": "France LFB Women",
+    "decision_at": "2026-10-17T18:01:49.29453Z",
+    "finished_at": "2026-10-17T19:46:22.883416Z",
+    "outcome_available_at": "2026-10-17T19:48:15.137695Z",
+    "home_line": 8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "50-54"
+  },
+  {
+    "fixture_id": "202339437",
+    "fixture_family": [
+      "202339437"
+    ],
+    "league": "Poland 1st Division",
+    "decision_at": "2026-10-17T18:02:28.701477Z",
+    "finished_at": "2026-10-17T19:51:15.062304Z",
+    "outcome_available_at": "2026-10-17T19:53:15.061166Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "87-91"
+  },
+  {
+    "fixture_id": "202903245",
+    "fixture_family": [
+      "202903245"
+    ],
+    "league": "Mexico Liga ABE Women",
+    "decision_at": "2026-10-17T18:03:24.066712Z",
+    "finished_at": "2026-10-17T19:42:22.874951Z",
+    "outcome_available_at": "2026-10-17T19:44:15.06991Z",
+    "home_line": -19.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "79-53"
+  },
+  {
+    "fixture_id": "203025003",
+    "fixture_family": [
+      "203025003"
+    ],
+    "league": "Spain Tercera FEB",
+    "decision_at": "2026-10-17T18:03:24.290647Z",
+    "finished_at": "2026-10-17T20:03:15.042035Z",
+    "outcome_available_at": "2026-10-17T20:05:15.071868Z",
+    "home_line": -7.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "75-83"
+  },
+  {
+    "fixture_id": "202340050",
+    "fixture_family": [
+      "202340050"
+    ],
+    "league": "Mexico Liga ABE",
+    "decision_at": "2026-10-17T18:06:56.018164Z",
+    "finished_at": "2026-10-17T19:38:15.691947Z",
+    "outcome_available_at": "2026-10-17T19:40:15.378215Z",
+    "home_line": -14.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "71-56"
+  },
+  {
+    "fixture_id": "202339923",
+    "fixture_family": [
+      "202339923"
+    ],
+    "league": "Poland 1st Division",
+    "decision_at": "2026-10-17T18:09:16.407436Z",
+    "finished_at": "2026-10-17T19:59:15.047849Z",
+    "outcome_available_at": "2026-10-17T20:01:15.096961Z",
+    "home_line": 27.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "84-78"
+  },
+  {
+    "fixture_id": "202338878",
+    "fixture_family": [
+      "202338878"
+    ],
+    "league": "Belgium Top Division 1",
+    "decision_at": "2026-10-17T18:32:17.480783Z",
+    "finished_at": "2026-10-17T20:10:15.86774Z",
+    "outcome_available_at": "2026-10-17T20:12:15.060014Z",
+    "home_line": -5.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "91-62"
+  },
+  {
+    "fixture_id": "202393248",
+    "fixture_family": [
+      "202393248"
+    ],
+    "league": "Italy Serie A2",
+    "decision_at": "2026-10-17T18:32:21.499503Z",
+    "finished_at": "2026-10-17T20:22:15.651453Z",
+    "outcome_available_at": "2026-10-17T20:24:15.040144Z",
+    "home_line": -13.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "80-70"
+  },
+  {
+    "fixture_id": "202899986",
+    "fixture_family": [
+      "202899986"
+    ],
+    "league": "Great Britain Championship Basketball",
+    "decision_at": "2026-10-17T18:33:05.566489Z",
+    "finished_at": "2026-10-17T20:11:15.03864Z",
+    "outcome_available_at": "2026-10-17T20:13:15.067653Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "85-80"
+  },
+  {
+    "fixture_id": "202339481",
+    "fixture_family": [
+      "202339481"
+    ],
+    "league": "Italy Serie A2",
+    "decision_at": "2026-10-17T18:46:41.531323Z",
+    "finished_at": "2026-10-17T20:43:15.022303Z",
+    "outcome_available_at": "2026-10-17T20:45:15.030321Z",
+    "home_line": -10.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "87-72"
+  },
+  {
+    "fixture_id": "202339406",
+    "fixture_family": [
+      "202339406"
+    ],
+    "league": "Italy Serie A2",
+    "decision_at": "2026-10-17T18:51:34.830556Z",
+    "finished_at": "2026-10-17T20:25:15.039829Z",
+    "outcome_available_at": "2026-10-17T20:27:15.056835Z",
+    "home_line": -13.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "91-69"
+  },
+  {
+    "fixture_id": "202339690",
+    "fixture_family": [
+      "202339690"
+    ],
+    "league": "Spain Liga ACB",
+    "decision_at": "2026-10-17T19:02:05.957611Z",
+    "finished_at": "2026-10-17T20:54:22.82175Z",
+    "outcome_available_at": "2026-10-17T20:56:15.014171Z",
+    "home_line": -6.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "72-79"
+  },
+  {
+    "fixture_id": "202449046",
+    "fixture_family": [
+      "202449046"
+    ],
+    "league": "Brazil NBB",
+    "decision_at": "2026-10-17T19:02:44.800318Z",
+    "finished_at": "2026-10-17T20:51:15.015301Z",
+    "outcome_available_at": "2026-10-17T20:53:15.022847Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "84-73"
+  },
+  {
+    "fixture_id": "202670356",
+    "fixture_family": [
+      "202670356"
+    ],
+    "league": "WNBA",
+    "decision_at": "2026-10-17T19:44:16.357307Z",
+    "finished_at": "2026-10-17T21:51:14.983244Z",
+    "outcome_available_at": "2026-10-19T02:20:18.030711Z",
+    "home_line": -1.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "68-64"
+  },
+  {
+    "fixture_id": "203013849",
+    "fixture_family": [
+      "203013849"
+    ],
+    "league": "Chile Liga Desarrollo U21",
+    "decision_at": "2026-10-17T20:00:46.337046Z",
+    "finished_at": "2026-10-17T21:27:15.013738Z",
+    "outcome_available_at": "2026-10-17T21:29:15.015825Z",
+    "home_line": 18.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "53-74"
+  },
+  {
+    "fixture_id": "202574824",
+    "fixture_family": [
+      "202574824"
+    ],
+    "league": "Portugal Nacional 1A",
+    "decision_at": "2026-10-17T20:08:46.342506Z",
+    "finished_at": "2026-10-17T22:04:14.986802Z",
+    "outcome_available_at": "2026-10-17T22:07:22.819179Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "59-55"
+  },
+  {
+    "fixture_id": "202340601",
+    "fixture_family": [
+      "202340601"
+    ],
+    "league": "Mexico Liga ABE",
+    "decision_at": "2026-10-17T21:02:16.292975Z",
+    "finished_at": "2026-10-17T22:39:27.951242Z",
+    "outcome_available_at": "2026-10-17T22:41:15.019918Z",
+    "home_line": -12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "78-41"
+  },
+  {
+    "fixture_id": "203072723",
+    "fixture_family": [
+      "203072723"
+    ],
+    "league": "Chile Liga Nacional Women",
+    "decision_at": "2026-10-17T22:00:54.044291Z",
+    "finished_at": "2026-10-17T23:35:22.732429Z",
+    "outcome_available_at": "2026-10-17T23:37:15.013709Z",
+    "home_line": 10.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "56-67"
+  },
+  {
+    "fixture_id": "202616378",
+    "fixture_family": [
+      "202616378"
+    ],
+    "league": "Chile LNB",
+    "decision_at": "2026-10-17T23:02:16.288192Z",
+    "finished_at": "2026-10-18T00:49:44.936205Z",
+    "outcome_available_at": "2026-10-18T00:51:48.645727Z",
+    "home_line": -7.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "70-78"
+  },
+  {
+    "fixture_id": "203024492",
+    "fixture_family": [
+      "203024492"
+    ],
+    "league": "Paraguay LNCF Women",
+    "decision_at": "2026-10-17T23:02:16.288224Z",
+    "finished_at": "2026-10-18T00:26:44.918909Z",
+    "outcome_available_at": "2026-10-18T00:28:44.948286Z",
+    "home_line": 31.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "56-69"
+  },
+  {
+    "fixture_id": "203041168",
+    "fixture_family": [
+      "203041168"
+    ],
+    "league": "Dominican Republic TBS",
+    "decision_at": "2026-10-17T23:34:16.295964Z",
+    "finished_at": "2026-10-18T01:11:02.083923Z",
+    "outcome_available_at": "2026-10-18T01:13:09.815163Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "83-75"
+  },
+  {
+    "fixture_id": "203025570",
+    "fixture_family": [
+      "203025570"
+    ],
+    "league": "Uruguay Tercera de Ascenso",
+    "decision_at": "2026-10-17T23:34:25.888443Z",
+    "finished_at": "2026-10-18T01:24:02.050437Z",
+    "outcome_available_at": "2026-10-18T01:26:02.068516Z",
+    "home_line": -1.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "73-79"
+  },
+  {
+    "fixture_id": "203020843",
+    "fixture_family": [
+      "203020843"
+    ],
+    "league": "Argentina La Liga",
+    "decision_at": "2026-10-18T00:11:18.661185Z",
+    "finished_at": "2026-10-18T01:58:35.038463Z",
+    "outcome_available_at": "2026-10-18T02:00:35.028384Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "74-83"
+  },
+  {
+    "fixture_id": "203023857",
+    "fixture_family": [
+      "203023857"
+    ],
+    "league": "Argentina La Liga Proximo",
+    "decision_at": "2026-10-18T01:02:34.579567Z",
+    "finished_at": "2026-10-18T02:43:56.852475Z",
+    "outcome_available_at": "2026-10-18T02:45:57.548318Z",
+    "home_line": 2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "68-62"
+  },
+  {
+    "fixture_id": "203024172",
+    "fixture_family": [
+      "203024172"
+    ],
+    "league": "Mexico CIBAPAC",
+    "decision_at": "2026-10-18T02:03:55.811846Z",
+    "finished_at": "2026-10-18T03:48:32.233736Z",
+    "outcome_available_at": "2026-10-18T03:50:32.22522Z",
+    "home_line": -14.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "87-57"
+  },
+  {
+    "fixture_id": "203025345",
+    "fixture_family": [
+      "203025345"
+    ],
+    "league": "Philippines UAAP Women",
+    "decision_at": "2026-10-18T02:20:43.620215Z",
+    "finished_at": "2026-10-18T04:11:40.006388Z",
+    "outcome_available_at": "2026-10-18T04:13:32.216608Z",
+    "home_line": -20.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "66-60"
+  },
+  {
+    "fixture_id": "202341732",
+    "fixture_family": [
+      "202341732"
+    ],
+    "league": "Australia NBL",
+    "decision_at": "2026-10-18T04:06:40.688085Z",
+    "finished_at": "2026-10-18T05:57:41.92064Z",
+    "outcome_available_at": "2026-10-18T05:59:41.335106Z",
+    "home_line": -5.5,
+    "home_price": 1.85,
+    "away_price": 1.9523809523809523,
+    "market_home_probability": 0.5134627426424546,
+    "home_covered": 1,
+    "final_score": "98-92"
+  },
+  {
+    "fixture_id": "202393043",
+    "fixture_family": [
+      "202393043"
+    ],
+    "league": "Korea KBL",
+    "decision_at": "2026-10-18T05:01:36.410901Z",
+    "finished_at": "2026-10-18T06:51:07.224364Z",
+    "outcome_available_at": "2026-10-18T06:53:07.238545Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "80-96"
+  },
+  {
+    "fixture_id": "202393413",
+    "fixture_family": [
+      "202393413"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-18T05:15:17.875621Z",
+    "finished_at": "2026-10-18T07:21:09.837732Z",
+    "outcome_available_at": "2026-10-18T07:23:09.822384Z",
+    "home_line": 1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "73-67"
+  },
+  {
+    "fixture_id": "202393535",
+    "fixture_family": [
+      "202393535"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-18T05:15:51.948719Z",
+    "finished_at": "2026-10-18T07:09:07.221024Z",
+    "outcome_available_at": "2026-10-18T07:11:07.230824Z",
+    "home_line": -5.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "85-73"
+  },
+  {
+    "fixture_id": "202393541",
+    "fixture_family": [
+      "202393541"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-18T05:16:06.39417Z",
+    "finished_at": "2026-10-18T07:08:07.847882Z",
+    "outcome_available_at": "2026-10-18T07:10:07.207443Z",
+    "home_line": -1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "85-79"
+  },
+  {
+    "fixture_id": "202393288",
+    "fixture_family": [
+      "202393288"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-18T05:40:42.657656Z",
+    "finished_at": "2026-10-18T07:38:16.434461Z",
+    "outcome_available_at": "2026-10-18T07:40:17.065833Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "115-70"
+  },
+  {
+    "fixture_id": "202393242",
+    "fixture_family": [
+      "202393242"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-18T06:10:42.663499Z",
+    "finished_at": "2026-10-18T08:15:37.672784Z",
+    "outcome_available_at": "2026-10-18T08:17:37.679426Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "98-63"
+  },
+  {
+    "fixture_id": "202393422",
+    "fixture_family": [
+      "202393422"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-18T06:14:44.306452Z",
+    "finished_at": "2026-10-18T08:19:37.669403Z",
+    "outcome_available_at": "2026-10-18T08:21:37.676137Z",
+    "home_line": -17.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "111-67"
+  },
+  {
+    "fixture_id": "203024951",
+    "fixture_family": [
+      "203024951"
+    ],
+    "league": "Philippines UAAP",
+    "decision_at": "2026-10-18T07:09:24.695749Z",
+    "finished_at": "2026-10-18T09:17:32.820113Z",
+    "outcome_available_at": "2026-10-18T09:19:32.862083Z",
+    "home_line": -1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "69-65"
+  },
+  {
+    "fixture_id": "202393523",
+    "fixture_family": [
+      "202393523"
+    ],
+    "league": "Japan B League One",
+    "decision_at": "2026-10-18T08:10:38.931112Z",
+    "finished_at": "2026-10-18T10:03:00.318667Z",
+    "outcome_available_at": "2026-10-18T10:05:00.357891Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "82-63"
+  },
+  {
+    "fixture_id": "203082225",
+    "fixture_family": [
+      "203082225"
+    ],
+    "league": "Adriatic League 2 Women",
+    "decision_at": "2026-10-18T09:01:00.337579Z",
+    "finished_at": "2026-10-18T10:43:00.336663Z",
+    "outcome_available_at": "2026-10-18T10:45:00.332174Z",
+    "home_line": 26.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "72-83"
+  },
+  {
+    "fixture_id": "203080343",
+    "fixture_family": [
+      "203080343"
+    ],
+    "league": "Spain Liga 2 Women",
+    "decision_at": "2026-10-18T09:01:00.359161Z",
+    "finished_at": "2026-10-18T10:34:00.321656Z",
+    "outcome_available_at": "2026-10-18T10:36:08.139239Z",
+    "home_line": -1.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "62-70"
+  },
+  {
+    "fixture_id": "202391935",
+    "fixture_family": [
+      "202391935"
+    ],
+    "league": "Spain LF Challenge Women",
+    "decision_at": "2026-10-18T09:01:30.359975Z",
+    "finished_at": "2026-10-18T10:58:00.314203Z",
+    "outcome_available_at": "2026-10-18T11:00:04.063548Z",
+    "home_line": -4.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "64-68"
+  },
+  {
+    "fixture_id": "202393181",
+    "fixture_family": [
+      "202393181"
+    ],
+    "league": "Czechia Liga 1 Women",
+    "decision_at": "2026-10-18T09:16:09.063688Z",
+    "finished_at": "2026-10-18T11:01:00.360241Z",
+    "outcome_available_at": "2026-10-18T11:03:00.358351Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "82-51"
+  },
+  {
+    "fixture_id": "202392772",
+    "fixture_family": [
+      "202392772"
+    ],
+    "league": "Greece A1 Women",
+    "decision_at": "2026-10-18T09:32:17.978934Z",
+    "finished_at": "2026-10-18T11:27:00.313327Z",
+    "outcome_available_at": "2026-10-18T11:29:00.342668Z",
+    "home_line": 7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "76-81"
+  },
+  {
+    "fixture_id": "203118517",
+    "fixture_family": [
+      "203118517"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-18T19:09:26.177536Z",
+    "finished_at": "2026-10-18T20:19:23.53608Z",
+    "outcome_available_at": "2026-10-18T20:21:23.560284Z",
+    "home_line": 10.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "84-93"
+  },
+  {
+    "fixture_id": "202392817",
+    "fixture_family": [
+      "202392817"
+    ],
+    "league": "Italy A2 Women",
+    "decision_at": "2026-10-18T19:09:33.553492Z",
+    "finished_at": "2026-10-18T19:43:23.537493Z",
+    "outcome_available_at": "2026-10-18T19:45:23.574615Z",
+    "home_line": 30.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "48-81"
+  },
+  {
+    "fixture_id": "203066064",
+    "fixture_family": [
+      "203066064"
+    ],
+    "league": "Portugal Div 2 Women",
+    "decision_at": "2026-10-18T19:09:38.048591Z",
+    "finished_at": "2026-10-18T19:21:23.561953Z",
+    "outcome_available_at": "2026-10-18T19:23:28.589037Z",
+    "home_line": -32.5,
+    "home_price": 1.9523809523809523,
+    "away_price": 1.7407407407407407,
+    "market_home_probability": 0.4713467048710602,
+    "home_covered": 1,
+    "final_score": "72-37"
+  },
+  {
+    "fixture_id": "202904232",
+    "fixture_family": [
+      "202904232"
+    ],
+    "league": "South American Club League",
+    "decision_at": "2026-10-18T19:10:16.490732Z",
+    "finished_at": "2026-10-18T20:56:46.192217Z",
+    "outcome_available_at": "2026-10-18T20:58:46.828709Z",
+    "home_line": -2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "93-82"
+  },
+  {
+    "fixture_id": "203069904",
+    "fixture_family": [
+      "203069904"
+    ],
+    "league": "Portugal Nacional 2A",
+    "decision_at": "2026-10-18T20:02:46.482494Z",
+    "finished_at": "2026-10-18T21:49:46.160899Z",
+    "outcome_available_at": "2026-10-18T21:51:46.186613Z",
+    "home_line": -24.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "75-45"
+  },
+  {
+    "fixture_id": "203064979",
+    "fixture_family": [
+      "203064979"
+    ],
+    "league": "Argentina La Liga Proximo",
+    "decision_at": "2026-10-18T20:31:29.49726Z",
+    "finished_at": "2026-10-18T22:01:46.171124Z",
+    "outcome_available_at": "2026-10-18T22:03:46.165882Z",
+    "home_line": -27.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "95-76"
+  },
+  {
+    "fixture_id": "203120779",
+    "fixture_family": [
+      "203120779"
+    ],
+    "league": "Colombia Liga",
+    "decision_at": "2026-10-18T21:04:15.106963Z",
+    "finished_at": "2026-10-18T22:48:02.126051Z",
+    "outcome_available_at": "2026-10-18T22:50:05.840085Z",
+    "home_line": -12.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "78-71"
+  },
+  {
+    "fixture_id": "203073150",
+    "fixture_family": [
+      "203073150"
+    ],
+    "league": "Dominican Republic TBS",
+    "decision_at": "2026-10-18T22:13:54.065656Z",
+    "finished_at": "2026-10-19T00:13:02.112638Z",
+    "outcome_available_at": "2026-10-19T00:15:02.139182Z",
+    "home_line": 3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "85-70"
+  },
+  {
+    "fixture_id": "203007245",
+    "fixture_family": [
+      "203007245"
+    ],
+    "league": "Mexico LNBP",
+    "decision_at": "2026-10-18T22:39:01.670586Z",
+    "finished_at": "2026-10-19T00:16:02.113766Z",
+    "outcome_available_at": "2026-10-19T00:18:02.781306Z",
+    "home_line": -15.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "101-90"
+  },
+  {
+    "fixture_id": "203067973",
+    "fixture_family": [
+      "203067973"
+    ],
+    "league": "Uruguay Tercera de Ascenso",
+    "decision_at": "2026-10-18T22:49:17.14203Z",
+    "finished_at": "2026-10-19T00:32:02.117853Z",
+    "outcome_available_at": "2026-10-19T00:34:02.754496Z",
+    "home_line": -10.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "81-76"
+  },
+  {
+    "fixture_id": "203080451",
+    "fixture_family": [
+      "203080451"
+    ],
+    "league": "Mexico CIBAPAC",
+    "decision_at": "2026-10-18T23:03:37.228646Z",
+    "finished_at": "2026-10-19T00:45:02.123617Z",
+    "outcome_available_at": "2026-10-19T00:47:02.106431Z",
+    "home_line": -20.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 1,
+    "final_score": "101-75"
+  },
+  {
+    "fixture_id": "203007248",
+    "fixture_family": [
+      "203007248"
+    ],
+    "league": "Mexico LNBP",
+    "decision_at": "2026-10-18T23:17:17.098947Z",
+    "finished_at": "2026-10-19T01:19:02.099728Z",
+    "outcome_available_at": "2026-10-19T01:21:02.112574Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "100-78"
+  },
+  {
+    "fixture_id": "202907053",
+    "fixture_family": [
+      "202907053"
+    ],
+    "league": "El Salvador Liga Mayor",
+    "decision_at": "2026-10-19T00:01:07.778334Z",
+    "finished_at": "2026-10-19T01:29:02.110528Z",
+    "outcome_available_at": "2026-10-19T01:31:02.12013Z",
+    "home_line": 8.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 0,
+    "final_score": "78-93"
+  },
+  {
+    "fixture_id": "202995419",
+    "fixture_family": [
+      "202995419"
+    ],
+    "league": "Mexico LNBP",
+    "decision_at": "2026-10-19T01:18:11.645872Z",
+    "finished_at": "2026-10-19T03:51:11.944505Z",
+    "outcome_available_at": "2026-10-19T03:53:11.367335Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "100-111"
+  },
+  {
+    "fixture_id": "203143049",
+    "fixture_family": [
+      "203143049"
+    ],
+    "league": "Club Friendlies",
+    "decision_at": "2026-10-19T08:04:29.958601Z",
+    "finished_at": "2026-10-19T09:29:05.738124Z",
+    "outcome_available_at": "2026-10-19T09:31:05.751925Z",
+    "home_line": 15.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "57-84"
+  },
+  {
+    "fixture_id": "203071865",
+    "fixture_family": [
+      "203071865"
+    ],
+    "league": "Georgia League U22",
+    "decision_at": "2026-10-19T10:01:07.516188Z",
+    "finished_at": "2026-10-19T11:27:50.225088Z",
+    "outcome_available_at": "2026-10-19T11:29:50.857802Z",
+    "home_line": 20.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "85-90"
+  },
+  {
+    "fixture_id": "202448898",
+    "fixture_family": [
+      "202448898"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-19T10:11:07.503813Z",
+    "finished_at": "2026-10-19T12:11:50.262724Z",
+    "outcome_available_at": "2026-10-19T12:13:50.892112Z",
+    "home_line": 14.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "77-92"
+  },
+  {
+    "fixture_id": "202449122",
+    "fixture_family": [
+      "202449122"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-19T10:11:12.002573Z",
+    "finished_at": "2026-10-19T12:16:50.261974Z",
+    "outcome_available_at": "2026-10-19T12:18:50.279553Z",
+    "home_line": -1.5,
+    "home_price": 1.9523809523809523,
+    "away_price": 1.7407407407407407,
+    "market_home_probability": 0.4713467048710602,
+    "home_covered": 0,
+    "final_score": "64-107"
+  },
+  {
+    "fixture_id": "202449072",
+    "fixture_family": [
+      "202449072"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-19T10:12:08.128156Z",
+    "finished_at": "2026-10-19T12:05:50.923314Z",
+    "outcome_available_at": "2026-10-19T12:07:50.271483Z",
+    "home_line": -10.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "80-71"
+  },
+  {
+    "fixture_id": "202448836",
+    "fixture_family": [
+      "202448836"
+    ],
+    "league": "Japan B League Premier",
+    "decision_at": "2026-10-19T10:41:07.518846Z",
+    "finished_at": "2026-10-19T12:45:50.875772Z",
+    "outcome_available_at": "2026-10-19T12:47:50.263052Z",
+    "home_line": -7.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "99-67"
+  },
+  {
+    "fixture_id": "203074956",
+    "fixture_family": [
+      "203074956"
+    ],
+    "league": "Georgia League U22",
+    "decision_at": "2026-10-19T12:03:37.530744Z",
+    "finished_at": "2026-10-19T13:24:50.249808Z",
+    "outcome_available_at": "2026-10-19T13:26:50.304926Z",
+    "home_line": -3.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "94-83"
+  },
+  {
+    "fixture_id": "203071874",
+    "fixture_family": [
+      "203071874"
+    ],
+    "league": "Georgia League U22",
+    "decision_at": "2026-10-19T13:59:52.730881Z",
+    "finished_at": "2026-10-19T15:27:50.266847Z",
+    "outcome_available_at": "2026-10-19T15:29:50.918158Z",
+    "home_line": 6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "75-68"
+  },
+  {
+    "fixture_id": "203090738",
+    "fixture_family": [
+      "203090738"
+    ],
+    "league": "Bahrain Premier League",
+    "decision_at": "2026-10-19T15:03:14.670971Z",
+    "finished_at": "2026-10-19T16:40:21.300806Z",
+    "outcome_available_at": "2026-10-19T16:42:21.970095Z",
+    "home_line": -33.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "124-74"
+  },
+  {
+    "fixture_id": "202448839",
+    "fixture_family": [
+      "202448839"
+    ],
+    "league": "T\u00fcrkiye TKBL Women",
+    "decision_at": "2026-10-19T15:31:22.116009Z",
+    "finished_at": "2026-10-19T17:24:21.283664Z",
+    "outcome_available_at": "2026-10-19T17:26:22.207659Z",
+    "home_line": 2.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "76-72"
+  },
+  {
+    "fixture_id": "202758040",
+    "fixture_family": [
+      "202758040"
+    ],
+    "league": "T\u00fcrkiye BSL",
+    "decision_at": "2026-10-19T16:00:53.496688Z",
+    "finished_at": "2026-10-19T17:53:44.478952Z",
+    "outcome_available_at": "2026-10-19T17:55:43.872648Z",
+    "home_line": 4.5,
+    "home_price": 1.8695652173913042,
+    "away_price": 1.8,
+    "market_home_probability": 0.490521327014218,
+    "home_covered": 1,
+    "final_score": "73-70"
+  },
+  {
+    "fixture_id": "203169111",
+    "fixture_family": [
+      "203169111"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-19T16:13:53.446082Z",
+    "finished_at": "2026-10-19T17:40:43.812322Z",
+    "outcome_available_at": "2026-10-19T17:42:43.865286Z",
+    "home_line": -5.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 0,
+    "final_score": "74-88"
+  },
+  {
+    "fixture_id": "202339699",
+    "fixture_family": [
+      "202339699"
+    ],
+    "league": "BIH Prvenstvo League",
+    "decision_at": "2026-10-19T17:01:53.428964Z",
+    "finished_at": "2026-10-19T18:53:44.514436Z",
+    "outcome_available_at": "2026-10-19T18:55:43.888166Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "77-59"
+  },
+  {
+    "fixture_id": "202449050",
+    "fixture_family": [
+      "202449050"
+    ],
+    "league": "Poland PLK",
+    "decision_at": "2026-10-19T17:02:22.845512Z",
+    "finished_at": "2026-10-19T19:09:44.577031Z",
+    "outcome_available_at": "2026-10-19T19:11:43.940886Z",
+    "home_line": -2.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "84-87"
+  },
+  {
+    "fixture_id": "202448830",
+    "fixture_family": [
+      "202448830"
+    ],
+    "league": "Sweden Basketligan",
+    "decision_at": "2026-10-19T17:05:23.858291Z",
+    "finished_at": "2026-10-19T18:57:44.53064Z",
+    "outcome_available_at": "2026-10-19T18:59:43.906875Z",
+    "home_line": -9.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "88-78"
+  },
+  {
+    "fixture_id": "202448781",
+    "fixture_family": [
+      "202448781"
+    ],
+    "league": "Germany Cup",
+    "decision_at": "2026-10-19T18:01:45.464815Z",
+    "finished_at": "2026-10-19T19:49:29.57484Z",
+    "outcome_available_at": "2026-10-19T19:51:29.615658Z",
+    "home_line": -6.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "83-71"
+  },
+  {
+    "fixture_id": "203169114",
+    "fixture_family": [
+      "203169114"
+    ],
+    "league": "Arab Club Championship",
+    "decision_at": "2026-10-19T18:31:17.735974Z",
+    "finished_at": "2026-10-19T20:09:29.579514Z",
+    "outcome_available_at": "2026-10-19T20:11:29.626883Z",
+    "home_line": -8.5,
+    "home_price": 1.8333333333333335,
+    "away_price": 1.8333333333333335,
+    "market_home_probability": 0.5,
+    "home_covered": 1,
+    "final_score": "100-84"
+  },
+  {
+    "fixture_id": "203081189",
+    "fixture_family": [
+      "203081189"
+    ],
+    "league": "Argentina LLF Women",
+    "decision_at": "2026-10-19T21:01:27.483666Z",
+    "finished_at": "2026-10-19T22:35:29.509578Z",
+    "outcome_available_at": "2026-10-19T22:37:29.543153Z",
+    "home_line": 25.5,
+    "home_price": 1.8,
+    "away_price": 1.8695652173913042,
+    "market_home_probability": 0.509478672985782,
+    "home_covered": 0,
+    "final_score": "51-88"
+  }
+]

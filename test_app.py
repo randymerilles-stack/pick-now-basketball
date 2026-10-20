@@ -10,7 +10,7 @@ class FailClosedTests(unittest.TestCase):
         self.assertEqual(result['quotes_seen'], 4)
         self.assertEqual(result['verified_market_count'], 0)
         self.assertEqual(result['picks'], [])
-        self.assertEqual(result['model_status'], 'not_validated')
+        self.assertIn(result['model_status'], ('not_validated', 'tested_not_approved'))
 
     def test_bad_schema_and_feed_failure(self):
         for data in [None, [], {'matches': None}, {'matches': 'wrong'}]:
