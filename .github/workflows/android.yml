@@ -30,7 +30,9 @@ jobs:
           gradle-version: '8.13'
           cache-disabled: true
       - name: Ensure Android SDK
-        run: sdkmanager "platforms;android-36" "build-tools;35.0.0"
+        run: |
+          test -d "$ANDROID_HOME/platforms/android-36"
+          test -d "$ANDROID_HOME/build-tools/35.0.0"
       - name: Build APK and lint
         working-directory: android-project
         run: gradle --no-daemon --console=plain assembleDebug lintDebug
