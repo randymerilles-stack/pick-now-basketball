@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "input_capture": "2026-10-21T0742-clock.json",
+  "results": {
+    "199419308": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=199419308",
+      "received_at": "2026-10-21T00:42:28.165959+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 0,
+        "results": [],
+        "source": "postgres"
+      }
+    },
+    "202615968": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202615968",
+      "received_at": "2026-10-21T00:42:31.430875+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "202615968",
+            "sport": "basketball",
+            "home": "Caxias Do Sul",
+            "away": "Minas",
+            "league": "Brazil NBB",
+            "final_score": "66-78",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "20-25"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "10-16"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "13-14"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "23-23"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-21T00:26:01.603566Z",
+            "updated_at": "2026-10-21T00:28:05.366033Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    },
+    "202615974": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202615974",
+      "received_at": "2026-10-21T00:42:34.244609+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 0,
+        "results": [],
+        "source": "postgres"
+      }
+    },
+    "202630028": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202630028",
+      "received_at": "2026-10-21T00:42:37.091180+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 0,
+        "results": [],
+        "source": "postgres"
+      }
+    },
+    "202925875": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=202925875",
+      "received_at": "2026-10-21T00:42:40.580080+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 1,
+        "results": [
+          {
+            "fixture_id": "202925875",
+            "sport": "basketball",
+            "home": "Malvin",
+            "away": "CA Atenas Montevideo",
+            "league": "Uruguay Liga",
+            "final_score": "77-66",
+            "periods": [
+              {
+                "name": "Quarter 1",
+                "score": "20-8"
+              },
+              {
+                "name": "Quarter 2",
+                "score": "23-19"
+              },
+              {
+                "name": "Quarter 3",
+                "score": "15-19"
+              },
+              {
+                "name": "Quarter 4",
+                "score": "19-20"
+              }
+            ],
+            "status": "finished",
+            "finished_at": "2026-10-21T00:01:11.474789Z",
+            "updated_at": "2026-10-21T00:03:11.51285Z"
+          }
+        ],
+        "source": "postgres"
+      }
+    },
+    "203095482": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=203095482",
+      "received_at": "2026-10-21T00:42:43.408850+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 0,
+        "results": [],
+        "source": "postgres"
+      }
+    },
+    "203188062": {
+      "source": "https://moviodds.com/results?sport=basketball&fi=203188062",
+      "received_at": "2026-10-21T00:42:46.090284+00:00",
+      "response": {
+        "sport": "basketball",
+        "count": 0,
+        "results": [],
+        "source": "postgres"
+      }
+    }
+  },
+  "joined": [
+    {
+      "fixture_id": "202925875",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Malvin",
+          "line": -23.5,
+          "cover_result": "loss",
+          "covered": 0
+        },
+        {
+          "team": "CA Atenas Montevideo",
+          "line": 23.5,
+          "cover_result": "win",
+          "covered": 1
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "77-66",
+      "decision_at": "2026-10-20T23:42:51.577799+00:00",
+      "finished_at": "2026-10-21T00:01:11.474789+00:00",
+      "outcome_available_at": "2026-10-21T00:42:40.580080+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202615968",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Caxias Do Sul",
+          "line": 12.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Minas",
+          "line": -12.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "66-78",
+      "decision_at": "2026-10-20T23:42:51.577799+00:00",
+      "finished_at": "2026-10-21T00:26:01.603566+00:00",
+      "outcome_available_at": "2026-10-21T00:42:31.430875+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202615974",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202630028",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "199419308",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203188062",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203095482",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202925875",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Malvin",
+          "line": -23.5,
+          "cover_result": "loss",
+          "covered": 0
+        },
+        {
+          "team": "CA Atenas Montevideo",
+          "line": 23.5,
+          "cover_result": "win",
+          "covered": 1
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "77-66",
+      "decision_at": "2026-10-20T23:42:54.913831+00:00",
+      "finished_at": "2026-10-21T00:01:11.474789+00:00",
+      "outcome_available_at": "2026-10-21T00:42:40.580080+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202615968",
+      "status": "provider_labelled_research_only",
+      "labels": [
+        {
+          "team": "Caxias Do Sul",
+          "line": 12.5,
+          "cover_result": "win",
+          "covered": 1
+        },
+        {
+          "team": "Minas",
+          "line": -12.5,
+          "cover_result": "loss",
+          "covered": 0
+        }
+      ],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "final_score": "66-78",
+      "decision_at": "2026-10-20T23:42:54.913831+00:00",
+      "finished_at": "2026-10-21T00:26:01.603566+00:00",
+      "outcome_available_at": "2026-10-21T00:42:31.430875+00:00",
+      "training_eligible": false,
+      "reason": "Provider outcome only; score/time features and independent settlement still unverified.",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202615974",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "202630028",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "199419308",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203188062",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    },
+    {
+      "fixture_id": "203095482",
+      "status": "unlabelled",
+      "labels": [],
+      "approved_for_picks": false,
+      "independently_verified": false,
+      "reason": "missing_or_ambiguous_result",
+      "market_id": "1446"
+    }
+  ],
+  "unique_fixtures": 7,
+  "observation_rows": 14,
+  "labelled_rows": 4,
+  "approved_for_picks": false,
+  "training_eligible": false,
+  "limitations": [
+    "Repeated observations and opposing sides are not independent games.",
+    "No model forecasts were evaluated; these outcomes are not a win-rate claim.",
+    "Provider settlement and score/time feature semantics remain independently unverified."
+  ]
+}
