@@ -93,3 +93,10 @@ This remains a data-readiness check, not an accuracy result. No score/time model
 Saved actual bounded provider responses and receipt times in research_observations/2026-10-21T0936-outcomes.json. Three additional independent fixtures now have matched finished results. Refreshed dataset_readiness_audit_2026-10-21T0936.json counts 14 unique IDs, 12 provider-labelled fixtures and two unlabelled, with zero identity/outcome conflicts. Chronological diagnostic: seven training candidates, four test candidates and one outcome purged for late availability. These counts do not establish sample adequacy or model effectiveness. All 36 software tests passed; no forecasts were evaluated and all training/approved flags remain false.
 
 Next: complete the remaining result joins, then prioritize clock semantics and predefined evaluation design over repetitive collection reports. Owner requested meaningful model-testing updates; suppress routine data-count notifications unless action is needed or a material blocker changes. No runtime code or deployment changed.
+
+
+## Evaluation design — 21 October 2026, 10:36 Perth
+
+Saved PRIORITY_EVALUATION_PROTOCOL.md before model fitting: exact handicap-cover target, both-side scoring, event-grouped chronological splits, causal outcome availability, frozen pre-result forecasts, market-only baseline, validation-only timing selection, untouched final testing, uncertainty and independent replication. Current live_state.py was checked against GitHub and still blocks unverified clock semantics. No model qualification or deployment occurred.
+
+Recomputed the illustrative independent binary precision figures: ceil(1.96^2 * .25 / .05^2)=385 and the corresponding .03 figure=1068. These are explicitly not model-training minimums or a Brier-effect power analysis. No software changed, so prior 36 test results were not rerun or relabelled as new predictive evidence. Next: establish clock/rule semantics and eligible feature records, then implement grouped evaluation/forecast persistence and a development-only power analysis. Routine progress notifications remain suppressed pending model results or actionable blockers.
