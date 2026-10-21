@@ -1,0 +1,23 @@
+{
+  "audited_at_perth": "2026-10-21 19:40",
+  "rule_family": "FIBA 2026",
+  "regulation_periods": 4,
+  "period_seconds": 600,
+  "overtime_seconds": 300,
+  "source": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf",
+  "articles": [
+    "8.1",
+    "8.7"
+  ],
+  "nbl_context_source": "https://league.nbl.com.au/news/fiba-introduces-new-rules-for-nbl",
+  "nbl_context_published": "2026-09-03",
+  "league_mapping_status": "candidate_requires_competition_duration_confirmation",
+  "provider_clock_semantics_verified": false,
+  "approved_for_feature_transform": false,
+  "approved_for_picks": false,
+  "limitations": [
+    "FIBA duration rules do not establish the meaning of MoviOdds clock fields.",
+    "NBL announcement confirms FIBA rule changes for 2026-27 but does not itself explicitly confirm duration or every competition exception.",
+    "Do not apply this rule family automatically to friendlies, PBA, NCAA or a league-name substring."
+  ]
+}
