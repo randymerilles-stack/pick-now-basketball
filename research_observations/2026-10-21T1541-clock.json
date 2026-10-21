@@ -1,0 +1,247 @@
+{
+  "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+  "received_before": "2026-10-21T07:41:45.697658+00:00",
+  "received_after": "2026-10-21T07:41:48.580525+00:00",
+  "server_time_before": "2026-10-21T07:41:45.546670883Z",
+  "server_time_after": "2026-10-21T07:41:48.429176463Z",
+  "transitions": [
+    {
+      "fixture_id": "203192934",
+      "league": "Philippines UAAP",
+      "period_before": 3,
+      "period_after": 3,
+      "clock_before_seconds": 600,
+      "clock_after_seconds": 600,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-21T07:33:39Z",
+      "clock_ref_after": "2026-10-21T07:33:39Z",
+      "score_changed": false,
+      "semantics_verified": false
+    }
+  ],
+  "captures": [
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-21T07:41:45.697658+00:00",
+      "server_time": "2026-10-21T07:41:45.546670883Z",
+      "source_sha256": "2bfe27a0d577cee2664b536681ed213e6157fd6e437b644d1bc9faf867ae37fb",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 107,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "203192934",
+          "market_id": "1446",
+          "league": "Philippines UAAP",
+          "home": "DLSU Green Archers",
+          "away": "UE Red Warriors",
+          "score_observed": "40-29",
+          "clock_observed": {
+            "min": 10,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-21T07:33:39Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-21T07:33:39.39864767Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 40,
+              "three_pointers": 2,
+              "two_pointers": 15,
+              "free_throws": 4,
+              "free_throw_pct": 80,
+              "timeouts_remaining": 4,
+              "fouls": 12,
+              "periods": [
+                27,
+                13,
+                0
+              ],
+              "timeouts_used": 1
+            },
+            "away": {
+              "points": 29,
+              "three_pointers": 3,
+              "two_pointers": 6,
+              "free_throws": 8,
+              "free_throw_pct": 44.4,
+              "timeouts_remaining": 3,
+              "fouls": 7,
+              "periods": [
+                16,
+                13,
+                0
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 27-16",
+              "Score After 2nd Quarter - 40-29"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 486.148023,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T07:41:27.961849941Z",
+          "quotes": [
+            {
+              "team": "DLSU Green Archers",
+              "line": -15.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "259840555"
+            },
+            {
+              "team": "UE Red Warriors",
+              "line": 15.5,
+              "odds": 1.8,
+              "selection_id": "259840557"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    },
+    {
+      "schema_version": 2,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-21T07:41:48.580525+00:00",
+      "server_time": "2026-10-21T07:41:48.429176463Z",
+      "source_sha256": "eb861b3eb831371e8ea245431862878f55cd9c9798cb622dbd0894ee5985ce05",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 107,
+        "virtual_basketball_excluded": 4
+      },
+      "observations": [
+        {
+          "fixture_id": "203192934",
+          "market_id": "1446",
+          "league": "Philippines UAAP",
+          "home": "DLSU Green Archers",
+          "away": "UE Red Warriors",
+          "score_observed": "40-29",
+          "clock_observed": {
+            "min": 10,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-21T07:33:39Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-21T07:33:39.39864767Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 40,
+              "three_pointers": 2,
+              "two_pointers": 15,
+              "free_throws": 4,
+              "free_throw_pct": 80,
+              "timeouts_remaining": 4,
+              "fouls": 12,
+              "periods": [
+                27,
+                13,
+                0
+              ],
+              "timeouts_used": 1
+            },
+            "away": {
+              "points": 29,
+              "three_pointers": 3,
+              "two_pointers": 6,
+              "free_throws": 8,
+              "free_throw_pct": 44.4,
+              "timeouts_remaining": 3,
+              "fouls": 7,
+              "periods": [
+                16,
+                13,
+                0
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 27-16",
+              "Score After 2nd Quarter - 40-29"
+            ]
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 489.030529,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T07:41:27.961849941Z",
+          "quotes": [
+            {
+              "team": "DLSU Green Archers",
+              "line": -15.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "259840555"
+            },
+            {
+              "team": "UE Red Warriors",
+              "line": 15.5,
+              "odds": 1.8,
+              "selection_id": "259840557"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    }
+  ],
+  "limitations": [
+    "Two observations cannot prove clock direction or freshness semantics.",
+    "A stopped or unchanged clock does not establish a break or remaining game time.",
+    "Records are research only, not independent games or validated training samples."
+  ],
+  "approved_for_picks": false
+}
