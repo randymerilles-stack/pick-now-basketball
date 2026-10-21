@@ -4,6 +4,14 @@ from prospective_capture import capture
 from test_validation import sample
 
 class CaptureTests(unittest.TestCase):
+    def test_group_provenance_is_detached_from_input(self):
+        data=sample()
+        record=capture(data,datetime(2026,10,20,3,0,tzinfo=timezone.utc))
+        o=record['observations'][0]
+        self.assertEqual(o['handicap_group_id'],'112')
+        self.assertEqual(o['handicap_group_status_observed'],data['matches'][0]['group_status']['112'])
+        data['matches'][0]['group_status']['112']['polled_at']='changed'
+        self.assertEqual(o['handicap_group_status_observed']['polled_at'],'2026-10-20T02:59:55Z')
     def test_opt_in_stats_period_is_preserved_without_approval(self):
         data=sample();fixture=data['matches'][0]
         fixture['score']='55-51';fixture['clock']={'min':4,'sec':12}
@@ -11,7 +19,7 @@ class CaptureTests(unittest.TestCase):
                           'away':{'points':51},'updated_at':'2026-10-20T03:00:00Z'}
         record=capture(data,datetime(2026,10,20,3,0,tzinfo=timezone.utc))
         o=record['observations'][0]
-        self.assertEqual(record['schema_version'],2)
+        self.assertEqual(record['schema_version'],3)
         self.assertIn('stats=1',record['source'])
         self.assertEqual(o['period_observed'],3)
         self.assertEqual(o['stats_observed'],fixture['stats'])
