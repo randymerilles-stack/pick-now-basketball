@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "requested_id": "202562243",
+      "url": "https://moviodds.com/closing?fi=202562243",
+      "received_at": "2026-10-21T14:43:04.166997+00:00",
+      "source_sha256": "19590a1fb11c3c17413437b28101e217f98018c7a51adf609c041daf75f2606b",
+      "declared_aliases": [
+        "202562243"
+      ],
+      "status": "provider_declaration_only",
+      "response_identity": {
+        "fixture_id": "202562243",
+        "fixture_ids": [
+          "202562243"
+        ],
+        "prematch_id": "202562243"
+      }
+    },
+    {
+      "requested_id": "202560895",
+      "url": "https://moviodds.com/closing?fi=202560895",
+      "received_at": "2026-10-21T14:43:05.206835+00:00",
+      "source_sha256": "ebd01be2a48a7f10fce9b332646e770510ccce267b30207c5a776f7ff45736f8",
+      "declared_aliases": [
+        "202560895"
+      ],
+      "status": "provider_declaration_only",
+      "response_identity": {
+        "fixture_id": "202560895",
+        "fixture_ids": [
+          "202560895"
+        ],
+        "prematch_id": "202560895"
+      }
+    },
+    {
+      "requested_id": "203169631",
+      "url": "https://moviodds.com/closing?fi=203169631",
+      "received_at": "2026-10-21T14:43:04.197309+00:00",
+      "source_sha256": "6aad642b92f26e7f089a8503da475912d0a9450e9c48dd13333dd8f4b7cfdf7a",
+      "declared_aliases": [
+        "203169631"
+      ],
+      "status": "provider_declaration_only",
+      "response_identity": {
+        "fixture_id": "203169631",
+        "fixture_ids": [
+          "203169631"
+        ],
+        "prematch_id": "203169631"
+      }
+    },
+    {
+      "requested_id": "203192934",
+      "url": "https://moviodds.com/closing?fi=203192934",
+      "received_at": "2026-10-21T14:43:03.467495+00:00",
+      "source_sha256": "a965d03199faa14847a7d41d798c5f27ba99b52d7c4b884d761143c70470d30d",
+      "declared_aliases": [
+        "203192934"
+      ],
+      "status": "provider_declaration_only",
+      "response_identity": {
+        "fixture_id": "203192934",
+        "fixture_ids": [
+          "203192934"
+        ],
+        "prematch_id": "203192934"
+      }
+    }
+  ],
+  "independently_verified": false,
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "scope": "Four recent capture IDs only; not a full-dataset alias audit."
+}
