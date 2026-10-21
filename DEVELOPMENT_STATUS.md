@@ -100,3 +100,10 @@ Next: complete the remaining result joins, then prioritize clock semantics and p
 Saved PRIORITY_EVALUATION_PROTOCOL.md before model fitting: exact handicap-cover target, both-side scoring, event-grouped chronological splits, causal outcome availability, frozen pre-result forecasts, market-only baseline, validation-only timing selection, untouched final testing, uncertainty and independent replication. Current live_state.py was checked against GitHub and still blocks unverified clock semantics. No model qualification or deployment occurred.
 
 Recomputed the illustrative independent binary precision figures: ceil(1.96^2 * .25 / .05^2)=385 and the corresponding .03 figure=1068. These are explicitly not model-training minimums or a Brier-effect power analysis. No software changed, so prior 36 test results were not rerun or relabelled as new predictive evidence. Next: establish clock/rule semantics and eligible feature records, then implement grouped evaluation/forecast persistence and a development-only power analysis. Routine progress notifications remain suppressed pending model results or actionable blockers.
+
+
+## Timing-window implementation — 21 October 2026, 11:42 Perth
+
+Added offline timing_windows.py implementing the protocol's four nonoverlapping normalized regulation-time intervals. Unverified semantics, overtime, invalid/nonfinite values, bools, negative time and time beyond regulation return no window. The verification argument is a caller precondition, not independent source verification; current capture inputs remain ineligible. The helper is not connected to live app selection.
+
+Four focused tests passed for all boundaries, distinct regulation lengths, invalid values, unknown semantics and overtime rejection. No prediction accuracy was measured; no model was trained or deployed. Next: establish documented clock/league semantics, then implement eligible feature records and chronological forecast evaluation. Priority Pick remains unavailable.
