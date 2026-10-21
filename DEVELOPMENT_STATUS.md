@@ -126,3 +126,10 @@ Next: investigate the remaining unlabelled fixture and prioritize documented sou
 Fresh official documentation review saved in SOURCE_SEMANTICS_AUDIT_2026-10-21.md. Clock direction/ref semantics still absent. Identified an actionable validation gap: fixture polled_at does not prove the selected handicap group was read recently; documented group_status provides market-specific confirmation. Existing validation.py has no group_status check. Prior data_checked counts must not be interpreted as verified contemporary group odds.
 
 Next run should prioritize implementing and testing exact-group freshness rejection, including fresh-fixture/stale-handicap regression, then safely deploy/verify paper-feed validation. No code changed or tests rerun in this documentation audit, no picks/model enabled. Results remain provider-only labels; forecast effectiveness is untested.
+
+
+## Handicap group freshness — 21 October 2026, 14:36 Perth
+
+validation.py now requires group_status['112'] with a recent timezone-aware polled_at and no stale/invalid flag, independently of fixture freshness. Missing/wrong-group/malformed/old/future group confirmation fails closed. Added regression for fresh fixture plus stale handicap group and retained stable-price timestamp behavior. All 41 local research tests passed, including the new regression; no prediction effectiveness inferred.
+
+Committed release 6ed07f1eb7257b00c0104e997e8891f299a134dc; manual Render deployment requested after confirming no new automatic deployment. Check actual deployment status before further release actions. Approved picks/score-time model remain disabled; 30-day owner session and English default preserved. Next: verify live release and current-feed coverage under the stricter check, then establish source clock/rule semantics. Earlier capture datasets lack this stricter provenance and must not be treated as validated odds records.
