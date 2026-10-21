@@ -9,7 +9,7 @@ import threading
 import time
 
 COOKIE='__Host-picknow_session'
-TTL=8*60*60
+TTL=30*24*60*60
 LOCK=threading.Lock()
 SESSIONS={}
 ATTEMPTS=deque()
