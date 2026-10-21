@@ -154,3 +154,10 @@ Next: obtain schema v3 observations across active clock movement, establish cloc
 Added bounded --interval-seconds (0..30) to clock_audit.py. Actual schema v3 observations received 09:38:52.920962Z and 09:39:16.288232Z are saved in research_observations/2026-10-21T1738-clock.json. Three exact-identity real fixtures with explicit periods and three paired handicap markets per capture: Australia NBL 202562243 Q3 clock decreased 395 to 381 seconds; Club Friendlies 203169631 period 2 decreased 436 to 413; PBA 202560895 period 2 unchanged at 720. Raw selected-group freshness provenance is retained.
 
 This is the first observed same-period countdown movement in collected evidence, not general verification of source reference semantics or synchronized timestamps. Different ref/clock deltas remain unexplained; no remaining-time feature inferred. Nine focused clock/capture tests passed. All semantics_verified/priority/approved flags remain false; research-only tool, no deployment required. Next: inspect documented league rules and source clock ref/ticking behavior, gather independently aligned state evidence, and evaluate eligible feature coverage before fitting a model.
+
+
+## Schema v3 outcome matching — 21 October 2026, 18:41 Perth
+
+Bounded final-result queries for the three spaced schema v3 captures completed and are saved with actual receipt times in research_observations/2026-10-21T1841-outcomes.json. Four repeated observation rows across two independent fixtures matched provider finished results; one fixture remains unlabelled. Seven outcome-validation tests passed. These are research-only labels with training_eligible=false and approved_for_picks=false. No forecasts were scored and no effectiveness claim is supported.
+
+Next: investigate documented NBL/other league regulation rules and clock ref/ticking semantics; capture provenance alone cannot establish synchronized state or independently verified odds. Retry remaining outcomes when available; retain all prior receipts without backdating knowledge. No runtime change or deployment.
