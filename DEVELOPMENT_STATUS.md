@@ -147,3 +147,10 @@ Nineteen focused validation/capture/clock tests passed. This is real-feed covera
 Research capture schema v3 now preserves handicap_group_id=112 and a detached raw handicap_group_status_observed record for every accepted observation. This permits later review of selected-group polling time and flags without confusing fixture freshness with market freshness. Earlier schema v2 records were not backfilled or promoted. Fifteen focused capture/validation tests passed, including input-mutation independence and existing stale/wrong-group rejection tests. No runtime app change/deployment required, no training or approved outputs enabled.
 
 Next: obtain schema v3 observations across active clock movement, establish clock/league semantics and build eligible feature records before forecast evaluation. Raw provider provenance remains distinct from independent odds verification.
+
+
+## Spaced clock movement — 21 October 2026, 17:39 Perth
+
+Added bounded --interval-seconds (0..30) to clock_audit.py. Actual schema v3 observations received 09:38:52.920962Z and 09:39:16.288232Z are saved in research_observations/2026-10-21T1738-clock.json. Three exact-identity real fixtures with explicit periods and three paired handicap markets per capture: Australia NBL 202562243 Q3 clock decreased 395 to 381 seconds; Club Friendlies 203169631 period 2 decreased 436 to 413; PBA 202560895 period 2 unchanged at 720. Raw selected-group freshness provenance is retained.
+
+This is the first observed same-period countdown movement in collected evidence, not general verification of source reference semantics or synchronized timestamps. Different ref/clock deltas remain unexplained; no remaining-time feature inferred. Nine focused clock/capture tests passed. All semantics_verified/priority/approved flags remain false; research-only tool, no deployment required. Next: inspect documented league rules and source clock ref/ticking behavior, gather independently aligned state evidence, and evaluate eligible feature coverage before fitting a model.
