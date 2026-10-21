@@ -119,3 +119,10 @@ Owner requested fewer password entries. Session and Secure/HttpOnly/SameSite coo
 Saved research_observations/2026-10-21T1234-outcomes.json with actual response receipt times. One additional NBA fixture is now provider-labelled. Aggregate dataset_readiness_audit_2026-10-21T1234.json reports 14 unique IDs, 13 provider-labelled games and one unlabelled, zero invalid rows or identity/outcome conflicts. Chronological diagnostic: seven train candidates, four test candidates, two late-availability outcomes purged. Eleven focused outcome and dataset tests passed. No model fitted, forecast evaluated, source semantics verified or betting gates enabled.
 
 Next: investigate the remaining unlabelled fixture and prioritize documented source clock/period semantics; do not confuse counts with model validation. No runtime deployment needed. Preserve the newly released 30-day session setting and English default.
+
+
+## Source semantics re-audit — 21 October 2026, 13:33 Perth
+
+Fresh official documentation review saved in SOURCE_SEMANTICS_AUDIT_2026-10-21.md. Clock direction/ref semantics still absent. Identified an actionable validation gap: fixture polled_at does not prove the selected handicap group was read recently; documented group_status provides market-specific confirmation. Existing validation.py has no group_status check. Prior data_checked counts must not be interpreted as verified contemporary group odds.
+
+Next run should prioritize implementing and testing exact-group freshness rejection, including fresh-fixture/stale-handicap regression, then safely deploy/verify paper-feed validation. No code changed or tests rerun in this documentation audit, no picks/model enabled. Results remain provider-only labels; forecast effectiveness is untested.
