@@ -83,6 +83,20 @@ def inspect_feed(data, checked_at=None):
         if not fresh:
             rejected['stale_or_missing_poll'] += 1
             continue
+        # A fixture can be refreshed by another market; require this group's read.
+        status = m.get('group_status')
+        status = status.get('112') if isinstance(status, dict) else None
+        try:
+            if not isinstance(status, dict) or status.get('stale', False) is not False:
+                raise ValueError('Unconfirmed handicap group')
+            group_poll = timestamp(status.get('polled_at'))
+            group_age = (max(server, checked_at) - group_poll).total_seconds()
+            group_future = (group_poll - min(server, checked_at)).total_seconds()
+            if not -5 <= group_age <= MAX_POLL_AGE or group_future > 5:
+                raise ValueError('Old or future handicap group')
+        except (ValueError, TypeError):
+            rejected['stale_or_missing_handicap_group_poll'] += 1
+            continue
         groups = defaultdict(list)
         quotes = m.get('quotes')
         if not isinstance(quotes, list):
