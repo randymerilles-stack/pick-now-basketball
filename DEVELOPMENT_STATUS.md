@@ -107,3 +107,8 @@ Recomputed the illustrative independent binary precision figures: ceil(1.96^2 * 
 Added offline timing_windows.py implementing the protocol's four nonoverlapping normalized regulation-time intervals. Unverified semantics, overtime, invalid/nonfinite values, bools, negative time and time beyond regulation return no window. The verification argument is a caller precondition, not independent source verification; current capture inputs remain ineligible. The helper is not connected to live app selection.
 
 Four focused tests passed for all boundaries, distinct regulation lengths, invalid values, unknown semantics and overtime rejection. No prediction accuracy was measured; no model was trained or deployed. Next: establish documented clock/league semantics, then implement eligible feature records and chronological forecast evaluation. Priority Pick remains unavailable.
+
+
+## Owner session convenience — 21 October 2026
+
+Owner requested fewer password entries. Session and Secure/HttpOnly/SameSite cookie lifetime extended from eight hours to 30 days. Raw passwords are not stored on device. Existing server-memory session storage remains: logout, process restart/deploy or cleared cookies require login again. Eight authentication tests and all 31 local server/model regression tests passed, including next-day authentication, exact 30-day expiry and logout revocation. Release commit 4a2a9750b68efb95a837cdb9d264ea6529c9cc41 sent to Render; inspect deployment before any redeploy. No model gates changed.
