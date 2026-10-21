@@ -112,3 +112,10 @@ Four focused tests passed for all boundaries, distinct regulation lengths, inval
 ## Owner session convenience — 21 October 2026
 
 Owner requested fewer password entries. Session and Secure/HttpOnly/SameSite cookie lifetime extended from eight hours to 30 days. Raw passwords are not stored on device. Existing server-memory session storage remains: logout, process restart/deploy or cleared cookies require login again. Eight authentication tests and all 31 local server/model regression tests passed, including next-day authentication, exact 30-day expiry and logout revocation. Release commit 4a2a9750b68efb95a837cdb9d264ea6529c9cc41 sent to Render; inspect deployment before any redeploy. No model gates changed.
+
+
+## Result checkpoint — 21 October 2026, 12:34 Perth
+
+Saved research_observations/2026-10-21T1234-outcomes.json with actual response receipt times. One additional NBA fixture is now provider-labelled. Aggregate dataset_readiness_audit_2026-10-21T1234.json reports 14 unique IDs, 13 provider-labelled games and one unlabelled, zero invalid rows or identity/outcome conflicts. Chronological diagnostic: seven train candidates, four test candidates, two late-availability outcomes purged. Eleven focused outcome and dataset tests passed. No model fitted, forecast evaluated, source semantics verified or betting gates enabled.
+
+Next: investigate the remaining unlabelled fixture and prioritize documented source clock/period semantics; do not confuse counts with model validation. No runtime deployment needed. Preserve the newly released 30-day session setting and English default.
