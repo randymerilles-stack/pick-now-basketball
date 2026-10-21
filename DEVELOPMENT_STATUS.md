@@ -86,3 +86,10 @@ A bounded outcome check covered all seven IDs from the 07:42 capture. Two indepe
 The updated `dataset_readiness_audit_2026-10-21T0842.json` counts 28 market observation rows, 14 unique fixtures, nine provider-labelled independent fixtures and five unlabelled fixtures, with zero invalid observations, identity conflicts or outcome conflicts. The chronological diagnostic still has only two eligible training fixtures and three test fixtures after purging four outcomes unavailable at the test cutoff. All 36 tests passed.
 
 This remains a data-readiness check, not an accuracy result. No score/time model was trained, no timing window qualified, and all Priority Pick and approved betting gates remain false. Next: retry only the five unfinished IDs after completion, then continue bounded clock-transition evidence and league-rule verification.
+
+
+## Outcome checkpoint — 21 October 2026, 09:36 Perth
+
+Saved actual bounded provider responses and receipt times in research_observations/2026-10-21T0936-outcomes.json. Three additional independent fixtures now have matched finished results. Refreshed dataset_readiness_audit_2026-10-21T0936.json counts 14 unique IDs, 12 provider-labelled fixtures and two unlabelled, with zero identity/outcome conflicts. Chronological diagnostic: seven training candidates, four test candidates and one outcome purged for late availability. These counts do not establish sample adequacy or model effectiveness. All 36 software tests passed; no forecasts were evaluated and all training/approved flags remain false.
+
+Next: complete the remaining result joins, then prioritize clock semantics and predefined evaluation design over repetitive collection reports. Owner requested meaningful model-testing updates; suppress routine data-count notifications unless action is needed or a material blocker changes. No runtime code or deployment changed.
