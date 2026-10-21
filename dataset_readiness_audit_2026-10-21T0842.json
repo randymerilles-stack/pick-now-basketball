@@ -1,0 +1,113 @@
+{
+  "observation_rows": 28,
+  "unique_fixture_ids": 14,
+  "invalid_observations": 0,
+  "identity_conflicts": 0,
+  "outcome_conflicts": 0,
+  "unlabelled_fixtures": 5,
+  "provider_labelled_independent_fixtures": 9,
+  "league_counts": {
+    "China CBA": 1,
+    "Georgia League U22": 1,
+    "Greece Elite League": 2,
+    "Shabab Al Ahli Dubai IBT": 1,
+    "Slovenia SKL": 1,
+    "Bahrain Premier League": 1,
+    "Uruguay Liga": 1,
+    "Brazil NBB": 1
+  },
+  "chronological_diagnostic_train": 2,
+  "chronological_diagnostic_test": 3,
+  "purged_unavailable_training_outcomes": 4,
+  "fixtures": [
+    {
+      "fixture_id": "202504371",
+      "league": "China CBA",
+      "decision_at": "2026-10-20T13:40:16.194349+00:00",
+      "finished_at": "2026-10-20T13:54:13.449651+00:00",
+      "outcome_available_at": "2026-10-20T14:40:01.201313+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "203074407",
+      "league": "Georgia League U22",
+      "decision_at": "2026-10-20T13:40:16.194349+00:00",
+      "finished_at": "2026-10-20T14:26:13.276521+00:00",
+      "outcome_available_at": "2026-10-20T14:40:06.716342+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "202503180",
+      "league": "Greece Elite League",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T15:56:12.681516+00:00",
+      "outcome_available_at": "2026-10-20T22:36:54.592580+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "202503183",
+      "league": "Greece Elite League",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T16:04:12.616628+00:00",
+      "outcome_available_at": "2026-10-20T22:36:57.508117+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "203224748",
+      "league": "Shabab Al Ahli Dubai IBT",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T16:29:12.645937+00:00",
+      "outcome_available_at": "2026-10-20T22:37:06.132510+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "202561162",
+      "league": "Slovenia SKL",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T16:44:12.660172+00:00",
+      "outcome_available_at": "2026-10-20T22:37:00.425143+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "203094590",
+      "league": "Bahrain Premier League",
+      "decision_at": "2026-10-20T15:42:54.446447+00:00",
+      "finished_at": "2026-10-20T17:01:12.643632+00:00",
+      "outcome_available_at": "2026-10-20T22:37:03.357855+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "202925875",
+      "league": "Uruguay Liga",
+      "decision_at": "2026-10-20T23:42:51.577799+00:00",
+      "finished_at": "2026-10-21T00:01:11.474789+00:00",
+      "outcome_available_at": "2026-10-21T00:42:40.580080+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    },
+    {
+      "fixture_id": "202615968",
+      "league": "Brazil NBB",
+      "decision_at": "2026-10-20T23:42:51.577799+00:00",
+      "finished_at": "2026-10-21T00:26:01.603566+00:00",
+      "outcome_available_at": "2026-10-21T00:42:31.430875+00:00",
+      "observation_count": 2,
+      "training_eligible": false
+    }
+  ],
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "blockers": [
+    "Score/time features and source semantics are not validated.",
+    "Cross-ID event aliases are not yet independently resolved.",
+    "Counts and a split diagnostic do not establish adequate statistical power.",
+    "No model was trained or accuracy measured."
+  ]
+}
