@@ -140,3 +140,10 @@ Committed release 6ed07f1eb7257b00c0104e997e8891f299a134dc; manual Render deploy
 Confirmed Render release 6ed07f1eb7257b00c0104e997e8891f299a134dc is live, deployed at 2026-10-21T06:38:46Z. No duplicate deployment requested. Two bounded current-feed reads received 07:41:45.697658Z and 07:41:48.580525Z passed one Full Game Handicap pair each under the new exact-group freshness check. Evidence: research_observations/2026-10-21T1541-clock.json. One new fixture ID 203192934 (Philippines UAAP), explicit period 3, unchanged clock 10:00 with ticking=false and ref=07:33:39Z. No countdown/ref/remaining-time conclusion is justified.
 
 Nineteen focused validation/capture/clock tests passed. This is real-feed coverage evidence, not prediction validation. All priority/approved flags remain false. Collector currently records the source digest and validation result but does not preserve raw group_status in each observation; add that provenance before treating future research captures as independently re-auditable group freshness evidence. Next: preserve selected-group raw confirmation and compare suitably separated live observations; establish documented clock semantics and league rules before model features.
+
+
+## Capture provenance — 21 October 2026, 16:34 Perth
+
+Research capture schema v3 now preserves handicap_group_id=112 and a detached raw handicap_group_status_observed record for every accepted observation. This permits later review of selected-group polling time and flags without confusing fixture freshness with market freshness. Earlier schema v2 records were not backfilled or promoted. Fifteen focused capture/validation tests passed, including input-mutation independence and existing stale/wrong-group rejection tests. No runtime app change/deployment required, no training or approved outputs enabled.
+
+Next: obtain schema v3 observations across active clock movement, establish clock/league semantics and build eligible feature records before forecast evaluation. Raw provider provenance remains distinct from independent odds verification.
