@@ -77,3 +77,12 @@ Saved `research_observations/2026-10-21T0742-clock.json` from two actual reads r
 All seven clocks and scores were unchanged during the approximately 3.3-second comparison, so this capture adds independent outcome candidates but does not establish clock direction, clock reference semantics or remaining regulation time. Fourteen market observation rows represent seven independent games, not 14 games. All capture and approved-pick flags remain false. The same 36 tests passed after capture; no model/UI/backend gate changed and no deployment was needed.
 
 Next: fetch final outcomes after these games finish, rerun the fixture-level audit across all 14 unique IDs, and add observations separated enough to capture active clock movement without turning collection into unbounded polling. Priority Pick remains unavailable until clock/rule semantics and a sufficiently powered out-of-sample timing model are validated.
+
+
+## Partial result matching — 21 October 2026, 08:42 Perth
+
+A bounded outcome check covered all seven IDs from the 07:42 capture. Two independent games are now provider-labelled: fixture 202925875 finished 77-66 and fixture 202615968 finished 66-78. The other five result queries returned no finished result and remain explicitly unlabelled; none were inferred. Full responses and actual receipt timestamps are saved in `research_observations/2026-10-21T0842-outcomes.json`.
+
+The updated `dataset_readiness_audit_2026-10-21T0842.json` counts 28 market observation rows, 14 unique fixtures, nine provider-labelled independent fixtures and five unlabelled fixtures, with zero invalid observations, identity conflicts or outcome conflicts. The chronological diagnostic still has only two eligible training fixtures and three test fixtures after purging four outcomes unavailable at the test cutoff. All 36 tests passed.
+
+This remains a data-readiness check, not an accuracy result. No score/time model was trained, no timing window qualified, and all Priority Pick and approved betting gates remain false. Next: retry only the five unfinished IDs after completion, then continue bounded clock-transition evidence and league-rule verification.
