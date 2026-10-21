@@ -161,3 +161,10 @@ This is the first observed same-period countdown movement in collected evidence,
 Bounded final-result queries for the three spaced schema v3 captures completed and are saved with actual receipt times in research_observations/2026-10-21T1841-outcomes.json. Four repeated observation rows across two independent fixtures matched provider finished results; one fixture remains unlabelled. Seven outcome-validation tests passed. These are research-only labels with training_eligible=false and approved_for_picks=false. No forecasts were scored and no effectiveness claim is supported.
 
 Next: investigate documented NBL/other league regulation rules and clock ref/ticking semantics; capture provenance alone cannot establish synchronized state or independently verified odds. Retry remaining outcomes when available; retain all prior receipts without backdating knowledge. No runtime change or deployment.
+
+
+## Primary duration-rule evidence — 21 October 2026, 19:40 Perth
+
+Reviewed official FIBA 2026 v1.1 rules, articles 8.1 and 8.7 (four 10-minute regulation periods and five-minute overtimes), and NBL's 3 September 2026 announcement of FIBA rule changes for 2026-27. Saved league_rule_evidence_fiba_2026.json with exact primary URLs, candidate duration constants and explicit mapping limits. NBL announcement is not itself an explicit duration/competition-exception confirmation. No automatic league mapping enabled.
+
+Four timing-window tests passed; no rule transform or source clock semantics approved. This source research narrows the rule dependency but cannot validate live time alignment or predictive accuracy. Next: verify exact NBL competition duration mapping and provider clock semantics, then implement a gated remaining-time transform. Preserve abstention until these prerequisites and model evaluation are met.
