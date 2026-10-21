@@ -1,0 +1,1465 @@
+{
+  "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+  "received_before": "2026-10-21T09:38:52.920962+00:00",
+  "received_after": "2026-10-21T09:39:16.288232+00:00",
+  "server_time_before": "2026-10-21T09:38:52.753709932Z",
+  "server_time_after": "2026-10-21T09:39:16.153141047Z",
+  "transitions": [
+    {
+      "fixture_id": "202562243",
+      "league": "Australia NBL",
+      "period_before": 3,
+      "period_after": 3,
+      "clock_before_seconds": 395,
+      "clock_after_seconds": 381,
+      "same_period_clock_delta": -14,
+      "direction_observed": "decreasing",
+      "clock_ref_before": "2026-10-21T09:38:18Z",
+      "clock_ref_after": "2026-10-21T09:38:58Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "202560895",
+      "league": "Philippines PBA Governors' Cup",
+      "period_before": 2,
+      "period_after": 2,
+      "clock_before_seconds": 720,
+      "clock_after_seconds": 720,
+      "same_period_clock_delta": 0,
+      "direction_observed": "unchanged",
+      "clock_ref_before": "2026-10-21T09:37:18Z",
+      "clock_ref_after": "2026-10-21T09:37:18Z",
+      "score_changed": false,
+      "semantics_verified": false
+    },
+    {
+      "fixture_id": "203169631",
+      "league": "Club Friendlies",
+      "period_before": 2,
+      "period_after": 2,
+      "clock_before_seconds": 436,
+      "clock_after_seconds": 413,
+      "same_period_clock_delta": -23,
+      "direction_observed": "decreasing",
+      "clock_ref_before": "2026-10-21T09:38:26Z",
+      "clock_ref_after": "2026-10-21T09:38:54Z",
+      "score_changed": false,
+      "semantics_verified": false
+    }
+  ],
+  "captures": [
+    {
+      "schema_version": 3,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-21T09:38:52.920962+00:00",
+      "server_time": "2026-10-21T09:38:52.753709932Z",
+      "source_sha256": "c99d3d281d4d15813656931c0c51965ed183dcf336d8880635d0897879539952",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 674,
+        "virtual_basketball_excluded": 3
+      },
+      "observations": [
+        {
+          "fixture_id": "202562243",
+          "market_id": "1446",
+          "league": "Australia NBL",
+          "home": "Tasmania JackJumpers",
+          "away": "Brisbane Bullets",
+          "score_observed": "68-51",
+          "clock_observed": {
+            "min": 6,
+            "sec": 35,
+            "ticking": false,
+            "ref": "2026-10-21T09:38:18Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-21T09:36:22.061686802Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 68,
+              "three_pointers": 8,
+              "two_pointers": 15,
+              "free_throws": 14,
+              "free_throw_pct": 82.4,
+              "timeouts_remaining": 5,
+              "fouls": 8,
+              "periods": [
+                22,
+                34,
+                12
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 51,
+              "three_pointers": 4,
+              "two_pointers": 17,
+              "free_throws": 5,
+              "free_throw_pct": 83.3,
+              "timeouts_remaining": 3,
+              "fouls": 12,
+              "periods": [
+                15,
+                29,
+                7
+              ],
+              "timeouts_used": 2
+            },
+            "players": [
+              {
+                "id": "5944",
+                "name": "D Mathias",
+                "team": "home",
+                "shirt": "31",
+                "starter": true,
+                "position": "SG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "12704",
+                "name": "T Armstrong",
+                "team": "home",
+                "shirt": "1",
+                "starter": true,
+                "position": "PG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "9480",
+                "name": "J Bannan",
+                "team": "home",
+                "shirt": "33",
+                "starter": true,
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "10680",
+                "name": "N Marshall",
+                "team": "home",
+                "shirt": "11",
+                "starter": true,
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "4856",
+                "name": "W Magnay",
+                "team": "home",
+                "shirt": "22",
+                "starter": true,
+                "position": "C",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "7184",
+                "name": "D Johnson",
+                "team": "home",
+                "shirt": "7",
+                "position": "PG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "17845",
+                "name": "N Stoddart",
+                "team": "home",
+                "shirt": "9",
+                "position": "G",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "20317",
+                "name": "J Richardson",
+                "team": "home",
+                "shirt": "4",
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "12225",
+                "name": "B Gold",
+                "team": "home",
+                "shirt": "12",
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "5893",
+                "name": "N Hinton",
+                "team": "away",
+                "shirt": "4",
+                "starter": true,
+                "position": "SG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "3822",
+                "name": "M Norton",
+                "team": "away",
+                "shirt": "8",
+                "starter": true,
+                "position": "G",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "10683",
+                "name": "M Mackinnon",
+                "team": "away",
+                "shirt": "3",
+                "starter": true,
+                "position": "G",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "8205",
+                "name": "J Williams",
+                "team": "away",
+                "shirt": "2",
+                "starter": true,
+                "position": "PF",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "16191",
+                "name": "H Rouhliadeff",
+                "team": "away",
+                "shirt": "14",
+                "starter": true,
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "8007",
+                "name": "L Mayen",
+                "team": "away",
+                "shirt": "11",
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "5378",
+                "name": "T Harrison",
+                "team": "away",
+                "shirt": "24",
+                "position": "C",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "17844",
+                "name": "A Woodhill",
+                "team": "away",
+                "shirt": "6",
+                "position": "C",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              }
+            ],
+            "summary": [
+              "Score After 1st Quarter - 22-15",
+              "Score After 2nd Quarter - 56-44"
+            ]
+          },
+          "handicap_group_id": "112",
+          "handicap_group_status_observed": {
+            "polled_at": "2026-10-21T09:38:52.541133587Z"
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 150.692023,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T09:38:52.541133587Z",
+          "quotes": [
+            {
+              "team": "Tasmania JackJumpers",
+              "line": -18.5,
+              "odds": 1.8199999999999998,
+              "selection_id": "265569301"
+            },
+            {
+              "team": "Brisbane Bullets",
+              "line": 18.5,
+              "odds": 1.97,
+              "selection_id": "265569302"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202560895",
+          "market_id": "1446",
+          "league": "Philippines PBA Governors' Cup",
+          "home": "San Miguel Beermen",
+          "away": "NLEX Road Warriors",
+          "score_observed": "30-32",
+          "clock_observed": {
+            "min": 12,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-21T09:37:18Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-21T09:37:22.263667382Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 30,
+              "three_pointers": 3,
+              "two_pointers": 7,
+              "free_throws": 7,
+              "free_throw_pct": 77.8,
+              "timeouts_remaining": 4,
+              "fouls": 3,
+              "periods": [
+                30,
+                0
+              ],
+              "timeouts_used": 1
+            },
+            "away": {
+              "points": 32,
+              "three_pointers": 4,
+              "two_pointers": 9,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 4,
+              "fouls": 7,
+              "periods": [
+                32,
+                0
+              ],
+              "timeouts_used": 1
+            },
+            "summary": [
+              "Score After 1st Quarter - 30-32"
+            ]
+          },
+          "handicap_group_id": "112",
+          "handicap_group_status_observed": {
+            "polled_at": "2026-10-21T09:38:52.525772644Z"
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 90.490042,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T09:38:52.525772644Z",
+          "quotes": [
+            {
+              "team": "San Miguel Beermen",
+              "line": -1.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "265784614"
+            },
+            {
+              "team": "NLEX Road Warriors",
+              "line": 1.5,
+              "odds": 1.8,
+              "selection_id": "265784615"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203169631",
+          "market_id": "1446",
+          "league": "Club Friendlies",
+          "home": "Overseas Chinese University",
+          "away": "National Taiwan Sport University",
+          "score_observed": "14-18",
+          "clock_observed": {
+            "min": 7,
+            "sec": 16,
+            "ticking": true,
+            "ref": "2026-10-21T09:38:26Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-21T09:37:47.068119996Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 14,
+              "three_pointers": 2,
+              "two_pointers": 3,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 5,
+              "periods": [
+                14,
+                0
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 18,
+              "three_pointers": 0,
+              "two_pointers": 8,
+              "free_throws": 2,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 5,
+              "fouls": 1,
+              "periods": [
+                16,
+                2
+              ],
+              "timeouts_used": 0
+            },
+            "summary": [
+              "Score After 1st Quarter - 14-16"
+            ]
+          },
+          "handicap_group_id": "112",
+          "handicap_group_status_observed": {
+            "polled_at": "2026-10-21T09:38:52.508572783Z"
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 65.68559,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T09:38:52.508572783Z",
+          "quotes": [
+            {
+              "team": "Overseas Chinese University",
+              "line": 25.5,
+              "odds": 1.8,
+              "selection_id": "261030939"
+            },
+            {
+              "team": "National Taiwan Sport University",
+              "line": -25.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "261030941"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    },
+    {
+      "schema_version": 3,
+      "source": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "received_at": "2026-10-21T09:39:16.288232+00:00",
+      "server_time": "2026-10-21T09:39:16.153141047Z",
+      "source_sha256": "2ad9428c54aeae71d52a456691c43488e9fc9ca72427659ca04d0119b725a3c7",
+      "validation_status": "provider_mapping_checked_settlement_pending",
+      "rejected": {
+        "not_live_full_game_line": 674,
+        "virtual_basketball_excluded": 2
+      },
+      "observations": [
+        {
+          "fixture_id": "202562243",
+          "market_id": "1446",
+          "league": "Australia NBL",
+          "home": "Tasmania JackJumpers",
+          "away": "Brisbane Bullets",
+          "score_observed": "68-51",
+          "clock_observed": {
+            "min": 6,
+            "sec": 21,
+            "ticking": true,
+            "ref": "2026-10-21T09:38:58Z"
+          },
+          "period_observed": 3,
+          "stats_observed": {
+            "updated_at": "2026-10-21T09:39:04.65528136Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 68,
+              "three_pointers": 8,
+              "two_pointers": 15,
+              "free_throws": 14,
+              "free_throw_pct": 82.4,
+              "timeouts_remaining": 5,
+              "fouls": 8,
+              "periods": [
+                22,
+                34,
+                12
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 53,
+              "three_pointers": 4,
+              "two_pointers": 18,
+              "free_throws": 5,
+              "free_throw_pct": 83.3,
+              "timeouts_remaining": 3,
+              "fouls": 12,
+              "periods": [
+                15,
+                29,
+                9
+              ],
+              "timeouts_used": 2
+            },
+            "players": [
+              {
+                "id": "5944",
+                "name": "D Mathias",
+                "team": "home",
+                "shirt": "31",
+                "starter": true,
+                "position": "SG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "12704",
+                "name": "T Armstrong",
+                "team": "home",
+                "shirt": "1",
+                "starter": true,
+                "position": "PG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "9480",
+                "name": "J Bannan",
+                "team": "home",
+                "shirt": "33",
+                "starter": true,
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "10680",
+                "name": "N Marshall",
+                "team": "home",
+                "shirt": "11",
+                "starter": true,
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "4856",
+                "name": "W Magnay",
+                "team": "home",
+                "shirt": "22",
+                "starter": true,
+                "position": "C",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "7184",
+                "name": "D Johnson",
+                "team": "home",
+                "shirt": "7",
+                "position": "PG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "17845",
+                "name": "N Stoddart",
+                "team": "home",
+                "shirt": "9",
+                "position": "G",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "20317",
+                "name": "J Richardson",
+                "team": "home",
+                "shirt": "4",
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "12225",
+                "name": "B Gold",
+                "team": "home",
+                "shirt": "12",
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "5893",
+                "name": "N Hinton",
+                "team": "away",
+                "shirt": "4",
+                "starter": true,
+                "position": "SG",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "3822",
+                "name": "M Norton",
+                "team": "away",
+                "shirt": "8",
+                "starter": true,
+                "position": "G",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "10683",
+                "name": "M Mackinnon",
+                "team": "away",
+                "shirt": "3",
+                "starter": true,
+                "position": "G",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "8205",
+                "name": "J Williams",
+                "team": "away",
+                "shirt": "2",
+                "starter": true,
+                "position": "PF",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "16191",
+                "name": "H Rouhliadeff",
+                "team": "away",
+                "shirt": "14",
+                "starter": true,
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "8007",
+                "name": "L Mayen",
+                "team": "away",
+                "shirt": "11",
+                "position": "F",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "5378",
+                "name": "T Harrison",
+                "team": "away",
+                "shirt": "24",
+                "position": "C",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              },
+              {
+                "id": "17844",
+                "name": "A Woodhill",
+                "team": "away",
+                "shirt": "6",
+                "position": "C",
+                "box_score": {
+                  "points": 0,
+                  "field_goals_made": 0,
+                  "field_goals_attempted": 0,
+                  "three_pointers_made": 0,
+                  "three_pointers_attempted": 0,
+                  "free_throws_made": 0,
+                  "free_throws_attempted": 0,
+                  "rebounds": 0,
+                  "assists": 0,
+                  "steals": 0,
+                  "blocks": 0,
+                  "turnovers": 0,
+                  "personal_fouls": 0,
+                  "on_court": false
+                }
+              }
+            ],
+            "summary": [
+              "Score After 1st Quarter - 22-15",
+              "Score After 2nd Quarter - 56-44"
+            ]
+          },
+          "handicap_group_id": "112",
+          "handicap_group_status_observed": {
+            "polled_at": "2026-10-21T09:39:10.090560516Z"
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 3,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": false,
+              "stats_age_seconds": 11.49786,
+              "blockers": [
+                "stats_score_mismatch_or_missing"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_score_mismatch_or_missing",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T09:39:11.875640258Z",
+          "quotes": [
+            {
+              "team": "Tasmania JackJumpers",
+              "line": -17.5,
+              "odds": 1.9523809523809523,
+              "selection_id": "265569301"
+            },
+            {
+              "team": "Brisbane Bullets",
+              "line": 17.5,
+              "odds": 1.85,
+              "selection_id": "265569302"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "202560895",
+          "market_id": "1446",
+          "league": "Philippines PBA Governors' Cup",
+          "home": "San Miguel Beermen",
+          "away": "NLEX Road Warriors",
+          "score_observed": "30-32",
+          "clock_observed": {
+            "min": 12,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-21T09:37:18Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-21T09:37:22.263667382Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 30,
+              "three_pointers": 3,
+              "two_pointers": 7,
+              "free_throws": 7,
+              "free_throw_pct": 77.8,
+              "timeouts_remaining": 4,
+              "fouls": 3,
+              "periods": [
+                30,
+                0
+              ],
+              "timeouts_used": 1
+            },
+            "away": {
+              "points": 32,
+              "three_pointers": 4,
+              "two_pointers": 9,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 4,
+              "fouls": 7,
+              "periods": [
+                32,
+                0
+              ],
+              "timeouts_used": 1
+            },
+            "summary": [
+              "Score After 1st Quarter - 30-32"
+            ]
+          },
+          "handicap_group_id": "112",
+          "handicap_group_status_observed": {
+            "polled_at": "2026-10-21T09:38:52.525772644Z"
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 113.889474,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T09:39:10.973907756Z",
+          "quotes": [
+            {
+              "team": "San Miguel Beermen",
+              "line": -1.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "265784614"
+            },
+            {
+              "team": "NLEX Road Warriors",
+              "line": 1.5,
+              "odds": 1.8,
+              "selection_id": "265784615"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        },
+        {
+          "fixture_id": "203169631",
+          "market_id": "1446",
+          "league": "Club Friendlies",
+          "home": "Overseas Chinese University",
+          "away": "National Taiwan Sport University",
+          "score_observed": "14-18",
+          "clock_observed": {
+            "min": 6,
+            "sec": 53,
+            "ticking": false,
+            "ref": "2026-10-21T09:38:54Z"
+          },
+          "period_observed": 2,
+          "stats_observed": {
+            "updated_at": "2026-10-21T09:37:47.068119996Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 14,
+              "three_pointers": 2,
+              "two_pointers": 3,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 5,
+              "periods": [
+                14,
+                0
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 18,
+              "three_pointers": 0,
+              "two_pointers": 8,
+              "free_throws": 2,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 5,
+              "fouls": 1,
+              "periods": [
+                16,
+                2
+              ],
+              "timeouts_used": 0
+            },
+            "summary": [
+              "Score After 1st Quarter - 14-16"
+            ]
+          },
+          "handicap_group_id": "112",
+          "handicap_group_status_observed": {
+            "polled_at": "2026-10-21T09:38:52.934884544Z"
+          },
+          "live_state_readiness": {
+            "score_present": true,
+            "clock_present": true,
+            "explicit_period_present": true,
+            "period_observed": 2,
+            "stats_diagnostics": {
+              "stats_present": true,
+              "stats_score_matches": true,
+              "stats_age_seconds": 89.085022,
+              "blockers": [
+                "stats_observation_outside_30s_window"
+              ]
+            },
+            "remaining_regulation_seconds": null,
+            "priority_ready": false,
+            "blockers": [
+              "stats_observation_outside_30s_window",
+              "period_and_clock_semantics_unverified",
+              "score_clock_quote_alignment_unverified",
+              "score_time_model_not_validated"
+            ]
+          },
+          "polled_at": "2026-10-21T09:38:52.934924532Z",
+          "quotes": [
+            {
+              "team": "Overseas Chinese University",
+              "line": 24.5,
+              "odds": 1.8695652173913042,
+              "selection_id": "261030939"
+            },
+            {
+              "team": "National Taiwan Sport University",
+              "line": -24.5,
+              "odds": 1.8,
+              "selection_id": "261030941"
+            }
+          ],
+          "independently_verified": false,
+          "outcome": null
+        }
+      ],
+      "approved_for_picks": false
+    }
+  ],
+  "limitations": [
+    "Two observations cannot prove clock direction or freshness semantics.",
+    "A stopped or unchanged clock does not establish a break or remaining game time.",
+    "Records are research only, not independent games or validated training samples."
+  ],
+  "approved_for_picks": false
+}
