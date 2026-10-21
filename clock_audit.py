@@ -2,6 +2,7 @@
 from datetime import datetime, timezone
 import argparse
 import json
+import time
 from pathlib import Path
 from urllib.request import Request, urlopen
 from live_state import observed_period
@@ -55,8 +56,14 @@ def fetch():
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--interval-seconds',type=float,default=0,
+                        help='Bounded delay between two reads, from 0 to 30 seconds')
     args=parser.parse_args()
-    before,t0=fetch();after,t1=fetch()
+    if not 0 <= args.interval_seconds <= 30:
+        parser.error('interval-seconds must be between 0 and 30')
+    before,t0=fetch()
+    time.sleep(args.interval_seconds)
+    after,t1=fetch()
     report={'source':SOURCE,'received_before':t0.isoformat(),'received_after':t1.isoformat(),
             'server_time_before':before.get('server_time'),'server_time_after':after.get('server_time'),
             'transitions':compare_snapshots(before,after),
