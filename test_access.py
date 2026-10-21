@@ -74,5 +74,14 @@ class AccessTests(unittest.TestCase):
         token=access.new_session()
         with access.LOCK:access.SESSIONS[hashlib.sha256(token.encode()).digest()]=0
         self.assertFalse(access.authenticated(access.COOKIE+'='+token))
+    def test_remembered_session_survives_next_day_but_expires_after_30_days(self):
+        with patch('access.time.time',return_value=1000):
+            token=access.new_session()
+        header=access.COOKIE+'='+token
+        self.assertIn('Max-Age=2592000',access.session_cookie(token))
+        with patch('access.time.time',return_value=1000+24*60*60):
+            self.assertTrue(access.authenticated(header))
+        with patch('access.time.time',return_value=1000+30*24*60*60):
+            self.assertFalse(access.authenticated(header))
 
 if __name__=='__main__':unittest.main()
