@@ -188,3 +188,14 @@ Added remaining_time.py, an offline helper computing observed regulation seconds
 Four focused tests passed: distinct regulation formats, boundary arithmetic, missing/untruthful verification flags, unknown directions, overtime, ambiguous periods, malformed/nonfinite/bool inputs and impossible clocks. Synthetic arithmetic tests establish software behavior only; they do not establish current-game accuracy or prediction effectiveness. Existing live_state.py still emits remaining_regulation_seconds=None and priority_ready=False. No runtime deployment needed.
 
 Next: establish provider per-period countdown/ref semantics and exact competition mapping, then feed independently aligned eligible states into this helper and the frozen evaluation protocol. The remembered-login defect remains open with the separately recorded 22 October 18:00 Perth target; no authentication fix was implemented in this run. Preserve its logout/password-change revocation acceptance requirements.
+
+
+## Explicit alias audit — 21 October 2026, 22:40 Perth
+
+Rechecked current provider documentation (/doc, /docs/python/, /docs/sports/). No clock.min/sec/ref definition establishing per-period countdown/ref alignment was found. Did not promote observed countdown movement to verified semantics.
+
+Added event_aliases.py and bounded audit_event_aliases.py: accepts only an explicit, internally consistent /closing fixture_ids declaration containing the requested numeric-string ID, validates response fixture_id and optional prematch_id, and never merges by team name. Three focused tests passed for valid single/multiple aliases, missing declarations, conflicting IDs, duplicate IDs, malformed and Unicode IDs. This is provider-asserted identity evidence, not independent event verification.
+
+Actual read-only requests for the four recent IDs (202562243, 202560895, 203169631, 203192934) all succeeded. Each endpoint declared only its requested ID; none exposed a separate prematch alias. Saved alias_evidence_2026-10-21T2240.json with actual receipt timestamps, response digests and identity field projections. The reproducible script preserves full raw parsed responses locally; durable evidence deliberately retains only relevant identity projections. Absence of an extra declared alias does not prove no alternate ID exists. No dataset grouping, model, runtime app or deployment changed.
+
+Next: extend alias evidence to the complete candidate dataset before any grouped train/test split; keep cross-ID independence unresolved until corroborated. Source clock semantics, independent handicap verification and sufficient validated training records remain open. Login fix remains open under its separate acceptance target. All training/approved-for-picks gates remain false; no forecast effectiveness measured.
