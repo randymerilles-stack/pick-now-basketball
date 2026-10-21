@@ -210,3 +210,12 @@ Prepared durable_sessions.py as a standalone SQLite backend, NOT connected to ac
 Deployment dependency: this backend requires a real durable mount, currently unavailable on the existing free service. A free external durable session datastore is an alternative but none is connected or provisioned; that route still needs feasibility/access work and a different adapter. Do not place SQLite on Render's ephemeral filesystem and claim the login defect fixed. Do not weaken logout revocation with restart-forgotten revocation lists. Keep live access unchanged until end-to-end restart/deploy, logout, password-change and device-cookie acceptance pass.
 
 Next: investigate a no-cost external durable store accessible through existing authorized tools, or report a concrete user setup dependency if none is available. Persistent-login target remains conditional on resolving storage; do not promise completion merely from these backend tests. Priority data/model research remains independently actionable; all approved betting outputs stay disabled.
+
+
+## No-cost storage decision and access pause — 22 October 2026, 00:34 Perth
+
+Saved PERSISTENT_LOGIN_FEASIBILITY_2026-10-22.md with current primary-source constraints and verified connection state. Free Render Postgres expires after 30 days; free Key Value lacks persistence. Neither is a durable permanent login fix. Neon has a Free plan, and an available Neon integration was found and suggested; it is not installed/connected. No new account/resource/paid service was created. A PostgreSQL adapter is still required after datastore access is confirmed; the SQLite module is not a deployed solution.
+
+Fresh authoritative GitHub backend/tests were reread and three focused authentication-storage tests passed again. No production release, phone acceptance or model qualification occurred. The owner must install/connect Neon before the next datastore implementation/access test can proceed. Never request secrets in chat or public GitHub.
+
+Pause the existing recurring task for this persistent user-action dependency; preserve all code and current private/PAPER ONLY app. Resume after connection confirmation, reverify Free-plan scope and Render state, implement/test the adapter and only then deploy and check restart/logout/device acceptance. Priority Pick still requires source-clock/odds verification and a sufficiently powered frozen out-of-sample evaluation; routine helper commits cannot substitute for those data prerequisites. Today's 18:00 Perth target remains unconfirmed.
