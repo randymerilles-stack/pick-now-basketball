@@ -5,6 +5,7 @@ Example: python prospective_capture.py --league 'Japan B League One'
 Keeping a web dashboard open does not run this collector or label outcomes.
 """
 import argparse
+from copy import deepcopy
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -31,12 +32,14 @@ def capture(data, received_at=None):
             # Never infer a quarter from a clock or final-score magnitude.
             'period_observed':observed_period(fixture),
             'stats_observed':fixture.get('stats'),
+            'handicap_group_id':'112',
+            'handicap_group_status_observed':deepcopy(fixture['group_status']['112']),
             'live_state_readiness':assess_live_state(fixture,data.get('server_time')),
             'polled_at':fixture.get('polled_at'),'quotes':market['quotes'],
             'independently_verified':False,'outcome':None,
         })
     raw=json.dumps(data,sort_keys=True,separators=(',',':'),allow_nan=False).encode()
-    return {'schema_version':2,'source':SOURCE,
+    return {'schema_version':3,'source':SOURCE,
             'received_at':received_at.isoformat(),'server_time':data.get('server_time'),
             'source_sha256':hashlib.sha256(raw).hexdigest(),
             'validation_status':checked.get('validation_status'),
