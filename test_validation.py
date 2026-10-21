@@ -8,6 +8,7 @@ NOW=datetime(2026,10,20,3,0,tzinfo=timezone.utc)
 def sample():
     return {'server_time':NOW.isoformat(),'matches':[{'id':'f1','sport':'basketball',
         'in_play':True,'home':'Home','away':'Away','league':'Test League','score':'40-38',
+        'group_status':{'112':{'polled_at':'2026-10-20T02:59:55Z'}},
         'polled_at':'2026-10-20T02:59:55Z','quotes':[
         {'fixture_id':'f1','group_id':'112','group_name':'Game','line':'Line',
          'market_id':'1446','sel_id':str(i),'side':team,'handicap':line,'odds_dec':1.9,
@@ -15,6 +16,16 @@ def sample():
         for i,team,line in [(1,'Home',-3.5),(2,'Away',3.5)]]}]}
 
 class ValidationTests(unittest.TestCase):
+    def test_fresh_fixture_cannot_mask_unconfirmed_handicap_group(self):
+        for status in [None,{}, {'104':{'polled_at':NOW.isoformat()}},
+                       {'112':{'polled_at':'2026-10-20T02:59:29Z'}},
+                       {'112':{'polled_at':'2026-10-20T03:00:06Z'}},
+                       {'112':{'polled_at':NOW.isoformat(),'stale':True}},
+                       {'112':{'polled_at':NOW.isoformat(),'stale':'false'}}]:
+            d=sample();d['matches'][0]['group_status']=status
+            result=self.validate(d)
+            self.assertEqual(result['data_checked_market_count'],0)
+            self.assertEqual(result['rejected']['stale_or_missing_handicap_group_poll'],1)
     def validate(self,d):return inspect_feed(d,NOW)
     def test_pair_passes_data_checks_but_never_picks(self):
         d=self.validate(sample())
