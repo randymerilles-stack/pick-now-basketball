@@ -1,0 +1,403 @@
+{
+  "sources": [
+    {
+      "name": "nba",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+      "started_at": "2026-10-23T17:37:54.020067+00:00",
+      "http_date": "Fri, 23 Oct 2026 17:37:58 GMT",
+      "http_age": null,
+      "cache_control": "max-age=7",
+      "received_at": "2026-10-23T17:37:58.518951+00:00",
+      "sha256": "f177ed05d33abbc99364f2595690d0abf8705a8201b962e90593289066c54593",
+      "events": [
+        {
+          "id": "401909848",
+          "date": "2026-10-23T20:00Z",
+          "name": "Chicago Bulls at Milwaukee Bucks",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 4:00 PM EDT",
+              "shortDetail": "10/23 - 4:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909095",
+          "date": "2026-10-23T23:00Z",
+          "name": "New York Knicks at Boston Celtics",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909843",
+          "date": "2026-10-23T23:00Z",
+          "name": "Atlanta Hawks at Charlotte Hornets",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909844",
+          "date": "2026-10-23T23:00Z",
+          "name": "Dallas Mavericks at Indiana Pacers",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909845",
+          "date": "2026-10-23T23:00Z",
+          "name": "Minnesota Timberwolves at Orlando Magic",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909846",
+          "date": "2026-10-23T23:00Z",
+          "name": "Toronto Raptors at Washington Wizards",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909847",
+          "date": "2026-10-24T00:00Z",
+          "name": "Detroit Pistons at Miami Heat",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 8:00 PM EDT",
+              "shortDetail": "10/23 - 8:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909096",
+          "date": "2026-10-24T01:30Z",
+          "name": "Houston Rockets at San Antonio Spurs",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 9:30 PM EDT",
+              "shortDetail": "10/23 - 9:30 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909849",
+          "date": "2026-10-24T01:30Z",
+          "name": "New Orleans Pelicans at Utah Jazz",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 9:30 PM EDT",
+              "shortDetail": "10/23 - 9:30 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909850",
+          "date": "2026-10-24T02:00Z",
+          "name": "Memphis Grizzlies at Golden State Warriors",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 10:00 PM EDT",
+              "shortDetail": "10/23 - 10:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909851",
+          "date": "2026-10-24T02:00Z",
+          "name": "LA Clippers at Los Angeles Lakers",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 10:00 PM EDT",
+              "shortDetail": "10/23 - 10:00 PM EDT"
+            }
+          }
+        },
+        {
+          "id": "401909852",
+          "date": "2026-10-24T02:00Z",
+          "name": "Portland Trail Blazers at Sacramento Kings",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 10:00 PM EDT",
+              "shortDetail": "10/23 - 10:00 PM EDT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "nbl",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20261024",
+      "started_at": "2026-10-23T17:37:54.020943+00:00",
+      "http_date": "Fri, 23 Oct 2026 17:37:58 GMT",
+      "http_age": null,
+      "cache_control": "max-age=5",
+      "received_at": "2026-10-23T17:37:58.422375+00:00",
+      "sha256": "346e96917b09ddee69058ca8e1f3fd9a7c5d6ea72366618b53ff37551f6c8597",
+      "events": [
+        {
+          "id": "401875273",
+          "date": "2026-10-24T06:30Z",
+          "name": "Brisbane Bullets at Illawarra Hawks",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, October 23rd at 2:30 AM EDT",
+              "shortDetail": "10/24 - 2:30 AM EDT"
+            }
+          }
+        },
+        {
+          "id": "401875275",
+          "date": "2026-10-24T08:30Z",
+          "name": "Adelaide 36ers at South East Melbourne Phoenix",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, October 24th at 4:30 AM EDT",
+              "shortDetail": "10/24 - 4:30 AM EDT"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "plan": {
+    "as_of": "2026-10-23T17:37:58.518951+00:00",
+    "targets": [
+      {
+        "source": "nba",
+        "event_id": "401909848",
+        "scheduled_start": "2026-10-23T20:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Chicago Bulls at Milwaukee Bucks"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909095",
+        "scheduled_start": "2026-10-23T23:00:00+00:00",
+        "observed_state": "pre",
+        "name": "New York Knicks at Boston Celtics"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909843",
+        "scheduled_start": "2026-10-23T23:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Atlanta Hawks at Charlotte Hornets"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909844",
+        "scheduled_start": "2026-10-23T23:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Dallas Mavericks at Indiana Pacers"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909845",
+        "scheduled_start": "2026-10-23T23:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Minnesota Timberwolves at Orlando Magic"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909846",
+        "scheduled_start": "2026-10-23T23:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Toronto Raptors at Washington Wizards"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909847",
+        "scheduled_start": "2026-10-24T00:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Detroit Pistons at Miami Heat"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909096",
+        "scheduled_start": "2026-10-24T01:30:00+00:00",
+        "observed_state": "pre",
+        "name": "Houston Rockets at San Antonio Spurs"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909849",
+        "scheduled_start": "2026-10-24T01:30:00+00:00",
+        "observed_state": "pre",
+        "name": "New Orleans Pelicans at Utah Jazz"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909850",
+        "scheduled_start": "2026-10-24T02:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Memphis Grizzlies at Golden State Warriors"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909851",
+        "scheduled_start": "2026-10-24T02:00:00+00:00",
+        "observed_state": "pre",
+        "name": "LA Clippers at Los Angeles Lakers"
+      },
+      {
+        "source": "nba",
+        "event_id": "401909852",
+        "scheduled_start": "2026-10-24T02:00:00+00:00",
+        "observed_state": "pre",
+        "name": "Portland Trail Blazers at Sacramento Kings"
+      },
+      {
+        "source": "nbl",
+        "event_id": "401875273",
+        "scheduled_start": "2026-10-24T06:30:00+00:00",
+        "observed_state": "pre",
+        "name": "Brisbane Bullets at Illawarra Hawks"
+      },
+      {
+        "source": "nbl",
+        "event_id": "401875275",
+        "scheduled_start": "2026-10-24T08:30:00+00:00",
+        "observed_state": "pre",
+        "name": "Adelaide 36ers at South East Melbourne Phoenix"
+      }
+    ],
+    "invalid_dates": 0,
+    "training_eligible": false,
+    "approved_for_picks": false,
+    "limitation": "Schedule targets only; recheck live status, source calendar date and provider fixture coverage at capture time."
+  }
+}
