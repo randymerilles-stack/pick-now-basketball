@@ -4,6 +4,7 @@ Enabled only by PICKNOW_RELEASE_ACCEPTANCE=1. Installs pinned requirements
 before opt-in Postgres acceptance tests execute. Ordinary local runs skip it.
 """
 import os
+import site
 from pathlib import Path
 import subprocess
 import sys
@@ -19,5 +20,7 @@ class ReleaseDependencies(unittest.TestCase):
                                 capture_output=True, text=True, timeout=180)
         # Avoid logging environment/index credentials in subprocess output.
         self.assertEqual(result.returncode, 0, 'Pinned dependency installation failed')
+        # pip can create the user site after this interpreter has already started.
+        site.addsitedir(site.getusersitepackages())
         import psycopg
         self.assertEqual(psycopg.__version__, '3.2.13')
