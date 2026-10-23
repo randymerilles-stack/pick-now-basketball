@@ -1,0 +1,5944 @@
+{
+  "requested_date": "2026-10-23",
+  "sources": [
+    {
+      "name": "provider",
+      "url": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "started_at": "2026-10-23T15:42:46.694604+00:00",
+      "http_date": "Fri, 23 Oct 2026 15:42:51 GMT",
+      "http_age": null,
+      "cache_control": "public, max-age=2, stale-while-revalidate=3",
+      "received_at": "2026-10-23T15:42:52.304447+00:00",
+      "sha256": "f7ba2843fc51af785b41406e0a1311c49d57fcf2d72a1db6442a026b7fcc7def",
+      "fixtures": [
+        {
+          "id": "203237380",
+          "home": "CSCD Kassantina",
+          "away": "Chabab Mordjan Oran",
+          "league": "Algeria Super Division",
+          "kickoff_utc": "2026-10-23T14:00:00Z",
+          "score": "47-60",
+          "clock": {
+            "min": 7,
+            "sec": 6,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:27Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:41:59.830654694Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 47,
+              "three_pointers": 6,
+              "two_pointers": 9,
+              "free_throws": 11,
+              "free_throw_pct": 55,
+              "timeouts_remaining": 5,
+              "fouls": 11,
+              "periods": [
+                23,
+                7,
+                15,
+                2
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 60,
+              "three_pointers": 3,
+              "two_pointers": 20,
+              "free_throws": 11,
+              "free_throw_pct": 68.8,
+              "timeouts_remaining": 5,
+              "fouls": 14,
+              "periods": [
+                9,
+                22,
+                23,
+                6
+              ],
+              "timeouts_used": 0
+            },
+            "summary": [
+              "Score After 1st Quarter - 23-9",
+              "Score After 2nd Quarter - 30-31",
+              "Score After 3rd Quarter - 45-54"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:48.853513245Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "110": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "180193": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "534": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "563": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "567": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            },
+            "575": {
+              "polled_at": "2026-10-23T15:42:48.853513245Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203237380",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277729837",
+              "label": " +12.5",
+              "handicap": "+12.5",
+              "side": "CSCD Kassantina",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:27.911333226Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237380",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277729839",
+              "label": " -12.5",
+              "handicap": "-12.5",
+              "side": "Chabab Mordjan Oran",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:27.911333226Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237380",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277729844",
+              "label": "O 128.5",
+              "handicap": "128.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.9523809523809523,
+              "odds_frac": "20/21",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:27.911333226Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237380",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277729845",
+              "label": "U 128.5",
+              "handicap": "128.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.7407407407407407,
+              "odds_frac": "20/27",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:27.911333226Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237380",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277729851",
+              "side": "CSCD Kassantina",
+              "line": "To Win",
+              "odds_dec": 15,
+              "odds_frac": "14/1",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:27.911333226Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237380",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277729853",
+              "side": "Chabab Mordjan Oran",
+              "line": "To Win",
+              "odds_dec": 1.01,
+              "odds_frac": "1/100",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:27.911333226Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203237383",
+          "home": "PS El Eulma",
+          "away": "US Setif",
+          "league": "Algeria Super Division",
+          "kickoff_utc": "2026-10-23T14:00:00Z",
+          "score": "49-69",
+          "clock": {
+            "min": 6,
+            "sec": 44,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:31Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:39:45.530325401Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 49,
+              "three_pointers": 3,
+              "two_pointers": 15,
+              "free_throws": 10,
+              "free_throw_pct": 41.7,
+              "timeouts_remaining": 5,
+              "fouls": 27,
+              "periods": [
+                12,
+                20,
+                11,
+                6
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 69,
+              "three_pointers": 6,
+              "two_pointers": 15,
+              "free_throws": 21,
+              "free_throw_pct": 75,
+              "timeouts_remaining": 5,
+              "fouls": 28,
+              "periods": [
+                30,
+                19,
+                18,
+                2
+              ],
+              "timeouts_used": 0
+            },
+            "summary": [
+              "Score After 1st Quarter - 12-30",
+              "Score After 2nd Quarter - 32-49",
+              "Score After 3rd Quarter - 43-67"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:31.980325489Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:31.980325489Z"
+            },
+            "110": {
+              "polled_at": "2026-10-23T15:42:31.980273573Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:31.980249319Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:22.972330572Z"
+            },
+            "180193": {
+              "polled_at": "2026-10-23T15:42:31.980230256Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:31.979777312Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:31.980210208Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:31.980189845Z"
+            },
+            "534": {
+              "polled_at": "2026-10-23T15:42:31.980170827Z"
+            },
+            "563": {
+              "polled_at": "2026-10-23T15:42:31.980147711Z"
+            },
+            "567": {
+              "polled_at": "2026-10-23T15:42:31.9801311Z"
+            },
+            "575": {
+              "polled_at": "2026-10-23T15:42:31.980118731Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203237383",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277731847",
+              "label": " +17.5",
+              "handicap": "+17.5",
+              "side": "PS El Eulma",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:31.972649199Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237383",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277731850",
+              "label": " -17.5",
+              "handicap": "-17.5",
+              "side": "US Setif",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:31.972649199Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237383",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277731871",
+              "label": "O 141.5",
+              "handicap": "141.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.7407407407407407,
+              "odds_frac": "20/27",
+              "ts": "2026-10-23T15:42:31.972649199Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237383",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277731878",
+              "label": "U 141.5",
+              "handicap": "141.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.9523809523809523,
+              "odds_frac": "20/21",
+              "ts": "2026-10-23T15:42:31.972649199Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203237386",
+          "home": "CRB Dar Beida",
+          "away": "CR Beni Saf",
+          "league": "Algeria Super Division",
+          "kickoff_utc": "2026-10-23T14:00:00Z",
+          "score": "74-63",
+          "clock": {
+            "min": 1,
+            "sec": 28,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:38Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:46.504598066Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 74,
+              "three_pointers": 12,
+              "two_pointers": 12,
+              "free_throws": 14,
+              "free_throw_pct": 60.9,
+              "timeouts_remaining": 5,
+              "fouls": 17,
+              "periods": [
+                32,
+                12,
+                17,
+                13
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 66,
+              "three_pointers": 6,
+              "two_pointers": 14,
+              "free_throws": 20,
+              "free_throw_pct": 62.5,
+              "timeouts_remaining": 5,
+              "fouls": 18,
+              "periods": [
+                14,
+                18,
+                12,
+                22
+              ],
+              "timeouts_used": 0
+            },
+            "summary": [
+              "Score After 1st Quarter - 32-14",
+              "Score After 2nd Quarter - 44-32",
+              "Score After 3rd Quarter - 61-44"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:46.406798382Z",
+          "group_status": {
+            "112": {
+              "polled_at": "2026-10-23T15:42:46.406798382Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203237386",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277733536",
+              "label": " -8.5",
+              "handicap": "-8.5",
+              "side": "CRB Dar Beida",
+              "line": "Line",
+              "odds_dec": 1.9523809523809523,
+              "odds_frac": "20/21",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:46.406304263Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237386",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277733545",
+              "label": " +8.5",
+              "handicap": "+8.5",
+              "side": "CR Beni Saf",
+              "line": "Line",
+              "odds_dec": 1.7407407407407407,
+              "odds_frac": "20/27",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:46.406304263Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237386",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277733643",
+              "side": "CRB Dar Beida",
+              "line": "To Win",
+              "odds_dec": 1.0151515151515151,
+              "odds_frac": "1/66",
+              "ts": "2026-10-23T15:42:46.406304263Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237386",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277733653",
+              "side": "CR Beni Saf",
+              "line": "To Win",
+              "odds_dec": 12,
+              "odds_frac": "11/1",
+              "ts": "2026-10-23T15:42:46.406304263Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203272821",
+          "home": "Kronos Ag.Dimitriou",
+          "away": "AE Psychikou",
+          "league": "Greece Elite League",
+          "kickoff_utc": "2026-10-23T14:00:00Z",
+          "score": "61-66",
+          "clock": {
+            "min": 5,
+            "sec": 58,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:32Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:32.072504633Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 61,
+              "three_pointers": 5,
+              "two_pointers": 18,
+              "free_throws": 10,
+              "free_throw_pct": 76.9,
+              "timeouts_remaining": 3,
+              "fouls": 19,
+              "periods": [
+                21,
+                13,
+                16,
+                11
+              ],
+              "timeouts_used": 2
+            },
+            "away": {
+              "points": 66,
+              "three_pointers": 5,
+              "two_pointers": 18,
+              "free_throws": 15,
+              "free_throw_pct": 75,
+              "timeouts_remaining": 3,
+              "fouls": 18,
+              "periods": [
+                18,
+                23,
+                19,
+                6
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 21-18",
+              "Score After 2nd Quarter - 34-41",
+              "Score After 3rd Quarter - 50-60"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:51.815839109Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:51.81579716Z"
+            },
+            "110": {
+              "polled_at": "2026-10-23T15:42:51.815701038Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:51.815839109Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.188059908Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:50.914841661Z"
+            },
+            "180193": {
+              "polled_at": "2026-10-23T15:42:51.815597162Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:51.815614696Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:51.815572089Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:51.815433434Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:51.815752733Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:51.815736561Z"
+            },
+            "534": {
+              "polled_at": "2026-10-23T15:42:51.815719227Z"
+            },
+            "563": {
+              "polled_at": "2026-10-23T15:42:51.815483794Z"
+            },
+            "567": {
+              "polled_at": "2026-10-23T15:42:51.371033497Z"
+            },
+            "575": {
+              "polled_at": "2026-10-23T15:42:51.815545739Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203272821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277736186",
+              "label": " +4.5",
+              "handicap": "+4.5",
+              "side": "Kronos Ag.Dimitriou",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:51.814988131Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277736188",
+              "label": " -4.5",
+              "handicap": "-4.5",
+              "side": "AE Psychikou",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:51.814988131Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277736193",
+              "label": "O 151.5",
+              "handicap": "151.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.7407407407407407,
+              "odds_frac": "20/27",
+              "ts": "2026-10-23T15:42:51.814988131Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277736195",
+              "label": "U 151.5",
+              "handicap": "151.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.9523809523809523,
+              "odds_frac": "20/21",
+              "ts": "2026-10-23T15:42:51.814988131Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277736204",
+              "side": "Kronos Ag.Dimitriou",
+              "line": "To Win",
+              "odds_dec": 3.9,
+              "odds_frac": "29/10",
+              "ts": "2026-10-23T15:42:51.814988131Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277736206",
+              "side": "AE Psychikou",
+              "line": "To Win",
+              "odds_dec": 1.2272727272727273,
+              "odds_frac": "5/22",
+              "ts": "2026-10-23T15:42:51.814988131Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203340255",
+          "home": "AS Constantine",
+          "away": "US Abnaa Bouna",
+          "league": "Algeria National 1",
+          "kickoff_utc": "2026-10-23T14:00:00Z",
+          "score": "50-60",
+          "clock": {
+            "min": 4,
+            "sec": 53,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:31Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:13.353752421Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 50,
+              "three_pointers": 5,
+              "two_pointers": 12,
+              "free_throws": 11,
+              "free_throw_pct": 45.8,
+              "timeouts_remaining": 2,
+              "fouls": 14,
+              "periods": [
+                9,
+                14,
+                19,
+                8
+              ],
+              "timeouts_used": 3
+            },
+            "away": {
+              "points": 60,
+              "three_pointers": 9,
+              "two_pointers": 10,
+              "free_throws": 13,
+              "free_throw_pct": 43.3,
+              "timeouts_remaining": 3,
+              "fouls": 17,
+              "periods": [
+                24,
+                15,
+                13,
+                8
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 9-24",
+              "Score After 2nd Quarter - 23-39",
+              "Score After 3rd Quarter - 42-52"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:31.546283409Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:31.546074559Z"
+            },
+            "110": {
+              "polled_at": "2026-10-23T15:42:31.546003539Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:31.545604944Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.160634827Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:23.160634827Z"
+            },
+            "180193": {
+              "polled_at": "2026-10-23T15:42:31.545546335Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:31.527947929Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:31.545476291Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:31.545407454Z"
+            },
+            "534": {
+              "polled_at": "2026-10-23T15:42:31.545355017Z"
+            },
+            "563": {
+              "polled_at": "2026-10-23T15:42:31.545321014Z"
+            },
+            "567": {
+              "polled_at": "2026-10-23T15:42:31.545300142Z"
+            },
+            "575": {
+              "polled_at": "2026-10-23T15:42:31.546283409Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203340255",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "279784717",
+              "label": " +9.5",
+              "handicap": "+9.5",
+              "side": "AS Constantine",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203340255",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "279784719",
+              "label": " -9.5",
+              "handicap": "-9.5",
+              "side": "US Abnaa Bouna",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203340255",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "279784724",
+              "label": "O 129.5",
+              "handicap": "129.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203340255",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "279784727",
+              "label": "U 129.5",
+              "handicap": "129.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203340255",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "279784731",
+              "side": "AS Constantine",
+              "line": "To Win",
+              "odds_dec": 9.5,
+              "odds_frac": "17/2",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203340255",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "279784733",
+              "side": "US Abnaa Bouna",
+              "line": "To Win",
+              "odds_dec": 1.0357142857142858,
+              "odds_frac": "1/28",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203256291",
+          "home": "Puhuttaret (W)",
+          "away": "Helsingin NMKY (W)",
+          "league": "Finland Div.1 Women",
+          "kickoff_utc": "2026-10-23T14:30:00Z",
+          "score": "44-39",
+          "clock": {
+            "min": 10,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:19Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:20.11776618Z",
+            "sport": "basketball",
+            "period": 4,
+            "home": {
+              "points": 44,
+              "three_pointers": 6,
+              "two_pointers": 10,
+              "free_throws": 6,
+              "free_throw_pct": 60,
+              "timeouts_remaining": 3,
+              "fouls": 8,
+              "periods": [
+                13,
+                15,
+                16,
+                0
+              ],
+              "timeouts_used": 2
+            },
+            "away": {
+              "points": 39,
+              "three_pointers": 3,
+              "two_pointers": 12,
+              "free_throws": 6,
+              "free_throw_pct": 54.5,
+              "timeouts_remaining": 5,
+              "fouls": 10,
+              "periods": [
+                11,
+                16,
+                12,
+                0
+              ],
+              "timeouts_used": 0
+            },
+            "summary": [
+              "Score After 1st Quarter - 13-11",
+              "Score After 2nd Quarter - 28-27",
+              "Score After 3rd Quarter - 44-39"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:43.861227428Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "110": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "111": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "180193": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "534": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "563": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "567": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            },
+            "575": {
+              "polled_at": "2026-10-23T15:42:43.861227428Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203256291",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277893589",
+              "label": " -7.5",
+              "handicap": "-7.5",
+              "side": "Puhuttaret (W)",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:20.249586985Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256291",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277893591",
+              "label": " +7.5",
+              "handicap": "+7.5",
+              "side": "Helsingin NMKY (W)",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:20.249586985Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256291",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277893597",
+              "label": "O 114.5",
+              "handicap": "114.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:10.777440714Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256291",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277893599",
+              "label": "U 114.5",
+              "handicap": "114.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:10.777440714Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256291",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277893605",
+              "side": "Puhuttaret (W)",
+              "line": "To Win",
+              "odds_dec": 1.1052631578947367,
+              "odds_frac": "2/19",
+              "ts": "2026-10-23T15:42:20.249586985Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256291",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277893607",
+              "side": "Helsingin NMKY (W)",
+              "line": "To Win",
+              "odds_dec": 6.25,
+              "odds_frac": "21/4",
+              "ts": "2026-10-23T15:42:20.249586985Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203268821",
+          "home": "Niko-Basket Mykolaiv",
+          "away": "VolinBasket",
+          "league": "Ukraine FBU Superleague",
+          "kickoff_utc": "2026-10-23T14:30:00Z",
+          "score": "54-51",
+          "clock": {
+            "min": 6,
+            "sec": 30,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:28Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:08.842757622Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 54,
+              "three_pointers": 6,
+              "two_pointers": 14,
+              "free_throws": 8,
+              "free_throw_pct": 72.7,
+              "timeouts_remaining": 3,
+              "fouls": 12,
+              "periods": [
+                22,
+                25,
+                7
+              ],
+              "timeouts_used": 2
+            },
+            "away": {
+              "points": 51,
+              "three_pointers": 6,
+              "two_pointers": 11,
+              "free_throws": 11,
+              "free_throw_pct": 64.7,
+              "timeouts_remaining": 3,
+              "fouls": 11,
+              "periods": [
+                26,
+                18,
+                7
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 22-26",
+              "Score After 2nd Quarter - 47-44"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:31.069261227Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:31.06922197Z"
+            },
+            "108": {
+              "polled_at": "2026-10-23T15:42:31.069175368Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:31.069261227Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.132739421Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:31.069120553Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:31.069055276Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203268821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277896165",
+              "label": " -2.5",
+              "handicap": "-2.5",
+              "side": "Niko-Basket Mykolaiv",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:31.068339555Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203268821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277896167",
+              "label": " +2.5",
+              "handicap": "+2.5",
+              "side": "VolinBasket",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:31.068339555Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203268821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277896188",
+              "label": "O 172.5",
+              "handicap": "172.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:28.814116789Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203268821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277896192",
+              "label": "U 172.5",
+              "handicap": "172.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:28.814116789Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203268821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277896211",
+              "side": "Niko-Basket Mykolaiv",
+              "line": "To Win",
+              "odds_dec": 1.625,
+              "odds_frac": "5/8",
+              "ts": "2026-10-23T15:42:31.068339555Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203268821",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277896215",
+              "side": "VolinBasket",
+              "line": "To Win",
+              "odds_dec": 2.15,
+              "odds_frac": "23/20",
+              "ts": "2026-10-23T15:42:31.068339555Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203272862",
+          "home": "BC Akhaltsikhe",
+          "away": "Iverioni",
+          "league": "Georgia Super League",
+          "kickoff_utc": "2026-10-23T14:30:00Z",
+          "score": "46-43",
+          "clock": {
+            "min": 2,
+            "sec": 35,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:37Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:33.888968676Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 46,
+              "three_pointers": 4,
+              "two_pointers": 10,
+              "free_throws": 14,
+              "free_throw_pct": 82.4,
+              "timeouts_remaining": 3,
+              "fouls": 6,
+              "periods": [
+                15,
+                19,
+                12
+              ],
+              "timeouts_used": 2
+            },
+            "away": {
+              "points": 43,
+              "three_pointers": 7,
+              "two_pointers": 10,
+              "free_throws": 1,
+              "free_throw_pct": 25,
+              "timeouts_remaining": 3,
+              "fouls": 12,
+              "periods": [
+                19,
+                13,
+                11
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 15-19",
+              "Score After 2nd Quarter - 34-32"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:37.837305351Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:33.794418927Z"
+            },
+            "108": {
+              "polled_at": "2026-10-23T15:42:37.836980657Z"
+            },
+            "109": {
+              "polled_at": "2026-10-23T15:42:37.837305351Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:33.794521788Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.117473356Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:23.117473356Z"
+            },
+            "180192": {
+              "polled_at": "2026-10-23T15:42:37.836901247Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:37.836941991Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:33.792962231Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:33.794673856Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:37.837123845Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:37.837104998Z"
+            },
+            "533": {
+              "polled_at": "2026-10-23T15:42:37.837080877Z"
+            },
+            "562": {
+              "polled_at": "2026-10-23T15:42:37.836888512Z"
+            },
+            "566": {
+              "polled_at": "2026-10-23T15:42:37.836866816Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203272862",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277896671",
+              "label": " -2.5",
+              "handicap": "-2.5",
+              "side": "BC Akhaltsikhe",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272862",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "277896673",
+              "label": " +2.5",
+              "handicap": "+2.5",
+              "side": "Iverioni",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272862",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277896674",
+              "label": "O 137.5",
+              "handicap": "137.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272862",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "277896675",
+              "label": "U 137.5",
+              "handicap": "137.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272862",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277896678",
+              "side": "BC Akhaltsikhe",
+              "line": "To Win",
+              "odds_dec": 1.5555555555555556,
+              "odds_frac": "5/9",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203272862",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "277896680",
+              "side": "Iverioni",
+              "line": "To Win",
+              "odds_dec": 2.3,
+              "odds_frac": "13/10",
+              "suspended": true,
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203379093",
+          "home": "Atletico Sport Aviacao",
+          "away": "FC Vila Clotilde",
+          "league": "Angola Campeonato Nacional",
+          "kickoff_utc": "2026-10-23T14:30:00Z",
+          "score": "39-55",
+          "clock": {
+            "min": 12,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-23T15:32:10Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:32:10.59732388Z",
+            "sport": "basketball",
+            "period": 3,
+            "home": {
+              "points": 39,
+              "three_pointers": 6,
+              "two_pointers": 6,
+              "free_throws": 9,
+              "free_throw_pct": 47.4,
+              "timeouts_remaining": 5,
+              "fouls": 13,
+              "periods": [
+                15,
+                24,
+                0
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 55,
+              "three_pointers": 5,
+              "two_pointers": 12,
+              "free_throws": 16,
+              "free_throw_pct": 66.7,
+              "timeouts_remaining": 5,
+              "fouls": 13,
+              "periods": [
+                31,
+                24,
+                0
+              ],
+              "timeouts_used": 0
+            },
+            "summary": [
+              "Score After 1st Quarter - 15-31",
+              "Score After 2nd Quarter - 39-55"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:49.569169718Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "108": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "109": {
+              "polled_at": "2026-10-23T15:42:49.569169718Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "180192": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:49.568950152Z"
+            },
+            "180719": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "533": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "562": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "566": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            },
+            "574": {
+              "polled_at": "2026-10-23T15:42:43.836111025Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203379093",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "285205352",
+              "label": " +18.5",
+              "handicap": "+18.5",
+              "side": "Atletico Sport Aviacao",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:41:41.912048581Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379093",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "285205353",
+              "label": " -18.5",
+              "handicap": "-18.5",
+              "side": "FC Vila Clotilde",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:41:41.912048581Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379093",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "285205354",
+              "label": "O 174.5",
+              "handicap": "174.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:41:41.912048581Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379093",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "285205355",
+              "label": "U 174.5",
+              "handicap": "174.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:41:41.912048581Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379093",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "285205356",
+              "side": "Atletico Sport Aviacao",
+              "line": "To Win",
+              "odds_dec": 11,
+              "odds_frac": "10/1",
+              "ts": "2026-10-23T15:41:41.912048581Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379093",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "285205357",
+              "side": "FC Vila Clotilde",
+              "line": "To Win",
+              "odds_dec": 1.02,
+              "odds_frac": "1/50",
+              "ts": "2026-10-23T15:41:41.912048581Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203341186",
+          "home": "Fenerbahce Gelisim",
+          "away": "Ormanspor",
+          "league": "T\u00fcrkiye TBL",
+          "kickoff_utc": "2026-10-23T14:52:15Z",
+          "score": "35-39",
+          "clock": {
+            "min": 2,
+            "sec": 3,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:36Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:08.842757622Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 35,
+              "three_pointers": 5,
+              "two_pointers": 9,
+              "free_throws": 2,
+              "free_throw_pct": 33.3,
+              "timeouts_remaining": 3,
+              "fouls": 7,
+              "periods": [
+                16,
+                19
+              ],
+              "timeouts_used": 2
+            },
+            "away": {
+              "points": 39,
+              "three_pointers": 4,
+              "two_pointers": 9,
+              "free_throws": 9,
+              "free_throw_pct": 90,
+              "timeouts_remaining": 4,
+              "fouls": 4,
+              "periods": [
+                29,
+                10
+              ],
+              "timeouts_used": 1
+            },
+            "summary": [
+              "Score After 1st Quarter - 16-29"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:36.48283269Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:36.48283269Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:36.481972881Z"
+            },
+            "106": {
+              "polled_at": "2026-10-23T15:42:36.482132437Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:35.593437906Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.122340103Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:23.122340103Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:35.593402525Z"
+            },
+            "180191": {
+              "polled_at": "2026-10-23T15:42:35.593287971Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:36.482043141Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:36.481990231Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:35.580510702Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:35.59326782Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:36.482751263Z"
+            },
+            "532": {
+              "polled_at": "2026-10-23T15:42:36.482210359Z"
+            },
+            "561": {
+              "polled_at": "2026-10-23T15:42:36.481868774Z"
+            },
+            "565": {
+              "polled_at": "2026-10-23T15:42:36.481927778Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:36.481880026Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:36.482004933Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203341186",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "289477214",
+              "label": " +5.5",
+              "handicap": "+5.5",
+              "side": "Fenerbahce Gelisim",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:27.459974487Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203341186",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "289477215",
+              "label": " -5.5",
+              "handicap": "-5.5",
+              "side": "Ormanspor",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:27.459974487Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203341186",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "289477216",
+              "label": "O 165.5",
+              "handicap": "165.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:35.579276829Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203341186",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "289477217",
+              "label": "U 165.5",
+              "handicap": "165.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:35.579276829Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203341186",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "289477218",
+              "side": "Fenerbahce Gelisim",
+              "line": "To Win",
+              "odds_dec": 2.8,
+              "odds_frac": "9/5",
+              "ts": "2026-10-23T15:42:27.459974487Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203341186",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "289477220",
+              "side": "Ormanspor",
+              "line": "To Win",
+              "odds_dec": 1.3846153846153846,
+              "odds_frac": "5/13",
+              "ts": "2026-10-23T15:42:27.459974487Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "202672471",
+          "home": "Yambol",
+          "away": "Balkan Botevgrad",
+          "league": "Bulgaria NBL",
+          "kickoff_utc": "2026-10-23T15:00:00Z",
+          "score": "26-33",
+          "clock": {
+            "min": 4,
+            "sec": 16,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:39Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:32.072504633Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 26,
+              "three_pointers": 2,
+              "two_pointers": 7,
+              "free_throws": 6,
+              "free_throw_pct": 60,
+              "timeouts_remaining": 4,
+              "fouls": 7,
+              "periods": [
+                20,
+                6
+              ],
+              "timeouts_used": 1
+            },
+            "away": {
+              "points": 33,
+              "three_pointers": 5,
+              "two_pointers": 7,
+              "free_throws": 4,
+              "free_throw_pct": 57.1,
+              "timeouts_remaining": 4,
+              "fouls": 10,
+              "periods": [
+                22,
+                11
+              ],
+              "timeouts_used": 1
+            },
+            "summary": [
+              "Score After 1st Quarter - 20-22"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:44.608122253Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:44.608025459Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:44.604428264Z"
+            },
+            "106": {
+              "polled_at": "2026-10-23T15:42:44.60751748Z"
+            },
+            "107": {
+              "polled_at": "2026-10-23T15:42:44.608122253Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:44.161764444Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.141492968Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:44.161609684Z"
+            },
+            "180058": {
+              "polled_at": "2026-10-23T15:42:41.448025295Z"
+            },
+            "180174": {
+              "polled_at": "2026-10-23T15:42:40.11112631Z"
+            },
+            "180189": {
+              "polled_at": "2026-10-23T15:42:40.11107927Z"
+            },
+            "180191": {
+              "polled_at": "2026-10-23T15:42:44.60782784Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:44.157773657Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:44.152791369Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:44.600991261Z"
+            },
+            "180718": {
+              "polled_at": "2026-10-23T15:42:44.605116983Z"
+            },
+            "180773": {
+              "polled_at": "2026-10-23T15:42:44.604879492Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:44.605395405Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:44.161316751Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:44.607763996Z"
+            },
+            "532": {
+              "polled_at": "2026-10-23T15:42:44.607645695Z"
+            },
+            "561": {
+              "polled_at": "2026-10-23T15:42:44.601163962Z"
+            },
+            "565": {
+              "polled_at": "2026-10-23T15:42:44.601527641Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:44.601187062Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:44.601130804Z"
+            },
+            "573": {
+              "polled_at": "2026-10-23T15:42:44.601728467Z"
+            },
+            "584": {
+              "polled_at": "2026-10-23T15:42:44.606309376Z"
+            },
+            "585": {
+              "polled_at": "2026-10-23T15:42:44.606402569Z"
+            },
+            "588": {
+              "polled_at": "2026-10-23T15:42:44.157350738Z"
+            },
+            "589": {
+              "polled_at": "2026-10-23T15:42:44.159410196Z"
+            },
+            "591": {
+              "polled_at": "2026-10-23T15:42:44.15996758Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:44.60158061Z"
+            },
+            "598": {
+              "polled_at": "2026-10-23T15:42:44.606540566Z"
+            },
+            "601": {
+              "polled_at": "2026-10-23T15:42:44.602638197Z"
+            },
+            "604": {
+              "polled_at": "2026-10-23T15:42:44.602912047Z"
+            },
+            "607": {
+              "polled_at": "2026-10-23T15:42:44.604097765Z"
+            },
+            "610": {
+              "polled_at": "2026-10-23T15:42:44.154189357Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:44.602276828Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "202672471",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282210094",
+              "label": " +17.5",
+              "handicap": "+17.5",
+              "side": "Yambol",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:41.442108932Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672471",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282210098",
+              "label": " -17.5",
+              "handicap": "-17.5",
+              "side": "Balkan Botevgrad",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:41.442108932Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672471",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282210118",
+              "label": "O 159.5",
+              "handicap": "159.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:44.148483576Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672471",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282210121",
+              "label": "U 159.5",
+              "handicap": "159.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:44.148483576Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672471",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282210134",
+              "side": "Yambol",
+              "line": "To Win",
+              "odds_dec": 10.5,
+              "odds_frac": "19/2",
+              "ts": "2026-10-23T15:42:40.093357975Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672471",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282210138",
+              "side": "Balkan Botevgrad",
+              "line": "To Win",
+              "odds_dec": 1.025,
+              "odds_frac": "1/40",
+              "ts": "2026-10-23T15:42:40.093357975Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203016084",
+          "home": "Cherkasy Mavpy",
+          "away": "BC Rivne",
+          "league": "Ukraine FBU Superleague",
+          "kickoff_utc": "2026-10-23T15:00:00Z",
+          "score": "27-37",
+          "clock": {
+            "min": 4,
+            "sec": 46,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:33Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:33.426838609Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 27,
+              "three_pointers": 3,
+              "two_pointers": 9,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 3,
+              "fouls": 8,
+              "periods": [
+                18,
+                9
+              ],
+              "timeouts_used": 2
+            },
+            "away": {
+              "points": 37,
+              "three_pointers": 3,
+              "two_pointers": 9,
+              "free_throws": 10,
+              "free_throw_pct": 90.9,
+              "timeouts_remaining": 3,
+              "fouls": 3,
+              "periods": [
+                26,
+                11
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 18-26"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:49.568696401Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:49.568352494Z"
+            },
+            "106": {
+              "polled_at": "2026-10-23T15:42:49.568232995Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:49.568696401Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:22.959328293Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:49.56814071Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:49.568064713Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203016084",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278072176",
+              "label": " +15.5",
+              "handicap": "+15.5",
+              "side": "Cherkasy Mavpy",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016084",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278072177",
+              "label": " -15.5",
+              "handicap": "-15.5",
+              "side": "BC Rivne",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016084",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278072178",
+              "label": "O 164.5",
+              "handicap": "164.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:49.560810006Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016084",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278072179",
+              "label": "U 164.5",
+              "handicap": "164.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:49.560810006Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016084",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278072180",
+              "side": "Cherkasy Mavpy",
+              "line": "To Win",
+              "odds_dec": 8.5,
+              "odds_frac": "15/2",
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016084",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278072181",
+              "side": "BC Rivne",
+              "line": "To Win",
+              "odds_dec": 1.05,
+              "odds_frac": "1/20",
+              "ts": "2026-10-23T15:42:33.77566231Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203138416",
+          "home": "U BT Cluj-Napoca",
+          "away": "SC Derby",
+          "league": "Adriatic League",
+          "kickoff_utc": "2026-10-23T15:00:00Z",
+          "score": "39-32",
+          "clock": {
+            "min": 4,
+            "sec": 18,
+            "ticking": false,
+            "ref": "2026-10-23T15:41:18Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:41:42.722510999Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 39,
+              "three_pointers": 4,
+              "two_pointers": 9,
+              "free_throws": 9,
+              "free_throw_pct": 90,
+              "timeouts_remaining": 5,
+              "fouls": 4,
+              "periods": [
+                24,
+                15
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 32,
+              "three_pointers": 3,
+              "two_pointers": 6,
+              "free_throws": 11,
+              "free_throw_pct": 84.6,
+              "timeouts_remaining": 3,
+              "fouls": 7,
+              "periods": [
+                16,
+                16
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 24-16"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:43.894612858Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "106": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180058": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180174": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180189": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180191": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180718": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180773": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "532": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "561": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "565": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "573": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "584": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "585": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "588": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "589": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "591": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "598": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "601": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "604": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "607": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "610": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:43.894612858Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203138416",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282295823",
+              "label": " -12.5",
+              "handicap": "-12.5",
+              "side": "U BT Cluj-Napoca",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:41:45.722433273Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203138416",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282295824",
+              "label": " +12.5",
+              "handicap": "+12.5",
+              "side": "SC Derby",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:41:45.722433273Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203138416",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282295825",
+              "label": "O 178.5",
+              "handicap": "178.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:41:45.722433273Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203138416",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282295826",
+              "label": "U 178.5",
+              "handicap": "178.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:41:45.722433273Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203138416",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282295827",
+              "side": "U BT Cluj-Napoca",
+              "line": "To Win",
+              "odds_dec": 1.0909090909090908,
+              "odds_frac": "1/11",
+              "ts": "2026-10-23T15:41:45.722433273Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203138416",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282295828",
+              "side": "SC Derby",
+              "line": "To Win",
+              "odds_dec": 6.75,
+              "odds_frac": "23/4",
+              "ts": "2026-10-23T15:41:45.722433273Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203237389",
+          "home": "CS Tlemcen",
+          "away": "USM Blida",
+          "league": "Algeria Super Division",
+          "kickoff_utc": "2026-10-23T15:00:00Z",
+          "score": "33-16",
+          "clock": {
+            "min": 2,
+            "sec": 28,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:34Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:26.66020292Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 33,
+              "three_pointers": 4,
+              "two_pointers": 10,
+              "free_throws": 1,
+              "free_throw_pct": 14.3,
+              "timeouts_remaining": 5,
+              "fouls": 4,
+              "periods": [
+                15,
+                18
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 16,
+              "three_pointers": 1,
+              "two_pointers": 3,
+              "free_throws": 7,
+              "free_throw_pct": 70,
+              "timeouts_remaining": 3,
+              "fouls": 5,
+              "periods": [
+                6,
+                10
+              ],
+              "timeouts_used": 2
+            },
+            "summary": [
+              "Score After 1st Quarter - 15-6"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:48.65892734Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:48.65892734Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:48.658434839Z"
+            },
+            "106": {
+              "polled_at": "2026-10-23T15:42:48.658574522Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:42.799959204Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:22.982856798Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:26.597299395Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:35.131093057Z"
+            },
+            "180191": {
+              "polled_at": "2026-10-23T15:42:48.658847431Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:42.798833348Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:42.798676119Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:48.6583376Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:42.799620895Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:48.658676702Z"
+            },
+            "532": {
+              "polled_at": "2026-10-23T15:42:48.658599161Z"
+            },
+            "561": {
+              "polled_at": "2026-10-23T15:42:48.658358836Z"
+            },
+            "565": {
+              "polled_at": "2026-10-23T15:42:48.658394748Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:48.658376935Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203237389",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278072417",
+              "label": " -16.5",
+              "handicap": "-16.5",
+              "side": "CS Tlemcen",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:26.558857377Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237389",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278072418",
+              "label": " +16.5",
+              "handicap": "+16.5",
+              "side": "USM Blida",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:26.558857377Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237389",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278072424",
+              "label": "O 119.5",
+              "handicap": "119.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:42.798165612Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237389",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278072425",
+              "label": "U 119.5",
+              "handicap": "119.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:42.798165612Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237389",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278072432",
+              "side": "CS Tlemcen",
+              "line": "To Win",
+              "odds_dec": 1.0333333333333334,
+              "odds_frac": "1/30",
+              "ts": "2026-10-23T15:42:35.12781462Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203237389",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278072435",
+              "side": "USM Blida",
+              "line": "To Win",
+              "odds_dec": 9.75,
+              "odds_frac": "35/4",
+              "ts": "2026-10-23T15:42:35.12781462Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203269006",
+          "home": "Gallardo Ankara (W)",
+          "away": "Burhaniye (W)",
+          "league": "T\u00fcrkiye TKBL Women",
+          "kickoff_utc": "2026-10-23T15:00:00Z",
+          "score": "38-39",
+          "clock": {
+            "min": 0,
+            "sec": 38,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:38Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:38.386386597Z",
+            "sport": "basketball",
+            "period": 2,
+            "home": {
+              "points": 38,
+              "three_pointers": 2,
+              "two_pointers": 14,
+              "free_throws": 4,
+              "free_throw_pct": 66.7,
+              "timeouts_remaining": 3,
+              "fouls": 3,
+              "periods": [
+                22,
+                16
+              ],
+              "timeouts_used": 2
+            },
+            "away": {
+              "points": 39,
+              "three_pointers": 7,
+              "two_pointers": 7,
+              "free_throws": 4,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 4,
+              "fouls": 3,
+              "periods": [
+                22,
+                17
+              ],
+              "timeouts_used": 1
+            },
+            "summary": [
+              "Score After 1st Quarter - 22-22"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:46.406732981Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:46.40670534Z"
+            },
+            "108": {
+              "polled_at": "2026-10-23T15:42:38.304095074Z"
+            },
+            "109": {
+              "polled_at": "2026-10-23T15:42:46.406732981Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:46.406721687Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.148646881Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:23.148646881Z"
+            },
+            "180192": {
+              "polled_at": "2026-10-23T15:42:23.148646881Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:46.406615404Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:46.406592914Z"
+            },
+            "180719": {
+              "polled_at": "2026-10-23T15:42:38.3028919Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:46.406670785Z"
+            },
+            "530": {
+              "polled_at": "2026-10-23T15:42:38.3041364Z"
+            },
+            "533": {
+              "polled_at": "2026-10-23T15:42:38.304113787Z"
+            },
+            "562": {
+              "polled_at": "2026-10-23T15:42:23.148646881Z"
+            },
+            "566": {
+              "polled_at": "2026-10-23T15:42:38.295585581Z"
+            },
+            "574": {
+              "polled_at": "2026-10-23T15:42:38.295951747Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203269006",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278075175",
+              "label": " -1.5",
+              "handicap": "-1.5",
+              "side": "Gallardo Ankara (W)",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:38.286642557Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203269006",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278075180",
+              "label": " +1.5",
+              "handicap": "+1.5",
+              "side": "Burhaniye (W)",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:38.286642557Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203269006",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278075201",
+              "label": "O 150.5",
+              "handicap": "150.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:46.406304263Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203269006",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278075205",
+              "label": "U 150.5",
+              "handicap": "150.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:46.406304263Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203269006",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278075213",
+              "side": "Gallardo Ankara (W)",
+              "line": "To Win",
+              "odds_dec": 1.6896551724137931,
+              "odds_frac": "20/29",
+              "ts": "2026-10-23T15:42:38.286642557Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203269006",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278075214",
+              "side": "Burhaniye (W)",
+              "line": "To Win",
+              "odds_dec": 2.05,
+              "odds_frac": "21/20",
+              "ts": "2026-10-23T15:42:38.286642557Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203358097",
+          "home": "UTA Jazz (Jovke)",
+          "away": "MIN Timberwolves (Bazuka)",
+          "league": "Ebasketball Battle - 4x5mins",
+          "kickoff_utc": "2026-10-23T15:25:20Z",
+          "score": "24-31",
+          "clock": {
+            "min": 0,
+            "sec": 8,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:35Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:45.247804484Z",
+            "sport": "ebasketball",
+            "period": 2,
+            "home": {
+              "points": 26,
+              "three_pointers": 0,
+              "two_pointers": 11,
+              "periods": [
+                11,
+                15
+              ]
+            },
+            "away": {
+              "points": 31,
+              "three_pointers": 3,
+              "two_pointers": 10,
+              "periods": [
+                13,
+                18
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 13 - 11"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:50.036807588Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:50.036807588Z"
+            },
+            "108": {
+              "polled_at": "2026-10-23T15:42:50.03669514Z"
+            },
+            "109": {
+              "polled_at": "2026-10-23T15:42:50.036517978Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:50.036456217Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:50.036374891Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:50.036263717Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203358097",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282446912",
+              "label": " -6.5",
+              "handicap": "-6.5",
+              "side": "MIN Timberwolves (Bazuka)",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203358097",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282446917",
+              "label": " +6.5",
+              "handicap": "+6.5",
+              "side": "UTA Jazz (Jovke)",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203358097",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282446927",
+              "label": "O 122.5",
+              "handicap": "122.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.9090909090909092,
+              "odds_frac": "10/11",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203358097",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282446931",
+              "label": "U 122.5",
+              "handicap": "122.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.7692307692307692,
+              "odds_frac": "10/13",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203358097",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282446942",
+              "side": "MIN Timberwolves (Bazuka)",
+              "line": "To Win",
+              "odds_dec": 1.2,
+              "odds_frac": "1/5",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203358097",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282446947",
+              "side": "UTA Jazz (Jovke)",
+              "line": "To Win",
+              "odds_dec": 4,
+              "odds_frac": "3/1",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203379335",
+          "home": "ORL Magic (CARNAGE)",
+          "away": "CHA Hornets (TD24)",
+          "league": "Ebasketball H2H GG League - 4x5mins",
+          "kickoff_utc": "2026-10-23T15:26:38Z",
+          "score": "18-24",
+          "clock": {
+            "min": 0,
+            "sec": 0,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:31Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:41:00.658800966Z",
+            "sport": "ebasketball",
+            "period": 2,
+            "home": {
+              "points": 18,
+              "three_pointers": 4,
+              "two_pointers": 3,
+              "periods": [
+                9,
+                9
+              ]
+            },
+            "away": {
+              "points": 24,
+              "three_pointers": 1,
+              "two_pointers": 10,
+              "periods": [
+                16,
+                8
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 16-9"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:31.980386021Z",
+          "group_status": {
+            "104": {
+              "polled_at": "2026-10-23T15:42:31.550114628Z"
+            },
+            "108": {
+              "polled_at": "2026-10-23T15:42:31.54922136Z"
+            },
+            "109": {
+              "polled_at": "2026-10-23T15:42:31.549025191Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:31.550840476Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:22.952234825Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:31.980386021Z"
+            },
+            "562": {
+              "polled_at": "2026-10-23T15:42:22.952234825Z"
+            },
+            "566": {
+              "polled_at": "2026-10-23T15:42:22.952234825Z"
+            },
+            "710": {
+              "polled_at": "2026-10-23T15:42:31.546458628Z"
+            },
+            "711": {
+              "polled_at": "2026-10-23T15:42:31.980365135Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203379335",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "285238437",
+              "label": " -6.5",
+              "handicap": "-6.5",
+              "side": "CHA Hornets (TD24)",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379335",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "285238449",
+              "label": " +6.5",
+              "handicap": "+6.5",
+              "side": "ORL Magic (CARNAGE)",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379335",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "285238488",
+              "label": "O 99.5",
+              "handicap": "99.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379335",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "285238516",
+              "label": "U 99.5",
+              "handicap": "99.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379335",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "285238541",
+              "side": "CHA Hornets (TD24)",
+              "line": "To Win",
+              "odds_dec": 1.1666666666666667,
+              "odds_frac": "1/6",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203379335",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "285238547",
+              "side": "ORL Magic (CARNAGE)",
+              "line": "To Win",
+              "odds_dec": 4.5,
+              "odds_frac": "7/2",
+              "ts": "2026-10-23T15:42:31.520725516Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "202672581",
+          "home": "Kauhajoen Karhu",
+          "away": "Lahti Basketball",
+          "league": "Finland Korisliigan",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "16-9",
+          "clock": {
+            "min": 2,
+            "sec": 57,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:39Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:18.313813966Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 16,
+              "three_pointers": 0,
+              "two_pointers": 8,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                16
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 9,
+              "three_pointers": 0,
+              "two_pointers": 4,
+              "free_throws": 1,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                9
+              ],
+              "timeouts_used": 0
+            }
+          },
+          "polled_at": "2026-10-23T15:42:51.365266341Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:47.759715691Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:51.365266341Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:51.365142907Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:47.762360037Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.22718737Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:40.585567969Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:47.762189536Z"
+            },
+            "180058": {
+              "polled_at": "2026-10-23T15:42:47.762086366Z"
+            },
+            "180174": {
+              "polled_at": "2026-10-23T15:42:47.758959043Z"
+            },
+            "180189": {
+              "polled_at": "2026-10-23T15:42:47.758920555Z"
+            },
+            "180190": {
+              "polled_at": "2026-10-23T15:42:51.365210625Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:47.758280634Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:47.757701384Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:47.757394012Z"
+            },
+            "180773": {
+              "polled_at": "2026-10-23T15:42:47.758129923Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:47.758265073Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:47.758861405Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:47.758838524Z"
+            },
+            "531": {
+              "polled_at": "2026-10-23T15:42:51.36518392Z"
+            },
+            "560": {
+              "polled_at": "2026-10-23T15:42:51.364882123Z"
+            },
+            "564": {
+              "polled_at": "2026-10-23T15:42:51.364862577Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:47.757531124Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:47.762747434Z"
+            },
+            "584": {
+              "polled_at": "2026-10-23T15:42:47.758364509Z"
+            },
+            "585": {
+              "polled_at": "2026-10-23T15:42:47.758381189Z"
+            },
+            "588": {
+              "polled_at": "2026-10-23T15:42:47.758196495Z"
+            },
+            "589": {
+              "polled_at": "2026-10-23T15:42:47.758530185Z"
+            },
+            "591": {
+              "polled_at": "2026-10-23T15:42:47.758672742Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:47.757537781Z"
+            },
+            "598": {
+              "polled_at": "2026-10-23T15:42:47.758643921Z"
+            },
+            "604": {
+              "polled_at": "2026-10-23T15:42:47.757934178Z"
+            },
+            "606": {
+              "polled_at": "2026-10-23T15:42:51.365088927Z"
+            },
+            "610": {
+              "polled_at": "2026-10-23T15:42:47.762487945Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:47.757709307Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "202672581",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282313262",
+              "label": " -8.5",
+              "handicap": "-8.5",
+              "side": "Kauhajoen Karhu",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:47.756000253Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672581",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282313265",
+              "label": " +8.5",
+              "handicap": "+8.5",
+              "side": "Lahti Basketball",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:47.756000253Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672581",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282313268",
+              "label": "O 162.5",
+              "handicap": "162.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:47.756000253Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672581",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282313269",
+              "label": "U 162.5",
+              "handicap": "162.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:47.756000253Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672581",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282313272",
+              "side": "Kauhajoen Karhu",
+              "line": "To Win",
+              "odds_dec": 1.25,
+              "odds_frac": "1/4",
+              "ts": "2026-10-23T15:42:47.756000253Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672581",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282313273",
+              "side": "Lahti Basketball",
+              "line": "To Win",
+              "odds_dec": 3.7,
+              "odds_frac": "27/10",
+              "ts": "2026-10-23T15:42:47.756000253Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "202672587",
+          "home": "KTP Basket Kotka",
+          "away": "Kouvot",
+          "league": "Finland Korisliigan",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "12-7",
+          "clock": {
+            "min": 4,
+            "sec": 33,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:32Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:50.112692918Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 13,
+              "three_pointers": 0,
+              "two_pointers": 5,
+              "free_throws": 3,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                13
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 7,
+              "three_pointers": 1,
+              "two_pointers": 1,
+              "free_throws": 2,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                7
+              ],
+              "timeouts_used": 0
+            }
+          },
+          "polled_at": "2026-10-23T15:42:50.034871946Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:50.034571375Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:50.034508512Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:50.034396581Z"
+            },
+            "103": {
+              "polled_at": "2026-10-23T15:42:50.034656269Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:50.034673023Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.199501605Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:23.199501605Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:50.034617592Z"
+            },
+            "180058": {
+              "polled_at": "2026-10-23T15:42:50.034597681Z"
+            },
+            "180174": {
+              "polled_at": "2026-10-23T15:42:33.184458554Z"
+            },
+            "180189": {
+              "polled_at": "2026-10-23T15:42:33.184449033Z"
+            },
+            "180190": {
+              "polled_at": "2026-10-23T15:42:50.034488594Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:33.176234452Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:50.017788806Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:50.034871946Z"
+            },
+            "180705": {
+              "polled_at": "2026-10-23T15:42:50.01615714Z"
+            },
+            "180717": {
+              "polled_at": "2026-10-23T15:42:50.029006611Z"
+            },
+            "180773": {
+              "polled_at": "2026-10-23T15:42:50.024011633Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:50.029745523Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:50.03446859Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:50.034450002Z"
+            },
+            "531": {
+              "polled_at": "2026-10-23T15:42:50.034427297Z"
+            },
+            "560": {
+              "polled_at": "2026-10-23T15:42:50.0156191Z"
+            },
+            "564": {
+              "polled_at": "2026-10-23T15:42:23.199501605Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:50.015460943Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:50.015424519Z"
+            },
+            "572": {
+              "polled_at": "2026-10-23T15:42:50.015604898Z"
+            },
+            "584": {
+              "polled_at": "2026-10-23T15:42:50.030000168Z"
+            },
+            "585": {
+              "polled_at": "2026-10-23T15:42:50.030051335Z"
+            },
+            "588": {
+              "polled_at": "2026-10-23T15:42:50.029505292Z"
+            },
+            "589": {
+              "polled_at": "2026-10-23T15:42:50.033347436Z"
+            },
+            "591": {
+              "polled_at": "2026-10-23T15:42:50.033468271Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:50.015690251Z"
+            },
+            "598": {
+              "polled_at": "2026-10-23T15:42:50.033435378Z"
+            },
+            "600": {
+              "polled_at": "2026-10-23T15:42:50.021138565Z"
+            },
+            "604": {
+              "polled_at": "2026-10-23T15:42:50.022006329Z"
+            },
+            "606": {
+              "polled_at": "2026-10-23T15:42:50.025954731Z"
+            },
+            "610": {
+              "polled_at": "2026-10-23T15:42:50.033387302Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:50.017993075Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "202672587",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282315411",
+              "label": " -14.5",
+              "handicap": "-14.5",
+              "side": "KTP Basket Kotka",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:08.07284491Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672587",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "282315412",
+              "label": " +14.5",
+              "handicap": "+14.5",
+              "side": "Kouvot",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:08.07284491Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672587",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282315414",
+              "label": "O 170.5",
+              "handicap": "170.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672587",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "282315415",
+              "label": "U 170.5",
+              "handicap": "170.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:50.011971663Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672587",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282315417",
+              "side": "KTP Basket Kotka",
+              "line": "To Win",
+              "odds_dec": 1.0769230769230769,
+              "odds_frac": "1/13",
+              "ts": "2026-10-23T15:42:08.07284491Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "202672587",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "282315418",
+              "side": "Kouvot",
+              "line": "To Win",
+              "odds_dec": 7.25,
+              "odds_frac": "25/4",
+              "ts": "2026-10-23T15:42:08.07284491Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203016087",
+          "home": "BC Goverla",
+          "away": "Kharkivski Sokoly",
+          "league": "Ukraine FBU Superleague",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "4-7",
+          "clock": {
+            "min": 4,
+            "sec": 26,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:35Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:20.11776618Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 4,
+              "three_pointers": 0,
+              "two_pointers": 2,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                4
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 7,
+              "three_pointers": 0,
+              "two_pointers": 2,
+              "free_throws": 3,
+              "free_throw_pct": 60,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                7
+              ],
+              "timeouts_used": 0
+            }
+          },
+          "polled_at": "2026-10-23T15:42:44.150575783Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:44.150289073Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:44.150183458Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:44.150575783Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:22.962973813Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:44.150072506Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:36.034492285Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203016087",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278226307",
+              "label": " +9.5",
+              "handicap": "+9.5",
+              "side": "BC Goverla",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:44.148483576Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016087",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278226308",
+              "label": " -9.5",
+              "handicap": "-9.5",
+              "side": "Kharkivski Sokoly",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:44.148483576Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016087",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278226312",
+              "label": "O 149.5",
+              "handicap": "149.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:44.148483576Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016087",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278226313",
+              "label": "U 149.5",
+              "handicap": "149.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:44.148483576Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016087",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278226318",
+              "side": "BC Goverla",
+              "line": "To Win",
+              "odds_dec": 4.2,
+              "odds_frac": "16/5",
+              "ts": "2026-10-23T15:42:19.798898551Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203016087",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278226319",
+              "side": "Kharkivski Sokoly",
+              "line": "To Win",
+              "odds_dec": 1.2,
+              "odds_frac": "1/5",
+              "ts": "2026-10-23T15:42:19.798898551Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203176476",
+          "home": "Torpan Pojat",
+          "away": "Raholan Pyrkiva",
+          "league": "Finland Division 1A",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "9-12",
+          "clock": {
+            "min": 3,
+            "sec": 25,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:38Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:41:53.06180283Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 9,
+              "three_pointers": 1,
+              "two_pointers": 3,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                9
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 12,
+              "three_pointers": 2,
+              "two_pointers": 3,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                12
+              ],
+              "timeouts_used": 0
+            }
+          },
+          "polled_at": "2026-10-23T15:42:49.567813901Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:49.567018052Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:49.566912718Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:49.566058283Z"
+            },
+            "103": {
+              "polled_at": "2026-10-23T15:42:49.567813901Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:41.450800293Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.20890124Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:23.20890124Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:41.450464301Z"
+            },
+            "180190": {
+              "polled_at": "2026-10-23T15:42:49.566831157Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:49.565612083Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:49.563228455Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:39.188884752Z"
+            },
+            "180717": {
+              "polled_at": "2026-10-23T15:42:49.56546061Z"
+            },
+            "180773": {
+              "polled_at": "2026-10-23T15:42:49.56484757Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:39.190264723Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:49.566589957Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:49.566483076Z"
+            },
+            "531": {
+              "polled_at": "2026-10-23T15:42:49.566198184Z"
+            },
+            "560": {
+              "polled_at": "2026-10-23T15:42:49.561866035Z"
+            },
+            "564": {
+              "polled_at": "2026-10-23T15:42:49.561894885Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:49.561876203Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:49.562242616Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:49.562217918Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:49.562319814Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203176476",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278227051",
+              "label": " -8.5",
+              "handicap": "-8.5",
+              "side": "Torpan Pojat",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:11.229950818Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203176476",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278227056",
+              "label": " +8.5",
+              "handicap": "+8.5",
+              "side": "Raholan Pyrkiva",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:11.229950818Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203176476",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278227075",
+              "label": "O 148.5",
+              "handicap": "148.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:41.442108932Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203176476",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278227078",
+              "label": "U 148.5",
+              "handicap": "148.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:41.442108932Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203176476",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278227099",
+              "side": "Torpan Pojat",
+              "line": "To Win",
+              "odds_dec": 1.2352941176470589,
+              "odds_frac": "4/17",
+              "ts": "2026-10-23T15:41:53.188081884Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203176476",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278227103",
+              "side": "Raholan Pyrkiva",
+              "line": "To Win",
+              "odds_dec": 3.75,
+              "odds_frac": "11/4",
+              "ts": "2026-10-23T15:41:53.188081884Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203256064",
+          "home": "Kobrat Lapua",
+          "away": "Jyvaskyla Basketball Academy",
+          "league": "Finland Division 1A",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "9-11",
+          "clock": {
+            "min": 4,
+            "sec": 27,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:23Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:41.995195554Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 10,
+              "three_pointers": 0,
+              "two_pointers": 3,
+              "free_throws": 4,
+              "free_throw_pct": 50,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                10
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 11,
+              "three_pointers": 1,
+              "two_pointers": 3,
+              "free_throws": 2,
+              "free_throw_pct": 66.7,
+              "timeouts_remaining": 6,
+              "fouls": 3,
+              "periods": [
+                11
+              ],
+              "timeouts_used": 0
+            }
+          },
+          "polled_at": "2026-10-23T15:42:41.897527126Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:41.897113721Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:41.896850754Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:41.897463654Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:22.921730806Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:41.896500118Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:41.897527126Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203256064",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278232173",
+              "label": " -1.5",
+              "handicap": "-1.5",
+              "side": "Kobrat Lapua",
+              "line": "Line",
+              "odds_dec": 1.9523809523809523,
+              "odds_frac": "20/21",
+              "ts": "2026-10-23T15:42:24.307725271Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256064",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278232176",
+              "label": " +1.5",
+              "handicap": "+1.5",
+              "side": "Jyvaskyla Basketball Academy",
+              "line": "Line",
+              "odds_dec": 1.7407407407407407,
+              "odds_frac": "20/27",
+              "ts": "2026-10-23T15:42:24.307725271Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256064",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278232181",
+              "label": "O 162.5",
+              "handicap": "162.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:41.893216914Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256064",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278232183",
+              "label": "U 162.5",
+              "handicap": "162.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:41.893216914Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256064",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278232188",
+              "side": "Kobrat Lapua",
+              "line": "To Win",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:24.307725271Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256064",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278232189",
+              "side": "Jyvaskyla Basketball Academy",
+              "line": "To Win",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:24.307725271Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203256201",
+          "home": "BC Nokia",
+          "away": "Ura Basket",
+          "league": "Finland Division 1B",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "11-13",
+          "clock": {
+            "min": 2,
+            "sec": 47,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:37Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:14.706357584Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 11,
+              "three_pointers": 0,
+              "two_pointers": 4,
+              "free_throws": 3,
+              "free_throw_pct": 75,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                11
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 13,
+              "three_pointers": 1,
+              "two_pointers": 5,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                13
+              ],
+              "timeouts_used": 0
+            }
+          },
+          "polled_at": "2026-10-23T15:42:50.015215856Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:50.015207126Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:50.015144806Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:42.345347784Z"
+            },
+            "103": {
+              "polled_at": "2026-10-23T15:42:50.015215856Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:37.390457929Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.172118964Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:23.172118964Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:23.172118964Z"
+            },
+            "180190": {
+              "polled_at": "2026-10-23T15:42:42.345265503Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:37.388131494Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:50.015133524Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:42.345103754Z"
+            },
+            "180773": {
+              "polled_at": "2026-10-23T15:42:37.387980518Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:37.388061765Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:37.390381901Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:37.390348516Z"
+            },
+            "531": {
+              "polled_at": "2026-10-23T15:42:50.015180343Z"
+            },
+            "560": {
+              "polled_at": "2026-10-23T15:42:50.015018823Z"
+            },
+            "564": {
+              "polled_at": "2026-10-23T15:42:50.015046443Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:50.015039455Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:50.015113345Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:50.015098599Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:28.815005413Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203256201",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278233418",
+              "label": " +4.5",
+              "handicap": "+4.5",
+              "side": "BC Nokia",
+              "line": "Line",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:14.838858059Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256201",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278233422",
+              "label": " -4.5",
+              "handicap": "-4.5",
+              "side": "Ura Basket",
+              "line": "Line",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:14.838858059Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256201",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278233427",
+              "label": "O 168.5",
+              "handicap": "168.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:37.384215854Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256201",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278233428",
+              "label": "U 168.5",
+              "handicap": "168.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:37.384215854Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256201",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278233435",
+              "side": "BC Nokia",
+              "line": "To Win",
+              "odds_dec": 2.62,
+              "odds_frac": "81/50",
+              "ts": "2026-10-23T15:42:14.838858059Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256201",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278233436",
+              "side": "Ura Basket",
+              "line": "To Win",
+              "odds_dec": 1.4444444444444444,
+              "odds_frac": "4/9",
+              "ts": "2026-10-23T15:42:14.838858059Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203256204",
+          "home": "Turun NMKY",
+          "away": "Tapiolan Honka 2",
+          "league": "Finland Division 1B",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "24-18",
+          "clock": {
+            "min": 3,
+            "sec": 37,
+            "ticking": false,
+            "ref": "2026-10-23T15:42:18Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:41:42.722510999Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 24,
+              "three_pointers": 4,
+              "two_pointers": 5,
+              "free_throws": 2,
+              "free_throw_pct": 100,
+              "timeouts_remaining": 6,
+              "fouls": 2,
+              "periods": [
+                24
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 18,
+              "three_pointers": 1,
+              "two_pointers": 7,
+              "free_throws": 1,
+              "free_throw_pct": 16.7,
+              "timeouts_remaining": 6,
+              "fouls": 0,
+              "periods": [
+                18
+              ],
+              "timeouts_used": 0
+            }
+          },
+          "polled_at": "2026-10-23T15:42:43.845739123Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180056": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180057": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180190": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180651": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180717": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180773": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "531": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "560": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "564": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            },
+            "649": {
+              "polled_at": "2026-10-23T15:42:43.845739123Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203256204",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278234990",
+              "label": " -5.5",
+              "handicap": "-5.5",
+              "side": "Turun NMKY",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:13.935373065Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256204",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "278234991",
+              "label": " +5.5",
+              "handicap": "+5.5",
+              "side": "Tapiolan Honka 2",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:13.935373065Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256204",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278234996",
+              "label": "O 191.5",
+              "handicap": "191.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:19.347986554Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256204",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "278234997",
+              "label": "U 191.5",
+              "handicap": "191.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:19.347986554Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256204",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278235000",
+              "side": "Turun NMKY",
+              "line": "To Win",
+              "odds_dec": 1.4166666666666667,
+              "odds_frac": "5/12",
+              "ts": "2026-10-23T15:42:19.347986554Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203256204",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "278235002",
+              "side": "Tapiolan Honka 2",
+              "line": "To Win",
+              "odds_dec": 2.7,
+              "odds_frac": "17/10",
+              "ts": "2026-10-23T15:42:19.347986554Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203394350",
+          "home": "REG BBC (W)",
+          "away": "Fox Divas (W)",
+          "league": "Basketball Africa League Qual.Women",
+          "kickoff_utc": "2026-10-23T15:30:00Z",
+          "score": "30-10",
+          "clock": {
+            "min": 2,
+            "sec": 18,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:38Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:38.83957197Z",
+            "sport": "basketball",
+            "period": 1,
+            "home": {
+              "points": 30,
+              "three_pointers": 4,
+              "two_pointers": 8,
+              "free_throws": 2,
+              "free_throw_pct": 66.7,
+              "timeouts_remaining": 5,
+              "fouls": 0,
+              "periods": [
+                30
+              ],
+              "timeouts_used": 0
+            },
+            "away": {
+              "points": 10,
+              "three_pointers": 0,
+              "two_pointers": 5,
+              "free_throws": 0,
+              "free_throw_pct": 0,
+              "timeouts_remaining": 4,
+              "fouls": 0,
+              "periods": [
+                10
+              ],
+              "timeouts_used": 1
+            }
+          },
+          "polled_at": "2026-10-23T15:42:45.954664183Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:45.954582579Z"
+            },
+            "101": {
+              "polled_at": "2026-10-23T15:42:45.954003722Z"
+            },
+            "102": {
+              "polled_at": "2026-10-23T15:42:45.954192073Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:45.954664183Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:23.155431314Z"
+            },
+            "180647": {
+              "polled_at": "2026-10-23T15:42:45.954151877Z"
+            },
+            "180654": {
+              "polled_at": "2026-10-23T15:42:38.752501936Z"
+            },
+            "180777": {
+              "polled_at": "2026-10-23T15:42:45.954017798Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:45.954533169Z"
+            },
+            "529": {
+              "polled_at": "2026-10-23T15:42:45.954430748Z"
+            },
+            "531": {
+              "polled_at": "2026-10-23T15:42:45.954325212Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:45.953732656Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:45.95366949Z"
+            },
+            "592": {
+              "polled_at": "2026-10-23T15:42:45.953704822Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203394350",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "287412472",
+              "label": " -38.5",
+              "handicap": "-38.5",
+              "side": "REG BBC (W)",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:38.736743705Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203394350",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "287412473",
+              "label": " +38.5",
+              "handicap": "+38.5",
+              "side": "Fox Divas (W)",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:38.736743705Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203394350",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "287412474",
+              "label": "O 164.5",
+              "handicap": "164.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203394350",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "287412475",
+              "label": "U 164.5",
+              "handicap": "164.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203364932",
+          "home": "MIA Heat (SPECTER)",
+          "away": "TOR Raptors (SAINT JR)",
+          "league": "Ebasketball H2H GG League - 4x5mins",
+          "kickoff_utc": "2026-10-23T15:31:16Z",
+          "score": "18-17",
+          "clock": {
+            "min": 3,
+            "sec": 44,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:35Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:03.983015003Z",
+            "sport": "ebasketball",
+            "period": 2,
+            "home": {
+              "points": 18,
+              "three_pointers": 2,
+              "two_pointers": 6,
+              "periods": [
+                14,
+                4
+              ]
+            },
+            "away": {
+              "points": 17,
+              "three_pointers": 1,
+              "two_pointers": 7,
+              "periods": [
+                15,
+                2
+              ]
+            },
+            "summary": [
+              "Score After 1st Quarter - 15-14"
+            ]
+          },
+          "polled_at": "2026-10-23T15:42:45.955763095Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:45.955480712Z"
+            },
+            "106": {
+              "polled_at": "2026-10-23T15:42:45.95538841Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:45.955763095Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:45.955548834Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:45.95542064Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:45.955079821Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:45.955045938Z"
+            },
+            "710": {
+              "polled_at": "2026-10-23T15:42:45.954771305Z"
+            },
+            "711": {
+              "polled_at": "2026-10-23T15:42:45.954907062Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203364932",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "283506740",
+              "label": " +1.5",
+              "handicap": "+1.5",
+              "side": "TOR Raptors (SAINT JR)",
+              "line": "Line",
+              "odds_dec": 1.7407407407407407,
+              "odds_frac": "20/27",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364932",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "283506746",
+              "label": " -1.5",
+              "handicap": "-1.5",
+              "side": "MIA Heat (SPECTER)",
+              "line": "Line",
+              "odds_dec": 1.9523809523809523,
+              "odds_frac": "20/21",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364932",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "283506757",
+              "label": "O 110.5",
+              "handicap": "110.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364932",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "283506763",
+              "label": "U 110.5",
+              "handicap": "110.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364932",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "283506774",
+              "side": "TOR Raptors (SAINT JR)",
+              "line": "To Win",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364932",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "283506779",
+              "side": "MIA Heat (SPECTER)",
+              "line": "To Win",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:45.952218331Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        },
+        {
+          "id": "203364935",
+          "home": "OKC Thunder (UNBREAKABLE)",
+          "away": "LA Lakers (WOLVERINE)",
+          "league": "Ebasketball H2H GG League - 4x5mins",
+          "kickoff_utc": "2026-10-23T15:34:21Z",
+          "score": "11-8",
+          "clock": {
+            "min": 2,
+            "sec": 13,
+            "ticking": true,
+            "ref": "2026-10-23T15:42:34Z"
+          },
+          "period": null,
+          "stats": {
+            "updated_at": "2026-10-23T15:42:51.562901309Z",
+            "sport": "ebasketball",
+            "period": 1,
+            "home": {
+              "points": 13,
+              "three_pointers": 0,
+              "two_pointers": 6,
+              "periods": [
+                13
+              ]
+            },
+            "away": {
+              "points": 8,
+              "three_pointers": 0,
+              "two_pointers": 3,
+              "periods": [
+                8
+              ]
+            }
+          },
+          "polled_at": "2026-10-23T15:42:51.370800592Z",
+          "group_status": {
+            "100": {
+              "polled_at": "2026-10-23T15:42:51.36548399Z"
+            },
+            "106": {
+              "polled_at": "2026-10-23T15:42:51.369727324Z"
+            },
+            "107": {
+              "polled_at": "2026-10-23T15:42:51.369727324Z"
+            },
+            "112": {
+              "polled_at": "2026-10-23T15:42:51.365534618Z"
+            },
+            "113": {
+              "polled_at": "2026-10-23T15:42:51.370800592Z"
+            },
+            "528": {
+              "polled_at": "2026-10-23T15:42:51.365436896Z"
+            },
+            "561": {
+              "polled_at": "2026-10-23T15:42:51.369727324Z"
+            },
+            "565": {
+              "polled_at": "2026-10-23T15:42:51.369727324Z"
+            },
+            "568": {
+              "polled_at": "2026-10-23T15:42:51.365323498Z"
+            },
+            "569": {
+              "polled_at": "2026-10-23T15:42:51.370772554Z"
+            },
+            "710": {
+              "polled_at": "2026-10-23T15:42:51.365403355Z"
+            },
+            "711": {
+              "polled_at": "2026-10-23T15:42:51.365389375Z"
+            }
+          },
+          "quotes": [
+            {
+              "fixture_id": "203364935",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "283507440",
+              "label": " +5.5",
+              "handicap": "+5.5",
+              "side": "LA Lakers (WOLVERINE)",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:51.364159342Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364935",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1446",
+              "sel_id": "283507444",
+              "label": " -5.5",
+              "handicap": "-5.5",
+              "side": "OKC Thunder (UNBREAKABLE)",
+              "line": "Line",
+              "odds_dec": 1.8333333333333335,
+              "odds_frac": "5/6",
+              "ts": "2026-10-23T15:42:51.364159342Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364935",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "283507449",
+              "label": "O 112.5",
+              "handicap": "112.5",
+              "side": "Over",
+              "line": "Total",
+              "odds_dec": 1.8695652173913042,
+              "odds_frac": "20/23",
+              "ts": "2026-10-23T15:42:51.364159342Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364935",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "1450",
+              "sel_id": "283507451",
+              "label": "U 112.5",
+              "handicap": "112.5",
+              "side": "Under",
+              "line": "Total",
+              "odds_dec": 1.8,
+              "odds_frac": "4/5",
+              "ts": "2026-10-23T15:42:51.364159342Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364935",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "283507455",
+              "side": "LA Lakers (WOLVERINE)",
+              "line": "To Win",
+              "odds_dec": 3.25,
+              "odds_frac": "9/4",
+              "ts": "2026-10-23T15:42:51.364159342Z",
+              "phase": "inplay"
+            },
+            {
+              "fixture_id": "203364935",
+              "group_id": "112",
+              "group_name": "Game",
+              "market_id": "180032",
+              "sel_id": "283507458",
+              "side": "OKC Thunder (UNBREAKABLE)",
+              "line": "To Win",
+              "odds_dec": 1.2857142857142856,
+              "odds_frac": "2/7",
+              "ts": "2026-10-23T15:42:51.364159342Z",
+              "phase": "inplay"
+            }
+          ],
+          "sport": "basketball",
+          "in_play": true
+        }
+      ],
+      "server_time": "2026-10-23T15:42:51.848986497Z"
+    },
+    {
+      "name": "espn_nba",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+      "started_at": "2026-10-23T15:42:46.695756+00:00",
+      "http_date": "Fri, 23 Oct 2026 15:42:50 GMT",
+      "http_age": null,
+      "cache_control": "max-age=3",
+      "received_at": "2026-10-23T15:42:50.489981+00:00",
+      "sha256": "d74fcdca8d4720ea4c6990316eae1829675929b45557fc2e621fc9be6498131a",
+      "events": [
+        {
+          "id": "401909848",
+          "date": "2026-10-23T20:00Z",
+          "name": "Chicago Bulls at Milwaukee Bucks",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 4:00 PM EDT",
+              "shortDetail": "10/23 - 4:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909848",
+              "date": "2026-10-23T20:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 4:00 PM EDT",
+                  "shortDetail": "10/23 - 4:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "15",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "15",
+                    "displayName": "Milwaukee Bucks"
+                  }
+                },
+                {
+                  "id": "4",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "4",
+                    "displayName": "Chicago Bulls"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909095",
+          "date": "2026-10-23T23:00Z",
+          "name": "New York Knicks at Boston Celtics",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909095",
+              "date": "2026-10-23T23:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 7:00 PM EDT",
+                  "shortDetail": "10/23 - 7:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "2",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "2",
+                    "displayName": "Boston Celtics"
+                  }
+                },
+                {
+                  "id": "18",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "18",
+                    "displayName": "New York Knicks"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909843",
+          "date": "2026-10-23T23:00Z",
+          "name": "Atlanta Hawks at Charlotte Hornets",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909843",
+              "date": "2026-10-23T23:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 7:00 PM EDT",
+                  "shortDetail": "10/23 - 7:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "30",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "30",
+                    "displayName": "Charlotte Hornets"
+                  }
+                },
+                {
+                  "id": "1",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "1",
+                    "displayName": "Atlanta Hawks"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909844",
+          "date": "2026-10-23T23:00Z",
+          "name": "Dallas Mavericks at Indiana Pacers",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909844",
+              "date": "2026-10-23T23:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 7:00 PM EDT",
+                  "shortDetail": "10/23 - 7:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "11",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "11",
+                    "displayName": "Indiana Pacers"
+                  }
+                },
+                {
+                  "id": "6",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "6",
+                    "displayName": "Dallas Mavericks"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909845",
+          "date": "2026-10-23T23:00Z",
+          "name": "Minnesota Timberwolves at Orlando Magic",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909845",
+              "date": "2026-10-23T23:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 7:00 PM EDT",
+                  "shortDetail": "10/23 - 7:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "19",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "19",
+                    "displayName": "Orlando Magic"
+                  }
+                },
+                {
+                  "id": "16",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "16",
+                    "displayName": "Minnesota Timberwolves"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909846",
+          "date": "2026-10-23T23:00Z",
+          "name": "Toronto Raptors at Washington Wizards",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 7:00 PM EDT",
+              "shortDetail": "10/23 - 7:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909846",
+              "date": "2026-10-23T23:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 7:00 PM EDT",
+                  "shortDetail": "10/23 - 7:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "27",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "27",
+                    "displayName": "Washington Wizards"
+                  }
+                },
+                {
+                  "id": "28",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "28",
+                    "displayName": "Toronto Raptors"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909847",
+          "date": "2026-10-24T00:00Z",
+          "name": "Detroit Pistons at Miami Heat",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 8:00 PM EDT",
+              "shortDetail": "10/23 - 8:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909847",
+              "date": "2026-10-24T00:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 8:00 PM EDT",
+                  "shortDetail": "10/23 - 8:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "14",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "14",
+                    "displayName": "Miami Heat"
+                  }
+                },
+                {
+                  "id": "8",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "8",
+                    "displayName": "Detroit Pistons"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909096",
+          "date": "2026-10-24T01:30Z",
+          "name": "Houston Rockets at San Antonio Spurs",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 9:30 PM EDT",
+              "shortDetail": "10/23 - 9:30 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909096",
+              "date": "2026-10-24T01:30Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 9:30 PM EDT",
+                  "shortDetail": "10/23 - 9:30 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "24",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "24",
+                    "displayName": "San Antonio Spurs"
+                  }
+                },
+                {
+                  "id": "10",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "10",
+                    "displayName": "Houston Rockets"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909849",
+          "date": "2026-10-24T01:30Z",
+          "name": "New Orleans Pelicans at Utah Jazz",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 9:30 PM EDT",
+              "shortDetail": "10/23 - 9:30 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909849",
+              "date": "2026-10-24T01:30Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 9:30 PM EDT",
+                  "shortDetail": "10/23 - 9:30 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "26",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "26",
+                    "displayName": "Utah Jazz"
+                  }
+                },
+                {
+                  "id": "3",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "3",
+                    "displayName": "New Orleans Pelicans"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909850",
+          "date": "2026-10-24T02:00Z",
+          "name": "Memphis Grizzlies at Golden State Warriors",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 10:00 PM EDT",
+              "shortDetail": "10/23 - 10:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909850",
+              "date": "2026-10-24T02:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 10:00 PM EDT",
+                  "shortDetail": "10/23 - 10:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "9",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "9",
+                    "displayName": "Golden State Warriors"
+                  }
+                },
+                {
+                  "id": "29",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "29",
+                    "displayName": "Memphis Grizzlies"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909851",
+          "date": "2026-10-24T02:00Z",
+          "name": "LA Clippers at Los Angeles Lakers",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 10:00 PM EDT",
+              "shortDetail": "10/23 - 10:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909851",
+              "date": "2026-10-24T02:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 10:00 PM EDT",
+                  "shortDetail": "10/23 - 10:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "13",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "13",
+                    "displayName": "Los Angeles Lakers"
+                  }
+                },
+                {
+                  "id": "12",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "12",
+                    "displayName": "LA Clippers"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "401909852",
+          "date": "2026-10-24T02:00Z",
+          "name": "Portland Trail Blazers at Sacramento Kings",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 10:00 PM EDT",
+              "shortDetail": "10/23 - 10:00 PM EDT"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401909852",
+              "date": "2026-10-24T02:00Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0.0",
+                "period": 0,
+                "type": {
+                  "id": "1",
+                  "name": "STATUS_SCHEDULED",
+                  "state": "pre",
+                  "completed": false,
+                  "description": "Scheduled",
+                  "detail": "Fri, October 23rd at 10:00 PM EDT",
+                  "shortDetail": "10/23 - 10:00 PM EDT"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "23",
+                  "homeAway": "home",
+                  "score": "0",
+                  "team": {
+                    "id": "23",
+                    "displayName": "Sacramento Kings"
+                  }
+                },
+                {
+                  "id": "22",
+                  "homeAway": "away",
+                  "score": "0",
+                  "team": {
+                    "id": "22",
+                    "displayName": "Portland Trail Blazers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "espn_nbl",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20261023",
+      "started_at": "2026-10-23T15:42:46.697560+00:00",
+      "http_date": "Fri, 23 Oct 2026 15:42:50 GMT",
+      "http_age": null,
+      "cache_control": "max-age=10",
+      "received_at": "2026-10-23T15:42:50.486571+00:00",
+      "sha256": "900ecddab51d426949787fda87278a2138e105f55fcfb2ff974d44d46a16df85",
+      "events": [
+        {
+          "id": "401875274",
+          "date": "2026-10-23T10:30Z",
+          "name": "Melbourne United at Perth Wildcats",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            }
+          },
+          "competitions": [
+            {
+              "id": "401875274",
+              "date": "2026-10-23T10:30Z",
+              "status": {
+                "clock": 0.0,
+                "displayClock": "0:00",
+                "period": 4,
+                "type": {
+                  "id": "3",
+                  "name": "STATUS_FINAL",
+                  "state": "post",
+                  "completed": true,
+                  "description": "Final",
+                  "detail": "Final",
+                  "shortDetail": "Final"
+                }
+              },
+              "competitors": [
+                {
+                  "id": "7",
+                  "homeAway": "home",
+                  "score": "103",
+                  "team": {
+                    "id": "7",
+                    "displayName": "Perth Wildcats"
+                  }
+                },
+                {
+                  "id": "5",
+                  "homeAway": "away",
+                  "score": "102",
+                  "team": {
+                    "id": "5",
+                    "displayName": "Melbourne United"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "identity_mapping_verified": false,
+  "independently_aligned": false,
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "limitation": "Concurrent request receipts are not atomic source timestamps. Exact fixture mapping, quote verification and state alignment remain required.",
+  "coverage_audit": {
+    "provider_fixture_count": 27,
+    "live_scoreboard_event_ids": [],
+    "exact_name_candidates": [],
+    "source_errors": [],
+    "training_eligible": false,
+    "approved_for_picks": false,
+    "limitation": "Exact names are candidates only; aliases, kickoff, league, clock and odds verification remain unresolved. No candidates is not proof of global coverage absence."
+  }
+}
