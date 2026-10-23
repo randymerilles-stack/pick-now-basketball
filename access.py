@@ -14,6 +14,30 @@ LOCK=threading.Lock()
 SESSIONS={}
 ATTEMPTS=deque()
 
+class SessionStoreUnavailable(RuntimeError):
+    pass
+
+
+def persistent_store():
+    """An explicitly configured database must never fall back to memory."""
+    dsn=os.environ.get('PICKNOW_DATABASE_URL')
+    if not dsn:return None
+    try:
+        from pg_sessions import PostgresSessions
+        return PostgresSessions(dsn)
+    except Exception:
+        raise SessionStoreUnavailable('Session storage unavailable') from None
+
+
+def credential_generation():
+    return hashlib.sha256(('picknow-session-v1:'+os.environ.get('PICKNOW_PASSWORD_HASH','')).encode()).hexdigest()
+
+
+def store_call(store, method, *args):
+    try:return getattr(store,method)(*args)
+    except Exception:
+        raise SessionStoreUnavailable('Session storage unavailable') from None
+
 LOGIN='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pick Now — Private access</title><style>body{font:16px system-ui;background:#0b1220;color:#e7eefb;display:grid;place-items:center;min-height:95vh;margin:0;padding:20px;box-sizing:border-box}main{background:#17243a;padding:32px;border-radius:18px;max-width:370px;width:100%;box-sizing:border-box}input,button{box-sizing:border-box;width:100%;padding:14px;border-radius:9px;border:0;font:inherit;margin:10px 0}button{background:#3d82ff;color:white;font-weight:700;cursor:pointer}p{color:#a5b7d3}label{display:block}</style></head><body><main><h1>🏀 Pick Now</h1><p>Private access · Owner only</p><form method="post" action="/login"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required maxlength="256"><button type="submit">SIGN IN</button></form><p>MESSAGE</p></main></body></html>'''
 
 def configured():
@@ -37,6 +61,9 @@ def allow_attempt():
         return True
 
 def new_session():
+    store=persistent_store()
+    if store is not None:
+        return store_call(store,'create',credential_generation(),time.time())
     token=secrets.token_urlsafe(32)
     with LOCK:
         now=time.time()
@@ -56,6 +83,9 @@ def authenticated(header):
     if not configured():return False
     token=cookie_token(header)
     if not token or len(token)>100:return False
+    store=persistent_store()
+    if store is not None:
+        return store_call(store,'authenticated',token,credential_generation(),time.time())
     key=hashlib.sha256(token.encode()).digest()
     with LOCK:
         expiry=SESSIONS.get(key,0)
@@ -65,6 +95,10 @@ def authenticated(header):
 def logout(header):
     token=cookie_token(header)
     if token:
+        store=persistent_store()
+        if store is not None:
+            store_call(store,'revoke',token)
+            return
         with LOCK:SESSIONS.pop(hashlib.sha256(token.encode()).digest(),None)
 
 def session_cookie(token):
@@ -72,3 +106,4 @@ def session_cookie(token):
 
 def clear_cookie():
     return f'{COOKIE}=; Path=/; Max-Age=0; Secure; HttpOnly; SameSite=Strict'
+
