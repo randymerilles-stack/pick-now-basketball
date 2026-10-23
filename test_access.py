@@ -15,7 +15,8 @@ HASH=SALT+'$'+hashlib.pbkdf2_hmac('sha256',TEST_PASSWORD.encode(),bytes.fromhex(
 
 class AccessTests(unittest.TestCase):
     def setUp(self):
-        self.env=patch.dict(os.environ,{'PICKNOW_PASSWORD_HASH':HASH,'PICKNOW_ORIGIN':'https://test.invalid'})
+        self.env=patch.dict(os.environ,{'PICKNOW_PASSWORD_HASH':HASH,'PICKNOW_ORIGIN':'https://test.invalid',
+                                      'PICKNOW_DATABASE_URL':''})
         self.env.start()
         with access.LOCK:access.SESSIONS.clear();access.ATTEMPTS.clear()
         self.server=ThreadingHTTPServer(('127.0.0.1',0),Handler)
@@ -85,3 +86,4 @@ class AccessTests(unittest.TestCase):
             self.assertFalse(access.authenticated(header))
 
 if __name__=='__main__':unittest.main()
+
