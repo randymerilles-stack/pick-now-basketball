@@ -83,7 +83,12 @@ class Handler(BaseHTTPRequestHandler):
         if path=='/login':
             self.login_page(head=head)
             return
-        if not access.authenticated(self.headers.get('Cookie')):
+        try:authenticated=access.authenticated(self.headers.get('Cookie'))
+        except access.SessionStoreUnavailable:
+            self.reply(503,b'Private access temporarily unavailable. Please retry.',
+                       extra={'Retry-After':'30'},head=head)
+            return
+        if not authenticated:
             if path.startswith('/api/'):
                 self.reply(401,b'{"error":"authentication_required"}','application/json',head=head)
             else:self.reply(303,extra={'Location':'/login'},head=head)
@@ -105,7 +110,10 @@ class Handler(BaseHTTPRequestHandler):
             return
         path=self.path.split('?',1)[0]
         if path=='/logout':
-            access.logout(self.headers.get('Cookie'))
+            try:access.logout(self.headers.get('Cookie'))
+            except access.SessionStoreUnavailable:
+                self.reply(503,b'Logout could not be completed. Please retry.',extra={'Retry-After':'30'})
+                return
             self.reply(303,extra={'Location':'/login','Set-Cookie':access.clear_cookie()})
             return
         if path!='/login':self.reply(404,b'Not found');return
@@ -123,7 +131,12 @@ class Handler(BaseHTTPRequestHandler):
             password=fields.get('password',[''])[0]
         except (ValueError,UnicodeDecodeError):self.reply(400,b'Invalid request');return
         if not access.verify_password(password):self.login_page('Incorrect password.',401);return
-        self.reply(303,extra={'Location':'/','Set-Cookie':access.session_cookie(access.new_session())})
+        try:token=access.new_session()
+        except access.SessionStoreUnavailable:
+            self.reply(503,b'Sign in temporarily unavailable. Please retry.',extra={'Retry-After':'30'})
+            return
+        self.reply(303,extra={'Location':'/','Set-Cookie':access.session_cookie(token)})
 
 if __name__ == '__main__':
     ThreadingHTTPServer(('0.0.0.0', int(os.environ.get('PORT', '5000'))), Handler).serve_forever()
+
