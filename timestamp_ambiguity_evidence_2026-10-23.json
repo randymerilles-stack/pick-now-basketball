@@ -1,0 +1,168 @@
+{
+  "sources": [
+    {
+      "source": {
+        "name": "401909093",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
+        "started_at": "2026-10-23T12:43:41.937743+00:00",
+        "http_date": "Fri, 23 Oct 2026 12:43:44 GMT",
+        "http_age": null,
+        "cache_control": "max-age=6",
+        "received_at": "2026-10-23T12:43:44.557478+00:00",
+        "sha256": "ed62062b896a591010836a4c26d1582d8395927d4e5bea782422ee7d0fe2227e"
+      },
+      "audit": {
+        "reversal_count": 7,
+        "intervals": [
+          {
+            "previous_id": "401909093209",
+            "current_id": "401909093213",
+            "start": "2026-10-22T23:52:00+00:00",
+            "end": "2026-10-22T23:53:03+00:00",
+            "backward_seconds": 63.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909093245",
+            "current_id": "401909093246",
+            "start": "2026-10-22T23:56:35+00:00",
+            "end": "2026-10-23T00:00:33+00:00",
+            "backward_seconds": 238.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909093276",
+            "current_id": "401909093278",
+            "start": "2026-10-23T00:04:02+00:00",
+            "end": "2026-10-23T00:05:16+00:00",
+            "backward_seconds": 74.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909093469",
+            "current_id": "401909093471",
+            "start": "2026-10-23T00:56:12+00:00",
+            "end": "2026-10-23T00:56:37+00:00",
+            "backward_seconds": 25.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909093503",
+            "current_id": "401909093505",
+            "start": "2026-10-23T01:02:39+00:00",
+            "end": "2026-10-23T01:03:37+00:00",
+            "backward_seconds": 58.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909093517",
+            "current_id": "401909093520",
+            "start": "2026-10-23T01:05:24+00:00",
+            "end": "2026-10-23T01:05:59+00:00",
+            "backward_seconds": 35.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909093605",
+            "current_id": "401909093607",
+            "start": "2026-10-23T01:19:54+00:00",
+            "end": "2026-10-23T01:20:21+00:00",
+            "backward_seconds": 27.0,
+            "same_game_state": true
+          }
+        ],
+        "training_eligible": false,
+        "approved_for_picks": false,
+        "limitation": "Diagnostic intervals only. Equal game state does not establish timestamp semantics or live availability; intervals do not identify all unsafe joins."
+      }
+    },
+    {
+      "source": {
+        "name": "401909094",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
+        "started_at": "2026-10-23T12:43:41.938685+00:00",
+        "http_date": "Fri, 23 Oct 2026 12:43:44 GMT",
+        "http_age": null,
+        "cache_control": "max-age=3",
+        "received_at": "2026-10-23T12:43:44.413582+00:00",
+        "sha256": "3b558f6e548febdcb23aa440c0714023bbbd06e4be8c460c5c1000eba7c6c5ce"
+      },
+      "audit": {
+        "reversal_count": 8,
+        "intervals": [
+          {
+            "previous_id": "401909094230",
+            "current_id": "401909094232",
+            "start": "2026-10-23T02:26:37+00:00",
+            "end": "2026-10-23T02:27:04+00:00",
+            "backward_seconds": 27.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909094262",
+            "current_id": "401909094266",
+            "start": "2026-10-23T02:34:02+00:00",
+            "end": "2026-10-23T02:35:10+00:00",
+            "backward_seconds": 68.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909094299",
+            "current_id": "401909094301",
+            "start": "2026-10-23T02:41:49+00:00",
+            "end": "2026-10-23T02:42:33+00:00",
+            "backward_seconds": 44.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909094444",
+            "current_id": "401909094445",
+            "start": "2026-10-23T03:21:15+00:00",
+            "end": "2026-10-23T03:21:53+00:00",
+            "backward_seconds": 38.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909094591",
+            "current_id": "401909094593",
+            "start": "2026-10-23T03:54:41+00:00",
+            "end": "2026-10-23T03:55:12+00:00",
+            "backward_seconds": 31.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909094611",
+            "current_id": "401909094614",
+            "start": "2026-10-23T03:56:20+00:00",
+            "end": "2026-10-23T03:57:28+00:00",
+            "backward_seconds": 68.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909094647",
+            "current_id": "401909094667",
+            "start": "2026-10-23T04:03:46+00:00",
+            "end": "2026-10-23T04:04:15+00:00",
+            "backward_seconds": 29.0,
+            "same_game_state": true
+          },
+          {
+            "previous_id": "401909094656",
+            "current_id": "401909094657",
+            "start": "2026-10-23T04:07:23+00:00",
+            "end": "2026-10-23T04:09:43+00:00",
+            "backward_seconds": 140.0,
+            "same_game_state": true
+          }
+        ],
+        "training_eligible": false,
+        "approved_for_picks": false,
+        "limitation": "Diagnostic intervals only. Equal game state does not establish timestamp semantics or live availability; intervals do not identify all unsafe joins."
+      }
+    }
+  ],
+  "interpretation": "Observed reversals often accompany the same game clock/score, but provider semantics are unknown. No correction or historical odds join is authorized by this audit.",
+  "next_step": "Prospective paired captures remain necessary; investigate a documented source or source-side timestamp semantics.",
+  "training_eligible": false,
+  "approved_for_picks": false
+}
