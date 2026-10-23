@@ -26,9 +26,19 @@ class PostgresSessions:
             with psycopg.connect(self.dsn, connect_timeout=10,
                                  options='-c statement_timeout=5000') as db:
                 yield db
-        except psycopg.Error:
-            # Do not expose connection strings or driver context in HTTP/logs.
-            raise SessionStoreUnavailable('Session storage unavailable') from None
+        except psycopg.Error as exc:
+            # Whitelist categories only; never log raw driver text or a DSN.
+            detail=str(exc).lower()
+            category='database_error'
+            for needle,label in [('unsupported startup parameter','startup_parameter'),
+                                 ('options','startup_options'), ('password authentication','credentials'),
+                                 ('channel binding','channel_binding'), ('resolve','dns'),
+                                 ('timeout','timeout'), ('ssl','tls')]:
+                if needle in detail:
+                    category=label
+                    break
+            state=exc.sqlstate if exc.sqlstate and exc.sqlstate.isalnum() else 'none'
+            raise SessionStoreUnavailable(f'Session storage unavailable ({category}; SQLSTATE={state})') from None
 
     def migrate(self):
         with self.connect() as db:
