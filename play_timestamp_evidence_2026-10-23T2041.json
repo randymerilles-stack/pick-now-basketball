@@ -1,0 +1,216 @@
+{
+  "purpose": "Offline source timestamp feasibility audit; no training records or picks generated.",
+  "sources": [
+    {
+      "source": {
+        "name": "401909093",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
+        "started_at": "2026-10-23T12:43:41.937743+00:00",
+        "http_date": "Fri, 23 Oct 2026 12:43:44 GMT",
+        "http_age": null,
+        "cache_control": "max-age=6",
+        "received_at": "2026-10-23T12:43:44.557478+00:00",
+        "sha256": "ed62062b896a591010836a4c26d1582d8395927d4e5bea782422ee7d0fe2227e"
+      },
+      "audit": {
+        "event_id": "401909093",
+        "identity_matches": true,
+        "wallclock_declared": true,
+        "play_count": 513,
+        "valid_timestamp_count": 513,
+        "missing_timestamp_count": 0,
+        "invalid_timestamp_count": 0,
+        "future_timestamp_count": 0,
+        "backward_timestamp_transitions": 7,
+        "first_valid_wallclock": "2026-10-22T23:13:53+00:00",
+        "last_valid_wallclock": "2026-10-23T01:54:16+00:00",
+        "complete_ordered_timestamp_coverage": false,
+        "data_available_no_earlier_than": "2026-10-23T12:43:44.557478+00:00",
+        "training_eligible": false,
+        "approved_for_picks": false
+      },
+      "backward_transition_examples": [
+        [
+          {
+            "id": "401909093209",
+            "sequenceNumber": "209",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "9:12"
+            },
+            "homeScore": 24,
+            "awayScore": 45,
+            "wallclock": "2026-10-22T23:53:03Z"
+          },
+          {
+            "id": "401909093213",
+            "sequenceNumber": "213",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "9:12"
+            },
+            "homeScore": 24,
+            "awayScore": 45,
+            "wallclock": "2026-10-22T23:52:00Z"
+          }
+        ],
+        [
+          {
+            "id": "401909093245",
+            "sequenceNumber": "245",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "6:43"
+            },
+            "homeScore": 29,
+            "awayScore": 52,
+            "wallclock": "2026-10-23T00:00:33Z"
+          },
+          {
+            "id": "401909093246",
+            "sequenceNumber": "246",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "6:43"
+            },
+            "homeScore": 29,
+            "awayScore": 52,
+            "wallclock": "2026-10-22T23:56:35Z"
+          }
+        ]
+      ]
+    },
+    {
+      "source": {
+        "name": "401909094",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
+        "started_at": "2026-10-23T12:43:41.938685+00:00",
+        "http_date": "Fri, 23 Oct 2026 12:43:44 GMT",
+        "http_age": null,
+        "cache_control": "max-age=3",
+        "received_at": "2026-10-23T12:43:44.413582+00:00",
+        "sha256": "3b558f6e548febdcb23aa440c0714023bbbd06e4be8c460c5c1000eba7c6c5ce"
+      },
+      "audit": {
+        "event_id": "401909094",
+        "identity_matches": true,
+        "wallclock_declared": true,
+        "play_count": 513,
+        "valid_timestamp_count": 513,
+        "missing_timestamp_count": 0,
+        "invalid_timestamp_count": 0,
+        "future_timestamp_count": 0,
+        "backward_timestamp_transitions": 8,
+        "first_valid_wallclock": "2026-10-23T01:50:12+00:00",
+        "last_valid_wallclock": "2026-10-23T04:19:16+00:00",
+        "complete_ordered_timestamp_coverage": false,
+        "data_available_no_earlier_than": "2026-10-23T12:43:44.413582+00:00",
+        "training_eligible": false,
+        "approved_for_picks": false
+      },
+      "backward_transition_examples": [
+        [
+          {
+            "id": "401909094230",
+            "sequenceNumber": "230",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "7:47"
+            },
+            "homeScore": 28,
+            "awayScore": 37,
+            "wallclock": "2026-10-23T02:27:04Z"
+          },
+          {
+            "id": "401909094232",
+            "sequenceNumber": "232",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "7:47"
+            },
+            "homeScore": 28,
+            "awayScore": 37,
+            "wallclock": "2026-10-23T02:26:37Z"
+          }
+        ],
+        [
+          {
+            "id": "401909094262",
+            "sequenceNumber": "262",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "5:08"
+            },
+            "homeScore": 32,
+            "awayScore": 40,
+            "wallclock": "2026-10-23T02:35:10Z"
+          },
+          {
+            "id": "401909094266",
+            "sequenceNumber": "266",
+            "period": {
+              "number": 2,
+              "displayValue": "2nd Quarter"
+            },
+            "clock": {
+              "displayValue": "5:08"
+            },
+            "homeScore": 32,
+            "awayScore": 40,
+            "wallclock": "2026-10-23T02:34:02Z"
+          }
+        ]
+      ]
+    },
+    {
+      "source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/summary?event=401875274",
+        "capture_file_written_at": "2026-10-23T12:42:20.673277+00:00",
+        "sha256": "002802344dde6acdccca23e6e5bd1730682a5b4708c142c06c9c0b7fe8e6a291",
+        "limitation": "Network receipt metadata was not retained; file write time is only a local capture bound."
+      },
+      "audit": {
+        "event_id": "401875274",
+        "identity_matches": true,
+        "wallclock_declared": false,
+        "play_count": 418,
+        "valid_timestamp_count": 0,
+        "missing_timestamp_count": 418,
+        "invalid_timestamp_count": 0,
+        "future_timestamp_count": 0,
+        "backward_timestamp_transitions": 0,
+        "first_valid_wallclock": null,
+        "last_valid_wallclock": null,
+        "complete_ordered_timestamp_coverage": false,
+        "data_available_no_earlier_than": "2026-10-23T12:42:20.673277+00:00",
+        "training_eligible": false,
+        "approved_for_picks": false
+      }
+    }
+  ],
+  "conclusion": "NBL has no play wallclocks. NBA has complete timestamp presence but backwards transitions in source order. Do not sort silently or infer real-time availability from retrospective downloads.",
+  "next_step": "Investigate NBA reversal semantics and prospectively capture paired score/period/clock and Full Game Handicap odds; preserve receipt timestamps and independent verification requirements.",
+  "training_eligible": false,
+  "approved_for_picks": false
+}
