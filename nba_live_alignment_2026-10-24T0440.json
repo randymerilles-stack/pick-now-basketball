@@ -1,0 +1,528 @@
+{
+  "provider_source": {
+    "name": "provider",
+    "url": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+    "started_at": "2026-10-23T20:40:19.442436+00:00",
+    "http_date": "Fri, 23 Oct 2026 20:40:24 GMT",
+    "http_age": null,
+    "cache_control": "public, max-age=2, stale-while-revalidate=3",
+    "received_at": "2026-10-23T20:40:24.265659+00:00",
+    "sha256": "176ef4954295a2c44d641aeb5afc939fc27f3692baf1f5dea9c1d25330ae5cb6",
+    "server_time": "2026-10-23T20:40:24.043530003Z"
+  },
+  "scoreboard_source": {
+    "name": "espn_nba",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+    "started_at": "2026-10-23T20:40:19.443125+00:00",
+    "http_date": "Fri, 23 Oct 2026 20:40:24 GMT",
+    "http_age": null,
+    "cache_control": "max-age=9",
+    "received_at": "2026-10-23T20:40:24.580181+00:00",
+    "sha256": "e4ed2da5e3657a623bf8e5569b42bb22f0cf64fc07d85fd3457c64d4db0c8825"
+  },
+  "provider_fixture": {
+    "id": "203335734",
+    "home": "MIL Bucks",
+    "away": "CHI Bulls",
+    "league": "NBA",
+    "kickoff_utc": "2026-10-23T20:10:00Z",
+    "score": "29-15",
+    "clock": {
+      "min": 0,
+      "sec": 37,
+      "ticking": true,
+      "ref": "2026-10-23T20:40:17Z"
+    },
+    "period": null,
+    "stats": {
+      "updated_at": "2026-10-23T20:40:22.252742072Z",
+      "sport": "basketball",
+      "period": 1,
+      "home": {
+        "points": 29,
+        "three_pointers": 5,
+        "two_pointers": 5,
+        "free_throws": 4,
+        "free_throw_pct": 100,
+        "timeouts_remaining": 5,
+        "fouls": 0,
+        "periods": [
+          29
+        ],
+        "timeouts_used": 1,
+        "two_point_attempts": 9,
+        "three_point_attempts": 11,
+        "current_period": {
+          "two_pointers_made": 5,
+          "two_pointers_attempted": 9,
+          "three_pointers_made": 5,
+          "three_pointers_attempted": 11,
+          "free_throws_made": 4,
+          "free_throws_attempted": 4,
+          "fouls": 6,
+          "assists": 8,
+          "steals": 3,
+          "blocks": 2,
+          "turnovers": 7,
+          "rebounds": 16,
+          "offensive_rebounds": 1,
+          "defensive_rebounds": 13
+        }
+      },
+      "away": {
+        "points": 15,
+        "three_pointers": 1,
+        "two_pointers": 5,
+        "free_throws": 2,
+        "free_throw_pct": 100,
+        "timeouts_remaining": 5,
+        "fouls": 0,
+        "periods": [
+          15
+        ],
+        "timeouts_used": 1,
+        "two_point_attempts": 12,
+        "three_point_attempts": 13,
+        "current_period": {
+          "two_pointers_made": 5,
+          "two_pointers_attempted": 12,
+          "three_pointers_made": 1,
+          "three_pointers_attempted": 13,
+          "free_throws_made": 2,
+          "free_throws_attempted": 2,
+          "fouls": 4,
+          "assists": 3,
+          "steals": 2,
+          "blocks": 2,
+          "turnovers": 6,
+          "rebounds": 12,
+          "offensive_rebounds": 3,
+          "defensive_rebounds": 9
+        }
+      }
+    },
+    "polled_at": "2026-10-23T20:40:23.143197714Z",
+    "group_status": {
+      "100": {
+        "polled_at": "2026-10-23T20:40:23.143197714Z"
+      },
+      "101": {
+        "polled_at": "2026-10-23T20:40:23.116581195Z"
+      },
+      "106": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "107": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "112": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "113": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180056": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180057": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180058": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180174": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180189": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180191": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180647": {
+        "polled_at": "2026-10-23T20:40:23.133255255Z"
+      },
+      "180651": {
+        "polled_at": "2026-10-23T20:40:23.116922549Z"
+      },
+      "180654": {
+        "polled_at": "2026-10-23T20:40:23.111372361Z"
+      },
+      "180706": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180718": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "180773": {
+        "polled_at": "2026-10-23T20:40:23.126420286Z"
+      },
+      "180777": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181418": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181419": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181420": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181421": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181423": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181424": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181427": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181428": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181429": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181430": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181431": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181450": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181451": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181452": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181453": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181465": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181466": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181500": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181501": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "181502": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182010": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182011": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182012": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182013": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182014": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182015": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182016": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182025": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "182026": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "528": {
+        "polled_at": "2026-10-23T20:40:23.141391804Z"
+      },
+      "529": {
+        "polled_at": "2026-10-23T20:40:23.140818663Z"
+      },
+      "532": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "561": {
+        "polled_at": "2026-10-23T20:40:23.111937127Z"
+      },
+      "565": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "573": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "584": {
+        "polled_at": "2026-10-23T20:40:23.136122858Z"
+      },
+      "585": {
+        "polled_at": "2026-10-23T20:40:23.13695435Z"
+      },
+      "588": {
+        "polled_at": "2026-10-23T20:40:23.132489807Z"
+      },
+      "589": {
+        "polled_at": "2026-10-23T20:40:23.138595155Z"
+      },
+      "591": {
+        "polled_at": "2026-10-23T20:40:23.140292331Z"
+      },
+      "598": {
+        "polled_at": "2026-10-23T20:40:23.139723258Z"
+      },
+      "601": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "604": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "607": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "610": {
+        "polled_at": "2026-10-23T20:40:19.773175657Z"
+      },
+      "640": {
+        "polled_at": "2026-10-23T20:40:23.113873915Z"
+      },
+      "649": {
+        "polled_at": "2026-10-23T20:40:23.11417106Z"
+      },
+      "710": {
+        "polled_at": "2026-10-23T20:40:23.112777218Z"
+      },
+      "711": {
+        "polled_at": "2026-10-23T20:40:23.112477316Z"
+      }
+    },
+    "quotes": [
+      {
+        "fixture_id": "203335734",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1446",
+        "sel_id": "285074376",
+        "label": " +8.5",
+        "handicap": "+8.5",
+        "side": "CHI Bulls",
+        "line": "Line",
+        "odds_dec": 1.8695652173913042,
+        "odds_frac": "20/23",
+        "ts": "2026-10-23T20:40:17.880973769Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "203335734",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1446",
+        "sel_id": "285074377",
+        "label": " -8.5",
+        "handicap": "-8.5",
+        "side": "MIL Bucks",
+        "line": "Line",
+        "odds_dec": 1.8695652173913042,
+        "odds_frac": "20/23",
+        "ts": "2026-10-23T20:40:17.880973769Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "203335734",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1450",
+        "sel_id": "285074378",
+        "label": "O 230.5",
+        "handicap": "230.5",
+        "side": "Over",
+        "line": "Total",
+        "odds_dec": 1.8695652173913042,
+        "odds_frac": "20/23",
+        "ts": "2026-10-23T20:40:17.880973769Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "203335734",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1450",
+        "sel_id": "285074379",
+        "label": "U 230.5",
+        "handicap": "230.5",
+        "side": "Under",
+        "line": "Total",
+        "odds_dec": 1.8695652173913042,
+        "odds_frac": "20/23",
+        "ts": "2026-10-23T20:40:17.880973769Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "203335734",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "180032",
+        "sel_id": "285074380",
+        "side": "CHI Bulls",
+        "line": "To Win",
+        "odds_dec": 4,
+        "odds_frac": "3/1",
+        "ts": "2026-10-23T20:40:17.880973769Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "203335734",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "180032",
+        "sel_id": "285074381",
+        "side": "MIL Bucks",
+        "line": "To Win",
+        "odds_dec": 1.2352941176470589,
+        "odds_frac": "4/17",
+        "ts": "2026-10-23T20:40:17.880973769Z",
+        "phase": "inplay"
+      }
+    ],
+    "sport": "basketball",
+    "in_play": true
+  },
+  "scoreboard_event": {
+    "id": "401909848",
+    "date": "2026-10-23T20:00Z",
+    "name": "Chicago Bulls at Milwaukee Bucks",
+    "status": {
+      "clock": 38.4,
+      "displayClock": "38.4",
+      "period": 1,
+      "type": {
+        "id": "2",
+        "name": "STATUS_IN_PROGRESS",
+        "state": "in",
+        "completed": false,
+        "description": "In Progress",
+        "detail": "38.4 - 1st Quarter",
+        "shortDetail": "38.4 - 1st"
+      }
+    },
+    "competitions": [
+      {
+        "id": "401909848",
+        "date": "2026-10-23T20:00Z",
+        "status": {
+          "clock": 38.4,
+          "displayClock": "38.4",
+          "period": 1,
+          "type": {
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
+            "completed": false,
+            "description": "In Progress",
+            "detail": "38.4 - 1st Quarter",
+            "shortDetail": "38.4 - 1st"
+          }
+        },
+        "competitors": [
+          {
+            "id": "15",
+            "homeAway": "home",
+            "score": "29",
+            "team": {
+              "id": "15",
+              "displayName": "Milwaukee Bucks"
+            }
+          },
+          {
+            "id": "4",
+            "homeAway": "away",
+            "score": "15",
+            "team": {
+              "id": "4",
+              "displayName": "Chicago Bulls"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "handicap_validation": {
+    "games_seen": 1,
+    "quotes_seen": 6,
+    "data_checked_markets": [
+      {
+        "fixture_id": "203335734",
+        "market_id": "1446",
+        "home": "MIL Bucks",
+        "away": "CHI Bulls",
+        "league": "NBA",
+        "score": "29-15",
+        "poll_age_seconds": 1.1,
+        "quotes": [
+          {
+            "team": "MIL Bucks",
+            "line": -8.5,
+            "odds": 1.8695652173913042,
+            "selection_id": "285074377"
+          },
+          {
+            "team": "CHI Bulls",
+            "line": 8.5,
+            "odds": 1.8695652173913042,
+            "selection_id": "285074376"
+          }
+        ],
+        "data_checks": "passed",
+        "settlement": "not_independently_verified"
+      }
+    ],
+    "data_checked_market_count": 1,
+    "fixtures": [
+      {
+        "id": "203335734",
+        "home": "MIL Bucks",
+        "away": "CHI Bulls",
+        "league": "NBA",
+        "score": "29-15",
+        "poll_age_seconds": 1.1,
+        "freshness": "fresh"
+      }
+    ],
+    "markets": [],
+    "verified_market_count": 0,
+    "server_time": "2026-10-23T20:40:24.043530+00:00",
+    "rejected": {
+      "not_live_full_game_line": 4
+    },
+    "validation_status": "provider_mapping_checked_settlement_pending"
+  },
+  "diagnostics": {
+    "team_name_aliases_required": {
+      "MIL Bucks": "Milwaukee Bucks",
+      "CHI Bulls": "Chicago Bulls"
+    },
+    "alias_verification_status": "candidate_only",
+    "listed_tipoff_difference_seconds": 600,
+    "score_matches": true,
+    "explicit_stats_period": 1,
+    "provider_clock_seconds": 37,
+    "scoreboard_clock_seconds": 38.4,
+    "clock_difference_seconds": 1.4,
+    "identity_verified": false,
+    "training_eligible": false,
+    "approved_for_picks": false
+  },
+  "next_step": "Resolve listed tip-off semantics and explicitly verify aliases before mapping; repeat current-state comparisons and independently verify handicap odds."
+}
