@@ -1,0 +1,2333 @@
+{
+  "provider_source": {
+    "name": "provider",
+    "url": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+    "started_at": "2026-10-23T23:40:38.115773+00:00",
+    "http_date": "Fri, 23 Oct 2026 23:40:42 GMT",
+    "http_age": null,
+    "cache_control": "public, max-age=2, stale-while-revalidate=3",
+    "received_at": "2026-10-23T23:40:43.041968+00:00",
+    "sha256": "0fce379b5686bbfadb728e80c61320aadb726b78a3127941ba06a59d64f434c2",
+    "server_time": "2026-10-23T23:40:42.804438232Z"
+  },
+  "scoreboard_source": {
+    "name": "espn_nba",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+    "started_at": "2026-10-23T23:40:38.116535+00:00",
+    "http_date": "Fri, 23 Oct 2026 23:40:41 GMT",
+    "http_age": null,
+    "cache_control": "max-age=9",
+    "received_at": "2026-10-23T23:40:41.828456+00:00",
+    "sha256": "df60e05f3beffe1c08b544e5790c77a327f2e3efb7ffb6efa64600723ce912d6"
+  },
+  "candidates": [
+    {
+      "provider_fixture": {
+        "id": "199447319",
+        "home": "BOS Celtics",
+        "away": "NY Knicks",
+        "league": "NBA",
+        "kickoff_utc": "2026-10-23T23:10:00Z",
+        "score": "23-25",
+        "clock": {
+          "min": 1,
+          "sec": 49,
+          "ticking": false,
+          "ref": "2026-10-23T23:40:24Z"
+        },
+        "period": null,
+        "stats": {
+          "updated_at": "2026-10-23T23:40:38.807473959Z",
+          "sport": "basketball",
+          "period": 1,
+          "home": {
+            "points": 26,
+            "three_pointers": 3,
+            "two_pointers": 7,
+            "free_throws": 3,
+            "free_throw_pct": 75,
+            "timeouts_remaining": 5,
+            "fouls": 0,
+            "periods": [
+              26
+            ],
+            "timeouts_used": 1,
+            "two_point_attempts": 13,
+            "three_point_attempts": 9,
+            "current_period": {
+              "two_pointers_made": 7,
+              "two_pointers_attempted": 13,
+              "three_pointers_made": 2,
+              "three_pointers_attempted": 9,
+              "free_throws_made": 3,
+              "free_throws_attempted": 4,
+              "fouls": 8,
+              "assists": 4,
+              "steals": 0,
+              "blocks": 1,
+              "turnovers": 3,
+              "rebounds": 15,
+              "offensive_rebounds": 5,
+              "defensive_rebounds": 9
+            }
+          },
+          "away": {
+            "points": 25,
+            "three_pointers": 3,
+            "two_pointers": 4,
+            "free_throws": 8,
+            "free_throw_pct": 80,
+            "timeouts_remaining": 5,
+            "fouls": 0,
+            "periods": [
+              25
+            ],
+            "timeouts_used": 1,
+            "two_point_attempts": 7,
+            "three_point_attempts": 10,
+            "current_period": {
+              "two_pointers_made": 4,
+              "two_pointers_attempted": 7,
+              "three_pointers_made": 3,
+              "three_pointers_attempted": 10,
+              "free_throws_made": 8,
+              "free_throws_attempted": 10,
+              "fouls": 4,
+              "assists": 6,
+              "steals": 2,
+              "blocks": 1,
+              "turnovers": 3,
+              "rebounds": 11,
+              "offensive_rebounds": 1,
+              "defensive_rebounds": 7
+            }
+          }
+        },
+        "polled_at": "2026-10-23T23:40:42.183852393Z",
+        "group_status": {
+          "100": {
+            "polled_at": "2026-10-23T23:40:42.183852393Z"
+          },
+          "101": {
+            "polled_at": "2026-10-23T23:40:40.963338353Z"
+          },
+          "106": {
+            "polled_at": "2026-10-23T23:40:39.535524842Z"
+          },
+          "107": {
+            "polled_at": "2026-10-23T23:40:39.544971525Z"
+          },
+          "112": {
+            "polled_at": "2026-10-23T23:40:39.544744039Z"
+          },
+          "113": {
+            "polled_at": "2026-10-23T23:40:07.358242194Z"
+          },
+          "131000": {
+            "polled_at": "2026-10-23T23:40:39.47596209Z"
+          },
+          "180056": {
+            "polled_at": "2026-10-23T23:40:07.358242194Z"
+          },
+          "180057": {
+            "polled_at": "2026-10-23T23:40:39.54382076Z"
+          },
+          "180058": {
+            "polled_at": "2026-10-23T23:40:39.542947004Z"
+          },
+          "180174": {
+            "polled_at": "2026-10-23T23:40:39.539800413Z"
+          },
+          "180189": {
+            "polled_at": "2026-10-23T23:40:39.537928869Z"
+          },
+          "180191": {
+            "polled_at": "2026-10-23T23:40:39.537540175Z"
+          },
+          "180647": {
+            "polled_at": "2026-10-23T23:40:39.523096223Z"
+          },
+          "180651": {
+            "polled_at": "2026-10-23T23:40:42.174130799Z"
+          },
+          "180654": {
+            "polled_at": "2026-10-23T23:40:39.548881619Z"
+          },
+          "180706": {
+            "polled_at": "2026-10-23T23:40:39.502633622Z"
+          },
+          "180718": {
+            "polled_at": "2026-10-23T23:40:39.515586919Z"
+          },
+          "180773": {
+            "polled_at": "2026-10-23T23:40:42.178694516Z"
+          },
+          "180777": {
+            "polled_at": "2026-10-23T23:40:39.522774286Z"
+          },
+          "181418": {
+            "polled_at": "2026-10-23T23:40:40.961461291Z"
+          },
+          "181419": {
+            "polled_at": "2026-10-23T23:40:42.173672748Z"
+          },
+          "181420": {
+            "polled_at": "2026-10-23T23:40:40.959030667Z"
+          },
+          "181421": {
+            "polled_at": "2026-10-23T23:40:40.955440625Z"
+          },
+          "181423": {
+            "polled_at": "2026-10-23T23:40:40.952548954Z"
+          },
+          "181424": {
+            "polled_at": "2026-10-23T23:40:42.163411298Z"
+          },
+          "181427": {
+            "polled_at": "2026-10-23T23:40:42.17349124Z"
+          },
+          "181428": {
+            "polled_at": "2026-10-23T23:40:40.937246366Z"
+          },
+          "181429": {
+            "polled_at": "2026-10-23T23:40:42.173345882Z"
+          },
+          "181430": {
+            "polled_at": "2026-10-23T23:40:42.173185786Z"
+          },
+          "181431": {
+            "polled_at": "2026-10-23T23:40:40.930029833Z"
+          },
+          "181450": {
+            "polled_at": "2026-10-23T23:40:40.983158691Z"
+          },
+          "181451": {
+            "polled_at": "2026-10-23T23:40:42.173012787Z"
+          },
+          "181452": {
+            "polled_at": "2026-10-23T23:40:40.918244239Z"
+          },
+          "181453": {
+            "polled_at": "2026-10-23T23:40:40.982078446Z"
+          },
+          "181465": {
+            "polled_at": "2026-10-23T23:40:40.941994614Z"
+          },
+          "181466": {
+            "polled_at": "2026-10-23T23:40:33.279420925Z"
+          },
+          "181500": {
+            "polled_at": "2026-10-23T23:40:39.478391934Z"
+          },
+          "181501": {
+            "polled_at": "2026-10-23T23:40:40.815534295Z"
+          },
+          "181502": {
+            "polled_at": "2026-10-23T23:40:39.476550332Z"
+          },
+          "181958": {
+            "polled_at": "2026-10-23T23:40:39.475547919Z"
+          },
+          "182010": {
+            "polled_at": "2026-10-23T23:40:42.172448487Z"
+          },
+          "182011": {
+            "polled_at": "2026-10-23T23:40:40.981094613Z"
+          },
+          "182012": {
+            "polled_at": "2026-10-23T23:40:42.170097856Z"
+          },
+          "182013": {
+            "polled_at": "2026-10-23T23:40:42.167552806Z"
+          },
+          "182014": {
+            "polled_at": "2026-10-23T23:40:40.975046348Z"
+          },
+          "182015": {
+            "polled_at": "2026-10-23T23:40:40.974171885Z"
+          },
+          "182016": {
+            "polled_at": "2026-10-23T23:40:40.973602251Z"
+          },
+          "182025": {
+            "polled_at": "2026-10-23T23:40:39.482356006Z"
+          },
+          "182026": {
+            "polled_at": "2026-10-23T23:40:31.865928001Z"
+          },
+          "528": {
+            "polled_at": "2026-10-23T23:40:42.183423937Z"
+          },
+          "529": {
+            "polled_at": "2026-10-23T23:40:42.183100901Z"
+          },
+          "532": {
+            "polled_at": "2026-10-23T23:40:39.535767735Z"
+          },
+          "561": {
+            "polled_at": "2026-10-23T23:40:39.49699624Z"
+          },
+          "565": {
+            "polled_at": "2026-10-23T23:40:39.491758059Z"
+          },
+          "573": {
+            "polled_at": "2026-10-23T23:40:07.358242194Z"
+          },
+          "584": {
+            "polled_at": "2026-10-23T23:40:42.181609658Z"
+          },
+          "585": {
+            "polled_at": "2026-10-23T23:40:42.182231721Z"
+          },
+          "588": {
+            "polled_at": "2026-10-23T23:40:42.180550182Z"
+          },
+          "589": {
+            "polled_at": "2026-10-23T23:40:42.182571853Z"
+          },
+          "591": {
+            "polled_at": "2026-10-23T23:40:42.182810192Z"
+          },
+          "598": {
+            "polled_at": "2026-10-23T23:40:42.182949364Z"
+          },
+          "601": {
+            "polled_at": "2026-10-23T23:40:07.358242194Z"
+          },
+          "604": {
+            "polled_at": "2026-10-23T23:40:39.508983094Z"
+          },
+          "607": {
+            "polled_at": "2026-10-23T23:40:39.512130992Z"
+          },
+          "610": {
+            "polled_at": "2026-10-23T23:40:39.532793615Z"
+          },
+          "640": {
+            "polled_at": "2026-10-23T23:40:42.174036969Z"
+          },
+          "649": {
+            "polled_at": "2026-10-23T23:40:39.504096425Z"
+          },
+          "710": {
+            "polled_at": "2026-10-23T23:40:40.962739075Z"
+          },
+          "711": {
+            "polled_at": "2026-10-23T23:40:42.17387758Z"
+          }
+        },
+        "quotes": [
+          {
+            "fixture_id": "199447319",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285088006",
+            "label": " -1.5",
+            "handicap": "-1.5",
+            "side": "NY Knicks",
+            "line": "Line",
+            "odds_dec": 1.9523809523809523,
+            "odds_frac": "20/21",
+            "ts": "2026-10-23T23:40:39.459012882Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "199447319",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285088010",
+            "label": " +1.5",
+            "handicap": "+1.5",
+            "side": "BOS Celtics",
+            "line": "Line",
+            "odds_dec": 1.8,
+            "odds_frac": "4/5",
+            "ts": "2026-10-23T23:40:39.459012882Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "199447319",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285088020",
+            "label": "O 221.5",
+            "handicap": "221.5",
+            "side": "Over",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:39.459012882Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "199447319",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285088022",
+            "label": "U 221.5",
+            "handicap": "221.5",
+            "side": "Under",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:39.459012882Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "199447319",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285088023",
+            "side": "NY Knicks",
+            "line": "To Win",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:39.459012882Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "199447319",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285088024",
+            "side": "BOS Celtics",
+            "line": "To Win",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:39.459012882Z",
+            "phase": "inplay"
+          }
+        ],
+        "sport": "basketball",
+        "in_play": true
+      },
+      "scoreboard_event": {
+        "id": "401909095",
+        "date": "2026-10-23T23:00Z",
+        "name": "New York Knicks at Boston Celtics",
+        "status": {
+          "clock": 95.0,
+          "displayClock": "1:35",
+          "period": 1,
+          "type": {
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
+            "completed": false,
+            "description": "In Progress",
+            "detail": "1:35 - 1st Quarter",
+            "shortDetail": "1:35 - 1st"
+          }
+        },
+        "competitions": [
+          {
+            "id": "401909095",
+            "date": "2026-10-23T23:00Z",
+            "status": {
+              "clock": 95.0,
+              "displayClock": "1:35",
+              "period": 1,
+              "type": {
+                "id": "2",
+                "name": "STATUS_IN_PROGRESS",
+                "state": "in",
+                "completed": false,
+                "description": "In Progress",
+                "detail": "1:35 - 1st Quarter",
+                "shortDetail": "1:35 - 1st"
+              }
+            },
+            "competitors": [
+              {
+                "id": "2",
+                "homeAway": "home",
+                "score": "23",
+                "team": {
+                  "id": "2",
+                  "displayName": "Boston Celtics"
+                }
+              },
+              {
+                "id": "18",
+                "homeAway": "away",
+                "score": "25",
+                "team": {
+                  "id": "18",
+                  "displayName": "New York Knicks"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "diagnostics": {
+        "candidate_mapping_only": true,
+        "score_matches": true,
+        "period_matches": true,
+        "provider_period": 1,
+        "scoreboard_period": 1,
+        "provider_score": "23-25",
+        "scoreboard_score": "23-25",
+        "listed_start_delta_seconds": 600,
+        "data_checked_pairs": 1,
+        "training_eligible": false,
+        "approved_for_picks": false
+      }
+    },
+    {
+      "provider_fixture": {
+        "id": "203335737",
+        "home": "CHA Hornets",
+        "away": "ATL Hawks",
+        "league": "NBA",
+        "kickoff_utc": "2026-10-23T23:10:00Z",
+        "score": "20-31",
+        "clock": {
+          "min": 0,
+          "sec": 23,
+          "ticking": true,
+          "ref": "2026-10-23T23:40:25Z"
+        },
+        "period": null,
+        "stats": {
+          "updated_at": "2026-10-23T23:40:29.78735939Z",
+          "sport": "basketball",
+          "period": 1,
+          "home": {
+            "points": 20,
+            "three_pointers": 2,
+            "two_pointers": 6,
+            "free_throws": 2,
+            "free_throw_pct": 66.7,
+            "timeouts_remaining": 5,
+            "fouls": 0,
+            "periods": [
+              20
+            ],
+            "timeouts_used": 1,
+            "two_point_attempts": 9,
+            "three_point_attempts": 15,
+            "current_period": {
+              "two_pointers_made": 6,
+              "two_pointers_attempted": 9,
+              "three_pointers_made": 2,
+              "three_pointers_attempted": 15,
+              "free_throws_made": 2,
+              "free_throws_attempted": 3,
+              "fouls": 4,
+              "assists": 6,
+              "steals": 3,
+              "blocks": 3,
+              "turnovers": 6,
+              "rebounds": 15,
+              "offensive_rebounds": 7,
+              "defensive_rebounds": 7
+            }
+          },
+          "away": {
+            "points": 31,
+            "three_pointers": 5,
+            "two_pointers": 6,
+            "free_throws": 4,
+            "free_throw_pct": 100,
+            "timeouts_remaining": 5,
+            "fouls": 0,
+            "periods": [
+              31
+            ],
+            "timeouts_used": 1,
+            "two_point_attempts": 15,
+            "three_point_attempts": 10,
+            "current_period": {
+              "two_pointers_made": 6,
+              "two_pointers_attempted": 15,
+              "three_pointers_made": 5,
+              "three_pointers_attempted": 10,
+              "free_throws_made": 4,
+              "free_throws_attempted": 4,
+              "fouls": 5,
+              "assists": 9,
+              "steals": 3,
+              "blocks": 1,
+              "turnovers": 5,
+              "rebounds": 16,
+              "offensive_rebounds": 6,
+              "defensive_rebounds": 9
+            }
+          }
+        },
+        "polled_at": "2026-10-23T23:40:35.869724796Z",
+        "group_status": {
+          "100": {
+            "polled_at": "2026-10-23T23:40:30.461191461Z"
+          },
+          "101": {
+            "polled_at": "2026-10-23T23:40:35.859266827Z"
+          },
+          "106": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "107": {
+            "polled_at": "2026-10-23T23:40:35.868465807Z"
+          },
+          "112": {
+            "polled_at": "2026-10-23T23:40:26.462699946Z"
+          },
+          "113": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "131000": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "180056": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "180057": {
+            "polled_at": "2026-10-23T23:40:30.461407676Z"
+          },
+          "180058": {
+            "polled_at": "2026-10-23T23:40:35.869724796Z"
+          },
+          "180174": {
+            "polled_at": "2026-10-23T23:40:34.521242693Z"
+          },
+          "180189": {
+            "polled_at": "2026-10-23T23:40:30.459740099Z"
+          },
+          "180191": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "180647": {
+            "polled_at": "2026-10-23T23:40:34.51115885Z"
+          },
+          "180651": {
+            "polled_at": "2026-10-23T23:40:35.862338199Z"
+          },
+          "180654": {
+            "polled_at": "2026-10-23T23:40:35.857710894Z"
+          },
+          "180706": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "180718": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "180773": {
+            "polled_at": "2026-10-23T23:40:35.863807209Z"
+          },
+          "180777": {
+            "polled_at": "2026-10-23T23:40:35.865522742Z"
+          },
+          "181418": {
+            "polled_at": "2026-10-23T23:40:31.852779487Z"
+          },
+          "181419": {
+            "polled_at": "2026-10-23T23:40:31.850213184Z"
+          },
+          "181420": {
+            "polled_at": "2026-10-23T23:40:31.848626379Z"
+          },
+          "181421": {
+            "polled_at": "2026-10-23T23:40:31.847956218Z"
+          },
+          "181423": {
+            "polled_at": "2026-10-23T23:40:31.844401601Z"
+          },
+          "181424": {
+            "polled_at": "2026-10-23T23:40:31.842733743Z"
+          },
+          "181427": {
+            "polled_at": "2026-10-23T23:40:31.837518668Z"
+          },
+          "181428": {
+            "polled_at": "2026-10-23T23:40:31.834671444Z"
+          },
+          "181429": {
+            "polled_at": "2026-10-23T23:40:31.831288487Z"
+          },
+          "181430": {
+            "polled_at": "2026-10-23T23:40:31.829123329Z"
+          },
+          "181431": {
+            "polled_at": "2026-10-23T23:40:31.825452146Z"
+          },
+          "181450": {
+            "polled_at": "2026-10-23T23:40:33.187896617Z"
+          },
+          "181451": {
+            "polled_at": "2026-10-23T23:40:33.185527507Z"
+          },
+          "181452": {
+            "polled_at": "2026-10-23T23:40:33.196616191Z"
+          },
+          "181453": {
+            "polled_at": "2026-10-23T23:40:33.182737095Z"
+          },
+          "181465": {
+            "polled_at": "2026-10-23T23:40:31.839601291Z"
+          },
+          "181466": {
+            "polled_at": "2026-10-23T23:40:31.838061973Z"
+          },
+          "181500": {
+            "polled_at": "2026-10-23T23:40:31.794816793Z"
+          },
+          "181501": {
+            "polled_at": "2026-10-23T23:40:31.794530716Z"
+          },
+          "181502": {
+            "polled_at": "2026-10-23T23:40:27.751744875Z"
+          },
+          "181958": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "182010": {
+            "polled_at": "2026-10-23T23:40:33.181449338Z"
+          },
+          "182011": {
+            "polled_at": "2026-10-23T23:40:33.195486051Z"
+          },
+          "182012": {
+            "polled_at": "2026-10-23T23:40:33.175883538Z"
+          },
+          "182013": {
+            "polled_at": "2026-10-23T23:40:33.193968924Z"
+          },
+          "182014": {
+            "polled_at": "2026-10-23T23:40:33.193653911Z"
+          },
+          "182015": {
+            "polled_at": "2026-10-23T23:40:33.191584094Z"
+          },
+          "182016": {
+            "polled_at": "2026-10-23T23:40:33.188258628Z"
+          },
+          "182025": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "182026": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "528": {
+            "polled_at": "2026-10-23T23:40:34.521030072Z"
+          },
+          "529": {
+            "polled_at": "2026-10-23T23:40:35.869043101Z"
+          },
+          "532": {
+            "polled_at": "2026-10-23T23:40:35.864990343Z"
+          },
+          "561": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "565": {
+            "polled_at": "2026-10-23T23:40:35.858304451Z"
+          },
+          "573": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "584": {
+            "polled_at": "2026-10-23T23:40:35.866892438Z"
+          },
+          "585": {
+            "polled_at": "2026-10-23T23:40:35.867132235Z"
+          },
+          "588": {
+            "polled_at": "2026-10-23T23:40:35.864392481Z"
+          },
+          "589": {
+            "polled_at": "2026-10-23T23:40:34.515326764Z"
+          },
+          "591": {
+            "polled_at": "2026-10-23T23:40:35.868129812Z"
+          },
+          "598": {
+            "polled_at": "2026-10-23T23:40:35.867821115Z"
+          },
+          "601": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "604": {
+            "polled_at": "2026-10-23T23:40:31.85482994Z"
+          },
+          "607": {
+            "polled_at": "2026-10-23T23:40:07.473706129Z"
+          },
+          "610": {
+            "polled_at": "2026-10-23T23:40:30.445071457Z"
+          },
+          "640": {
+            "polled_at": "2026-10-23T23:40:35.858834927Z"
+          },
+          "649": {
+            "polled_at": "2026-10-23T23:40:23.686724482Z"
+          },
+          "710": {
+            "polled_at": "2026-10-23T23:40:34.503170593Z"
+          },
+          "711": {
+            "polled_at": "2026-10-23T23:40:34.50291669Z"
+          }
+        },
+        "quotes": [
+          {
+            "fixture_id": "203335737",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285077953",
+            "label": " -7.5",
+            "handicap": "-7.5",
+            "side": "ATL Hawks",
+            "line": "Line",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:39:59.036662293Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335737",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285077957",
+            "label": " +7.5",
+            "handicap": "+7.5",
+            "side": "CHA Hornets",
+            "line": "Line",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:39:59.036662293Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335737",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285077976",
+            "label": "O 220.5",
+            "handicap": "220.5",
+            "side": "Over",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:26.379062355Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335737",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285077983",
+            "label": "U 220.5",
+            "handicap": "220.5",
+            "side": "Under",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:26.379062355Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335737",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285077999",
+            "side": "ATL Hawks",
+            "line": "To Win",
+            "odds_dec": 1.2941176470588236,
+            "odds_frac": "5/17",
+            "ts": "2026-10-23T23:40:23.671854842Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335737",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285078002",
+            "side": "CHA Hornets",
+            "line": "To Win",
+            "odds_dec": 3.5,
+            "odds_frac": "5/2",
+            "ts": "2026-10-23T23:40:23.671854842Z",
+            "phase": "inplay"
+          }
+        ],
+        "sport": "basketball",
+        "in_play": true
+      },
+      "scoreboard_event": {
+        "id": "401909843",
+        "date": "2026-10-23T23:00Z",
+        "name": "Atlanta Hawks at Charlotte Hornets",
+        "status": {
+          "clock": 21.1,
+          "displayClock": "21.1",
+          "period": 1,
+          "type": {
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
+            "completed": false,
+            "description": "In Progress",
+            "detail": "21.1 - 1st Quarter",
+            "shortDetail": "21.1 - 1st"
+          }
+        },
+        "competitions": [
+          {
+            "id": "401909843",
+            "date": "2026-10-23T23:00Z",
+            "status": {
+              "clock": 21.1,
+              "displayClock": "21.1",
+              "period": 1,
+              "type": {
+                "id": "2",
+                "name": "STATUS_IN_PROGRESS",
+                "state": "in",
+                "completed": false,
+                "description": "In Progress",
+                "detail": "21.1 - 1st Quarter",
+                "shortDetail": "21.1 - 1st"
+              }
+            },
+            "competitors": [
+              {
+                "id": "30",
+                "homeAway": "home",
+                "score": "20",
+                "team": {
+                  "id": "30",
+                  "displayName": "Charlotte Hornets"
+                }
+              },
+              {
+                "id": "1",
+                "homeAway": "away",
+                "score": "31",
+                "team": {
+                  "id": "1",
+                  "displayName": "Atlanta Hawks"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "diagnostics": {
+        "candidate_mapping_only": true,
+        "score_matches": true,
+        "period_matches": true,
+        "provider_period": 1,
+        "scoreboard_period": 1,
+        "provider_score": "20-31",
+        "scoreboard_score": "20-31",
+        "listed_start_delta_seconds": 600,
+        "data_checked_pairs": 1,
+        "training_eligible": false,
+        "approved_for_picks": false
+      }
+    },
+    {
+      "provider_fixture": {
+        "id": "203335741",
+        "home": "IND Pacers",
+        "away": "DAL Mavericks",
+        "league": "NBA",
+        "kickoff_utc": "2026-10-23T23:10:00Z",
+        "score": "27-44",
+        "clock": {
+          "min": 12,
+          "sec": 0,
+          "ticking": false,
+          "ref": "2026-10-23T23:40:10Z"
+        },
+        "period": null,
+        "stats": {
+          "updated_at": "2026-10-23T23:40:12.198371723Z",
+          "sport": "basketball",
+          "period": 2,
+          "home": {
+            "points": 27,
+            "three_pointers": 2,
+            "two_pointers": 8,
+            "free_throws": 5,
+            "free_throw_pct": 83.3,
+            "timeouts_remaining": 5,
+            "fouls": 3,
+            "periods": [
+              27,
+              0
+            ],
+            "timeouts_used": 1,
+            "two_point_attempts": 14,
+            "three_point_attempts": 9
+          },
+          "away": {
+            "points": 44,
+            "three_pointers": 8,
+            "two_pointers": 8,
+            "free_throws": 4,
+            "free_throw_pct": 66.7,
+            "timeouts_remaining": 5,
+            "fouls": 7,
+            "periods": [
+              44,
+              0
+            ],
+            "timeouts_used": 1,
+            "two_point_attempts": 10,
+            "three_point_attempts": 13
+          },
+          "summary": [
+            "Score After 1st Quarter - 44-27"
+          ]
+        },
+        "polled_at": "2026-10-23T23:40:40.43426017Z",
+        "group_status": {
+          "100": {
+            "polled_at": "2026-10-23T23:40:10.729762313Z"
+          },
+          "101": {
+            "polled_at": "2026-10-23T23:40:10.700397322Z"
+          },
+          "106": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "107": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "112": {
+            "polled_at": "2026-10-23T23:40:10.731612773Z"
+          },
+          "113": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "131000": {
+            "polled_at": "2026-10-23T23:40:17.373087088Z"
+          },
+          "180056": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "180057": {
+            "polled_at": "2026-10-23T23:40:12.560319645Z"
+          },
+          "180058": {
+            "polled_at": "2026-10-23T23:40:10.730408185Z"
+          },
+          "180174": {
+            "polled_at": "2026-10-23T23:40:10.728033788Z"
+          },
+          "180189": {
+            "polled_at": "2026-10-23T23:40:10.727418816Z"
+          },
+          "180191": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "180647": {
+            "polled_at": "2026-10-23T23:40:10.718538041Z"
+          },
+          "180651": {
+            "polled_at": "2026-10-23T23:40:10.701383408Z"
+          },
+          "180654": {
+            "polled_at": "2026-10-23T23:40:10.602249498Z"
+          },
+          "180706": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "180718": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "180773": {
+            "polled_at": "2026-10-23T23:40:10.712007666Z"
+          },
+          "180777": {
+            "polled_at": "2026-10-23T23:40:10.718307368Z"
+          },
+          "181418": {
+            "polled_at": "2026-10-23T23:40:40.43426017Z"
+          },
+          "181419": {
+            "polled_at": "2026-10-23T23:40:40.42962068Z"
+          },
+          "181420": {
+            "polled_at": "2026-10-23T23:40:40.424927446Z"
+          },
+          "181421": {
+            "polled_at": "2026-10-23T23:40:40.421407064Z"
+          },
+          "181423": {
+            "polled_at": "2026-10-23T23:40:40.417661685Z"
+          },
+          "181424": {
+            "polled_at": "2026-10-23T23:40:40.415147962Z"
+          },
+          "181427": {
+            "polled_at": "2026-10-23T23:40:40.411303095Z"
+          },
+          "181428": {
+            "polled_at": "2026-10-23T23:40:40.405206848Z"
+          },
+          "181429": {
+            "polled_at": "2026-10-23T23:40:40.402831102Z"
+          },
+          "181430": {
+            "polled_at": "2026-10-23T23:40:40.400886466Z"
+          },
+          "181431": {
+            "polled_at": "2026-10-23T23:40:40.397341966Z"
+          },
+          "181450": {
+            "polled_at": "2026-10-23T23:40:40.396200468Z"
+          },
+          "181451": {
+            "polled_at": "2026-10-23T23:40:40.395747771Z"
+          },
+          "181452": {
+            "polled_at": "2026-10-23T23:40:40.395329734Z"
+          },
+          "181453": {
+            "polled_at": "2026-10-23T23:40:40.395113436Z"
+          },
+          "181465": {
+            "polled_at": "2026-10-23T23:40:40.413083693Z"
+          },
+          "181466": {
+            "polled_at": "2026-10-23T23:40:40.411587413Z"
+          },
+          "181500": {
+            "polled_at": "2026-10-23T23:40:17.406820733Z"
+          },
+          "181501": {
+            "polled_at": "2026-10-23T23:40:17.406077629Z"
+          },
+          "181502": {
+            "polled_at": "2026-10-23T23:40:12.404887859Z"
+          },
+          "181958": {
+            "polled_at": "2026-10-23T23:40:17.373087088Z"
+          },
+          "182010": {
+            "polled_at": "2026-10-23T23:40:40.389288945Z"
+          },
+          "182011": {
+            "polled_at": "2026-10-23T23:40:40.376782571Z"
+          },
+          "182012": {
+            "polled_at": "2026-10-23T23:40:40.38894438Z"
+          },
+          "182013": {
+            "polled_at": "2026-10-23T23:40:40.388849472Z"
+          },
+          "182014": {
+            "polled_at": "2026-10-23T23:40:40.388432554Z"
+          },
+          "182015": {
+            "polled_at": "2026-10-23T23:40:40.387755243Z"
+          },
+          "182016": {
+            "polled_at": "2026-10-23T23:40:40.387292833Z"
+          },
+          "182025": {
+            "polled_at": "2026-10-23T23:40:19.173366804Z"
+          },
+          "182026": {
+            "polled_at": "2026-10-23T23:40:19.172445112Z"
+          },
+          "528": {
+            "polled_at": "2026-10-23T23:40:10.727057598Z"
+          },
+          "529": {
+            "polled_at": "2026-10-23T23:40:10.726598995Z"
+          },
+          "532": {
+            "polled_at": "2026-10-23T23:40:10.725874493Z"
+          },
+          "561": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "565": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "573": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "584": {
+            "polled_at": "2026-10-23T23:40:10.719405011Z"
+          },
+          "585": {
+            "polled_at": "2026-10-23T23:40:10.7197537Z"
+          },
+          "588": {
+            "polled_at": "2026-10-23T23:40:10.713355941Z"
+          },
+          "589": {
+            "polled_at": "2026-10-23T23:40:10.723727267Z"
+          },
+          "591": {
+            "polled_at": "2026-10-23T23:40:10.725586148Z"
+          },
+          "598": {
+            "polled_at": "2026-10-23T23:40:10.72538151Z"
+          },
+          "601": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "604": {
+            "polled_at": "2026-10-23T23:40:10.708688267Z"
+          },
+          "607": {
+            "polled_at": "2026-10-23T23:40:07.534586636Z"
+          },
+          "610": {
+            "polled_at": "2026-10-23T23:40:10.724597483Z"
+          },
+          "640": {
+            "polled_at": "2026-10-23T23:40:10.698768982Z"
+          },
+          "649": {
+            "polled_at": "2026-10-23T23:40:10.702055018Z"
+          },
+          "710": {
+            "polled_at": "2026-10-23T23:40:10.6983483Z"
+          },
+          "711": {
+            "polled_at": "2026-10-23T23:40:10.697961483Z"
+          }
+        },
+        "quotes": [
+          {
+            "fixture_id": "203335741",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285082164",
+            "label": " -4.5",
+            "handicap": "-4.5",
+            "side": "DAL Mavericks",
+            "line": "Line",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:39:36.485243236Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335741",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285082165",
+            "label": " +4.5",
+            "handicap": "+4.5",
+            "side": "IND Pacers",
+            "line": "Line",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:39:36.485243236Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335741",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285082166",
+            "label": "O 249.5",
+            "handicap": "249.5",
+            "side": "Over",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:06.251043698Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335741",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285082167",
+            "label": "U 249.5",
+            "handicap": "249.5",
+            "side": "Under",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:06.251043698Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335741",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285082168",
+            "side": "DAL Mavericks",
+            "line": "To Win",
+            "odds_dec": 1.526315789473684,
+            "odds_frac": "10/19",
+            "ts": "2026-10-23T23:40:10.594049691Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335741",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285082169",
+            "side": "IND Pacers",
+            "line": "To Win",
+            "odds_dec": 2.5,
+            "odds_frac": "6/4",
+            "ts": "2026-10-23T23:40:10.594049691Z",
+            "phase": "inplay"
+          }
+        ],
+        "sport": "basketball",
+        "in_play": true
+      },
+      "scoreboard_event": {
+        "id": "401909844",
+        "date": "2026-10-23T23:00Z",
+        "name": "Dallas Mavericks at Indiana Pacers",
+        "status": {
+          "clock": 0.0,
+          "displayClock": "0.0",
+          "period": 1,
+          "type": {
+            "id": "22",
+            "name": "STATUS_END_PERIOD",
+            "state": "in",
+            "completed": false,
+            "description": "End of Period",
+            "detail": "End of 1st Quarter",
+            "shortDetail": "End of 1st"
+          }
+        },
+        "competitions": [
+          {
+            "id": "401909844",
+            "date": "2026-10-23T23:00Z",
+            "status": {
+              "clock": 0.0,
+              "displayClock": "0.0",
+              "period": 1,
+              "type": {
+                "id": "22",
+                "name": "STATUS_END_PERIOD",
+                "state": "in",
+                "completed": false,
+                "description": "End of Period",
+                "detail": "End of 1st Quarter",
+                "shortDetail": "End of 1st"
+              }
+            },
+            "competitors": [
+              {
+                "id": "11",
+                "homeAway": "home",
+                "score": "27",
+                "team": {
+                  "id": "11",
+                  "displayName": "Indiana Pacers"
+                }
+              },
+              {
+                "id": "6",
+                "homeAway": "away",
+                "score": "44",
+                "team": {
+                  "id": "6",
+                  "displayName": "Dallas Mavericks"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "diagnostics": {
+        "candidate_mapping_only": true,
+        "score_matches": true,
+        "period_matches": false,
+        "provider_period": 2,
+        "scoreboard_period": 1,
+        "provider_score": "27-44",
+        "scoreboard_score": "27-44",
+        "listed_start_delta_seconds": 600,
+        "data_checked_pairs": 0,
+        "training_eligible": false,
+        "approved_for_picks": false
+      }
+    },
+    {
+      "provider_fixture": {
+        "id": "203335744",
+        "home": "ORL Magic",
+        "away": "MIN Timberwolves",
+        "league": "NBA",
+        "kickoff_utc": "2026-10-23T23:10:00Z",
+        "score": "20-28",
+        "clock": {
+          "min": 11,
+          "sec": 40,
+          "ticking": true,
+          "ref": "2026-10-23T23:40:25Z"
+        },
+        "period": null,
+        "stats": {
+          "updated_at": "2026-10-23T23:40:29.336719628Z",
+          "sport": "basketball",
+          "period": 2,
+          "home": {
+            "points": 20,
+            "three_pointers": 3,
+            "two_pointers": 5,
+            "free_throws": 1,
+            "free_throw_pct": 25,
+            "timeouts_remaining": 5,
+            "fouls": 4,
+            "periods": [
+              20,
+              0
+            ],
+            "timeouts_used": 1
+          },
+          "away": {
+            "points": 28,
+            "three_pointers": 4,
+            "two_pointers": 7,
+            "free_throws": 2,
+            "free_throw_pct": 50,
+            "timeouts_remaining": 6,
+            "fouls": 4,
+            "periods": [
+              26,
+              2
+            ],
+            "timeouts_used": 0,
+            "two_point_attempts": 19,
+            "three_point_attempts": 13,
+            "current_period": {
+              "two_pointers_made": 1,
+              "two_pointers_attempted": 1,
+              "three_pointers_made": 0,
+              "three_pointers_attempted": 0,
+              "free_throws_made": 0,
+              "free_throws_attempted": 0,
+              "fouls": 0,
+              "assists": 1,
+              "steals": 0,
+              "blocks": 0,
+              "turnovers": 0,
+              "rebounds": 0,
+              "offensive_rebounds": 0,
+              "defensive_rebounds": 0
+            }
+          },
+          "summary": [
+            "Score After 1st Quarter - 26-20"
+          ]
+        },
+        "polled_at": "2026-10-23T23:40:39.474876821Z",
+        "group_status": {
+          "100": {
+            "polled_at": "2026-10-23T23:40:39.474876821Z"
+          },
+          "101": {
+            "polled_at": "2026-10-23T23:40:39.468426442Z"
+          },
+          "106": {
+            "polled_at": "2026-10-23T23:40:39.474357852Z"
+          },
+          "107": {
+            "polled_at": "2026-10-23T23:40:39.467479408Z"
+          },
+          "112": {
+            "polled_at": "2026-10-23T23:40:30.022402811Z"
+          },
+          "113": {
+            "polled_at": "2026-10-23T23:40:07.301060049Z"
+          },
+          "131000": {
+            "polled_at": "2026-10-23T23:40:25.509387753Z"
+          },
+          "180056": {
+            "polled_at": "2026-10-23T23:40:07.301060049Z"
+          },
+          "180057": {
+            "polled_at": "2026-10-23T23:40:21.61758809Z"
+          },
+          "180058": {
+            "polled_at": "2026-10-23T23:40:21.617170757Z"
+          },
+          "180174": {
+            "polled_at": "2026-10-23T23:40:21.612948199Z"
+          },
+          "180189": {
+            "polled_at": "2026-10-23T23:40:21.612660949Z"
+          },
+          "180191": {
+            "polled_at": "2026-10-23T23:40:21.61217006Z"
+          },
+          "180647": {
+            "polled_at": "2026-10-23T23:40:35.85529913Z"
+          },
+          "180651": {
+            "polled_at": "2026-10-23T23:40:39.46865693Z"
+          },
+          "180654": {
+            "polled_at": "2026-10-23T23:40:21.619844912Z"
+          },
+          "180718": {
+            "polled_at": "2026-10-23T23:40:34.950413861Z"
+          },
+          "180773": {
+            "polled_at": "2026-10-23T23:40:38.109415795Z"
+          },
+          "180777": {
+            "polled_at": "2026-10-23T23:40:39.471556275Z"
+          },
+          "181418": {
+            "polled_at": "2026-10-23T23:40:28.859965003Z"
+          },
+          "181419": {
+            "polled_at": "2026-10-23T23:40:26.784963416Z"
+          },
+          "181420": {
+            "polled_at": "2026-10-23T23:40:26.777856355Z"
+          },
+          "181421": {
+            "polled_at": "2026-10-23T23:40:26.77020771Z"
+          },
+          "181423": {
+            "polled_at": "2026-10-23T23:40:26.760422272Z"
+          },
+          "181424": {
+            "polled_at": "2026-10-23T23:40:26.74398067Z"
+          },
+          "181427": {
+            "polled_at": "2026-10-23T23:40:28.859533965Z"
+          },
+          "181428": {
+            "polled_at": "2026-10-23T23:40:28.859204191Z"
+          },
+          "181429": {
+            "polled_at": "2026-10-23T23:40:26.718610776Z"
+          },
+          "181430": {
+            "polled_at": "2026-10-23T23:40:28.858349Z"
+          },
+          "181431": {
+            "polled_at": "2026-10-23T23:40:26.693183045Z"
+          },
+          "181450": {
+            "polled_at": "2026-10-23T23:40:28.907366213Z"
+          },
+          "181451": {
+            "polled_at": "2026-10-23T23:40:28.906081658Z"
+          },
+          "181452": {
+            "polled_at": "2026-10-23T23:40:28.903739109Z"
+          },
+          "181453": {
+            "polled_at": "2026-10-23T23:40:28.789117516Z"
+          },
+          "181465": {
+            "polled_at": "2026-10-23T23:40:26.738265976Z"
+          },
+          "181466": {
+            "polled_at": "2026-10-23T23:40:26.735700934Z"
+          },
+          "181500": {
+            "polled_at": "2026-10-23T23:40:26.466546567Z"
+          },
+          "181501": {
+            "polled_at": "2026-10-23T23:40:26.465767686Z"
+          },
+          "181502": {
+            "polled_at": "2026-10-23T23:40:24.584546052Z"
+          },
+          "181958": {
+            "polled_at": "2026-10-23T23:40:25.508451747Z"
+          },
+          "182010": {
+            "polled_at": "2026-10-23T23:40:28.901596109Z"
+          },
+          "182011": {
+            "polled_at": "2026-10-23T23:40:28.874378061Z"
+          },
+          "182012": {
+            "polled_at": "2026-10-23T23:40:28.871126588Z"
+          },
+          "182013": {
+            "polled_at": "2026-10-23T23:40:28.866229467Z"
+          },
+          "182014": {
+            "polled_at": "2026-10-23T23:40:28.718626496Z"
+          },
+          "182015": {
+            "polled_at": "2026-10-23T23:40:28.714253109Z"
+          },
+          "182016": {
+            "polled_at": "2026-10-23T23:40:28.709614481Z"
+          },
+          "182025": {
+            "polled_at": "2026-10-23T23:40:25.478143124Z"
+          },
+          "182026": {
+            "polled_at": "2026-10-23T23:40:25.478029147Z"
+          },
+          "528": {
+            "polled_at": "2026-10-23T23:40:39.474693468Z"
+          },
+          "529": {
+            "polled_at": "2026-10-23T23:40:36.959273588Z"
+          },
+          "532": {
+            "polled_at": "2026-10-23T23:40:36.957562656Z"
+          },
+          "561": {
+            "polled_at": "2026-10-23T23:40:39.464116355Z"
+          },
+          "565": {
+            "polled_at": "2026-10-23T23:40:39.462369878Z"
+          },
+          "573": {
+            "polled_at": "2026-10-23T23:40:38.106616857Z"
+          },
+          "584": {
+            "polled_at": "2026-10-23T23:40:39.472730913Z"
+          },
+          "585": {
+            "polled_at": "2026-10-23T23:40:39.471995098Z"
+          },
+          "588": {
+            "polled_at": "2026-10-23T23:40:39.471460426Z"
+          },
+          "589": {
+            "polled_at": "2026-10-23T23:40:39.471245951Z"
+          },
+          "591": {
+            "polled_at": "2026-10-23T23:40:39.473938525Z"
+          },
+          "598": {
+            "polled_at": "2026-10-23T23:40:39.473402784Z"
+          },
+          "601": {
+            "polled_at": "2026-10-23T23:40:39.469851776Z"
+          },
+          "604": {
+            "polled_at": "2026-10-23T23:40:21.56235846Z"
+          },
+          "607": {
+            "polled_at": "2026-10-23T23:40:34.061236093Z"
+          },
+          "610": {
+            "polled_at": "2026-10-23T23:40:34.05806109Z"
+          },
+          "640": {
+            "polled_at": "2026-10-23T23:40:39.467178455Z"
+          },
+          "649": {
+            "polled_at": "2026-10-23T23:40:30.001041879Z"
+          },
+          "710": {
+            "polled_at": "2026-10-23T23:40:38.10573803Z"
+          },
+          "711": {
+            "polled_at": "2026-10-23T23:40:39.463724413Z"
+          }
+        },
+        "quotes": [
+          {
+            "fixture_id": "203335744",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285084324",
+            "label": " -5.5",
+            "handicap": "-5.5",
+            "side": "MIN Timberwolves",
+            "line": "Line",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:21.417862248Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335744",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285084328",
+            "label": " +5.5",
+            "handicap": "+5.5",
+            "side": "ORL Magic",
+            "line": "Line",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:21.417862248Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335744",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285084363",
+            "label": "O 222.5",
+            "handicap": "222.5",
+            "side": "Over",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:29.98705383Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335744",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285084368",
+            "label": "U 222.5",
+            "handicap": "222.5",
+            "side": "Under",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:29.98705383Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335744",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285084412",
+            "side": "MIN Timberwolves",
+            "line": "To Win",
+            "odds_dec": 1.4081632653061225,
+            "odds_frac": "20/49",
+            "ts": "2026-10-23T23:40:21.417862248Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335744",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285084419",
+            "side": "ORL Magic",
+            "line": "To Win",
+            "odds_dec": 2.85,
+            "odds_frac": "37/20",
+            "ts": "2026-10-23T23:40:21.417862248Z",
+            "phase": "inplay"
+          }
+        ],
+        "sport": "basketball",
+        "in_play": true
+      },
+      "scoreboard_event": {
+        "id": "401909845",
+        "date": "2026-10-23T23:00Z",
+        "name": "Minnesota Timberwolves at Orlando Magic",
+        "status": {
+          "clock": 697.0,
+          "displayClock": "11:37",
+          "period": 2,
+          "type": {
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
+            "completed": false,
+            "description": "In Progress",
+            "detail": "11:37 - 2nd Quarter",
+            "shortDetail": "11:37 - 2nd"
+          }
+        },
+        "competitions": [
+          {
+            "id": "401909845",
+            "date": "2026-10-23T23:00Z",
+            "status": {
+              "clock": 697.0,
+              "displayClock": "11:37",
+              "period": 2,
+              "type": {
+                "id": "2",
+                "name": "STATUS_IN_PROGRESS",
+                "state": "in",
+                "completed": false,
+                "description": "In Progress",
+                "detail": "11:37 - 2nd Quarter",
+                "shortDetail": "11:37 - 2nd"
+              }
+            },
+            "competitors": [
+              {
+                "id": "19",
+                "homeAway": "home",
+                "score": "20",
+                "team": {
+                  "id": "19",
+                  "displayName": "Orlando Magic"
+                }
+              },
+              {
+                "id": "16",
+                "homeAway": "away",
+                "score": "28",
+                "team": {
+                  "id": "16",
+                  "displayName": "Minnesota Timberwolves"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "diagnostics": {
+        "candidate_mapping_only": true,
+        "score_matches": true,
+        "period_matches": true,
+        "provider_period": 2,
+        "scoreboard_period": 2,
+        "provider_score": "20-28",
+        "scoreboard_score": "20-28",
+        "listed_start_delta_seconds": 600,
+        "data_checked_pairs": 1,
+        "training_eligible": false,
+        "approved_for_picks": false
+      }
+    },
+    {
+      "provider_fixture": {
+        "id": "203335747",
+        "home": "WAS Wizards",
+        "away": "TOR Raptors",
+        "league": "NBA",
+        "kickoff_utc": "2026-10-23T23:10:00Z",
+        "score": "19-34",
+        "clock": {
+          "min": 0,
+          "sec": 10,
+          "ticking": false,
+          "ref": "2026-10-23T23:40:21Z"
+        },
+        "period": null,
+        "stats": {
+          "updated_at": "2026-10-23T23:40:39.709167149Z",
+          "sport": "basketball",
+          "period": 1,
+          "home": {
+            "points": 20,
+            "three_pointers": 2,
+            "two_pointers": 2,
+            "free_throws": 10,
+            "free_throw_pct": 76.9,
+            "timeouts_remaining": 4,
+            "fouls": 0,
+            "periods": [
+              20
+            ],
+            "timeouts_used": 2,
+            "two_point_attempts": 13,
+            "three_point_attempts": 8,
+            "current_period": {
+              "two_pointers_made": 2,
+              "two_pointers_attempted": 13,
+              "three_pointers_made": 2,
+              "three_pointers_attempted": 8,
+              "free_throws_made": 10,
+              "free_throws_attempted": 13,
+              "fouls": 4,
+              "assists": 3,
+              "steals": 4,
+              "blocks": 1,
+              "turnovers": 7,
+              "rebounds": 17,
+              "offensive_rebounds": 2,
+              "defensive_rebounds": 9
+            }
+          },
+          "away": {
+            "points": 34,
+            "three_pointers": 4,
+            "two_pointers": 11,
+            "free_throws": 0,
+            "free_throw_pct": 0,
+            "timeouts_remaining": 6,
+            "fouls": 0,
+            "periods": [
+              34
+            ],
+            "timeouts_used": 0,
+            "two_point_attempts": 14,
+            "three_point_attempts": 12,
+            "current_period": {
+              "two_pointers_made": 11,
+              "two_pointers_attempted": 14,
+              "three_pointers_made": 4,
+              "three_pointers_attempted": 12,
+              "free_throws_made": 0,
+              "free_throws_attempted": 1,
+              "fouls": 9,
+              "assists": 11,
+              "steals": 3,
+              "blocks": 4,
+              "turnovers": 4,
+              "rebounds": 15,
+              "offensive_rebounds": 2,
+              "defensive_rebounds": 12
+            }
+          }
+        },
+        "polled_at": "2026-10-23T23:40:36.942247699Z",
+        "group_status": {
+          "100": {
+            "polled_at": "2026-10-23T23:40:28.896030823Z"
+          },
+          "101": {
+            "polled_at": "2026-10-23T23:40:28.822446714Z"
+          },
+          "106": {
+            "polled_at": "2026-10-23T23:40:28.889594554Z"
+          },
+          "107": {
+            "polled_at": "2026-10-23T23:40:28.81818502Z"
+          },
+          "112": {
+            "polled_at": "2026-10-23T23:40:28.902589821Z"
+          },
+          "113": {
+            "polled_at": "2026-10-23T23:40:07.416634885Z"
+          },
+          "131000": {
+            "polled_at": "2026-10-23T23:40:07.416634885Z"
+          },
+          "180056": {
+            "polled_at": "2026-10-23T23:40:27.050428919Z"
+          },
+          "180057": {
+            "polled_at": "2026-10-23T23:40:28.899796016Z"
+          },
+          "180058": {
+            "polled_at": "2026-10-23T23:40:28.898779454Z"
+          },
+          "180174": {
+            "polled_at": "2026-10-23T23:40:28.893768137Z"
+          },
+          "180189": {
+            "polled_at": "2026-10-23T23:40:28.893057545Z"
+          },
+          "180191": {
+            "polled_at": "2026-10-23T23:40:28.891711204Z"
+          },
+          "180647": {
+            "polled_at": "2026-10-23T23:40:28.850443591Z"
+          },
+          "180651": {
+            "polled_at": "2026-10-23T23:40:28.823843331Z"
+          },
+          "180654": {
+            "polled_at": "2026-10-23T23:40:28.910972359Z"
+          },
+          "180706": {
+            "polled_at": "2026-10-23T23:40:28.823174199Z"
+          },
+          "180718": {
+            "polled_at": "2026-10-23T23:40:28.839670128Z"
+          },
+          "180773": {
+            "polled_at": "2026-10-23T23:40:28.838578047Z"
+          },
+          "180777": {
+            "polled_at": "2026-10-23T23:40:28.849623587Z"
+          },
+          "181418": {
+            "polled_at": "2026-10-23T23:40:35.545429518Z"
+          },
+          "181419": {
+            "polled_at": "2026-10-23T23:40:35.542190037Z"
+          },
+          "181420": {
+            "polled_at": "2026-10-23T23:40:35.538306795Z"
+          },
+          "181421": {
+            "polled_at": "2026-10-23T23:40:35.533952538Z"
+          },
+          "181423": {
+            "polled_at": "2026-10-23T23:40:35.532273026Z"
+          },
+          "181424": {
+            "polled_at": "2026-10-23T23:40:35.531692118Z"
+          },
+          "181427": {
+            "polled_at": "2026-10-23T23:40:35.526956572Z"
+          },
+          "181428": {
+            "polled_at": "2026-10-23T23:40:35.523829868Z"
+          },
+          "181429": {
+            "polled_at": "2026-10-23T23:40:35.519830975Z"
+          },
+          "181430": {
+            "polled_at": "2026-10-23T23:40:35.516054056Z"
+          },
+          "181431": {
+            "polled_at": "2026-10-23T23:40:35.510532169Z"
+          },
+          "181450": {
+            "polled_at": "2026-10-23T23:40:36.942247699Z"
+          },
+          "181451": {
+            "polled_at": "2026-10-23T23:40:36.938489635Z"
+          },
+          "181452": {
+            "polled_at": "2026-10-23T23:40:36.936230049Z"
+          },
+          "181453": {
+            "polled_at": "2026-10-23T23:40:36.890333904Z"
+          },
+          "181465": {
+            "polled_at": "2026-10-23T23:40:35.529156089Z"
+          },
+          "181500": {
+            "polled_at": "2026-10-23T23:40:31.87614918Z"
+          },
+          "181501": {
+            "polled_at": "2026-10-23T23:40:31.875647209Z"
+          },
+          "181502": {
+            "polled_at": "2026-10-23T23:40:07.416634885Z"
+          },
+          "182010": {
+            "polled_at": "2026-10-23T23:40:36.934194336Z"
+          },
+          "182011": {
+            "polled_at": "2026-10-23T23:40:36.933263171Z"
+          },
+          "182012": {
+            "polled_at": "2026-10-23T23:40:36.932300549Z"
+          },
+          "182013": {
+            "polled_at": "2026-10-23T23:40:36.93073053Z"
+          },
+          "182014": {
+            "polled_at": "2026-10-23T23:40:36.927847889Z"
+          },
+          "182015": {
+            "polled_at": "2026-10-23T23:40:36.923455302Z"
+          },
+          "182016": {
+            "polled_at": "2026-10-23T23:40:36.92040361Z"
+          },
+          "182025": {
+            "polled_at": "2026-10-23T23:40:07.416634885Z"
+          },
+          "182026": {
+            "polled_at": "2026-10-23T23:40:35.404694992Z"
+          },
+          "528": {
+            "polled_at": "2026-10-23T23:40:28.891299099Z"
+          },
+          "529": {
+            "polled_at": "2026-10-23T23:40:28.890632341Z"
+          },
+          "532": {
+            "polled_at": "2026-10-23T23:40:28.847021381Z"
+          },
+          "561": {
+            "polled_at": "2026-10-23T23:40:28.813640934Z"
+          },
+          "565": {
+            "polled_at": "2026-10-23T23:40:28.811882204Z"
+          },
+          "573": {
+            "polled_at": "2026-10-23T23:40:07.416634885Z"
+          },
+          "584": {
+            "polled_at": "2026-10-23T23:40:28.827765772Z"
+          },
+          "585": {
+            "polled_at": "2026-10-23T23:40:28.852368319Z"
+          },
+          "588": {
+            "polled_at": "2026-10-23T23:40:28.845626971Z"
+          },
+          "589": {
+            "polled_at": "2026-10-23T23:40:28.859646592Z"
+          },
+          "591": {
+            "polled_at": "2026-10-23T23:40:28.887887873Z"
+          },
+          "598": {
+            "polled_at": "2026-10-23T23:40:28.870898381Z"
+          },
+          "601": {
+            "polled_at": "2026-10-23T23:40:07.416634885Z"
+          },
+          "604": {
+            "polled_at": "2026-10-23T23:40:28.832924204Z"
+          },
+          "607": {
+            "polled_at": "2026-10-23T23:40:28.837534723Z"
+          },
+          "610": {
+            "polled_at": "2026-10-23T23:40:28.868947875Z"
+          },
+          "640": {
+            "polled_at": "2026-10-23T23:40:28.816866711Z"
+          },
+          "649": {
+            "polled_at": "2026-10-23T23:40:28.824081087Z"
+          },
+          "710": {
+            "polled_at": "2026-10-23T23:40:28.813324249Z"
+          },
+          "711": {
+            "polled_at": "2026-10-23T23:40:28.813971058Z"
+          }
+        },
+        "quotes": [
+          {
+            "fixture_id": "203335747",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285092078",
+            "label": " -15.5",
+            "handicap": "-15.5",
+            "side": "TOR Raptors",
+            "line": "Line",
+            "odds_dec": 1.8333333333333335,
+            "odds_frac": "5/6",
+            "ts": "2026-10-23T23:40:28.639388061Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335747",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "285092079",
+            "label": " +15.5",
+            "handicap": "+15.5",
+            "side": "WAS Wizards",
+            "line": "Line",
+            "odds_dec": 1.9090909090909092,
+            "odds_frac": "10/11",
+            "ts": "2026-10-23T23:40:28.639388061Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335747",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285092080",
+            "label": "O 235.5",
+            "handicap": "235.5",
+            "side": "Over",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:28.639388061Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335747",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "285092081",
+            "label": "U 235.5",
+            "handicap": "235.5",
+            "side": "Under",
+            "line": "Total",
+            "odds_dec": 1.8695652173913042,
+            "odds_frac": "20/23",
+            "ts": "2026-10-23T23:40:28.639388061Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335747",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285092083",
+            "side": "TOR Raptors",
+            "line": "To Win",
+            "odds_dec": 1.0769230769230769,
+            "odds_frac": "1/13",
+            "ts": "2026-10-23T23:40:28.639388061Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "203335747",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "180032",
+            "sel_id": "285092084",
+            "side": "WAS Wizards",
+            "line": "To Win",
+            "odds_dec": 7.75,
+            "odds_frac": "27/4",
+            "ts": "2026-10-23T23:40:28.639388061Z",
+            "phase": "inplay"
+          }
+        ],
+        "sport": "basketball",
+        "in_play": true
+      },
+      "scoreboard_event": {
+        "id": "401909846",
+        "date": "2026-10-23T23:00Z",
+        "name": "Toronto Raptors at Washington Wizards",
+        "status": {
+          "clock": 10.2,
+          "displayClock": "10.2",
+          "period": 1,
+          "type": {
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
+            "completed": false,
+            "description": "In Progress",
+            "detail": "10.2 - 1st Quarter",
+            "shortDetail": "10.2 - 1st"
+          }
+        },
+        "competitions": [
+          {
+            "id": "401909846",
+            "date": "2026-10-23T23:00Z",
+            "status": {
+              "clock": 10.2,
+              "displayClock": "10.2",
+              "period": 1,
+              "type": {
+                "id": "2",
+                "name": "STATUS_IN_PROGRESS",
+                "state": "in",
+                "completed": false,
+                "description": "In Progress",
+                "detail": "10.2 - 1st Quarter",
+                "shortDetail": "10.2 - 1st"
+              }
+            },
+            "competitors": [
+              {
+                "id": "27",
+                "homeAway": "home",
+                "score": "20",
+                "team": {
+                  "id": "27",
+                  "displayName": "Washington Wizards"
+                }
+              },
+              {
+                "id": "28",
+                "homeAway": "away",
+                "score": "34",
+                "team": {
+                  "id": "28",
+                  "displayName": "Toronto Raptors"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "diagnostics": {
+        "candidate_mapping_only": true,
+        "score_matches": false,
+        "period_matches": true,
+        "provider_period": 1,
+        "scoreboard_period": 1,
+        "provider_score": "19-34",
+        "scoreboard_score": "20-34",
+        "listed_start_delta_seconds": 600,
+        "data_checked_pairs": 1,
+        "training_eligible": false,
+        "approved_for_picks": false
+      }
+    }
+  ],
+  "prior_candidate_final_event": {
+    "id": "401909848",
+    "date": "2026-10-23T20:00Z",
+    "name": "Chicago Bulls at Milwaukee Bucks",
+    "status": {
+      "clock": 0.0,
+      "displayClock": "0.0",
+      "period": 4,
+      "type": {
+        "id": "3",
+        "name": "STATUS_FINAL",
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
+      }
+    },
+    "competitions": [
+      {
+        "id": "401909848",
+        "date": "2026-10-23T20:00Z",
+        "status": {
+          "clock": 0.0,
+          "displayClock": "0.0",
+          "period": 4,
+          "type": {
+            "id": "3",
+            "name": "STATUS_FINAL",
+            "state": "post",
+            "completed": true,
+            "description": "Final",
+            "detail": "Final",
+            "shortDetail": "Final"
+          }
+        },
+        "competitors": [
+          {
+            "id": "15",
+            "homeAway": "home",
+            "score": "125",
+            "team": {
+              "id": "15",
+              "displayName": "Milwaukee Bucks"
+            }
+          },
+          {
+            "id": "4",
+            "homeAway": "away",
+            "score": "132",
+            "team": {
+              "id": "4",
+              "displayName": "Chicago Bulls"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "limitation": "Explicit event pairs are inspection candidates, not verified aliases. Repeated 600-second listed-start offset is observed, not a justified correction. No outcome labels or model scores generated."
+}
