@@ -3,6 +3,16 @@ from paired_capture import collect, project, source_urls
 
 
 class PairedTests(unittest.TestCase):
+    def test_explicit_different_schedule_dates_and_metadata(self):
+        urls = source_urls('2026-10-23', '2026-10-24')
+        self.assertTrue(urls['espn_nba'].endswith('20261023'))
+        self.assertTrue(urls['espn_nbl'].endswith('20261024'))
+        def reader(item): return {'name':item[0],'url':item[1]}
+        result = collect('2026-10-23', reader, nbl_day='2026-10-24')
+        self.assertEqual(result['requested_nbl_date'], '2026-10-24')
+        self.assertFalse(result['approved_for_picks'])
+        with self.assertRaises(ValueError): source_urls('2026-10-23','2026-02-30')
+
     def test_provider_projection_cannot_mutate_source_evidence(self):
         row = {'name':'provider','response':{'matches':[{'stats':{'period':2},'group_status':{'112':{'stale':False}},'quotes':[{'group_id':'112','odds_dec':1.9},{'group_id':'1'}]}]}}
         from copy import deepcopy
