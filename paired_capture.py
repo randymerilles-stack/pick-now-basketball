@@ -1,6 +1,7 @@
 """Bounded concurrent prospective capture; no automatic event mapping or picks."""
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
+from copy import deepcopy
 from audit_dual_scoreboard import fetch
 
 
@@ -15,6 +16,8 @@ def source_urls(day):
 
 
 def project(row):
+    # Projections are independently mutable; retain the original capture intact.
+    row = deepcopy(row)
     result = {k: v for k, v in row.items() if k != 'response'}
     payload = row.get('response', {})
     if row['name'] == 'provider':
