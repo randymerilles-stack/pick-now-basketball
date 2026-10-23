@@ -1,0 +1,71 @@
+{
+  "source": {
+    "name": "espn_nba",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+    "started_at": "2026-10-23T22:35:18.238376+00:00",
+    "http_date": "Fri, 23 Oct 2026 22:35:21 GMT",
+    "http_age": null,
+    "cache_control": "max-age=8",
+    "received_at": "2026-10-23T22:35:21.710515+00:00",
+    "sha256": "c4f7c8d16354556f4f7467b5dc3b21d672889dcdf3b15ec49f02c0d019cf02b1",
+    "events": [
+      {
+        "id": "401909848",
+        "date": "2026-10-23T20:00Z",
+        "name": "Chicago Bulls at Milwaukee Bucks",
+        "status": {
+          "clock": 76.0,
+          "displayClock": "1:16",
+          "period": 4,
+          "type": {
+            "id": "2",
+            "name": "STATUS_IN_PROGRESS",
+            "state": "in",
+            "completed": false,
+            "description": "In Progress",
+            "detail": "1:16 - 4th Quarter",
+            "shortDetail": "1:16 - 4th"
+          }
+        },
+        "competitions": [
+          {
+            "id": "401909848",
+            "date": "2026-10-23T20:00Z",
+            "status": {
+              "clock": 76.0,
+              "displayClock": "1:16",
+              "period": 4,
+              "type": {
+                "id": "2",
+                "name": "STATUS_IN_PROGRESS",
+                "state": "in",
+                "completed": false,
+                "description": "In Progress",
+                "detail": "1:16 - 4th Quarter",
+                "shortDetail": "1:16 - 4th"
+              }
+            },
+            "competitors": [
+              {
+                "id": "15",
+                "homeAway": "home",
+                "score": "123",
+                "name": "Milwaukee Bucks"
+              },
+              {
+                "id": "4",
+                "homeAway": "away",
+                "score": "124",
+                "name": "Chicago Bulls"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "label_status": "unlabelled",
+  "reason": "Observed STATUS_IN_PROGRESS, not completed; no finished_at inferred from receipt or scheduled start. Cross-provider identity still unresolved."
+}
