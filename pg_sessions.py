@@ -23,8 +23,9 @@ class PostgresSessions:
     @contextmanager
     def connect(self):
         try:
-            with psycopg.connect(self.dsn, connect_timeout=10,
-                                 options='-c statement_timeout=5000') as db:
+            with psycopg.connect(self.dsn, connect_timeout=10) as db:
+                # PgBouncer rejects startup 'options'; set a transaction-local limit.
+                db.execute('SET LOCAL statement_timeout = 5000')
                 yield db
         except psycopg.Error as exc:
             # Whitelist categories only; never log raw driver text or a DSN.
