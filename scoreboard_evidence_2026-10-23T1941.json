@@ -1,0 +1,391 @@
+{
+  "sources": [
+    {
+      "name": "provider",
+      "url": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "started_at": "2026-10-23T11:41:14.625541+00:00",
+      "received_at": "2026-10-23T11:41:20.753933+00:00",
+      "sha256": "da5ac3b67a9861ca87f6a6ac269beca00932e117b4df07ecde4e86b95d3986de",
+      "http_date": "Fri, 23 Oct 2026 11:41:20 GMT",
+      "http_age": null,
+      "cache_control": "public, max-age=2, stale-while-revalidate=3",
+      "error_type": null
+    },
+    {
+      "name": "espn_nbl",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20261023",
+      "started_at": "2026-10-23T11:41:14.626334+00:00",
+      "received_at": "2026-10-23T11:41:26.381165+00:00",
+      "sha256": "101344947cf56bee0128d08ce04c7ad34e1f6f542005bcacd6ed165898c16b2f",
+      "http_date": "Fri, 23 Oct 2026 11:41:26 GMT",
+      "http_age": null,
+      "cache_control": "max-age=6",
+      "error_type": null
+    }
+  ],
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "comparison": {
+    "identity_matches": true,
+    "score_matches": false,
+    "period_matches": true,
+    "provider_stats_score_matches": false,
+    "clock_delta_seconds": 4.0,
+    "clock_matches": false,
+    "training_eligible": false,
+    "approved_for_picks": false
+  },
+  "provider_fixture": {
+    "id": "202674359",
+    "sport": "basketball",
+    "league": "Australia NBL",
+    "home": "Perth Wildcats",
+    "away": "Melbourne United",
+    "kickoff_utc": "2026-10-23T10:30:00Z",
+    "score": "56-62",
+    "clock": {
+      "min": 5,
+      "sec": 49,
+      "ticking": false,
+      "ref": "2026-10-23T11:40:32Z"
+    },
+    "stats": {
+      "updated_at": "2026-10-23T11:41:09.902317511Z",
+      "sport": "basketball",
+      "period": 3,
+      "home": {
+        "points": 58,
+        "three_pointers": 4,
+        "two_pointers": 19,
+        "free_throws": 8,
+        "free_throw_pct": 100,
+        "timeouts_remaining": 3,
+        "fouls": 5,
+        "periods": [
+          25,
+          21,
+          12
+        ],
+        "timeouts_used": 2
+      },
+      "away": {
+        "points": 62,
+        "three_pointers": 6,
+        "two_pointers": 18,
+        "free_throws": 8,
+        "free_throw_pct": 72.7,
+        "timeouts_remaining": 3,
+        "fouls": 6,
+        "periods": [
+          26,
+          22,
+          14
+        ],
+        "timeouts_used": 2
+      },
+      "summary": [
+        "Score After 1st Quarter - 25-26",
+        "Score After 2nd Quarter - 46-48"
+      ]
+    },
+    "polled_at": "2026-10-23T11:41:13.368419266Z",
+    "group_status": {
+      "104": {
+        "polled_at": "2026-10-23T11:41:13.366930331Z"
+      },
+      "108": {
+        "polled_at": "2026-10-23T11:41:13.366003648Z"
+      },
+      "109": {
+        "polled_at": "2026-10-23T11:41:13.368178134Z"
+      },
+      "112": {
+        "polled_at": "2026-10-23T11:41:13.368000472Z"
+      },
+      "113": {
+        "polled_at": "2026-10-23T11:41:03.427566457Z"
+      },
+      "180056": {
+        "polled_at": "2026-10-23T11:41:03.427566457Z"
+      },
+      "180058": {
+        "polled_at": "2026-10-23T11:41:13.36765557Z"
+      },
+      "180174": {
+        "polled_at": "2026-10-23T11:41:13.36659048Z"
+      },
+      "180189": {
+        "polled_at": "2026-10-23T11:41:13.366266362Z"
+      },
+      "180192": {
+        "polled_at": "2026-10-23T11:41:13.354906343Z"
+      },
+      "180647": {
+        "polled_at": "2026-10-23T11:41:09.735972972Z"
+      },
+      "180651": {
+        "polled_at": "2026-10-23T11:41:13.346275616Z"
+      },
+      "180654": {
+        "polled_at": "2026-10-23T11:41:13.342719985Z"
+      },
+      "180719": {
+        "polled_at": "2026-10-23T11:41:13.351638791Z"
+      },
+      "528": {
+        "polled_at": "2026-10-23T11:41:13.366178811Z"
+      },
+      "530": {
+        "polled_at": "2026-10-23T11:41:13.366102884Z"
+      },
+      "533": {
+        "polled_at": "2026-10-23T11:41:13.366038556Z"
+      },
+      "562": {
+        "polled_at": "2026-10-23T11:41:13.344100919Z"
+      },
+      "566": {
+        "polled_at": "2026-10-23T11:41:13.343487028Z"
+      },
+      "574": {
+        "polled_at": "2026-10-23T11:41:13.346175464Z"
+      },
+      "586": {
+        "polled_at": "2026-10-23T11:41:13.359748075Z"
+      },
+      "587": {
+        "polled_at": "2026-10-23T11:41:13.359611446Z"
+      },
+      "588": {
+        "polled_at": "2026-10-23T11:41:13.358951308Z"
+      },
+      "589": {
+        "polled_at": "2026-10-23T11:41:13.362921795Z"
+      },
+      "591": {
+        "polled_at": "2026-10-23T11:41:13.364927783Z"
+      },
+      "599": {
+        "polled_at": "2026-10-23T11:41:13.359796751Z"
+      },
+      "602": {
+        "polled_at": "2026-10-23T11:41:13.347537801Z"
+      },
+      "605": {
+        "polled_at": "2026-10-23T11:41:13.359848262Z"
+      },
+      "608": {
+        "polled_at": "2026-10-23T11:41:13.352735351Z"
+      },
+      "610": {
+        "polled_at": "2026-10-23T11:41:13.368419266Z"
+      }
+    },
+    "quotes": [
+      {
+        "fixture_id": "202674359",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1446",
+        "sel_id": "276485324",
+        "label": " +3.5",
+        "handicap": "+3.5",
+        "side": "Perth Wildcats",
+        "line": "Line",
+        "odds_dec": 1.9100000000000001,
+        "odds_frac": "91/100",
+        "ts": "2026-10-23T11:41:13.335308328Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "202674359",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1446",
+        "sel_id": "276485329",
+        "label": " -3.5",
+        "handicap": "-3.5",
+        "side": "Melbourne United",
+        "line": "Line",
+        "odds_dec": 1.87,
+        "odds_frac": "87/100",
+        "ts": "2026-10-23T11:41:13.335308328Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "202674359",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1450",
+        "sel_id": "276485410",
+        "label": "O 193.5",
+        "handicap": "193.5",
+        "side": "Over",
+        "line": "Total",
+        "odds_dec": 1.9523809523809523,
+        "odds_frac": "20/21",
+        "ts": "2026-10-23T11:41:09.727514828Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "202674359",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "1450",
+        "sel_id": "276485418",
+        "label": "U 193.5",
+        "handicap": "193.5",
+        "side": "Under",
+        "line": "Total",
+        "odds_dec": 1.85,
+        "odds_frac": "17/20",
+        "ts": "2026-10-23T11:41:09.727514828Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "202674359",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "180032",
+        "sel_id": "276485453",
+        "side": "Perth Wildcats",
+        "line": "To Win",
+        "odds_dec": 2.65,
+        "odds_frac": "33/20",
+        "ts": "2026-10-23T11:41:13.335308328Z",
+        "phase": "inplay"
+      },
+      {
+        "fixture_id": "202674359",
+        "group_id": "112",
+        "group_name": "Game",
+        "market_id": "180032",
+        "sel_id": "276485458",
+        "side": "Melbourne United",
+        "line": "To Win",
+        "odds_dec": 1.46,
+        "odds_frac": "23/50",
+        "ts": "2026-10-23T11:41:13.335308328Z",
+        "phase": "inplay"
+      }
+    ]
+  },
+  "espn_event": {
+    "id": "401875274",
+    "date": "2026-10-23T10:30Z",
+    "name": "Melbourne United at Perth Wildcats",
+    "status": {
+      "clock": 345.0,
+      "displayClock": "5:45",
+      "period": 3,
+      "type": {
+        "id": "2",
+        "name": "STATUS_IN_PROGRESS",
+        "state": "in",
+        "completed": false,
+        "description": "In Progress",
+        "detail": "5:45 - 3rd Quarter",
+        "shortDetail": "5:45 - 3rd"
+      }
+    },
+    "competitions": [
+      {
+        "id": "401875274",
+        "format": {
+          "regulation": {
+            "periods": 4
+          }
+        },
+        "competitors": [
+          {
+            "id": "7",
+            "homeAway": "home",
+            "score": "58",
+            "linescores": [
+              {
+                "value": 25.0,
+                "displayValue": "25",
+                "period": 1
+              },
+              {
+                "value": 21.0,
+                "displayValue": "21",
+                "period": 2
+              },
+              {
+                "value": 12.0,
+                "displayValue": "12",
+                "period": 3
+              }
+            ],
+            "team": {
+              "id": "7",
+              "displayName": "Perth Wildcats"
+            }
+          },
+          {
+            "id": "5",
+            "homeAway": "away",
+            "score": "62",
+            "linescores": [
+              {
+                "value": 26.0,
+                "displayValue": "26",
+                "period": 1
+              },
+              {
+                "value": 22.0,
+                "displayValue": "22",
+                "period": 2
+              },
+              {
+                "value": 14.0,
+                "displayValue": "14",
+                "period": 3
+              }
+            ],
+            "team": {
+              "id": "5",
+              "displayName": "Melbourne United"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "data_checked_handicap_pairs": [
+    {
+      "fixture_id": "202674359",
+      "market_id": "1446",
+      "home": "Perth Wildcats",
+      "away": "Melbourne United",
+      "league": "Australia NBL",
+      "score": "56-62",
+      "poll_age_seconds": 7.4,
+      "quotes": [
+        {
+          "team": "Perth Wildcats",
+          "line": 3.5,
+          "odds": 1.9100000000000001,
+          "selection_id": "276485324"
+        },
+        {
+          "team": "Melbourne United",
+          "line": -3.5,
+          "odds": 1.87,
+          "selection_id": "276485329"
+        }
+      ],
+      "data_checks": "passed",
+      "settlement": "not_independently_verified"
+    }
+  ],
+  "pair_count": 1,
+  "receipt_gap_seconds": 5.627232,
+  "limitations": [
+    "Separate websites may share upstream data; this is corroboration only.",
+    "HTTP receipt proximity is not an event-time synchronization guarantee.",
+    "A price from this provider is not independently verified bookmaker odds.",
+    "No model was trained or forecast evaluated."
+  ]
+}
