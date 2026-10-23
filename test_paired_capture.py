@@ -3,6 +3,26 @@ from paired_capture import collect, project, source_urls
 
 
 class PairedTests(unittest.TestCase):
+    def test_provider_projection_cannot_mutate_source_evidence(self):
+        row = {'name':'provider','response':{'matches':[{'stats':{'period':2},'group_status':{'112':{'stale':False}},'quotes':[{'group_id':'112','odds_dec':1.9},{'group_id':'1'}]}]}}
+        from copy import deepcopy
+        original = deepcopy(row)
+        result = project(row)
+        result['fixtures'][0]['stats']['period'] = 4
+        result['fixtures'][0]['quotes'][0]['odds_dec'] = 9
+        result['fixtures'][0]['group_status']['112']['stale'] = True
+        self.assertEqual(row, original)
+        self.assertEqual(len(result['fixtures'][0]['quotes']),1)
+
+    def test_scoreboard_projection_cannot_mutate_source_evidence(self):
+        row = {'name':'espn_nba','response':{'events':[{'status':{'period':2},'competitions':[{'competitors':[{'team':{'id':'t','displayName':'A'},'score':'10'}]}]}]}}
+        from copy import deepcopy
+        original = deepcopy(row)
+        result = project(row)
+        result['events'][0]['status']['period'] = 4
+        result['events'][0]['competitions'][0]['competitors'][0]['team']['displayName'] = 'B'
+        self.assertEqual(row,original)
+
     def test_calendar_validation(self):
         self.assertIn('20261023', source_urls('2026-10-23')['espn_nba'])
         with self.assertRaises(ValueError): source_urls('2026-02-30')
