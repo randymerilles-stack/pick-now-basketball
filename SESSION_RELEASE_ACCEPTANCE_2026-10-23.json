@@ -1,0 +1,32 @@
+{
+  "date_perth": "2026-10-23",
+  "app": "https://pick-now-basketball.onrender.com",
+  "release_commit": "495afe8af650d3fdf997f57e3fb9eb26a885a773",
+  "activation_deploy": "dep-dbdjfsrncjis73adqcc0",
+  "activation_live_at_utc": "2026-10-23T10:34:26.695552Z",
+  "redeploy": "dep-dbdjgrpsrm7s73bvejrg",
+  "redeploy_live_at_utc": "2026-10-23T10:36:38.947693Z",
+  "render_tests": {
+    "count": 85,
+    "failed": 0,
+    "expected_failures": 0,
+    "postgres_separate_process_acceptance": "passed"
+  },
+  "live_owner_acceptance": {
+    "login": true,
+    "private_api_status": 200,
+    "same_cookie_after_actual_redeploy": true,
+    "logout_replay_denied": true,
+    "session_rows_after_logout": 0
+  },
+  "pick_gates": {
+    "approved_picks": [],
+    "paper_mode": "simulation_only",
+    "priority_model_validated": false
+  },
+  "limitations": [
+    "Physical Android device close/reopen not performed.",
+    "Cookie clearing, logout and password changes can require sign-in.",
+    "Live-data and probability-model qualification for Priority Pick remains incomplete."
+  ]
+}
