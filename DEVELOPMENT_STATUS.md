@@ -335,3 +335,8 @@ Added read-only acquisition_plan.py with two meaningful tests for future pregame
 ## 2026-10-24 — source calendar selection completed
 
 Collector now supports --nbl-date independently of --date (NBA/default date), preserving both explicit dates in capture metadata. This fixes the single-calendar limitation identified by the actual upcoming schedule. Example for the planned overlap: python paired_capture.py --date 2026-10-23 --nbl-date 2026-10-24 --output <new-evidence-file>. No automatic timezone assumption or historical record date rewrite. One new regression covers split URLs, retained metadata, invalid date rejection and disabled approval; ten collector/coverage tests pass. No premature network recapture, runtime/auth change or deploy. Next useful step at/after scheduled 04:00 Perth NBA target: recheck observed live status and provider coverage, then exact fixture/state/quote validation. Schedule is not proof of live availability; model qualification remains unmet.
+
+
+## 2026-10-24 — acquisition preflight
+
+Read current source/status and made one bounded NBA scoreboard preflight before planned 04:00 Perth tip-off. acquisition_preflight_2026-10-24T0341.json retains actual receipt metadata and observed schedule/state. Two acquisition-plan tests pass. This is schedule evidence only, not a live score/odds sample; do not label pregame data as score/time training. No additional model/helper changes or deploy. Next run at actual live window should perform split-date paired capture and inspect exact Chicago/Milwaukee provider coverage, explicit period/clock, source disagreement and fresh group112 quotes. Keep all qualification gates disabled until proven; no user action currently required.
