@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "name": "provider",
+      "url": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "started_at": "2026-10-24T00:41:24.215713+00:00",
+      "received_at": "2026-10-24T00:41:30.059612+00:00",
+      "error_type": "ValueError",
+      "server_time": null
+    },
+    {
+      "name": "espn_nba",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261023",
+      "started_at": "2026-10-24T00:41:24.216672+00:00",
+      "http_date": "Sat, 24 Oct 2026 00:41:28 GMT",
+      "http_age": null,
+      "cache_control": "max-age=2",
+      "received_at": "2026-10-24T00:41:28.652216+00:00",
+      "sha256": "b35053b1395f0d987b2b7740849000d6a133db80d26c332c5b24457b0028350a"
+    }
+  ],
+  "candidates": [],
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "limitation": "Previously inspected candidate pairs only. Listed kickoff semantics, aliases and independent handicap verification remain unresolved. Matching states do not certify synchronization."
+}
