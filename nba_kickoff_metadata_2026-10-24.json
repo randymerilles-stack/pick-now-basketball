@@ -1,0 +1,13 @@
+{
+  "source": {
+    "name": "closing",
+    "url": "https://moviodds.com/closing?fi=203335734",
+    "started_at": "2026-10-24T06:36:02.827321+00:00",
+    "received_at": "2026-10-24T06:36:22.579444+00:00",
+    "error_type": "HTTPError",
+    "error_stage": "request",
+    "metadata": {}
+  },
+  "training_eligible": false,
+  "approved_for_picks": false
+}
