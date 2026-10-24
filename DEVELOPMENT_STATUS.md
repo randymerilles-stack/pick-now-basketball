@@ -401,3 +401,8 @@ Followed actual provider landing-page link to https://moviodds.com/doc and retri
 ## 2026-10-24 — bounded kickoff metadata lookup
 
 Used source-documented /closing?fi=203335734 lookup to investigate kickoff_known/kickoff_estimated and declared fixture aliases. Bounded20s fetch did not return usable response metadata; nba_kickoff_metadata_2026-10-24.json retains sanitized error stage/type and actual receipt. Empty metadata is a failed lookup, not proof fields are absent, kickoff unknown or no aliases exist. No identity gate relaxed or600s correction applied. Nine diagnostics/outcome tests passed. No runtime/auth changes or deployment. Retry this specific lookup only on a later run; source failure is transient, not an authorization blocker. Independent odds verification and qualified model evaluation still outstanding.
+
+
+## 2026-10-24 — fresh Australia NBL live coverage
+
+Saved nbl_live_evidence_2026-10-24T1538.json: provider received07:39:02.407173Z, ESPN NBL07:39:01.651031Z. Provider203324384 Illawarra Hawks/Brisbane Bullets candidate ESPN401875273. Provider score42-57, explicit stats.period3, clock6:50/tickingfalse; ESPN period3 clock6:51. Retains raw competitor scores, kickoff fields, handicap quotes/group metadata and source receipts for next exact comparison; no identity/state/quote qualification inferred merely from names/period. Second NBL game ESPN401875275 remains pregame. Twelve scoreboard/collector tests passed. No auth/runtime/model change or deployment. Continue focused NBL identity and fresh group112 validation, while independent odds corroboration and out-of-sample score/time model remain unmet. Raw capture is not a Priority Pick or validated forecast.
