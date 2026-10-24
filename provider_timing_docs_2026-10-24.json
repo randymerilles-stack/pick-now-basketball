@@ -1,0 +1,12 @@
+{
+  "url": "https://moviodds.com/bet365-nba-odds-api/",
+  "received_at": "2026-10-24T04:37:59.337428+00:00",
+  "sha256": "4305949851846ebff509abecc844ac546f90448fc878a93c5439cd88b339c09e",
+  "matching_text_fragments": [
+    "each selection's closing line (its last price before kickoff), and"
+  ],
+  "interpretation": "Documentation fragments retained for field-semantics review only. No independently verified score/clock/odds alignment or training eligibility inferred.",
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "finding": "Retrieved NBA landing documentation did not define clock.ref/ticking or clarify kickoff scheduled-versus-actual semantics. A sample kickoff_utc field is not a semantic definition."
+}
