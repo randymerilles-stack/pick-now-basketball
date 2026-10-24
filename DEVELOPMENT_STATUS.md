@@ -371,3 +371,8 @@ Prior candidate ESPN401909848 now explicitly post/completed at125-132 (home-away
 ## 2026-10-24 — transient provider capture rejection
 
 Fresh paired request at00:41Z: provider fetch returned ValueError (received00:41:30.059612Z); NBA/NBL requests succeeded. Existing fetch sanitizes error detail, so HTTP status rejection, payload limit or JSON decoding cannot be distinguished from this record; do not assert a specific upstream cause. No prior snapshot reused as current, no comparison/candidate emitted. Durable nba_repeat_alignment_2026-10-24T0840.json records source error/receipt metadata and empty comparisons. Twelve alignment/collector tests pass. No runtime/auth/model change or deploy. Treat as transient and retry bounded acquisition next run; if repeated, improve sanitized stage-specific diagnostics before further source assumptions. Qualified data/independent odds/model gates remain unmet.
+
+
+## 2026-10-24 — bounded capture diagnostic stages
+
+Added sanitized error_stage, http_status and bytes_read to research fetch helper; preserves20s timeout/3MB cap and never records exception messages or rejected response bodies. Two regression tests distinguish payload-size/JSON errors and sanitized transport failure; eight diagnostics/collector tests pass. Fresh single provider diagnostic saved capture_diagnostic_2026-10-24T0938.json. Inspect its error_stage before changing any limit; do not retroactively assign a cause to the prior generic ValueError. No app/auth changes, deployment, model or qualified records. Next: address any evidenced capture-size issue using bounded source filtering/pagination if supported rather than removing safeguards; independent odds and score/time model validation remain outstanding.
