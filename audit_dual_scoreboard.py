@@ -16,20 +16,27 @@ def fetch(item):
     name,url=item
     started=datetime.now(timezone.utc).isoformat()
     row={'name':name,'url':url,'started_at':started}
+    stage='request'
     try:
         with urlopen(Request(url,headers={'User-Agent':'PickNowSourceAudit/1.0'}),timeout=20) as r:
+            stage='http_status'
+            row['http_status']=r.status
             if r.status!=200:raise ValueError('Unexpected status')
+            stage='payload_size'
             raw=r.read(3_000_001)
+            row['bytes_read']=len(raw)
             if len(raw)>3_000_000:raise ValueError('Oversized response')
             row['http_date']=r.headers.get('Date')
             row['http_age']=r.headers.get('Age')
             row['cache_control']=r.headers.get('Cache-Control')
         row['received_at']=datetime.now(timezone.utc).isoformat()
         row['sha256']=hashlib.sha256(raw).hexdigest()
+        stage='json_decode'
         row['response']=json.loads(raw)
     except Exception as exc:
         row['received_at']=datetime.now(timezone.utc).isoformat()
         row['error_type']=type(exc).__name__
+        row['error_stage']=stage
     return row
 
 
