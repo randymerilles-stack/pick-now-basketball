@@ -1,0 +1,70 @@
+{
+  "provider_id": "203324384",
+  "espn_id": "401875273",
+  "home_matches": true,
+  "away_matches": true,
+  "kickoff_matches": true,
+  "provider_score": "42-57",
+  "espn_score": "42-57",
+  "provider_period": 3,
+  "espn_period": 3,
+  "clock_difference_seconds": 1,
+  "handicap_validation": {
+    "games_seen": 1,
+    "quotes_seen": 6,
+    "data_checked_markets": [
+      {
+        "fixture_id": "203324384",
+        "market_id": "1446",
+        "home": "Illawarra Hawks",
+        "away": "Brisbane Bullets",
+        "league": "Australia NBL",
+        "score": "42-57",
+        "poll_age_seconds": 10.5,
+        "quotes": [
+          {
+            "team": "Illawarra Hawks",
+            "line": 9.5,
+            "odds": 1.9523809523809523,
+            "selection_id": "282190665"
+          },
+          {
+            "team": "Brisbane Bullets",
+            "line": -9.5,
+            "odds": 1.85,
+            "selection_id": "282190666"
+          }
+        ],
+        "data_checks": "passed",
+        "settlement": "not_independently_verified"
+      }
+    ],
+    "data_checked_market_count": 1,
+    "fixtures": [
+      {
+        "id": "203324384",
+        "home": "Illawarra Hawks",
+        "away": "Brisbane Bullets",
+        "league": "Australia NBL",
+        "score": "42-57",
+        "poll_age_seconds": 10.5,
+        "freshness": "fresh"
+      }
+    ],
+    "markets": [],
+    "verified_market_count": 0,
+    "server_time": "2026-10-24T07:39:02.204361+00:00",
+    "rejected": {
+      "not_live_full_game_line": 4
+    },
+    "validation_status": "provider_mapping_checked_settlement_pending"
+  },
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "basis": "Offline audit of committed 07:39Z capture, not a current live observation.",
+  "remaining_gates": [
+    "source clock semantics and quote/state alignment",
+    "independent full-game handicap verification",
+    "validated out-of-sample score/time probability and timing model"
+  ]
+}
