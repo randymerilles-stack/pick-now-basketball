@@ -1,0 +1,412 @@
+{
+  "sources": [
+    {
+      "name": "provider",
+      "url": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "started_at": "2026-10-24T09:35:48.525416+00:00",
+      "http_status": 200,
+      "bytes_read": 219956,
+      "http_date": "Sat, 24 Oct 2026 09:35:54 GMT",
+      "http_age": null,
+      "cache_control": "public, max-age=2, stale-while-revalidate=3",
+      "received_at": "2026-10-24T09:35:54.753336+00:00",
+      "sha256": "0e1bf694a4aca5a7484d23782c0c0fb9fb668a2685b087d67668d03f7081a53f",
+      "server_time": "2026-10-24T09:35:54.469097027Z"
+    },
+    {
+      "name": "espn_nbl",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20261024",
+      "started_at": "2026-10-24T09:35:48.528897+00:00",
+      "http_status": 200,
+      "bytes_read": 19650,
+      "http_date": "Sat, 24 Oct 2026 09:35:52 GMT",
+      "http_age": null,
+      "cache_control": "max-age=6",
+      "received_at": "2026-10-24T09:35:52.181425+00:00",
+      "sha256": "694001644e629d1ab64253605bdc894d713f6fdcb30f5246a7ef9b060f167d2a"
+    }
+  ],
+  "observations": [
+    {
+      "fixture": {
+        "id": "202727513",
+        "home": "SE Melbourne Phoenix",
+        "away": "Adelaide 36ers",
+        "league": "Australia NBL",
+        "kickoff_utc": "2026-10-24T08:30:00Z",
+        "score": "77-47",
+        "clock": {
+          "min": 8,
+          "sec": 11,
+          "ticking": true,
+          "ref": "2026-10-24T09:35:25Z"
+        },
+        "period": null,
+        "stats": {
+          "updated_at": "2026-10-24T09:35:32.651487385Z",
+          "sport": "basketball",
+          "period": 3,
+          "home": {
+            "points": 77,
+            "three_pointers": 14,
+            "two_pointers": 15,
+            "free_throws": 5,
+            "free_throw_pct": 71.4,
+            "timeouts_remaining": 5,
+            "fouls": 10,
+            "periods": [
+              42,
+              30,
+              5
+            ],
+            "timeouts_used": 0
+          },
+          "away": {
+            "points": 49,
+            "three_pointers": 3,
+            "two_pointers": 14,
+            "free_throws": 12,
+            "free_throw_pct": 100,
+            "timeouts_remaining": 3,
+            "fouls": 6,
+            "periods": [
+              25,
+              18,
+              6
+            ],
+            "timeouts_used": 2
+          },
+          "summary": [
+            "Score After 1st Quarter - 42-25",
+            "Score After 2nd Quarter - 72-43"
+          ]
+        },
+        "polled_at": "2026-10-24T09:35:54.185642248Z",
+        "group_status": {
+          "104": {
+            "polled_at": "2026-10-24T09:35:54.185150954Z"
+          },
+          "108": {
+            "polled_at": "2026-10-24T09:35:54.184900477Z"
+          },
+          "109": {
+            "polled_at": "2026-10-24T09:35:54.185642248Z"
+          },
+          "112": {
+            "polled_at": "2026-10-24T09:35:54.185266615Z"
+          },
+          "113": {
+            "polled_at": "2026-10-24T09:35:06.746169264Z"
+          },
+          "180058": {
+            "polled_at": "2026-10-24T09:35:43.36770728Z"
+          },
+          "180174": {
+            "polled_at": "2026-10-24T09:35:32.53911697Z"
+          },
+          "180189": {
+            "polled_at": "2026-10-24T09:35:47.413464634Z"
+          },
+          "180192": {
+            "polled_at": "2026-10-24T09:35:54.180104192Z"
+          },
+          "180647": {
+            "polled_at": "2026-10-24T09:35:54.182336277Z"
+          },
+          "180654": {
+            "polled_at": "2026-10-24T09:35:54.167377959Z"
+          },
+          "180719": {
+            "polled_at": "2026-10-24T09:35:54.169116608Z"
+          },
+          "528": {
+            "polled_at": "2026-10-24T09:35:54.185019541Z"
+          },
+          "530": {
+            "polled_at": "2026-10-24T09:35:54.184979107Z"
+          },
+          "533": {
+            "polled_at": "2026-10-24T09:35:54.184944075Z"
+          },
+          "562": {
+            "polled_at": "2026-10-24T09:35:54.168376443Z"
+          },
+          "566": {
+            "polled_at": "2026-10-24T09:35:54.167478588Z"
+          },
+          "574": {
+            "polled_at": "2026-10-24T09:35:54.167634095Z"
+          },
+          "586": {
+            "polled_at": "2026-10-24T09:35:54.182832374Z"
+          },
+          "587": {
+            "polled_at": "2026-10-24T09:35:54.18270977Z"
+          },
+          "588": {
+            "polled_at": "2026-10-24T09:35:54.181971128Z"
+          },
+          "589": {
+            "polled_at": "2026-10-24T09:35:54.18388359Z"
+          },
+          "591": {
+            "polled_at": "2026-10-24T09:35:54.184348216Z"
+          },
+          "599": {
+            "polled_at": "2026-10-24T09:35:54.184219486Z"
+          },
+          "602": {
+            "polled_at": "2026-10-24T09:35:54.168845912Z"
+          },
+          "605": {
+            "polled_at": "2026-10-24T09:35:54.183059868Z"
+          },
+          "608": {
+            "polled_at": "2026-10-24T09:35:54.168558191Z"
+          },
+          "610": {
+            "polled_at": "2026-10-24T09:35:54.183208119Z"
+          }
+        },
+        "quotes": [
+          {
+            "fixture_id": "202727513",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "288584669",
+            "label": " -25.5",
+            "handicap": "-25.5",
+            "side": "SE Melbourne Phoenix",
+            "line": "Line",
+            "odds_dec": 1.97,
+            "odds_frac": "97/100",
+            "ts": "2026-10-24T09:35:43.342590356Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "202727513",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1446",
+            "sel_id": "288584674",
+            "label": " +25.5",
+            "handicap": "+25.5",
+            "side": "Adelaide 36ers",
+            "line": "Line",
+            "odds_dec": 1.8199999999999998,
+            "odds_frac": "41/50",
+            "ts": "2026-10-24T09:35:43.342590356Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "202727513",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "288584680",
+            "label": "O 211.5",
+            "handicap": "211.5",
+            "side": "Over",
+            "line": "Total",
+            "odds_dec": 1.85,
+            "odds_frac": "17/20",
+            "ts": "2026-10-24T09:35:54.166599323Z",
+            "phase": "inplay"
+          },
+          {
+            "fixture_id": "202727513",
+            "group_id": "112",
+            "group_name": "Game",
+            "market_id": "1450",
+            "sel_id": "288584682",
+            "label": "U 211.5",
+            "handicap": "211.5",
+            "side": "Under",
+            "line": "Total",
+            "odds_dec": 1.9523809523809523,
+            "odds_frac": "20/21",
+            "ts": "2026-10-24T09:35:54.166599323Z",
+            "phase": "inplay"
+          }
+        ],
+        "sport": "basketball",
+        "in_play": true
+      },
+      "exact_name_candidates": [],
+      "validation": {
+        "games_seen": 1,
+        "quotes_seen": 4,
+        "data_checked_markets": [
+          {
+            "fixture_id": "202727513",
+            "market_id": "1446",
+            "home": "SE Melbourne Phoenix",
+            "away": "Adelaide 36ers",
+            "league": "Australia NBL",
+            "score": "77-47",
+            "poll_age_seconds": 0.6,
+            "quotes": [
+              {
+                "team": "SE Melbourne Phoenix",
+                "line": -25.5,
+                "odds": 1.97,
+                "selection_id": "288584669"
+              },
+              {
+                "team": "Adelaide 36ers",
+                "line": 25.5,
+                "odds": 1.8199999999999998,
+                "selection_id": "288584674"
+              }
+            ],
+            "data_checks": "passed",
+            "settlement": "not_independently_verified"
+          }
+        ],
+        "data_checked_market_count": 1,
+        "fixtures": [
+          {
+            "id": "202727513",
+            "home": "SE Melbourne Phoenix",
+            "away": "Adelaide 36ers",
+            "league": "Australia NBL",
+            "score": "77-47",
+            "poll_age_seconds": 0.6,
+            "freshness": "fresh"
+          }
+        ],
+        "markets": [],
+        "verified_market_count": 0,
+        "server_time": "2026-10-24T09:35:54.469097+00:00",
+        "rejected": {
+          "not_live_full_game_line": 2
+        },
+        "validation_status": "provider_mapping_checked_settlement_pending"
+      }
+    }
+  ],
+  "scoreboard_events": [
+    {
+      "id": "401875273",
+      "date": "2026-10-24T06:30Z",
+      "name": "Brisbane Bullets at Illawarra Hawks",
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "id": "401875273",
+          "date": "2026-10-24T06:30Z",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            }
+          },
+          "competitors": [
+            {
+              "id": "4",
+              "homeAway": "home",
+              "score": "81",
+              "team": {
+                "id": "4",
+                "displayName": "Illawarra Hawks"
+              }
+            },
+            {
+              "id": "2",
+              "homeAway": "away",
+              "score": "98",
+              "team": {
+                "id": "2",
+                "displayName": "Brisbane Bullets"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401875275",
+      "date": "2026-10-24T08:30Z",
+      "name": "Adelaide 36ers at South East Melbourne Phoenix",
+      "status": {
+        "clock": 484.0,
+        "displayClock": "8:04",
+        "period": 3,
+        "type": {
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
+          "completed": false,
+          "description": "In Progress",
+          "detail": "8:04 - 3rd Quarter",
+          "shortDetail": "8:04 - 3rd"
+        }
+      },
+      "competitions": [
+        {
+          "id": "401875275",
+          "date": "2026-10-24T08:30Z",
+          "status": {
+            "clock": 484.0,
+            "displayClock": "8:04",
+            "period": 3,
+            "type": {
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
+              "completed": false,
+              "description": "In Progress",
+              "detail": "8:04 - 3rd Quarter",
+              "shortDetail": "8:04 - 3rd"
+            }
+          },
+          "competitors": [
+            {
+              "id": "8",
+              "homeAway": "home",
+              "score": "77",
+              "team": {
+                "id": "8",
+                "displayName": "South East Melbourne Phoenix"
+              }
+            },
+            {
+              "id": "1",
+              "homeAway": "away",
+              "score": "49",
+              "team": {
+                "id": "1",
+                "displayName": "Adelaide 36ers"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "limitation": "Contemporaneous source-data audit only. Exact names do not establish atomic state/quote timestamps or independent odds verification."
+}
