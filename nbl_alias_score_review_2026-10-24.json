@@ -1,0 +1,18 @@
+{
+  "basis": "Offline review of 09:35Z capture; not current live data",
+  "source_evidence": "nbl_second_alignment_2026-10-24T1735.json",
+  "provider_fixture_id": "202727513",
+  "scoreboard_event_id": "401875275",
+  "provider_home": "SE Melbourne Phoenix",
+  "scoreboard_home": "South East Melbourne Phoenix",
+  "away": "Adelaide 36ers",
+  "kickoff_matches": true,
+  "provider_score": "77-47",
+  "scoreboard_score": "77-49",
+  "provider_period": 3,
+  "scoreboard_period": 3,
+  "alias_status": "candidate_only",
+  "finding": "SE versus South East explains exact-name rejection, but score differs by two away points. Alias normalization alone cannot qualify this snapshot.",
+  "training_eligible": false,
+  "approved_for_picks": false
+}
