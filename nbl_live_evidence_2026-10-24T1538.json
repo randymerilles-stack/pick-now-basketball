@@ -1,0 +1,391 @@
+{
+  "sources": [
+    {
+      "name": "provider",
+      "url": "https://moviodds.com/odds?sport=basketball&in_play=1&stats=1",
+      "started_at": "2026-10-24T07:38:56.831155+00:00",
+      "http_status": 200,
+      "bytes_read": 895835,
+      "http_date": "Sat, 24 Oct 2026 07:39:02 GMT",
+      "http_age": null,
+      "cache_control": "public, max-age=2, stale-while-revalidate=3",
+      "received_at": "2026-10-24T07:39:02.407173+00:00",
+      "sha256": "ff06c76788cacc360ed2aa181f02f7a8c8932f4a94a747792b61b66b62f677d3",
+      "server_time": "2026-10-24T07:39:02.20436166Z"
+    },
+    {
+      "name": "espn_nbl",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nbl/scoreboard?dates=20261024",
+      "started_at": "2026-10-24T07:38:56.832553+00:00",
+      "http_status": 200,
+      "bytes_read": 14005,
+      "http_date": "Sat, 24 Oct 2026 07:39:01 GMT",
+      "http_age": null,
+      "cache_control": "max-age=5",
+      "received_at": "2026-10-24T07:39:01.651031+00:00",
+      "sha256": "1ef3bae28e97fba0c47dc8c6189af799bcce2d67b5dcef3c61276986b9a4fbe5"
+    }
+  ],
+  "provider_fixtures": [
+    {
+      "id": "203324384",
+      "home": "Illawarra Hawks",
+      "away": "Brisbane Bullets",
+      "league": "Australia NBL",
+      "kickoff_utc": "2026-10-24T06:30:00Z",
+      "score": "42-57",
+      "clock": {
+        "min": 6,
+        "sec": 50,
+        "ticking": false,
+        "ref": "2026-10-24T07:38:51Z"
+      },
+      "period": null,
+      "stats": {
+        "updated_at": "2026-10-24T07:38:26.30700045Z",
+        "sport": "basketball",
+        "period": 3,
+        "home": {
+          "points": 42,
+          "three_pointers": 6,
+          "two_pointers": 10,
+          "free_throws": 4,
+          "free_throw_pct": 100,
+          "timeouts_remaining": 3,
+          "fouls": 10,
+          "periods": [
+            16,
+            19,
+            7
+          ],
+          "timeouts_used": 2
+        },
+        "away": {
+          "points": 57,
+          "three_pointers": 3,
+          "two_pointers": 20,
+          "free_throws": 8,
+          "free_throw_pct": 80,
+          "timeouts_remaining": 5,
+          "fouls": 11,
+          "periods": [
+            25,
+            30,
+            2
+          ],
+          "timeouts_used": 0
+        },
+        "summary": [
+          "Score After 1st Quarter - 16-25",
+          "Score After 2nd Quarter - 35-55"
+        ]
+      },
+      "polled_at": "2026-10-24T07:38:51.932849537Z",
+      "group_status": {
+        "104": {
+          "polled_at": "2026-10-24T07:38:51.929266011Z"
+        },
+        "108": {
+          "polled_at": "2026-10-24T07:38:51.927375681Z"
+        },
+        "109": {
+          "polled_at": "2026-10-24T07:38:51.932849537Z"
+        },
+        "112": {
+          "polled_at": "2026-10-24T07:38:51.93261826Z"
+        },
+        "113": {
+          "polled_at": "2026-10-24T07:38:42.196412552Z"
+        },
+        "180056": {
+          "polled_at": "2026-10-24T07:38:51.931077687Z"
+        },
+        "180058": {
+          "polled_at": "2026-10-24T07:38:51.930616782Z"
+        },
+        "180174": {
+          "polled_at": "2026-10-24T07:38:51.928834769Z"
+        },
+        "180189": {
+          "polled_at": "2026-10-24T07:38:51.928646267Z"
+        },
+        "180192": {
+          "polled_at": "2026-10-24T07:38:51.922360832Z"
+        },
+        "180647": {
+          "polled_at": "2026-10-24T07:38:51.924252676Z"
+        },
+        "180651": {
+          "polled_at": "2026-10-24T07:38:51.919110966Z"
+        },
+        "180654": {
+          "polled_at": "2026-10-24T07:38:51.917942862Z"
+        },
+        "180719": {
+          "polled_at": "2026-10-24T07:38:51.92139899Z"
+        },
+        "528": {
+          "polled_at": "2026-10-24T07:38:51.928590964Z"
+        },
+        "530": {
+          "polled_at": "2026-10-24T07:38:51.927896892Z"
+        },
+        "533": {
+          "polled_at": "2026-10-24T07:38:51.927486261Z"
+        },
+        "562": {
+          "polled_at": "2026-10-24T07:38:51.918864117Z"
+        },
+        "566": {
+          "polled_at": "2026-10-24T07:38:51.918154351Z"
+        },
+        "574": {
+          "polled_at": "2026-10-24T07:38:51.918744555Z"
+        },
+        "586": {
+          "polled_at": "2026-10-24T07:38:51.924839161Z"
+        },
+        "587": {
+          "polled_at": "2026-10-24T07:38:51.924635181Z"
+        },
+        "588": {
+          "polled_at": "2026-10-24T07:38:51.923826338Z"
+        },
+        "589": {
+          "polled_at": "2026-10-24T07:38:51.925834449Z"
+        },
+        "591": {
+          "polled_at": "2026-10-24T07:38:51.926168017Z"
+        },
+        "599": {
+          "polled_at": "2026-10-24T07:38:51.92222205Z"
+        },
+        "602": {
+          "polled_at": "2026-10-24T07:38:43.354130753Z"
+        },
+        "605": {
+          "polled_at": "2026-10-24T07:38:51.925015685Z"
+        },
+        "608": {
+          "polled_at": "2026-10-24T07:38:51.922162653Z"
+        },
+        "610": {
+          "polled_at": "2026-10-24T07:38:51.926072518Z"
+        }
+      },
+      "quotes": [
+        {
+          "fixture_id": "203324384",
+          "group_id": "112",
+          "group_name": "Game",
+          "market_id": "1446",
+          "sel_id": "282190665",
+          "label": " +9.5",
+          "handicap": "+9.5",
+          "side": "Illawarra Hawks",
+          "line": "Line",
+          "odds_dec": 1.9523809523809523,
+          "odds_frac": "20/21",
+          "ts": "2026-10-24T07:38:51.908727957Z",
+          "phase": "inplay"
+        },
+        {
+          "fixture_id": "203324384",
+          "group_id": "112",
+          "group_name": "Game",
+          "market_id": "1446",
+          "sel_id": "282190666",
+          "label": " -9.5",
+          "handicap": "-9.5",
+          "side": "Brisbane Bullets",
+          "line": "Line",
+          "odds_dec": 1.85,
+          "odds_frac": "17/20",
+          "ts": "2026-10-24T07:38:51.908727957Z",
+          "phase": "inplay"
+        },
+        {
+          "fixture_id": "203324384",
+          "group_id": "112",
+          "group_name": "Game",
+          "market_id": "1450",
+          "sel_id": "282190669",
+          "label": "O 177.5",
+          "handicap": "177.5",
+          "side": "Over",
+          "line": "Total",
+          "odds_dec": 1.85,
+          "odds_frac": "17/20",
+          "ts": "2026-10-24T07:38:51.908727957Z",
+          "phase": "inplay"
+        },
+        {
+          "fixture_id": "203324384",
+          "group_id": "112",
+          "group_name": "Game",
+          "market_id": "1450",
+          "sel_id": "282190671",
+          "label": "U 177.5",
+          "handicap": "177.5",
+          "side": "Under",
+          "line": "Total",
+          "odds_dec": 1.9523809523809523,
+          "odds_frac": "20/21",
+          "ts": "2026-10-24T07:38:51.908727957Z",
+          "phase": "inplay"
+        },
+        {
+          "fixture_id": "203324384",
+          "group_id": "112",
+          "group_name": "Game",
+          "market_id": "180032",
+          "sel_id": "282190672",
+          "side": "Illawarra Hawks",
+          "line": "To Win",
+          "odds_dec": 6,
+          "odds_frac": "5/1",
+          "ts": "2026-10-24T07:38:51.908727957Z",
+          "phase": "inplay"
+        },
+        {
+          "fixture_id": "203324384",
+          "group_id": "112",
+          "group_name": "Game",
+          "market_id": "180032",
+          "sel_id": "282190673",
+          "side": "Brisbane Bullets",
+          "line": "To Win",
+          "odds_dec": 1.12,
+          "odds_frac": "3/25",
+          "ts": "2026-10-24T07:38:51.908727957Z",
+          "phase": "inplay"
+        }
+      ],
+      "sport": "basketball",
+      "in_play": true
+    }
+  ],
+  "scoreboard_events": [
+    {
+      "id": "401875273",
+      "date": "2026-10-24T06:30Z",
+      "name": "Brisbane Bullets at Illawarra Hawks",
+      "status": {
+        "clock": 411.0,
+        "displayClock": "6:51",
+        "period": 3,
+        "type": {
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
+          "completed": false,
+          "description": "In Progress",
+          "detail": "6:51 - 3rd Quarter",
+          "shortDetail": "6:51 - 3rd"
+        }
+      },
+      "competitions": [
+        {
+          "id": "401875273",
+          "date": "2026-10-24T06:30Z",
+          "status": {
+            "clock": 411.0,
+            "displayClock": "6:51",
+            "period": 3,
+            "type": {
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
+              "completed": false,
+              "description": "In Progress",
+              "detail": "6:51 - 3rd Quarter",
+              "shortDetail": "6:51 - 3rd"
+            }
+          },
+          "competitors": [
+            {
+              "id": "4",
+              "homeAway": "home",
+              "score": "42",
+              "team": {
+                "id": "4",
+                "displayName": "Illawarra Hawks"
+              }
+            },
+            {
+              "id": "2",
+              "homeAway": "away",
+              "score": "57",
+              "team": {
+                "id": "2",
+                "displayName": "Brisbane Bullets"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401875275",
+      "date": "2026-10-24T08:30Z",
+      "name": "Adelaide 36ers at South East Melbourne Phoenix",
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, October 24th at 4:30 AM EDT",
+          "shortDetail": "10/24 - 4:30 AM EDT"
+        }
+      },
+      "competitions": [
+        {
+          "id": "401875275",
+          "date": "2026-10-24T08:30Z",
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, October 24th at 4:30 AM EDT",
+              "shortDetail": "10/24 - 4:30 AM EDT"
+            }
+          },
+          "competitors": [
+            {
+              "id": "8",
+              "homeAway": "home",
+              "score": "0",
+              "team": {
+                "id": "8",
+                "displayName": "South East Melbourne Phoenix"
+              }
+            },
+            {
+              "id": "1",
+              "homeAway": "away",
+              "score": "0",
+              "team": {
+                "id": "1",
+                "displayName": "Adelaide 36ers"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "limitation": "Raw contemporaneous NBL coverage evidence; exact event/state/quote verification required before qualification."
+}
