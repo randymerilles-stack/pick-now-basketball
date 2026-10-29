@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 SOURCES={
     'provider':'https://moviodds.com/odds?sport=basketball&in_play=1&stats=1',
@@ -33,6 +34,14 @@ def fetch(item):
         row['sha256']=hashlib.sha256(raw).hexdigest()
         stage='json_decode'
         row['response']=json.loads(raw)
+    except HTTPError as exc:
+        # urlopen raises before entering the response context for non-2xx.
+        # Preserve status without reading a rejected body or exception message.
+        row['received_at']=datetime.now(timezone.utc).isoformat()
+        row['http_status']=exc.code
+        row['error_type']='HTTPError'
+        row['error_stage']='http_status'
+        exc.close()
     except Exception as exc:
         row['received_at']=datetime.now(timezone.utc).isoformat()
         row['error_type']=type(exc).__name__
