@@ -1,0 +1,9 @@
+{
+  "name": "oddize_books_auth_check",
+  "url": "https://oddize.com/api/v1/books",
+  "started_at": "2026-10-29T09:39:21.054650+00:00",
+  "received_at": "2026-10-29T09:39:26.250284+00:00",
+  "http_status": 401,
+  "error_type": "HTTPError",
+  "error_stage": "http_status"
+}
