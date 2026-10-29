@@ -6,6 +6,7 @@ from feature_admission import admit_features
 
 def fixture():
     state = dict(canonical_event_id='g', source='s1', observed_at='2026-01-01T01:00:00Z',
+                 phase='in',
                  received_at='2026-01-01T01:00:01Z',
                  home_score=50, away_score=60, period=3, minutes=6, seconds=0, overtime=False)
     quote = dict(canonical_event_id='g', source='q1', observed_at=state['observed_at'], bookmaker='book',
@@ -77,6 +78,16 @@ class AdmissionTests(unittest.TestCase):
         record, registry = fixture()
         registry['synthetic']['clock_direction'] = 'unknown'
         self.assertEqual(admit_features(record, evidence_registry=registry)['reason'], 'invalid_regulation_clock')
+
+    def test_final_or_unknown_phase_rejected_despite_nonzero_clock(self):
+        for side in ('state', 'independent_state'):
+            for phase in ('post', 'pre', None):
+                record, registry = fixture()
+                record[side].update(phase=phase, period=4, minutes=12, seconds=0)
+                other = 'independent_state' if side == 'state' else 'state'
+                record[other].update(period=4, minutes=12, seconds=0)
+                self.assertEqual(admit_features(record, evidence_registry=registry)['reason'],
+                                 'not_explicitly_in_play')
 
     def test_receipts_and_reviewed_sources(self):
         for key, value in [('received_at', '2026-01-01T01:00:06Z'),
