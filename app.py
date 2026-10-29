@@ -8,6 +8,7 @@ from urllib.request import Request, urlopen
 from validation import inspect_feed
 from urllib.parse import parse_qs
 import access
+import research_probe
 from paper_model import paper_forecasts
 
 SOURCE = 'https://moviodds.com/odds?sport=basketball&in_play=1'
@@ -109,6 +110,27 @@ class Handler(BaseHTTPRequestHandler):
             self.reply(403,b'Invalid request origin')
             return
         path=self.path.split('?',1)[0]
+        if path=='/api/research/oddize':
+            if not research_probe.enabled():self.reply(404,b'Not found');return
+            if not access.configured():self.reply(503,b'Private access unavailable');return
+            try:authenticated=access.authenticated(self.headers.get('Cookie'))
+            except access.SessionStoreUnavailable:
+                self.reply(503,b'Private access temporarily unavailable. Please retry.',extra={'Retry-After':'30'})
+                return
+            if not authenticated:
+                self.reply(401,b'{"error":"authentication_required"}','application/json');return
+            if self.headers.get('Content-Type','').split(';')[0]!='application/json':
+                self.reply(415,b'Unsupported content type');return
+            try:size=int(self.headers.get('Content-Length','0'))
+            except ValueError:self.reply(400,b'Invalid request');return
+            if not 0<size<=256:self.reply(400,b'Invalid request');return
+            try:
+                self.connection.settimeout(5)
+                raw=self.rfile.read(size)
+            except TimeoutError:self.reply(408,b'Request timeout');return
+            code,result=research_probe.run(raw)
+            self.reply(code,json.dumps(result,allow_nan=False).encode(),'application/json')
+            return
         if path=='/logout':
             try:access.logout(self.headers.get('Cookie'))
             except access.SessionStoreUnavailable:
@@ -139,4 +161,5 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == '__main__':
     ThreadingHTTPServer(('0.0.0.0', int(os.environ.get('PORT', '5000'))), Handler).serve_forever()
+
 
