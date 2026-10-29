@@ -1,0 +1,74 @@
+{
+  "review_date": "2026-10-29",
+  "spec_receipt": {
+    "name": "oddize_openapi",
+    "url": "https://oddize.com/api/v1/openapi.json",
+    "started_at": "2026-10-29T08:44:24.448148+00:00",
+    "http_status": 200,
+    "bytes_read": 53025,
+    "http_date": "Thu, 29 Oct 2026 08:44:30 GMT",
+    "http_age": null,
+    "cache_control": null,
+    "received_at": "2026-10-29T08:44:30.682727+00:00",
+    "sha256": "a9378c7232a3f5896c5b15c0e0b8dc266b5c4e203972253cf998af570588ac42"
+  },
+  "schema_checks": {
+    "api_key_security_inherited": true,
+    "header_key_documented": true,
+    "price_has_observation_epoch_and_iso": true,
+    "event_has_named_away_and_home": true,
+    "current_schema_has_no_state_fields": true,
+    "per_event_history_exists": true,
+    "include_started_games_explicit": true
+  },
+  "primary_pages": [
+    "https://oddize.com/odds-api",
+    "https://oddize.com/api/v1/openapi.json",
+    "https://therundown.io/free-sports-data-api"
+  ],
+  "oddize_findings": {
+    "candidate_only": true,
+    "advertised_free_credits_monthly": 1500,
+    "advertised_free_card_required": false,
+    "key_required": true,
+    "history_event_call_cost": 5,
+    "budget_upper_bound_event_history_calls": 300,
+    "budget_caveat": "Assumes all credits spent on one 5-credit call per event, no other calls or pagination; not an adequate sample-size claim. Bulk range entitlement must be checked separately.",
+    "price_fields": [
+      "book",
+      "offer_type",
+      "team",
+      "line",
+      "american_odds",
+      "ts",
+      "timestamp"
+    ],
+    "team_mapping": {
+      "team1": "away",
+      "team2": "home"
+    },
+    "missing": [
+      "score/period/clock in documented Event schema",
+      "measured basketball live quote latency",
+      "actual same-event observations",
+      "independent acquisition provenance and settlement equivalence",
+      "existing authorized API key"
+    ]
+  },
+  "other_source": "TheRundown Free documents delayed pre-match only, with in-play odds excluded. No signup needed for that unsuitable live route.",
+  "render_state": {
+    "service": "srv-dbbd6mff3r2c738f4nsg",
+    "latest_deploy": "dep-dbdjgrpsrm7s73bvejrg",
+    "status": "live",
+    "commit": "495afe8af650d3fdf997f57e3fb9eb26a885a773",
+    "new_deploy_triggered": false
+  },
+  "limitations": [
+    "Only public documentation/spec retrieved, no Oddize keyed odds call or account created.",
+    "Documented timestamps do not establish latency, freshness SLA or historical point-in-time availability.",
+    "An already-started fixture filter does not prove in-play market availability.",
+    "Schema admission checks are not predictive tests; no model evaluated."
+  ],
+  "approved_for_picks": false,
+  "training_eligible": false
+}
