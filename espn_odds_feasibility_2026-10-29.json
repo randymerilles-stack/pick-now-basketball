@@ -1,0 +1,324 @@
+{
+  "captured_sources": [
+    {
+      "name": "espn_nba_scoreboard",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261028",
+      "started_at": "2026-10-29T06:44:01.394776+00:00",
+      "http_status": 200,
+      "bytes_read": 285503,
+      "http_date": "Thu, 29 Oct 2026 06:44:04 GMT",
+      "http_age": null,
+      "cache_control": "max-age=1",
+      "received_at": "2026-10-29T06:44:04.707569+00:00",
+      "sha256": "691a76d17ae71d4c2493eeb08dca6fbf788f1470e11729772bd42d9e04345122"
+    },
+    {
+      "name": "espn_nba_summary",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909881",
+      "started_at": "2026-10-29T06:44:04.710794+00:00",
+      "http_status": 200,
+      "bytes_read": 437553,
+      "http_date": "Thu, 29 Oct 2026 06:44:07 GMT",
+      "http_age": null,
+      "cache_control": "max-age=10",
+      "received_at": "2026-10-29T06:44:07.967538+00:00",
+      "sha256": "1ac78f38d7e49e4681a0ac17ebaaab6716a309692712bc7505371ae51107aabb"
+    }
+  ],
+  "projection_only": true,
+  "events": [
+    {
+      "id": "401909881",
+      "name": "Miami Heat at Atlanta Hawks",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909882",
+      "name": "Washington Wizards at Cleveland Cavaliers",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909883",
+      "name": "Charlotte Hornets at Detroit Pistons",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909884",
+      "name": "Philadelphia 76ers at Indiana Pacers",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909885",
+      "name": "Orlando Magic at Toronto Raptors",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909886",
+      "name": "New York Knicks at Chicago Bulls",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909887",
+      "name": "Houston Rockets at Milwaukee Bucks",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909888",
+      "name": "Golden State Warriors at Minnesota Timberwolves",
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0.0",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909889",
+      "name": "Denver Nuggets at New Orleans Pelicans",
+      "status": {
+        "clock": 720.0,
+        "displayClock": "12:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909890",
+      "name": "San Antonio Spurs at Utah Jazz",
+      "status": {
+        "clock": 300.0,
+        "displayClock": "5:00",
+        "period": 5,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final/OT",
+          "shortDetail": "Final/OT",
+          "altDetail": "OT"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909891",
+      "name": "Oklahoma City Thunder at Dallas Mavericks",
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0.0",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    },
+    {
+      "id": "401909892",
+      "name": "Los Angeles Lakers at LA Clippers",
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0.0",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competition_odds_present": false
+    }
+  ],
+  "summary_event_id": "401909881",
+  "pickcenter": [
+    {
+      "provider": {
+        "id": "100",
+        "name": "Draft Kings"
+      },
+      "pointSpread": {
+        "displayName": "Spread",
+        "shortDisplayName": "Spread",
+        "home": {
+          "close": {
+            "line": "-2.5",
+            "odds": "-115"
+          },
+          "open": {
+            "line": "-3.5",
+            "odds": "-115"
+          }
+        },
+        "away": {
+          "close": {
+            "line": "+2.5",
+            "odds": "-105"
+          },
+          "open": {
+            "line": "+3.5",
+            "odds": "-105"
+          }
+        }
+      },
+      "top_level_keys": [
+        "awayTeamOdds",
+        "details",
+        "footer",
+        "header",
+        "homeTeamOdds",
+        "link",
+        "links",
+        "moneyline",
+        "overOdds",
+        "overUnder",
+        "pointSpread",
+        "provider",
+        "spread",
+        "total",
+        "underOdds"
+      ]
+    }
+  ],
+  "findings": {
+    "all_sample_events_completed": true,
+    "final_events_with_positive_clock": 9,
+    "summary_odds_list_count": 0
+  },
+  "training_eligible": false,
+  "approved_for_picks": false,
+  "limitations": [
+    "One scoreboard date and one summary only; no claim all ESPN responses lack live odds.",
+    "Open/close spreads lack contemporaneous quote timestamp in inspected pickcenter.",
+    "DraftKings prices do not corroborate Bet365 prices.",
+    "Archive status/clock are not an in-play observation; no training labels generated.",
+    "Original response digests retained; full news/articles/affiliate links excluded from projection."
+  ]
+}
