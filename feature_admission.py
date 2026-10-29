@@ -58,6 +58,10 @@ def admit_features(record, *, evidence_registry=None):
             raise ValueError('evidence_reviewed_after_decision')
         state, other = record['state'], record['independent_state']
         quote, corroboration = record['quote'], record['independent_quote']
+        # Final feeds can retain a nonzero/reset clock. Never infer in-play
+        # state from period, clock or the existence of archived odds.
+        if state.get('phase') != 'in' or other.get('phase') != 'in':
+            raise ValueError('not_explicitly_in_play')
         observations = (state, other, quote, corroboration)
         for obs in observations:
             if obs.get('canonical_event_id') != record['canonical_event_id']:
@@ -117,6 +121,7 @@ def admit_features(record, *, evidence_registry=None):
                     timing_window=timing_window(remaining, regulation, semantics_verified=True), sides=sides)
     except (KeyError, TypeError, ValueError, AttributeError, OverflowError) as exc:
         known = {'invalid_record', 'unreviewed_evidence', 'missing_evidence_references',
+                 'not_explicitly_in_play',
                  'evidence_identity_mismatch', 'evidence_reviewed_after_decision',
                  'observation_identity_mismatch', 'missing_source', 'same_acquisition_source',
                  'unreviewed_acquisition_source', 'invalid_receipt_chronology',
