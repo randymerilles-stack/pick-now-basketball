@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "tests_passed": 24,
+  "suites": [
+    "test_research_probe",
+    "test_probe_budget",
+    "test_probe_budget_composition",
+    "test_oddize_capture",
+    "test_research_runtime_boundary"
+  ],
+  "source": "15 module/test files fetched fresh from research branch",
+  "scope": "policy, local HTTP and mocked database composition",
+  "real_driver_acceptance": false,
+  "compute_restart_tested": false,
+  "real_source_calls": 0,
+  "deployment_performed": false,
+  "approved_for_picks": false,
+  "next": "Full repository dependency/regression check; direct database execution requires permitted DNS, no DNS bypass or paid execution service."
+}
