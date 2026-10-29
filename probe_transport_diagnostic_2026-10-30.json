@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "isolated_branch": "br-rough-rain-arlf585i",
+  "driver": "psycopg 3.2.13",
+  "direct_connection": {
+    "status": "failed_before_sql",
+    "error_type": "OperationalError",
+    "dns_resolution_failure": true,
+    "sqlstate": null,
+    "password_authentication_failure_observed": false
+  },
+  "connector_read": {
+    "status": "passed",
+    "reservation_count": 1
+  },
+  "interpretation": "Direct runtime cannot resolve database hostname; connector can access the existing ledger. No evidence that password is invalid. Driver integration remains unpassed.",
+  "production_changed": false,
+  "source_calls": 0,
+  "approved_for_picks": false
+}
