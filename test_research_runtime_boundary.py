@@ -17,7 +17,8 @@ class ResearchBoundaryTests(unittest.TestCase):
     def request(self, method, path, authenticated):
         with ExitStack() as stack:
             stack.enter_context(patch.dict('os.environ', {
-                'PICKNOW_ODDIZE_API_KEY':'synthetic-secret', 'PICKNOW_ORIGIN':'https://example.test'}))
+                'PICKNOW_ODDIZE_API_KEY':'synthetic-secret', 'PICKNOW_ORIGIN':'https://example.test',
+                'PICKNOW_ENABLE_ODDIZE_PROBE':'0'}))
             stack.enter_context(patch('app.access.configured', return_value=True))
             stack.enter_context(patch('app.access.authenticated', return_value=authenticated))
             check=stack.enter_context(patch('app.check', side_effect=AssertionError('unexpected feed call')))
