@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-29T12:44:46.668994+00:00",
+  "scope": "offline_software_composition_only",
+  "command": "python -m unittest test_research_pipeline_acceptance -v",
+  "tests_run": 4,
+  "tests_passed": 4,
+  "test_file_sha256": "a0c42511a10615e982a89c2a8993613de9f2b43cdf8c0af412f418cee2d96c65",
+  "coverage": [
+    "synthetic admission -> journal -> reopen -> locked development/validation/test split -> frozen scorer -> fixture bootstrap -> probability diagnostics",
+    "12 actual archived ESPN events rejected with no evidence registry",
+    "quarter conflict rejected before persistence",
+    "tampered journal rejected before scoring"
+  ],
+  "synthetic_events": 6,
+  "synthetic_locked_test_events": 2,
+  "real_records_qualified": 0,
+  "source_registry_approved": false,
+  "model_trained": false,
+  "predictive_efficacy_evaluated": false,
+  "live_release_acceptance_performed": false,
+  "deployment_triggered": false,
+  "approved_for_picks": false,
+  "limitations": [
+    "Synthetic test fixtures and test receipts are not causal real forecasts or training evidence.",
+    "No measured timing advantage, statistical power, held-out calibration, replication or qualified Priority Pick.",
+    "Account/API key access for actual Oddize trial remains separate from this software check."
+  ],
+  "authoritative_source_blobs": {
+    "DEVELOPMENT_STATUS.md": "1c6efbc099b2fe95367348ea089a6a3c9057830a",
+    "feature_admission.py": "3cfbe1453b2a8d25c64b4ec0fe82f0fb3abbf554",
+    "forecast_journal.py": "54c62f00a0a5dc7aff16a4ed6ba2c4a4be5b9173",
+    "forecast_scoring.py": "cb034710b621e08d08e128fe8ec9a38d59bcd367",
+    "fixture_uncertainty.py": "7843eb95d661ca8c1d4525f794335bcc7714117f",
+    "probability_diagnostics.py": "2d93b39bd13888555ae0630b12ebf2915380a049",
+    "evaluation_split.py": "89db3bcef0aca0b972aa59ab7840e6c7b7ddc095",
+    "remaining_time.py": "d51faac28a977f4a860b1d2c29c26a16a5d9fba6",
+    "timing_windows.py": "ad4b79ae0be413a0de7cd7d96b54182700860460",
+    "test_feature_admission.py": "8708be5348c823473b8b210a9d1fad14dbf928dd",
+    "espn_odds_feasibility_2026-10-29.json": "1921c9b5497dc07b68c2810d18208387fdba1f21"
+  }
+}
