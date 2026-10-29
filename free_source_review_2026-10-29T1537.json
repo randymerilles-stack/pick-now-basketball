@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "tab_attempt": {
+    "name": "tab_basketball_competitions",
+    "url": "https://api.beta.tab.com.au/v1/tab-info-service/sports/Basketball/competitions?jurisdiction=WA",
+    "started_at": "2026-10-29T07:38:31.240627+00:00",
+    "received_at": "2026-10-29T07:38:38.506678+00:00",
+    "error_type": "HTTPError",
+    "error_stage": "request"
+  },
+  "source_review": [
+    {
+      "url": "https://fastoddsapi.com/",
+      "result": "Free Developer plan excludes basketball. Advertised quote refresh approximately five minutes, pre-match first; not built for in-play trading. NBA/NBL appear in overall catalogue, not free entitlement. No key/account created."
+    },
+    {
+      "url": "https://help.bet365.com.au/s/en-au/sportsrules/basketball",
+      "result": "Primary rules explicitly include overtime for in-play game bets; two-way push rules apply. This narrows settlement documentation, but does not verify provider group112 mapping, timestamps, event alignment, abandonment handling or independent price corroboration."
+    }
+  ],
+  "limitations": [
+    "TAB attempt raised HTTPError before response context. Original collector did not record status; do not infer 403, auth requirement, geoblock or endpoint validity. No bypass/retry or login attempted.",
+    "HTTP status capture fix applies to future requests; historical status remains unknown.",
+    "No model trained, source registry approved or training rows generated."
+  ],
+  "approved_for_picks": false,
+  "training_eligible": false
+}
