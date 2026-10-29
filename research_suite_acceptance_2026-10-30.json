@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-30",
+  "discovered_tests": 160,
+  "passed": 158,
+  "skipped": 2,
+  "failures": 0,
+  "skips": [
+    "Release dependency gate not enabled",
+    "Isolated Postgres test database not configured"
+  ],
+  "source_manifest": [
+    {
+      "path": "access.py",
+      "sha": "8d0e9d9aa5ae0c2d583251ee930c384ae7171564"
+    },
+    {
+      "path": "acquisition_plan.py",
+      "sha": "1e89bc3d59570d10df4c7046952960429406f9e0"
+    },
+    {
+      "path": "app.py",
+      "sha": "7f4c699af595c9770dfe9b8a4273fde858ac7c8e"
+    },
+    {
+      "path": "audit_dual_scoreboard.py",
+      "sha": "bd79c2f312d6f2a4904c8aa29341a59b449c20eb"
+    },
+    {
+      "path": "audit_event_aliases.py",
+      "sha": "965f809fa121dd998d0da9e98f7315797fd40c2c"
+    },
+    {
+      "path": "audit_stats_feed.py",
+      "sha": "d7cb526fae7ca4c41390462a0bdf287e488fae7d"
+    },
+    {
+      "path": "capture_coverage.py",
+      "sha": "97362e6f56b199b749621eae35dc09d8d88a7773"
+    },
+    {
+      "path": "check_probe_budget_pg.py",
+      "sha": "fcb7d6940b2b602fc83eb43f4fc2361fd0c01547"
+    },
+    {
+      "path": "clock_audit.py",
+      "sha": "c5c066cac87ad1076db32e969ad2531668e1cb4f"
+    },
+    {
+      "path": "dataset_audit.py",
+      "sha": "102906b4251bb229b216a1e71a477905aa670f87"
+    },
+    {
+      "path": "durable_sessions.py",
+      "sha": "d80b9a846bb46f5f416e683213b502ff7e295e10"
+    },
+    {
+      "path": "evaluation_split.py",
+      "sha": "89db3bcef0aca0b972aa59ab7840e6c7b7ddc095"
+    },
+    {
+      "path": "event_aliases.py",
+      "sha": "a5338340b588fe05321f998370f461209d91f95d"
+    },
+    {
+      "path": "feature_admission.py",
+      "sha": "3cfbe1453b2a8d25c64b4ec0fe82f0fb3abbf554"
+    },
+    {
+      "path": "fixture_uncertainty.py",
+      "sha": "7843eb95d661ca8c1d4525f794335bcc7714117f"
+    },
+    {
+      "path": "forecast_journal.py",
+      "sha": "54c62f00a0a5dc7aff16a4ed6ba2c4a4be5b9173"
+    },
+    {
+      "path": "forecast_scoring.py",
+      "sha": "cb034710b621e08d08e128fe8ec9a38d59bcd367"
+    },
+    {
+      "path": "label_capture.py",
+      "sha": "c3d4060b81c4ad9518ca312b04717864dfa5dad8"
+    },
+    {
+      "path": "live_state.py",
+      "sha": "46498294a288770b75b3a24a1e6c408f8c48b2ec"
+    },
+    {
+      "path": "oddize_capture.py",
+      "sha": "327938e0e81fdcb7fd47b8481cc9b0a251da92e1"
+    },
+    {
+      "path": "outcome_join.py",
+      "sha": "7a3f5943ef960abaa8f77b49a17cfa4749f8c56d"
+    },
+    {
+      "path": "paired_capture.py",
+      "sha": "35a60a53566e5398a17b9cc954fbc93ddac4c55a"
+    },
+    {
+      "path": "paper_model.py",
+      "sha": "c16f2aa20eaf84600789a7cad1a50228f5ede457"
+    },
+    {
+      "path": "pg_sessions.py",
+      "sha": "a089759f1fd586b9ce122c30cfd03f806c281297"
+    },
+    {
+      "path": "play_timestamp_audit.py",
+      "sha": "6e201a8f1d6c0ead31be882cb2469e720ca718c8"
+    },
+    {
+      "path": "probability_diagnostics.py",
+      "sha": "2d93b39bd13888555ae0630b12ebf2915380a049"
+    },
+    {
+      "path": "probe_budget.py",
+      "sha": "cb51a8f771ac952578d07278467b3ecd808c4d71"
+    },
+    {
+      "path": "project_scoreboard_evidence.py",
+      "sha": "093161e8ac7735d90000157887363f162b927a54"
+    },
+    {
+      "path": "prospective_capture.py",
+      "sha": "ce8b5a991989261fb0ab4c1dd6fc8b72c4cfdb0a"
+    },
+    {
+      "path": "remaining_time.py",
+      "sha": "d51faac28a977f4a860b1d2c29c26a16a5d9fba6"
+    },
+    {
+      "path": "research_probe.py",
+      "sha": "0766db953a3ec5bca7ee0f16d8278a07bf37047f"
+    },
+    {
+      "path": "scoreboard_alignment.py",
+      "sha": "4a0b5d4d5c5cac53b02be46319d6d693382c2ddc"
+    },
+    {
+      "path": "test_00_release_dependencies.py",
+      "sha": "cd376cfeb229e5a4f495ecebe25dd804eb66dcfd"
+    },
+    {
+      "path": "test_acquisition_plan.py",
+      "sha": "4612ba0ff09c314f8a2f9e06eec4d8662a68b367"
+    },
+    {
+      "path": "test_capture_coverage.py",
+      "sha": "fcfa1b6aad42340ea7f97d84819d1bb8da820242"
+    },
+    {
+      "path": "test_capture_diagnostics.py",
+      "sha": "faba0aa4aa65e9b43af952d32c00078f8cec2221"
+    },
+    {
+      "path": "test_clock_audit.py",
+      "sha": "27b22051f8dae5af55b64746b2482e3c9b818959"
+    },
+    {
+      "path": "test_dataset_audit.py",
+      "sha": "ab5974c519e5a5a450a4351a70618177163769c1"
+    },
+    {
+      "path": "test_durable_sessions.py",
+      "sha": "6776cf06d38a8d5a2240ba624445da64d9c64603"
+    },
+    {
+      "path": "test_evaluation_split.py",
+      "sha": "6287fec26de68c68fcd1d238431b44c1a4213c4c"
+    },
+    {
+      "path": "test_event_aliases.py",
+      "sha": "2977628e55b39bd512032b454d7d5f00be908cb5"
+    },
+    {
+      "path": "test_feature_admission.py",
+      "sha": "8708be5348c823473b8b210a9d1fad14dbf928dd"
+    },
+    {
+      "path": "test_fixture_uncertainty.py",
+      "sha": "13838550bd0fb8ab3851192caccd908a2257b7f0"
+    },
+    {
+      "path": "test_forecast_journal.py",
+      "sha": "68b73cd7062b0ce253e7f818f870915afd6b24e5"
+    },
+    {
+      "path": "test_forecast_scoring.py",
+      "sha": "3666bc763ba888167347a795ffc3f65fad2fd78f"
+    },
+    {
+      "path": "test_http_error_capture.py",
+      "sha": "b0db66a64008ae7a0d8f4bae82926206a2f38d9c"
+    },
+    {
+      "path": "test_live_state.py",
+      "sha": "ef57f1a32ba23e0696d649a5a8020316d5f1e10f"
+    },
+    {
+      "path": "test_observed_nba_disagreement.py",
+      "sha": "a1fc853fbe4aab9bcb1c0fbaacc8ba2c6ee2b456"
+    },
+    {
+      "path": "test_oddize_capture.py",
+      "sha": "9b29d074dfadfe813934cdde077a6c5d6689b2c4"
+    },
+    {
+      "path": "test_outcome_join.py",
+      "sha": "3f0d03f996e2e3f54195d5b2921493479e0c4d7b"
+    },
+    {
+      "path": "test_paired_capture.py",
+      "sha": "a43b91766e8be665879a252423d649a66c53f467"
+    },
+    {
+      "path": "test_pg_sessions.py",
+      "sha": "1a50257b5613a234e00a19b066b989d2c5493039"
+    },
+    {
+      "path": "test_play_timestamp_audit.py",
+      "sha": "c220cd42f52ec4b58bebbe2eb511f980b89c3dab"
+    },
+    {
+      "path": "test_probability_diagnostics.py",
+      "sha": "5f60b999af962c1e6f70642da2b2b46c6e033549"
+    },
+    {
+      "path": "test_probe_budget.py",
+      "sha": "0f5698367d5362cfaeab409f6d0e57e67b7d926b"
+    },
+    {
+      "path": "test_probe_budget_composition.py",
+      "sha": "f0b0f6d002341323b7a51fa1d4795d284614ee76"
+    },
+    {
+      "path": "test_prospective_capture.py",
+      "sha": "2dd20304dfebbab32e4d77cf55e45b04095d532a"
+    },
+    {
+      "path": "test_remaining_time.py",
+      "sha": "5247aff72b35c4bc490669f5ae85fe9e155ba720"
+    },
+    {
+      "path": "test_research_pipeline_acceptance.py",
+      "sha": "31ac8d203728d187dcb06f0e490b2c213558632d"
+    },
+    {
+      "path": "test_research_probe.py",
+      "sha": "3b57a96999e4988d9519a9515e5d14ab2fcbd0f6"
+    },
+    {
+      "path": "test_research_runtime_boundary.py",
+      "sha": "be652e5141aa9d4c30c5124135df1abe06fc9f52"
+    },
+    {
+      "path": "test_scoreboard_alignment.py",
+      "sha": "0c2ee5f4116274a2f33e3a1ffe2f1293a1c1d064"
+    },
+    {
+      "path": "test_timestamp_ambiguity.py",
+      "sha": "c902409018429a2d5140ac5c3902c8f39f3e4095"
+    },
+    {
+      "path": "test_timing_windows.py",
+      "sha": "ff3c5f806bcb92122db37d794b929de95c0f99f4"
+    },
+    {
+      "path": "test_validation.py",
+      "sha": "f6301369b6408323ab7b27a570f9a0e58e293cee"
+    },
+    {
+      "path": "timestamp_ambiguity.py",
+      "sha": "33b5ca86503197f779c4725dbb4e04e9b71f99bc"
+    },
+    {
+      "path": "timing_windows.py",
+      "sha": "ad4b79ae0be413a0de7cd7d96b54182700860460"
+    },
+    {
+      "path": "validation.py",
+      "sha": "92ce4dbb5b9c78e28539dd39ad6917ead62ac638"
+    }
+  ],
+  "inventory_limit": "Fetched all Python filenames present in workspace from GitHub branch; repository-wide file inventory not independently available through connector.",
+  "live_release": "495afe8af650d3fdf997f57e3fb9eb26a885a773",
+  "live_deploy": "dep-dbdjgrpsrm7s73bvejrg",
+  "deployment_performed": false,
+  "driver_acceptance": false,
+  "approved_for_picks": false
+}
